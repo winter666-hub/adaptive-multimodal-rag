@@ -130,3 +130,38 @@ def test_rule_router_existing_explicit_keyword_behavior() -> None:
     assert router.route("Table 1의 complexity를 비교해줘").route is QueryRoute.VISUAL_REQUIRED
     assert router.route("그림에서 연결 관계를 설명해줘").route is QueryRoute.VISUAL_REQUIRED
     assert router.route("왜 multi-head attention을 사용하는가?").route is QueryRoute.TEXT_ONLY
+
+
+def test_english_visual_keywords_require_lexical_boundaries() -> None:
+    router = RuleBasedQueryRouter()
+    false_matches = (
+        "attributable",
+        "charitable",
+        "stable",
+        "suitable",
+        "notable",
+        "profitable",
+        "adaptable",
+        "potable",
+    )
+    for question in false_matches:
+        assert router.route(question).route is QueryRoute.TEXT_ONLY
+
+
+def test_english_visual_keywords_match_independent_lexical_units() -> None:
+    router = RuleBasedQueryRouter()
+    explicit_references = (
+        "see table 2",
+        "according to the table",
+        "shown in figure 3",
+        "see fig. 2",
+        "the diagram shows",
+        "the chart compares",
+        "the image illustrates",
+    )
+    for question in explicit_references:
+        assert router.route(question).route is QueryRoute.VISUAL_REQUIRED
+
+
+def test_fig_abbreviation_does_not_match_inside_longer_identifier() -> None:
+    assert RuleBasedQueryRouter().route("Update config. 2").route is QueryRoute.TEXT_ONLY

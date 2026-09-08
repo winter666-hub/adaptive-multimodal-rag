@@ -9,6 +9,7 @@ from furiosa_rag.pipeline import (
     DocumentTooLargeToIndexError,
     MultimodalRagPipeline,
     RagConfig,
+    RetrievalAwareRagPipeline,
     TextRagPipeline,
     clean_internal_citations,
     requests_explicit_inference,
@@ -16,6 +17,7 @@ from furiosa_rag.pipeline import (
 )
 from furiosa_rag.reranker import RankedDocument
 from furiosa_rag.retrieval import CosineRetriever
+from furiosa_rag.router import QueryRoute, RoutingDecision
 
 
 def test_chunker_preserves_page_number_and_overlap() -> None:
@@ -241,6 +243,45 @@ def test_pipeline_reuses_cached_document_embeddings(tmp_path: Path) -> None:
     assert embedding.calls[0] == ["alpha beta gamma"]
 
 
+def test_prepare_document_cold_then_warm_without_query_operations(tmp_path: Path) -> None:
+    pdf_path = tmp_path / "document.pdf"
+    pdf_path.write_bytes(b"test-pdf-identity")
+    embedding = FakeEmbedding()
+
+    class RecordingReranker(FakeReranker):
+        def __init__(self) -> None:
+            self.calls = 0
+
+        def rerank(
+            self, query: str, documents: list[str], *, top_n: int = 3
+        ) -> list[RankedDocument]:
+            self.calls += 1
+            return super().rerank(query, documents, top_n=top_n)
+
+    reranker = RecordingReranker()
+    llm = FakeLlm()
+    pipeline = TextRagPipeline(
+        embedding,
+        reranker,
+        llm,
+        config=RagConfig(chunk_size=3, chunk_overlap=0, top_k=1, top_n=1),
+        extractor=FakeExtractor(),
+        cache=DocumentEmbeddingCache(tmp_path / "cache"),
+    )
+
+    cold = pipeline.prepare_document(pdf_path)
+    warm = pipeline.prepare_document(pdf_path)
+
+    assert cold.cache_hit is False
+    assert warm.cache_hit is True
+    assert cold.chunk_count == warm.chunk_count == 1
+    assert Path(cold.cache_path).is_file()
+    assert cold.cache_key == warm.cache_key
+    assert len(embedding.calls) == 1
+    assert reranker.calls == 0
+    assert llm.prompts == []
+
+
 def test_text_rag_prompt_marks_document_as_untrusted(tmp_path: Path) -> None:
     pdf_path = tmp_path / "document.pdf"
     pdf_path.write_bytes(b"test-pdf-identity")
@@ -360,6 +401,26 @@ class FakeVision:
         return "diagram evidence"
 
 
+class FakeRetrievalAwareRouter:
+    MAX_EVIDENCE_CHUNKS = 3
+
+    def __init__(self, route: QueryRoute) -> None:
+        self.route_value = route
+        self.evidence = ()
+
+    def route(self, question, evidence):
+        self.evidence = evidence
+        return RoutingDecision(
+            self.route_value, f"retrieval aware {self.route_value.value}", True
+        )
+
+    def reproducibility_metadata(self):
+        return {
+            "router_prompt_version": "test-v1",
+            "router_prompt_sha256": "abc",
+        }
+
+
 def _multimodal_pipeline(tmp_path: Path, vision: FakeVision, renderer: FakeRenderer):
     pdf_path = tmp_path / "document.pdf"
     pdf_path.write_bytes(b"test-pdf-identity")
@@ -396,6 +457,47 @@ def test_multimodal_selects_top_page_and_preserves_sources(tmp_path: Path) -> No
     assert llm.max_tokens == [1024]
 
 
+@pytest.mark.parametrize(
+    ("route", "expected_vision_calls"),
+    ((QueryRoute.TEXT_ONLY, 0), (QueryRoute.VISUAL_REQUIRED, 1)),
+)
+def test_retrieval_aware_pipeline_reuses_one_rerank_pass(
+    tmp_path: Path, route: QueryRoute, expected_vision_calls: int
+) -> None:
+    class CountingReranker(FakeReranker):
+        def __init__(self) -> None:
+            self.calls = 0
+
+        def rerank(self, query, documents, *, top_n=3):
+            self.calls += 1
+            return super().rerank(query, documents, top_n=top_n)
+
+    pdf_path = tmp_path / "document.pdf"
+    pdf_path.write_bytes(b"test-pdf-identity")
+    reranker = CountingReranker()
+    vision = FakeVision()
+    router = FakeRetrievalAwareRouter(route)
+    pipeline = RetrievalAwareRagPipeline(
+        FakeEmbedding(),
+        reranker,
+        FakeLlm(),
+        vision=vision,
+        renderer=FakeRenderer(),
+        router=router,  # type: ignore[arg-type]
+        config=RagConfig(chunk_size=3, chunk_overlap=0, top_k=1, top_n=1),
+        extractor=FakeExtractor(),
+        cache=DocumentEmbeddingCache(tmp_path / "cache"),
+    )
+
+    result = pipeline.answer_retrieval_aware(pdf_path, "question")
+
+    assert reranker.calls == 1
+    assert router.evidence == result.sources
+    assert len(vision.calls) == expected_vision_calls
+    assert result.vision.used is (route is QueryRoute.VISUAL_REQUIRED)
+    assert result.routing_latency_ms >= 0
+
+
 def test_multimodal_vision_failure_falls_back_to_text_only(tmp_path: Path) -> None:
     vision = FakeVision(fail=True)
     pdf_path, pipeline, llm = _multimodal_pipeline(tmp_path, vision, FakeRenderer())
@@ -406,3 +508,81 @@ def test_multimodal_vision_failure_falls_back_to_text_only(tmp_path: Path) -> No
     assert "vision unavailable" in (result.vision.error or "")
     assert "BEGIN VISUAL CONTEXT" not in llm.prompts[-1]
     assert "page-1-chunk-1" in llm.prompts[-1]
+
+
+def test_multimodal_prepare_does_not_render_or_call_vision(tmp_path: Path) -> None:
+    vision = FakeVision()
+    renderer = FakeRenderer()
+    pdf_path, pipeline, llm = _multimodal_pipeline(tmp_path, vision, renderer)
+
+    preparation = pipeline.prepare_document(pdf_path)
+
+    assert preparation.chunk_count == 1
+    assert renderer.pages == []
+    assert vision.calls == []
+    assert llm.prompts == []
+
+
+def test_text_and_multimodal_pipelines_share_document_cache(tmp_path: Path) -> None:
+    pdf_path = tmp_path / "document.pdf"
+    pdf_path.write_bytes(b"test-pdf-identity")
+    cache = DocumentEmbeddingCache(tmp_path / "shared-cache")
+    config = RagConfig(chunk_size=3, chunk_overlap=0, top_k=1, top_n=1)
+    text_pipeline = TextRagPipeline(
+        FakeEmbedding(), FakeReranker(), FakeLlm(),
+        config=config, extractor=FakeExtractor(), cache=cache,
+    )
+    multimodal_pipeline = MultimodalRagPipeline(
+        FakeEmbedding(), FakeReranker(), FakeLlm(),
+        vision=FakeVision(), renderer=FakeRenderer(),
+        config=config, extractor=FakeExtractor(), cache=cache,
+    )
+
+    assert text_pipeline.prepare_document(pdf_path).cache_hit is False
+    assert multimodal_pipeline.prepare_document(pdf_path).cache_hit is True
+
+
+def test_document_cache_separates_chunk_configurations(tmp_path: Path) -> None:
+    pdf_path = tmp_path / "document.pdf"
+    pdf_path.write_bytes(b"test-pdf-identity")
+    cache = DocumentEmbeddingCache(tmp_path / "shared-cache")
+    first = TextRagPipeline(
+        FakeEmbedding(), FakeReranker(), FakeLlm(),
+        config=RagConfig(chunk_size=3, chunk_overlap=0, top_k=1, top_n=1),
+        extractor=FakeExtractor(), cache=cache,
+    )
+    second = TextRagPipeline(
+        FakeEmbedding(), FakeReranker(), FakeLlm(),
+        config=RagConfig(chunk_size=2, chunk_overlap=0, top_k=1, top_n=1),
+        extractor=FakeExtractor(), cache=cache,
+    )
+
+    assert first.prepare_document(pdf_path).cache_hit is False
+    assert second.prepare_document(pdf_path).cache_hit is False
+    assert len(list((tmp_path / "shared-cache").glob("*.npz"))) == 2
+
+
+def test_document_cache_separates_embedding_models(tmp_path: Path) -> None:
+    from furiosa_rag.config import ModelEndpoint
+
+    class ModelEmbedding(FakeEmbedding):
+        def __init__(self, model: str) -> None:
+            super().__init__()
+            self.endpoint = ModelEndpoint("embedding", "http://embedding", model)
+
+    pdf_path = tmp_path / "document.pdf"
+    pdf_path.write_bytes(b"test-pdf-identity")
+    cache = DocumentEmbeddingCache(tmp_path / "shared-cache")
+    config = RagConfig(chunk_size=3, chunk_overlap=0, top_k=1, top_n=1)
+    first = TextRagPipeline(
+        ModelEmbedding("model-a"), FakeReranker(), FakeLlm(),
+        config=config, extractor=FakeExtractor(), cache=cache,
+    )
+    second = TextRagPipeline(
+        ModelEmbedding("model-b"), FakeReranker(), FakeLlm(),
+        config=config, extractor=FakeExtractor(), cache=cache,
+    )
+
+    assert first.prepare_document(pdf_path).cache_hit is False
+    assert second.prepare_document(pdf_path).cache_hit is False
+    assert len(list((tmp_path / "shared-cache").glob("*.npz"))) == 2

@@ -4,8 +4,8 @@ from unittest.mock import Mock
 
 import pytest
 
-from furiosa_rag.clients import FuriosaApiError
 from furiosa_rag.cli.benchmark_router import evaluate, summarize
+from furiosa_rag.clients import FuriosaApiError
 from furiosa_rag.config import ModelEndpoint
 from furiosa_rag.router import LLMQueryRouter, LLMRouterError, QueryRoute
 
@@ -26,6 +26,7 @@ def test_llm_router_parses_text_only_and_sends_only_question() -> None:
 
     assert decision.route is QueryRoute.TEXT_ONLY
     assert decision.reason == "LLM classified question as TEXT_ONLY"
+    assert decision.used_llm_router is True
     assert client.post_json.call_args.args[:2] == (
         "http://llm.example/v1",
         "chat/completions",
@@ -100,3 +101,36 @@ def test_llm_router_benchmark_integration() -> None:
     assert summary["false_positives"] == 0
     assert summary["false_negatives"] == 0
     assert float(summary["average_routing_latency_ms"]) >= 0
+
+
+def test_benchmark_records_llm_router_reproducibility_metadata() -> None:
+    router, _ = _router_with_output("TEXT_ONLY")
+    result = evaluate(
+        [{"id": "M01", "question": "Why?", "expected_route": "TEXT_ONLY"}],
+        router,
+    )[0]
+
+    assert result["router_model_id"] == "router-model"
+    assert result["router_temperature"] == 0
+    assert result["router_max_tokens"] == 4
+    assert result["router_thinking_enabled"] is False
+    assert result["router_prompt_version"] == "llm-router-v1"
+    assert len(result["router_prompt_sha256"]) == 64
+    assert result["router_endpoint"] == "http://llm.example/v1"
+    assert result["benchmark_execution_timestamp"].endswith("+00:00")
+
+
+def test_benchmark_removes_secrets_from_endpoint_identity() -> None:
+    router, _ = _router_with_output("TEXT_ONLY")
+    router.endpoint = ModelEndpoint(
+        "llm",
+        "https://user:password@llm.example/v1?token=secret#fragment",
+        "router-model",
+    )
+
+    result = evaluate(
+        [{"id": "M01", "question": "Why?", "expected_route": "TEXT_ONLY"}],
+        router,
+    )[0]
+
+    assert result["router_endpoint"] == "https://llm.example/v1"

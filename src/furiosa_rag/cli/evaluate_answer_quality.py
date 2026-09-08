@@ -8,7 +8,6 @@ import json
 import random
 import re
 import time
-from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Protocol
@@ -96,7 +95,9 @@ def load_references(path: str | Path) -> dict[str, str]:
             except json.JSONDecodeError as exc:
                 raise ValueError(f"invalid JSON on line {line_number}: {exc.msg}") from exc
             if not isinstance(item, dict) or not isinstance(item.get("id"), str):
-                raise ValueError(f"invalid reference id on line {line_number}")
+                raise ValueError(  # noqa: TRY004 - malformed file content, not API misuse
+                    f"invalid reference id on line {line_number}"
+                )
             if not isinstance(item.get("reference"), str) or not item["reference"].strip():
                 raise ValueError(f"invalid reference text on line {line_number}")
             if item["id"] in references:
@@ -274,7 +275,7 @@ def parse_judge_output(raw: str) -> JudgeScore:
     fenced = re.fullmatch(
         r"```(?:json)?[ \t]*\r?\n?(.*?)\r?\n?[ \t]*```",
         stripped,
-        re.DOTALL | re.I,
+        re.DOTALL | re.IGNORECASE,
     )
     if fenced:
         stripped = fenced.group(1).strip()
@@ -307,8 +308,9 @@ def judge_answer(
     question: str,
     reference: str,
     candidate: str,
+    prompt_template: str = JUDGE_PROMPT,
 ) -> JudgeScore:
-    prompt = JUDGE_PROMPT.format(
+    prompt = prompt_template.format(
         question=question,
         reference=reference,
         candidate=candidate,
@@ -360,7 +362,7 @@ def evaluate_quality(
                 quality_score=score.total,
                 judge_reason=score.reason,
             )
-        except Exception as exc:  # preserve per-answer failures and continue
+        except Exception as exc:  # noqa: BLE001 - preserve individual judge failures
             result["error"] = f"{type(exc).__name__}: {exc}"
         result["judge_latency_ms"] = (time.perf_counter_ns() - started) / 1_000_000
         results.append(result)
@@ -471,7 +473,7 @@ def reevaluate_one(
             quality_score=score.total,
             judge_reason=score.reason,
         )
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001 - preserve individual judge failures
         replacement_row["error"] = f"{type(exc).__name__}: {exc}"
     replacement_row["judge_latency_ms"] = (
         time.perf_counter_ns() - started

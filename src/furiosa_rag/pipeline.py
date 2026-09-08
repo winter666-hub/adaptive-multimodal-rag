@@ -7,21 +7,38 @@ import time
 from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
-from typing import TypeVar
+from typing import Any, Protocol, TypeVar
 
-from furiosa_rag.cache import DocumentEmbeddingCache
+from furiosa_rag.cache import CachedDocument, DocumentEmbeddingCache
 from furiosa_rag.chunking import PageChunker
 from furiosa_rag.clients import FuriosaApiError
 from furiosa_rag.document import PdfTextExtractor
 from furiosa_rag.embedding import EmbeddingBackend
 from furiosa_rag.llm import LlmBackend
-from furiosa_rag.models import MultimodalRagAnswer, RagAnswer, RetrievedChunk, VisionUsage
+from furiosa_rag.models import (
+    MultimodalRagAnswer,
+    RagAnswer,
+    RetrievalAwareRagAnswer,
+    RetrievedChunk,
+    VisionUsage,
+)
 from furiosa_rag.pdf_images import PdfPageRenderer
 from furiosa_rag.reranker import RerankerBackend
 from furiosa_rag.retrieval import CosineRetriever
+from furiosa_rag.router import QueryRoute, RoutingDecision
 from furiosa_rag.vision import VisionBackend
 
 ResultT = TypeVar("ResultT")
+
+
+class RetrievalAwareRouter(Protocol):
+    MAX_EVIDENCE_CHUNKS: int
+
+    def route(
+        self, question: str, evidence: tuple[RetrievedChunk, ...]
+    ) -> RoutingDecision: ...
+
+    def reproducibility_metadata(self) -> dict[str, Any]: ...
 
 DEFAULT_MAX_EXTRACTED_CHARACTERS = 1_000_000
 DEFAULT_MAX_DOCUMENT_CHUNKS = 1_000
@@ -110,6 +127,16 @@ class DocumentTooLargeToIndexError(ValueError):
 
 
 @dataclass(frozen=True, slots=True)
+class DocumentPreparation:
+    pdf_path: str
+    cache_key: str
+    cache_path: str
+    cache_hit: bool
+    chunk_count: int
+    preparation_latency_ms: float
+
+
+@dataclass(frozen=True, slots=True)
 class RagConfig:
     chunk_size: int = 700
     chunk_overlap: int = 100
@@ -184,9 +211,10 @@ class TextRagPipeline:
             embeddings.extend(self.embedding.embed(texts[start : start + batch_size]))
         return embeddings
 
-    def _retrieve(
-        self, pdf_path: str | Path, question: str, *, rebuild_cache: bool
-    ) -> tuple[tuple[RetrievedChunk, ...], dict[str, float | bool], str]:
+    def _load_or_index_document(
+        self, pdf_path: str | Path, *, rebuild_cache: bool
+    ) -> tuple[CachedDocument, dict[str, float | bool], str]:
+        preparation_started = time.perf_counter()
         latency: dict[str, float | bool] = {}
         cache_key, latency["cache_key"] = self._measure(
             lambda: self.cache.cache_key(
@@ -238,12 +266,30 @@ class TextRagPipeline:
                     },
                 )
             )
+        latency["document_preparation"] = (
+            time.perf_counter() - preparation_started
+        ) * 1000
+        return (
+            CachedDocument(chunks=chunks, embeddings=chunk_vectors),
+            latency,
+            cache_key,
+        )
+
+    def _retrieve_from_index(
+        self,
+        indexed: CachedDocument,
+        question: str,
+        latency: dict[str, float | bool],
+    ) -> tuple[RetrievedChunk, ...]:
         query_vectors, latency["query_embedding"] = self._measure(
             lambda: self.embedding.embed([question])
         )
         retrieved, latency["retrieval"] = self._measure(
             lambda: self.retriever.search(
-                query_vectors[0], chunks, chunk_vectors, top_k=self.config.top_k
+                query_vectors[0],
+                indexed.chunks,
+                indexed.embeddings,
+                top_k=self.config.top_k,
             )
         )
         ranked, latency["reranking"] = self._measure(
@@ -261,7 +307,32 @@ class TextRagPipeline:
             )
             for item in ranked
         )
+        return sources
+
+    def _retrieve(
+        self, pdf_path: str | Path, question: str, *, rebuild_cache: bool
+    ) -> tuple[tuple[RetrievedChunk, ...], dict[str, float | bool], str]:
+        indexed, latency, cache_key = self._load_or_index_document(
+            pdf_path, rebuild_cache=rebuild_cache
+        )
+        sources = self._retrieve_from_index(indexed, question, latency)
         return sources, latency, str(self.cache.path_for(cache_key))
+
+    def prepare_document(
+        self, pdf_path: str | Path, *, rebuild_cache: bool = False
+    ) -> DocumentPreparation:
+        """Load or build only the document index, without query-time operations."""
+        indexed, latency, cache_key = self._load_or_index_document(
+            pdf_path, rebuild_cache=rebuild_cache
+        )
+        return DocumentPreparation(
+            pdf_path=str(Path(pdf_path)),
+            cache_key=cache_key,
+            cache_path=str(self.cache.path_for(cache_key)),
+            cache_hit=latency["cache_hit"] is True,
+            chunk_count=len(indexed.chunks),
+            preparation_latency_ms=float(latency["document_preparation"]),
+        )
 
     @staticmethod
     def _text_context(sources: tuple[RetrievedChunk, ...]) -> str:
@@ -343,15 +414,13 @@ class MultimodalRagPipeline(TextRagPipeline):
         self.vision = vision
         self.renderer = renderer or PdfPageRenderer(dpi=self.config.vision_dpi)
 
-    def answer_multimodal(
-        self, pdf_path: str | Path, question: str, *, rebuild_cache: bool = False
-    ) -> MultimodalRagAnswer:
-        if not question.strip():
-            raise ValueError("question must not be empty")
-        total_started = time.perf_counter()
-        sources, latency, cache_path = self._retrieve(
-            pdf_path, question, rebuild_cache=rebuild_cache
-        )
+    def _visual_context(
+        self,
+        pdf_path: str | Path,
+        question: str,
+        sources: tuple[RetrievedChunk, ...],
+        latency: dict[str, float | bool],
+    ) -> tuple[str | None, VisionUsage]:
         selected_page = sources[0].chunk.page_number if sources else None
         visual_context: str | None = None
         vision_error: str | None = None
@@ -369,6 +438,26 @@ class MultimodalRagPipeline(TextRagPipeline):
                 )
             except (FuriosaApiError, OSError, RuntimeError, ValueError) as exc:
                 vision_error = f"{type(exc).__name__}: {exc}"
+        endpoint = getattr(self.vision, "endpoint", None)
+        return visual_context, VisionUsage(
+            selected_page=selected_page,
+            used=visual_context is not None,
+            model=str(getattr(endpoint, "model", type(self.vision).__qualname__)),
+            error=vision_error,
+        )
+
+    def answer_multimodal(
+        self, pdf_path: str | Path, question: str, *, rebuild_cache: bool = False
+    ) -> MultimodalRagAnswer:
+        if not question.strip():
+            raise ValueError("question must not be empty")
+        total_started = time.perf_counter()
+        sources, latency, cache_path = self._retrieve(
+            pdf_path, question, rebuild_cache=rebuild_cache
+        )
+        visual_context, vision_usage = self._visual_context(
+            pdf_path, question, sources, latency
+        )
 
         prompt = self._answer_prompt(
             question, self._text_context(sources), visual_context=visual_context
@@ -377,16 +466,71 @@ class MultimodalRagPipeline(TextRagPipeline):
             lambda: self.llm.generate(prompt, max_tokens=self.config.answer_max_tokens)
         )
         latency["total"] = (time.perf_counter() - total_started) * 1000
-        endpoint = getattr(self.vision, "endpoint", None)
         return MultimodalRagAnswer(
             answer=clean_internal_citations(answer),
             sources=sources,
-            vision=VisionUsage(
-                selected_page=selected_page,
-                used=visual_context is not None,
-                model=str(getattr(endpoint, "model", type(self.vision).__qualname__)),
-                error=vision_error,
-            ),
+            vision=vision_usage,
             latency_ms=latency,
+            cache_path=cache_path,
+        )
+
+
+class RetrievalAwareRagPipeline(MultimodalRagPipeline):
+    """Route after one retrieval/reranking pass and reuse its evidence for answering."""
+
+    def __init__(self, *args, router: RetrievalAwareRouter, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.router = router
+
+    def answer_retrieval_aware(
+        self, pdf_path: str | Path, question: str, *, rebuild_cache: bool = False
+    ) -> RetrievalAwareRagAnswer:
+        if not question.strip():
+            raise ValueError("question must not be empty")
+        total_started = time.perf_counter()
+        sources, latency, cache_path = self._retrieve(
+            pdf_path, question, rebuild_cache=rebuild_cache
+        )
+        decision, routing_latency_ms = self._measure(
+            lambda: self.router.route(question, sources)
+        )
+        visual_context: str | None = None
+        if decision.route is QueryRoute.VISUAL_REQUIRED:
+            visual_context, vision_usage = self._visual_context(
+                pdf_path, question, sources, latency
+            )
+        else:
+            latency["page_rendering"] = 0.0
+            latency["vision_analysis"] = 0.0
+            endpoint = getattr(self.vision, "endpoint", None)
+            vision_usage = VisionUsage(
+                selected_page=None,
+                used=False,
+                model=str(getattr(endpoint, "model", type(self.vision).__qualname__)),
+            )
+        prompt = self._answer_prompt(
+            question, self._text_context(sources), visual_context=visual_context
+        )
+        answer, latency["answer_generation"] = self._measure(
+            lambda: self.llm.generate(prompt, max_tokens=self.config.answer_max_tokens)
+        )
+        latency["total"] = (time.perf_counter() - total_started) * 1000
+        metadata = self.router.reproducibility_metadata()
+        router_sources = sources[: self.router.MAX_EVIDENCE_CHUNKS]
+        return RetrievalAwareRagAnswer(
+            answer=clean_internal_citations(answer),
+            sources=sources,
+            vision=vision_usage,
+            latency_ms=latency,
+            route=decision.route.value,
+            routing_reason=decision.reason,
+            used_llm_router=decision.used_llm_router,
+            routing_latency_ms=routing_latency_ms,
+            router_evidence_chunk_count=len(router_sources),
+            router_evidence_pages=tuple(
+                dict.fromkeys(source.chunk.page_number for source in router_sources)
+            ),
+            router_prompt_version=str(metadata["router_prompt_version"]),
+            router_prompt_sha256=str(metadata["router_prompt_sha256"]),
             cache_path=cache_path,
         )

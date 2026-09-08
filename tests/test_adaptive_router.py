@@ -4,8 +4,8 @@ from unittest.mock import Mock
 
 import pytest
 
-from furiosa_rag.clients import FuriosaApiError
 from furiosa_rag.cli.benchmark_router import evaluate, summarize
+from furiosa_rag.clients import FuriosaApiError
 from furiosa_rag.router import AdaptiveQueryRouter, QueryRoute, RoutingDecision
 
 
@@ -91,3 +91,18 @@ def test_adaptive_benchmark_records_llm_usage_and_summary() -> None:
     assert [row["used_llm_router"] for row in results] == [False, True]
     assert summary["llm_router_calls"] == 1
     assert summary["llm_router_call_rate"] == 0.5
+
+
+def test_adaptive_uses_lexical_matcher_before_llm_fallback() -> None:
+    llm_router = Mock()
+    llm_router.route.return_value = RoutingDecision(
+        QueryRoute.TEXT_ONLY, "LLM classified question as TEXT_ONLY"
+    )
+    router = AdaptiveQueryRouter(llm_router)
+
+    explicit = router.route("see table 2")
+    lexical_miss = router.route("profit attributable to shareholders")
+
+    assert explicit.used_llm_router is False
+    assert lexical_miss.used_llm_router is True
+    llm_router.route.assert_called_once_with("profit attributable to shareholders")

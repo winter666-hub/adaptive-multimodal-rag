@@ -48,3 +48,20 @@ class MultimodalRagAnswer:
     vision: VisionUsage
     latency_ms: dict[str, float | bool]
     cache_path: str | None = None
+
+
+@dataclass(frozen=True, slots=True)
+class RetrievalAwareRagAnswer:
+    answer: str
+    sources: tuple[RetrievedChunk, ...]
+    vision: VisionUsage
+    latency_ms: dict[str, float | bool]
+    route: str
+    routing_reason: str
+    used_llm_router: bool
+    routing_latency_ms: float
+    router_evidence_chunk_count: int
+    router_evidence_pages: tuple[int, ...]
+    router_prompt_version: str
+    router_prompt_sha256: str
+    cache_path: str | None = None
