@@ -21,6 +21,7 @@ id_rsa_*
 data/*.pdf
 
 data/
+datasets/unidoc/
 
 direct_npu_run_*.txt
 npu_run_*.txt

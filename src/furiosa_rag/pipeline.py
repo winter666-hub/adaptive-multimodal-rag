@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any, Protocol, TypeVar
 
 from furiosa_rag.cache import CachedDocument, DocumentEmbeddingCache
-from furiosa_rag.chunking import PageChunker
+from furiosa_rag.chunking import MAX_EMBEDDING_INPUT_UTF8_BYTES, PageChunker
 from furiosa_rag.clients import FuriosaApiError
 from furiosa_rag.document import PdfTextExtractor
 from furiosa_rag.embedding import EmbeddingBackend
@@ -205,6 +205,16 @@ class TextRagPipeline:
         return str(getattr(endpoint, "model", type(self.embedding).__qualname__))
 
     def _embed_document_chunks(self, texts: list[str]) -> list[list[float]]:
+        oversized = [
+            len(text.encode("utf-8"))
+            for text in texts
+            if len(text.encode("utf-8")) > MAX_EMBEDDING_INPUT_UTF8_BYTES
+        ]
+        if oversized:
+            raise ValueError(
+                "Document chunk exceeds the embedding input safety limit: "
+                f"{max(oversized):,} > {MAX_EMBEDDING_INPUT_UTF8_BYTES:,} UTF-8 bytes"
+            )
         embeddings: list[list[float]] = []
         batch_size = self.config.embedding_batch_size
         for start in range(0, len(texts), batch_size):
@@ -227,6 +237,11 @@ class TextRagPipeline:
         cached = None
         if not rebuild_cache:
             cached, latency["cache_load"] = self._measure(lambda: self.cache.load(cache_key))
+            if cached is not None and any(
+                len(chunk.text.encode("utf-8")) > MAX_EMBEDDING_INPUT_UTF8_BYTES
+                for chunk in cached.chunks
+            ):
+                cached = None
         else:
             latency["cache_load"] = 0.0
         latency["cache_hit"] = cached is not None
@@ -239,9 +254,18 @@ class TextRagPipeline:
             latency["document_embedding"] = 0.0
             latency["cache_save"] = 0.0
         else:
-            pages, latency["text_extraction"] = self._measure(
-                lambda: self.extractor.extract(pdf_path)
-            )
+            extract_with_metadata = getattr(self.extractor, "extract_with_metadata", None)
+            extraction_parser = type(self.extractor).__qualname__
+            if callable(extract_with_metadata):
+                extraction, latency["text_extraction"] = self._measure(
+                    lambda: extract_with_metadata(pdf_path)
+                )
+                pages = extraction.pages
+                extraction_parser = extraction.parser
+            else:
+                pages, latency["text_extraction"] = self._measure(
+                    lambda: self.extractor.extract(pdf_path)
+                )
             if sum(len(page.text) for page in pages) > self.config.max_extracted_characters:
                 raise DocumentTooLargeToIndexError("PDF contains too much extractable text.")
             chunker = PageChunker(self.config.chunk_size, self.config.chunk_overlap)
@@ -263,6 +287,8 @@ class TextRagPipeline:
                         "chunk_size": self.config.chunk_size,
                         "chunk_overlap": self.config.chunk_overlap,
                         "embedding_model": self._embedding_model_id(),
+                        "embedding_input_max_utf8_bytes": MAX_EMBEDDING_INPUT_UTF8_BYTES,
+                        "extraction_parser": extraction_parser,
                     },
                 )
             )

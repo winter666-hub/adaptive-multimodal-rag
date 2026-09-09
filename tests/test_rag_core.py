@@ -3,7 +3,11 @@ from pathlib import Path
 import pytest
 
 from furiosa_rag.cache import DocumentEmbeddingCache
-from furiosa_rag.chunking import PageChunker
+from furiosa_rag.chunking import (
+    MAX_EMBEDDING_INPUT_UTF8_BYTES,
+    PageChunker,
+    split_text_for_embedding,
+)
 from furiosa_rag.models import Chunk, PageText
 from furiosa_rag.pipeline import (
     DocumentTooLargeToIndexError,
@@ -26,6 +30,50 @@ def test_chunker_preserves_page_number_and_overlap() -> None:
     assert [chunk.text for chunk in chunks] == ["one two three", "three four five"]
     assert all(chunk.page_number == 2 for chunk in chunks)
     assert chunks[0].chunk_id == "page-2-chunk-1"
+
+
+def test_normal_embedding_text_is_unchanged() -> None:
+    text = "one two three"
+    assert split_text_for_embedding(text, max_utf8_bytes=100, overlap_words=1) == [text]
+
+
+def test_only_oversized_chunk_is_split_with_order_page_and_determinism() -> None:
+    pages = [PageText(7, " ".join(f"word-{index:03d}" for index in range(40)))]
+    chunker = PageChunker(
+        chunk_size=40,
+        chunk_overlap=2,
+        max_embedding_input_utf8_bytes=80,
+    )
+
+    first = chunker.split(pages)
+    second = chunker.split(pages)
+
+    assert first == second
+    assert len(first) > 1
+    assert all(chunk.page_number == 7 for chunk in first)
+    assert [chunk.chunk_id for chunk in first] == [
+        f"page-7-chunk-{index}" for index in range(1, len(first) + 1)
+    ]
+    assert all(len(chunk.text.encode("utf-8")) <= 80 for chunk in first)
+    first_occurrence = " ".join(dict.fromkeys(" ".join(chunk.text for chunk in first).split()))
+    assert first_occurrence == pages[0].text
+
+
+def test_single_oversized_word_is_split_without_truncation() -> None:
+    word = "가" * 20
+    segments = split_text_for_embedding(word, max_utf8_bytes=10)
+
+    assert "".join(segments) == word
+    assert all(len(segment.encode("utf-8")) <= 10 for segment in segments)
+
+
+def test_default_chunker_never_emits_oversized_embedding_input() -> None:
+    chunks = PageChunker().split([PageText(1, "x" * 20_000)])
+    assert len(chunks) > 1
+    assert all(
+        len(chunk.text.encode("utf-8")) <= MAX_EMBEDDING_INPUT_UTF8_BYTES
+        for chunk in chunks
+    )
 
 
 def test_cosine_retrieval_returns_most_similar_first() -> None:
@@ -241,6 +289,42 @@ def test_pipeline_reuses_cached_document_embeddings(tmp_path: Path) -> None:
     assert second.latency_ms["document_embedding"] == 0.0
     assert len(embedding.calls) == 3
     assert embedding.calls[0] == ["alpha beta gamma"]
+
+
+def test_pipeline_rebuilds_only_cache_with_oversized_embedding_input(tmp_path: Path) -> None:
+    pdf_path = tmp_path / "document.pdf"
+    pdf_path.write_bytes(b"test-pdf-identity")
+    cache = DocumentEmbeddingCache(tmp_path / "cache")
+    config = RagConfig(chunk_size=700, chunk_overlap=100, top_k=1, top_n=1)
+    embedding = FakeEmbedding()
+    cache_key = cache.cache_key(
+        pdf_path,
+        chunk_size=config.chunk_size,
+        chunk_overlap=config.chunk_overlap,
+        embedding_model=type(embedding).__qualname__,
+    )
+    cache.save(cache_key, [Chunk("old", 1, "x" * 20_000)], [[1.0, 0.0]])
+    pipeline = TextRagPipeline(
+        embedding,
+        FakeReranker(),
+        FakeLlm(),
+        config=config,
+        extractor=FixedExtractor("x" * 20_000),
+        cache=cache,
+    )
+
+    preparation = pipeline.prepare_document(pdf_path)
+
+    assert preparation.cache_hit is False
+    assert preparation.cache_key == cache_key
+    assert all(
+        len(text.encode("utf-8")) <= MAX_EMBEDDING_INPUT_UTF8_BYTES
+        for call in embedding.calls
+        for text in call
+    )
+    rebuilt = cache.load(cache_key)
+    assert rebuilt is not None
+    assert len(rebuilt.chunks) > 1
 
 
 def test_prepare_document_cold_then_warm_without_query_operations(tmp_path: Path) -> None:

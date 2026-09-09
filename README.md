@@ -227,6 +227,44 @@ furiosa-multimodal-rag/
 
 ## Local Development
 
+Existing UniDoc audit results can be analyzed offline with:
+
+```powershell
+python -m furiosa_rag.cli.analyze_route_utility `
+  --alignment results/unidoc_gt_audit_alignment.csv `
+  --retrieval-aware results/unidoc_gt_audit_retrieval_aware.csv `
+  --retrieval-aware-judged results/unidoc_gt_audit_retrieval_aware_judged.csv `
+  --output results/unidoc_gt_audit_route_utility.csv `
+  --cases-output results/unidoc_gt_audit_route_utility_cases.csv
+```
+
+All paths except the optional `--cases-output` have the defaults shown above. This command
+only reads existing CSVs and writes analysis; it does not run inference or judging. It joins
+by `query_id` (or `id`), rejects missing/duplicate/mismatched IDs, and checks alignment against
+the forced Text/Vision correctness booleans already stored in the alignment CSV. RA correctness
+comes from `judge_correct`, never the benchmark's route `correct`/`route_correct` columns.
+
+The console and aggregate CSV report route counts/rates, RA correctness and mean latencies by
+alignment category, plus decisive utility by `answer_type`. `answer_type` is only a grouping key.
+`VISION_NEEDED` vision-selection recall and `TEXT_ONLY_BETTER` text-selection recall divide the
+preferred-route selections by the respective category counts. `decisive_route_accuracy` uses
+only these two categories. Vision precision/recall/F1 and balanced accuracy use that same subset;
+balanced accuracy is the mean of the two recalls. `avoidable_regret_count` is missed needed Vision
+plus wrongly used Vision; its rates divide by all samples in the group (`rate_overall`) or the
+group's decisive samples (`rate_decisive`). These are retrospective forced-run oracle proxies,
+not causal claims about RA's independently generated answers.
+
+`BOTH_CORRECT` uses `optimal_route=EITHER` and `route_utility_correct=True`; its unnecessary Vision
+count/rate expresses an efficiency preference based on answer correctness in hindsight, since
+forced Text also succeeded. It does not imply runtime oracle knowledge. `BOTH_WRONG` uses
+`optimal_route=NEITHER` and null utility correctness, and reports RA correctness and available-row
+retrieval hit@3/visual hit@1 (`page_hit_1` in existing runs) to help investigate failures beyond
+routing. Existing `page_hit_1` coverage is preserved, including stored `False` values without a
+selected page; this metric is not conditional on Vision being called. Neither category enters
+the decisive denominator. Missing page hits are excluded, with
+explicit available counts; undefined metrics are `N/A` in the console and blank in CSV. Rates in
+CSV are fractions, latencies are milliseconds, and empty groups remain in the output.
+
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate
