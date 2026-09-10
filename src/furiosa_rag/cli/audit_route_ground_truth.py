@@ -165,9 +165,10 @@ def judge_candidates(
     for candidate in candidates:
         key = (candidate["query_id"], candidate["strategy"])
         previous = latest.get(key)
-        if key not in targeted and previous is not None and (
-            not previous.get("error") or not retry_errors
-        ):
+        if targeted:
+            if key not in targeted:
+                continue
+        elif previous is not None and (not previous.get("error") or not retry_errors):
             continue
         source = source_by_id.get(candidate["query_id"])
         if source is None:
