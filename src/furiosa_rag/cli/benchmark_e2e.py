@@ -205,7 +205,9 @@ def main() -> int:
             if args.resume
             else []
         )
-        validate_checkpoint_fingerprint(checkpoint_records, fingerprint)
+        validate_checkpoint_fingerprint(
+            checkpoint_records, fingerprint, current_rows=dataset_rows
+        )
         resume_plan = plan_resume(
             dataset_rows,
             strategy=args.strategy,
@@ -277,14 +279,20 @@ def main() -> int:
     except KeyboardInterrupt:
         if args.checkpoint is not None and fingerprint is not None:
             materialize_checkpoint_csv(
-                args.checkpoint, args.output, fingerprint=fingerprint
+                args.checkpoint,
+                args.output,
+                fingerprint=fingerprint,
+                current_rows=dataset_rows,
             )
             print(f"\nInterrupted; materialized completed checkpoint rows to {args.output}")
         raise
 
     if args.checkpoint is not None and fingerprint is not None:
         results = materialize_checkpoint_csv(
-            args.checkpoint, args.output, fingerprint=fingerprint
+            args.checkpoint,
+            args.output,
+            fingerprint=fingerprint,
+            current_rows=dataset_rows,
         )
         current_errors = sum(bool(result.get("error")) for result in results)
         print(f"completed in current invocation: {len(rows_to_run)}")

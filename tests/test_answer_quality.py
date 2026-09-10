@@ -157,6 +157,82 @@ def test_unrecoverable_json_error_reports_decoder_location() -> None:
     assert "column=" in message
 
 
+def test_unescaped_quote_in_reason_recovers_scores() -> None:
+    raw = '''{"correctness":3,"completeness":1,"grounding":2,
+    "task_satisfaction":2,"total":8,
+    "reason":"It accurately describes the "handling" scenario."}'''
+    result = parse_judge_output(raw)
+    assert (result.correctness, result.completeness, result.grounding) == (3, 1, 2)
+    assert result.task_satisfaction == 2
+    assert result.total == 8
+    assert "handling" in result.reason
+    assert result.reason.startswith("[fallback: malformed judge JSON]")
+
+
+def test_multiple_unescaped_quotes_in_reason_recovers_scores() -> None:
+    raw = '''{"correctness":1,"completeness":0,"grounding":0,
+    "task_satisfaction":1,"total":2,
+    "reason":"Unsupported "death of distance" and "handling" claims."}'''
+    result = parse_judge_output(raw)
+    assert (result.correctness, result.completeness, result.grounding) == (1, 0, 0)
+    assert result.task_satisfaction == 1
+    assert result.total == 2
+
+
+@pytest.mark.parametrize(
+    "raw",
+    (
+        # Missing total.
+        (
+            '{"correctness":3,"completeness":1,"grounding":2,'
+            '"task_satisfaction":2,"reason":"bad "quote""}'
+        ),
+        # Duplicate correctness.
+        (
+            '{"correctness":3,"correctness":2,"completeness":1,"grounding":2,'
+            '"task_satisfaction":2,"total":8,"reason":"bad "quote""}'
+        ),
+        # Non-integer component.
+        (
+            '{"correctness":3.0,"completeness":1,"grounding":2,'
+            '"task_satisfaction":2,"total":8,"reason":"bad "quote""}'
+        ),
+        # Out-of-range component.
+        (
+            '{"correctness":5,"completeness":1,"grounding":2,'
+            '"task_satisfaction":2,"total":10,"reason":"bad "quote""}'
+        ),
+        # Out-of-range total; strict behavior otherwise recomputes total from components.
+        (
+            '{"correctness":3,"completeness":1,"grounding":2,'
+            '"task_satisfaction":2,"total":11,"reason":"bad "quote""}'
+        ),
+        # In-range total inconsistent with component sum.
+        (
+            '{"correctness":3,"completeness":1,"grounding":2,'
+            '"task_satisfaction":2,"total":7,"reason":"bad "quote""}'
+        ),
+        # Malformed integer token.
+        (
+            '{"correctness":3x,"completeness":1,"grounding":2,'
+            '"task_satisfaction":2,"total":8,"reason":"bad "quote""}'
+        ),
+    ),
+    ids=(
+        "missing-score",
+        "duplicate-score",
+        "non-integer-score",
+        "out-of-range-score",
+        "out-of-range-total",
+        "inconsistent-total",
+        "malformed-score",
+    ),
+)
+def test_malformed_json_fallback_rejects_ambiguous_scores(raw: str) -> None:
+    with pytest.raises(JudgeOutputError):
+        parse_judge_output(raw)
+
+
 def test_escape_repair_preserves_every_valid_json_escape() -> None:
     valid = (
         r'{"correctness":4,"completeness":2,"grounding":2,'

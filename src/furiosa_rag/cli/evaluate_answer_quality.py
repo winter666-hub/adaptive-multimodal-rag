@@ -74,6 +74,14 @@ class JudgeOutputError(ValueError):
     """Raised when judge output cannot be parsed or validated."""
 
 
+SCORE_LIMITS = {
+    "correctness": (0, 4),
+    "completeness": (0, 2),
+    "grounding": (0, 2),
+    "task_satisfaction": (0, 2),
+}
+
+
 @dataclass(frozen=True, slots=True)
 class JudgeScore:
     correctness: int
@@ -270,6 +278,43 @@ def _load_judge_json(text: str, raw: str) -> dict[str, Any]:
     raise JudgeOutputError(f"invalid judge JSON ({detail}): {raw!r}")
 
 
+def _fallback_judge_json(text: str) -> dict[str, Any]:
+    """Recover only unique, unambiguous integer scores from malformed JSON."""
+    payload: dict[str, Any] = {}
+    limits = {**SCORE_LIMITS, "total": (0, sum(limit[1] for limit in SCORE_LIMITS.values()))}
+    for field, (minimum, maximum) in limits.items():
+        keys = list(re.finditer(rf'(?<!\\)"{re.escape(field)}"\s*:', text))
+        if len(keys) != 1:
+            raise JudgeOutputError(f"fallback requires exactly one {field} field")
+        value_match = re.match(r"\s*(-?\d+)\s*(?=[,}])", text[keys[0].end() :])
+        if value_match is None:
+            raise JudgeOutputError(f"fallback {field} must be an integer")
+        value = int(value_match.group(1))
+        if not minimum <= value <= maximum:
+            raise JudgeOutputError(
+                f"fallback {field} must be between {minimum} and {maximum}"
+            )
+        payload[field] = value
+    component_total = sum(payload[field] for field in SCORE_LIMITS)
+    if payload["total"] != component_total:
+        raise JudgeOutputError("fallback total does not match component scores")
+
+    reason_keys = list(re.finditer(r'(?<!\\)"reason"\s*:', text))
+    if len(reason_keys) == 1:
+        reason = text[reason_keys[0].end() :].strip()
+        reason = re.sub(r"\s*}\s*$", "", reason).strip()
+        reason = reason.removeprefix('"').removesuffix('"')
+        reason = reason.strip()
+    else:
+        reason = ""
+    payload["reason"] = (
+        f"[fallback: malformed judge JSON] {reason}"
+        if reason
+        else "[fallback: malformed judge JSON; reason unavailable]"
+    )
+    return payload
+
+
 def parse_judge_output(raw: str) -> JudgeScore:
     stripped = raw.strip()
     fenced = re.fullmatch(
@@ -279,16 +324,16 @@ def parse_judge_output(raw: str) -> JudgeScore:
     )
     if fenced:
         stripped = fenced.group(1).strip()
-    payload = _load_judge_json(stripped, raw)
+    try:
+        payload = _load_judge_json(stripped, raw)
+    except JudgeOutputError as strict_error:
+        try:
+            payload = _fallback_judge_json(stripped)
+        except JudgeOutputError:
+            raise strict_error from None
 
-    limits = {
-        "correctness": (0, 4),
-        "completeness": (0, 2),
-        "grounding": (0, 2),
-        "task_satisfaction": (0, 2),
-    }
     scores: dict[str, int] = {}
-    for field, (minimum, maximum) in limits.items():
+    for field, (minimum, maximum) in SCORE_LIMITS.items():
         value = payload.get(field)
         if isinstance(value, bool) or not isinstance(value, int):
             raise JudgeOutputError(f"{field} must be an integer")

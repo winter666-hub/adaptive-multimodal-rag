@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import socket
 from copy import deepcopy
 
@@ -9,8 +10,11 @@ from furiosa_rag.cli.analyze_route_utility import main
 from furiosa_rag.route_gt_audit import alignment_outcome, write_csv
 from furiosa_rag.route_utility import (
     build_utility_cases,
+    efficiency_statistics,
     format_summary,
     load_csv,
+    paired_correctness_rows,
+    paired_correctness_statistics,
     summarize_utility,
 )
 
@@ -38,6 +42,8 @@ def inputs():
                 "text_correct": str(text),
                 "vision_correct": str(vision),
                 "outcome": alignment_outcome(text, vision),
+                "text_e2e_latency_ms": "200",
+                "vision_e2e_latency_ms": "300",
             }
         )
         runs.append(
@@ -153,6 +159,35 @@ def test_answer_type_is_only_a_grouping_key(inputs):
             )
             == values
         )
+
+
+def test_paired_correctness_statistics_are_row_level_and_deterministic(inputs):
+    cases = build_utility_cases(*inputs)
+    paired = paired_correctness_rows(cases)
+    stats = paired_correctness_statistics(cases, bootstrap_seed=42, bootstrap_samples=1_000)
+
+    assert len(paired) == 9
+    assert stats["both_correct"] == 3
+    assert stats["fv_only_correct"] == 2
+    assert stats["ra_only_correct"] == 2
+    assert stats["both_incorrect"] == 2
+    assert stats["ra_minus_fv_difference"] == 0
+    assert stats["mcnemar_exact_binomial_p"] == 1.0
+    assert stats["mcnemar_continuity_corrected_p"] == 1.0
+    assert paired_correctness_statistics(
+        cases, bootstrap_seed=42, bootstrap_samples=1_000
+    )["bootstrap_percentile_ci"] == stats["bootstrap_percentile_ci"]
+
+
+def test_efficiency_statistics(inputs):
+    stats = efficiency_statistics(build_utility_cases(*inputs))
+    assert stats["forced_vision_correct_count"] == 5
+    assert stats["retrieval_aware_correct_count"] == 5
+    assert stats["retrieval_aware_vision_calls"] == 5
+    assert stats["vision_calls_saved"] == 4
+    assert stats["forced_vision_avg_e2e_latency_ms"] == 300
+    assert stats["retrieval_aware_avg_e2e_latency_ms"] == 500
+    assert stats["vision_calls_saved_per_fewer_correct_answer"] is None
 
 
 @pytest.mark.parametrize("source", [0, 1, 2])
@@ -275,6 +310,9 @@ def test_cli_writes_aggregates_and_optional_cases_offline(inputs, tmp_path, caps
         write_csv(rows, path)
     snapshots = [path.read_bytes() for path in paths]
     output, cases = tmp_path / "aggregate.csv", tmp_path / "cases.csv"
+    by_type = tmp_path / "by_type.csv"
+    paired = tmp_path / "paired.csv"
+    statistics = tmp_path / "statistics.json"
     args = [
         "--alignment",
         str(paths[0]),
@@ -287,9 +325,28 @@ def test_cli_writes_aggregates_and_optional_cases_offline(inputs, tmp_path, caps
     ]
     assert main(args) == 0
     assert not cases.exists()
-    assert main([*args, "--cases-output", str(cases)]) == 0
+    assert main(
+        [
+            *args,
+            "--cases-output",
+            str(cases),
+            "--answer-type-output",
+            str(by_type),
+            "--paired-output",
+            str(paired),
+            "--statistics-output",
+            str(statistics),
+            "--bootstrap-samples",
+            "100",
+        ]
+    ) == 0
     assert len(load_csv(output)) == 9
     assert len(load_csv(cases)) == 9
+    assert len(load_csv(by_type)) == 4
+    assert len(load_csv(paired)) == 9
+    statistical_output = json.loads(statistics.read_text(encoding="utf-8"))
+    assert statistical_output["paired_correctness"]["bootstrap_samples"] == 100
+    assert statistical_output["efficiency"]["vision_calls_saved"] == 4
     assert load_csv(cases)[7]["route_utility_correct"] == ""
     assert [path.read_bytes() for path in paths] == snapshots
     stdout = capsys.readouterr().out

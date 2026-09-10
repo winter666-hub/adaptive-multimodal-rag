@@ -13,6 +13,20 @@ from typing import Any
 
 ExecutionKey = tuple[str, str]
 
+FINGERPRINT_SCHEMA_VERSION = 2
+SEMANTIC_CHECKPOINT_FIELDS = (
+    "id",
+    "question",
+    "gold_answer",
+    "domain",
+    "question_type",
+    "answer_type",
+    "expected_route",
+    "document_id",
+    "source_pdf",
+    "expected_pages",
+)
+
 
 @dataclass(frozen=True, slots=True)
 class BenchmarkFingerprint:
@@ -35,6 +49,36 @@ def _file_sha256(path: str | Path) -> str:
         for block in iter(lambda: source.read(1024 * 1024), b""):
             digest.update(block)
     return digest.hexdigest()
+
+
+def _canonical_dataset_sha256(path: str | Path) -> tuple[str, int]:
+    """Hash ordered JSONL values independently of their byte serialization."""
+    digest = hashlib.sha256()
+    seen_ids: set[str] = set()
+    row_count = 0
+    with Path(path).open(encoding="utf-8-sig") as source:
+        for line_number, line in enumerate(source, start=1):
+            if not line.strip():
+                continue
+            try:
+                row = json.loads(line)
+            except json.JSONDecodeError as exc:
+                raise ValueError(f"invalid dataset JSON on line {line_number}: {exc}") from exc
+            if not isinstance(row, dict):
+                raise TypeError(f"invalid dataset row on line {line_number}: expected an object")
+            row_id = row.get("id")
+            if not isinstance(row_id, str) or not row_id:
+                raise ValueError(f"invalid dataset id on line {line_number}")
+            if row_id in seen_ids:
+                raise ValueError(f"duplicate dataset id: {row_id}")
+            seen_ids.add(row_id)
+            canonical_row = json.dumps(
+                row, sort_keys=True, separators=(",", ":"), ensure_ascii=False
+            )
+            digest.update(canonical_row.encode("utf-8"))
+            digest.update(b"\n")
+            row_count += 1
+    return digest.hexdigest(), row_count
 
 
 def build_benchmark_fingerprint(
@@ -61,8 +105,15 @@ def build_benchmark_fingerprint(
     dataset = Path(dataset_path).resolve()
     if (pdf_root is None) == (pdf_path is None):
         raise ValueError("fingerprint requires exactly one of pdf_root or pdf_path")
+    dataset_sha256, dataset_row_count = _canonical_dataset_sha256(dataset)
     payload: dict[str, Any] = {
-        "dataset": {"path": str(dataset), "sha256": _file_sha256(dataset)},
+        "fingerprint_schema_version": FINGERPRINT_SCHEMA_VERSION,
+        "dataset": {
+            "path": str(dataset),
+            "sha256": _file_sha256(dataset),
+            "canonical_sha256": dataset_sha256,
+            "row_count": dataset_row_count,
+        },
         "strategy": strategy,
         "models": {
             "embedding": embedding_model,
@@ -91,7 +142,8 @@ def build_benchmark_fingerprint(
         pdf = Path(pdf_path).resolve()  # type: ignore[arg-type]
         payload["benchmark_mode"] = "single_pdf"
         payload["pdf"] = {"path": str(pdf), "sha256": _file_sha256(pdf)}
-    canonical = json.dumps(payload, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
+    identity = _portable_identity(payload)
+    canonical = json.dumps(identity, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
     return BenchmarkFingerprint(hashlib.sha256(canonical.encode("utf-8")).hexdigest(), payload)
 
 
@@ -186,9 +238,89 @@ def _flatten(payload: Mapping[str, Any], prefix: str = "") -> dict[str, Any]:
     return flattened
 
 
+def _portable_identity(payload: Mapping[str, Any]) -> dict[str, Any]:
+    """Return experiment semantics, excluding machine-local diagnostic metadata."""
+    identity = {
+        key: value
+        for key, value in payload.items()
+        if key not in {"dataset", "cache", "pdf_root", "pdf"}
+    }
+    dataset = payload.get("dataset")
+    if isinstance(dataset, Mapping):
+        identity["dataset"] = {
+            "canonical_sha256": dataset.get("canonical_sha256"),
+            "row_count": dataset.get("row_count"),
+        }
+    cache = payload.get("cache")
+    if isinstance(cache, Mapping):
+        identity["cache"] = {"require_warm": cache.get("require_warm")}
+    pdf = payload.get("pdf")
+    if isinstance(pdf, Mapping):
+        identity["pdf"] = {"sha256": pdf.get("sha256")}
+    return identity
+
+
+def _legacy_config_changes(
+    old_payload: Mapping[str, Any], new_payload: Mapping[str, Any]
+) -> list[str]:
+    ignored = {
+        "dataset.path",
+        "dataset.sha256",
+        "cache.directory",
+        "pdf_root",
+        "pdf.path",
+    }
+    old_flat = _flatten(old_payload)
+    new_flat = _flatten(new_payload)
+    # Fields introduced by the portable schema have no legacy counterpart.
+    new_flat = {
+        key: value
+        for key, value in new_flat.items()
+        if key not in {"fingerprint_schema_version", "dataset.canonical_sha256", "dataset.row_count"}
+    }
+    return sorted(
+        key
+        for key in old_flat.keys() | new_flat.keys()
+        if key not in ignored and old_flat.get(key) != new_flat.get(key)
+    )
+
+
+def _validate_current_dataset_ids(rows: Sequence[Mapping[str, Any]]) -> dict[str, Mapping[str, Any]]:
+    by_id: dict[str, Mapping[str, Any]] = {}
+    for index, row in enumerate(rows, start=1):
+        row_id = row.get("id")
+        if not isinstance(row_id, str) or not row_id:
+            raise ValueError(f"invalid current dataset id at row {index}")
+        if row_id in by_id:
+            raise ValueError(f"duplicate current dataset id: {row_id}")
+        by_id[row_id] = row
+    return by_id
+
+
+def _validate_legacy_checkpoint_rows(
+    records: Sequence[Mapping[str, Any]], current_rows: Sequence[Mapping[str, Any]]
+) -> None:
+    current_by_id = _validate_current_dataset_ids(current_rows)
+    for record in records:
+        row_id = record.get("query_id")
+        current = current_by_id.get(str(row_id))
+        if current is None:
+            raise ValueError(f"checkpoint id is missing from current dataset: {row_id}")
+        for field in SEMANTIC_CHECKPOINT_FIELDS:
+            checkpoint_value = record.get("query_id") if field == "id" else record.get(field)
+            current_value = current.get(field)
+            if checkpoint_value != current_value:
+                raise ValueError(
+                    "legacy checkpoint row does not match current dataset: "
+                    f"id={row_id}, field={field}"
+                )
+
+
 def validate_checkpoint_fingerprint(
     records: Sequence[Mapping[str, Any]],
     fingerprint: BenchmarkFingerprint,
+    *,
+    current_rows: Sequence[Mapping[str, Any]] | None = None,
 ) -> None:
     mismatched = [
         record
@@ -197,19 +329,33 @@ def validate_checkpoint_fingerprint(
     ]
     if not mismatched:
         return
-    old_payload = mismatched[-1].get("fingerprint_config")
-    details = ""
-    if isinstance(old_payload, Mapping):
-        old_flat = _flatten(old_payload)
-        new_flat = _flatten(fingerprint.payload)
-        changed = sorted(
-            key
-            for key in old_flat.keys() | new_flat.keys()
-            if old_flat.get(key) != new_flat.get(key)
-        )
+    legacy_records: list[Mapping[str, Any]] = []
+    for record in mismatched:
+        old_payload = record.get("fingerprint_config")
+        if not isinstance(old_payload, Mapping):
+            raise TypeError("checkpoint fingerprint config must be an object")
+        if old_payload.get("fingerprint_schema_version") == FINGERPRINT_SCHEMA_VERSION:
+            old_identity = _flatten(_portable_identity(old_payload))
+            new_identity = _flatten(_portable_identity(fingerprint.payload))
+            changed = sorted(
+                key
+                for key in old_identity.keys() | new_identity.keys()
+                if old_identity.get(key) != new_identity.get(key)
+            )
+        else:
+            changed = _legacy_config_changes(old_payload, fingerprint.payload)
+            legacy_records.append(record)
         if changed:
-            details = f"; changed config: {', '.join(changed)}"
-    raise ValueError(f"checkpoint fingerprint does not match current benchmark{details}")
+            raise ValueError(
+                "checkpoint fingerprint does not match current benchmark; "
+                f"changed config: {', '.join(changed)}"
+            )
+    if legacy_records:
+        if current_rows is None:
+            raise ValueError(
+                "current dataset rows are required to validate a legacy checkpoint"
+            )
+        _validate_legacy_checkpoint_rows(legacy_records, current_rows)
 
 
 def plan_resume(
@@ -247,10 +393,11 @@ def materialize_checkpoint_csv(
     output_path: str | Path,
     *,
     fingerprint: BenchmarkFingerprint | None = None,
+    current_rows: Sequence[Mapping[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     records = load_checkpoint(checkpoint_path)
     if fingerprint is not None:
-        validate_checkpoint_fingerprint(records, fingerprint)
+        validate_checkpoint_fingerprint(records, fingerprint, current_rows=current_rows)
     latest = list(latest_checkpoint_records(records).values())
     from furiosa_rag.e2e_benchmark import export_e2e_csv
 

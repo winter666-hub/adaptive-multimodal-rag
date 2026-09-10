@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import csv
 import math
+import random
 from collections.abc import Mapping, Sequence
 from pathlib import Path
 from typing import Any
@@ -145,6 +146,12 @@ def build_utility_cases(
                 "avoidable_regret": decisive and predicted != optimal,
                 "forced_text_correct": text_correct,
                 "forced_vision_correct": vision_correct,
+                "forced_text_latency_ms": _latency(
+                    source.get("text_e2e_latency_ms"), f"{query_id}/forced_text_latency"
+                ),
+                "forced_vision_latency_ms": _latency(
+                    source.get("vision_e2e_latency_ms"), f"{query_id}/forced_vision_latency"
+                ),
                 "retrieval_aware_correct": _boolean(
                     judgment.get("judge_correct"), f"{query_id}/judge_correct"
                 ),
@@ -251,6 +258,147 @@ def summarize_utility(cases: Sequence[Mapping[str, Any]]) -> list[dict[str, Any]
         )
         summaries.append(summary)
     return summaries
+
+
+def paired_correctness_rows(
+    cases: Sequence[Mapping[str, Any]],
+) -> list[dict[str, Any]]:
+    """Return the question-level Forced Vision/RA paired correctness table."""
+    labels = {
+        (True, True): "BOTH_CORRECT",
+        (True, False): "FV_ONLY_CORRECT",
+        (False, True): "RA_ONLY_CORRECT",
+        (False, False): "BOTH_INCORRECT",
+    }
+    return [
+        {
+            "id": row["id"],
+            "answer_type": row["answer_type"],
+            "forced_vision_correct": row["forced_vision_correct"],
+            "retrieval_aware_correct": row["retrieval_aware_correct"],
+            "paired_outcome": labels[
+                (row["forced_vision_correct"], row["retrieval_aware_correct"])
+            ],
+        }
+        for row in cases
+    ]
+
+
+def _percentile(values: Sequence[float], probability: float) -> float:
+    ordered = sorted(values)
+    position = (len(ordered) - 1) * probability
+    lower = math.floor(position)
+    upper = math.ceil(position)
+    if lower == upper:
+        return ordered[lower]
+    fraction = position - lower
+    return ordered[lower] * (1 - fraction) + ordered[upper] * fraction
+
+
+def paired_correctness_statistics(
+    cases: Sequence[Mapping[str, Any]],
+    *,
+    bootstrap_seed: int = 42,
+    bootstrap_samples: int = 10_000,
+) -> dict[str, Any]:
+    """Compute deterministic paired correctness tests without external services."""
+    if not cases:
+        raise ValueError("paired correctness requires at least one case")
+    if bootstrap_samples < 1:
+        raise ValueError("bootstrap_samples must be positive")
+    paired = paired_correctness_rows(cases)
+    counts = {
+        label: sum(row["paired_outcome"] == label for row in paired)
+        for label in (
+            "BOTH_CORRECT",
+            "FV_ONLY_CORRECT",
+            "RA_ONLY_CORRECT",
+            "BOTH_INCORRECT",
+        )
+    }
+    count = len(paired)
+    fv_only = counts["FV_ONLY_CORRECT"]
+    ra_only = counts["RA_ONLY_CORRECT"]
+    discordant = fv_only + ra_only
+    tail = min(fv_only, ra_only)
+    exact_p = min(
+        1.0,
+        2 * sum(math.comb(discordant, value) for value in range(tail + 1)) / 2**discordant,
+    )
+    corrected_chi_square = (
+        (max(0, abs(fv_only - ra_only) - 1) ** 2) / discordant
+        if discordant
+        else 0.0
+    )
+    corrected_p = math.erfc(math.sqrt(corrected_chi_square / 2))
+    differences = [
+        int(row["retrieval_aware_correct"]) - int(row["forced_vision_correct"])
+        for row in paired
+    ]
+    rng = random.Random(bootstrap_seed)
+    bootstrap = [
+        sum(rng.choice(differences) for _ in range(count)) / count
+        for _ in range(bootstrap_samples)
+    ]
+    point_difference = sum(differences) / count
+    return {
+        "sample_count": count,
+        "both_correct": counts["BOTH_CORRECT"],
+        "fv_only_correct": fv_only,
+        "ra_only_correct": ra_only,
+        "both_incorrect": counts["BOTH_INCORRECT"],
+        "ra_minus_fv_correct_count": ra_only - fv_only,
+        "ra_minus_fv_difference": point_difference,
+        "ra_minus_fv_percentage_points": point_difference * 100,
+        "mcnemar_discordant_count": discordant,
+        "mcnemar_exact_binomial_p": exact_p,
+        "mcnemar_continuity_corrected_chi_square": corrected_chi_square,
+        "mcnemar_continuity_corrected_p": corrected_p,
+        "bootstrap_unit": "question",
+        "bootstrap_seed": bootstrap_seed,
+        "bootstrap_samples": bootstrap_samples,
+        "bootstrap_confidence_level": 0.95,
+        "bootstrap_percentile_ci": [
+            _percentile(bootstrap, 0.025),
+            _percentile(bootstrap, 0.975),
+        ],
+        "bootstrap_percentile_ci_percentage_points": [
+            _percentile(bootstrap, 0.025) * 100,
+            _percentile(bootstrap, 0.975) * 100,
+        ],
+    }
+
+
+def efficiency_statistics(cases: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
+    """Compare empirical RA efficiency with Forced Vision on identical questions."""
+    if not cases:
+        raise ValueError("efficiency statistics require at least one case")
+    count = len(cases)
+    fv_correct = sum(row["forced_vision_correct"] for row in cases)
+    ra_correct = sum(row["retrieval_aware_correct"] for row in cases)
+    ra_vision_calls = sum(row["predicted_route"] == "VISUAL_REQUIRED" for row in cases)
+    vision_calls_saved = count - ra_vision_calls
+    fv_latency = sum(row["forced_vision_latency_ms"] for row in cases) / count
+    ra_latency = sum(row["total_latency_ms"] for row in cases) / count
+    correctness_loss = fv_correct - ra_correct
+    return {
+        "sample_count": count,
+        "forced_vision_correct_count": fv_correct,
+        "retrieval_aware_correct_count": ra_correct,
+        "correct_answer_difference": ra_correct - fv_correct,
+        "correctness_percentage_point_difference": (ra_correct - fv_correct) / count * 100,
+        "forced_vision_calls": count,
+        "retrieval_aware_vision_calls": ra_vision_calls,
+        "vision_calls_saved": vision_calls_saved,
+        "vision_call_reduction_rate": vision_calls_saved / count,
+        "forced_vision_avg_e2e_latency_ms": fv_latency,
+        "retrieval_aware_avg_e2e_latency_ms": ra_latency,
+        "latency_reduction_ms": fv_latency - ra_latency,
+        "latency_reduction_rate": (fv_latency - ra_latency) / fv_latency,
+        "vision_calls_saved_per_fewer_correct_answer": (
+            vision_calls_saved / correctness_loss if correctness_loss > 0 else None
+        ),
+    }
 
 
 def format_summary(summaries: Sequence[Mapping[str, Any]]) -> str:
