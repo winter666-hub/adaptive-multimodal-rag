@@ -135,3 +135,53 @@ def test_judge_checkpoint_resume_preserves_gold_metadata(tmp_path: Path) -> None
     assert judge.calls == 1
     assert first[0]["gold_answer"] == second[0]["gold_answer"] == "gold"
     assert second[0]["judge_correct"] is True
+
+
+def test_targeted_retry_reexecutes_only_named_success(tmp_path: Path, capsys) -> None:
+    sources = _dataset()[:2]
+    candidates = [
+        {
+            "id": source["id"],
+            "query_id": source["id"],
+            "question": source["question"],
+            "strategy": "forced_text",
+            "answer": "candidate",
+            "error": "",
+            "total_latency_ms": "1.5",
+        }
+        for source in sources
+    ]
+    checkpoint = tmp_path / "judge.jsonl"
+    fingerprint = BenchmarkFingerprint(
+        "fingerprint", {"judge": {"model": "judge", "prompt_sha256": "abc"}}
+    )
+    judge = FakeJudge()
+    judge_candidates(
+        sources,
+        {"forced_text": candidates},
+        judge,  # type: ignore[arg-type]
+        fingerprint=fingerprint,
+        checkpoint=checkpoint,
+        resume=False,
+        retry_errors=False,
+        seed=42,
+    )
+    target = (str(sources[0]["id"]), "forced_text")
+    rows = judge_candidates(
+        sources,
+        {"forced_text": candidates},
+        judge,  # type: ignore[arg-type]
+        fingerprint=fingerprint,
+        checkpoint=checkpoint,
+        resume=True,
+        retry_errors=False,
+        seed=42,
+        retry_execution_keys={target},
+    )
+
+    assert judge.calls == 3
+    assert len(rows) == 2
+    assert "targeted judge retries (1)" in capsys.readouterr().out
+    records = [json.loads(line) for line in checkpoint.read_text().splitlines()]
+    assert sum((row["query_id"], row["strategy"]) == target for row in records) == 2
+    assert sum(row["judge_parser_policy_version"] == "judge-json-v2" for row in records) == 3

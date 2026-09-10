@@ -8,7 +8,7 @@ import json
 import random
 import re
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Any, Protocol
 
@@ -21,8 +21,11 @@ CANDIDATE_FIELDS = {"id", "question", "category", "answer"}
 OUTPUT_FIELDS = [
     "id", "question", "category", "strategy", "correctness", "completeness",
     "grounding", "task_satisfaction", "quality_score", "judge_reason",
-    "judge_latency_ms", "error",
+    "judge_raw_response", "judge_parser_mode", "judge_parser_policy_version",
+    "judge_attempt_count", "judge_latency_ms", "error",
 ]
+
+JUDGE_PARSER_POLICY_VERSION = "judge-json-v2"
 
 JUDGE_PROMPT = """You are a strict answer-quality judge for questions about the
 Transformer paper "Attention Is All You Need".
@@ -73,6 +76,11 @@ class JudgeBackend(Protocol):
 class JudgeOutputError(ValueError):
     """Raised when judge output cannot be parsed or validated."""
 
+    raw_response: str = ""
+    parser_mode: str = ""
+    parser_policy_version: str = ""
+    attempt_count: int = 0
+
 
 SCORE_LIMITS = {
     "correctness": (0, 4),
@@ -90,6 +98,27 @@ class JudgeScore:
     task_satisfaction: int
     total: int
     reason: str
+    raw_response: str = ""
+    parser_mode: str = ""
+    parser_policy_version: str = JUDGE_PARSER_POLICY_VERSION
+    attempt_count: int = 1
+
+
+class _StrictJsonSyntaxError(JudgeOutputError):
+    """Strict JSON decoding failed in a way eligible for the narrow fallback."""
+
+
+class _DuplicateJsonKeyError(JudgeOutputError):
+    """A JSON object contained a duplicate key."""
+
+
+def _reject_duplicate_keys(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
+    payload: dict[str, Any] = {}
+    for key, value in pairs:
+        if key in payload:
+            raise _DuplicateJsonKeyError(f"duplicate JSON key: {key}")
+        payload[key] = value
+    return payload
 
 
 def load_references(path: str | Path) -> dict[str, str]:
@@ -250,69 +279,151 @@ def _load_judge_json(text: str, raw: str) -> dict[str, Any]:
     parse_targets = [text, *_json_object_candidates(text)]
     for candidate in dict.fromkeys(parse_targets):
         try:
-            payload = json.loads(candidate)
+            payload = json.loads(candidate, object_pairs_hook=_reject_duplicate_keys)
+        except _DuplicateJsonKeyError:
+            raise
         except json.JSONDecodeError as exc:
             errors.append(exc)
             continue
         if isinstance(payload, dict):
             repaired = repair_invalid_json_escapes(candidate)
             if repaired != candidate:
-                repaired_payload = json.loads(repaired)
+                repaired_payload = json.loads(
+                    repaired, object_pairs_hook=_reject_duplicate_keys
+                )
                 if isinstance(repaired_payload, dict):
                     return repaired_payload
             return payload
 
-    for candidate, error in zip(parse_targets, errors, strict=False):
-        if not error.msg.startswith("Invalid \\"):
-            continue
-        repaired = repair_invalid_json_escapes(candidate)
-        try:
-            payload = json.loads(repaired)
-        except json.JSONDecodeError as exc:
-            errors.append(exc)
-            continue
-        if isinstance(payload, dict):
-            return payload
-
     detail = _json_error_detail(errors[-1]) if errors else "no JSON object found"
-    raise JudgeOutputError(f"invalid judge JSON ({detail}): {raw!r}")
+    raise _StrictJsonSyntaxError(f"invalid judge JSON ({detail}): {raw!r}")
+
+
+def _top_level_reason_bounds(text: str) -> tuple[int, int]:
+    """Return the first top-level reason key start and value start."""
+    object_start = text.find("{")
+    if object_start < 0:
+        raise JudgeOutputError("fallback requires a top-level JSON object")
+    depth = 0
+    index = object_start
+    while index < len(text):
+        char = text[index]
+        if char == "{":
+            depth += 1
+            index += 1
+            continue
+        if char == "}":
+            depth -= 1
+            index += 1
+            continue
+        if char != '"':
+            index += 1
+            continue
+
+        key_start = index
+        index += 1
+        escaped = False
+        while index < len(text):
+            char = text[index]
+            if escaped:
+                escaped = False
+            elif char == "\\":
+                escaped = True
+            elif char == '"':
+                break
+            index += 1
+        if index >= len(text):
+            break
+        token = text[key_start : index + 1]
+        after = index + 1
+        while after < len(text) and text[after].isspace():
+            after += 1
+        if depth == 1 and after < len(text) and text[after] == ":":
+            try:
+                key = json.loads(token)
+            except json.JSONDecodeError:
+                key = None
+            if key == "reason":
+                return key_start, after + 1
+        index += 1
+    raise JudgeOutputError("fallback requires one top-level reason field")
 
 
 def _fallback_judge_json(text: str) -> dict[str, Any]:
-    """Recover only unique, unambiguous integer scores from malformed JSON."""
-    payload: dict[str, Any] = {}
-    limits = {**SCORE_LIMITS, "total": (0, sum(limit[1] for limit in SCORE_LIMITS.values()))}
-    for field, (minimum, maximum) in limits.items():
-        keys = list(re.finditer(rf'(?<!\\)"{re.escape(field)}"\s*:', text))
-        if len(keys) != 1:
-            raise JudgeOutputError(f"fallback requires exactly one {field} field")
-        value_match = re.match(r"\s*(-?\d+)\s*(?=[,}])", text[keys[0].end() :])
-        if value_match is None:
-            raise JudgeOutputError(f"fallback {field} must be an integer")
-        value = int(value_match.group(1))
-        if not minimum <= value <= maximum:
-            raise JudgeOutputError(
-                f"fallback {field} must be between {minimum} and {maximum}"
+    """Recover a valid score prefix while treating malformed reason text as opaque."""
+    repaired = repair_invalid_json_escapes(text)
+    if repaired != text:
+        try:
+            repaired_payload = json.loads(
+                repaired, object_pairs_hook=_reject_duplicate_keys
             )
-        payload[field] = value
-    component_total = sum(payload[field] for field in SCORE_LIMITS)
-    if payload["total"] != component_total:
-        raise JudgeOutputError("fallback total does not match component scores")
+        except _DuplicateJsonKeyError:
+            raise
+        except json.JSONDecodeError:
+            pass
+        else:
+            if isinstance(repaired_payload, dict):
+                return repaired_payload
 
-    reason_keys = list(re.finditer(r'(?<!\\)"reason"\s*:', text))
-    if len(reason_keys) == 1:
-        reason = text[reason_keys[0].end() :].strip()
-        reason = re.sub(r"\s*}\s*$", "", reason).strip()
-        reason = reason.removeprefix('"').removesuffix('"')
-        reason = reason.strip()
-    else:
-        reason = ""
+    reason_start, reason_value_start = _top_level_reason_bounds(text)
+    object_start = text.find("{")
+    score_prefix = text[object_start:reason_start]
+    synthetic = score_prefix + '"reason":"fallback reason"}'
+    try:
+        payload = json.loads(synthetic, object_pairs_hook=_reject_duplicate_keys)
+    except _DuplicateJsonKeyError:
+        raise
+    except json.JSONDecodeError as exc:
+        raise JudgeOutputError(
+            f"fallback score prefix is not valid JSON ({_json_error_detail(exc)})"
+        ) from exc
+    if not isinstance(payload, dict):
+        raise JudgeOutputError("fallback score prefix must be a JSON object")
+
+    reason = text[reason_value_start:].strip()
+    reason = re.sub(r"\s*}\s*$", "", reason).strip()
+    reason = reason.removeprefix('"').removesuffix('"').strip()
     payload["reason"] = (
         f"[fallback: malformed judge JSON] {reason}"
         if reason
         else "[fallback: malformed judge JSON; reason unavailable]"
     )
     return payload
+
+
+def _validate_judge_payload(
+    payload: dict[str, Any], *, raw: str, parser_mode: str
+) -> JudgeScore:
+    limits = {
+        **SCORE_LIMITS,
+        "total": (0, sum(limit[1] for limit in SCORE_LIMITS.values())),
+    }
+    scores: dict[str, int] = {}
+    for field, (minimum, maximum) in limits.items():
+        if field not in payload:
+            raise JudgeOutputError(f"missing required field: {field}")
+        value = payload[field]
+        if isinstance(value, bool) or not isinstance(value, int):
+            raise JudgeOutputError(f"{field} must be an integer")
+        if not minimum <= value <= maximum:
+            raise JudgeOutputError(f"{field} must be between {minimum} and {maximum}")
+        scores[field] = value
+    component_total = sum(scores[field] for field in SCORE_LIMITS)
+    if scores["total"] != component_total:
+        raise JudgeOutputError("total does not match component scores")
+    reason = payload.get("reason")
+    if not isinstance(reason, str) or not reason.strip():
+        raise JudgeOutputError("reason must be a non-empty string")
+    return JudgeScore(
+        correctness=scores["correctness"],
+        completeness=scores["completeness"],
+        grounding=scores["grounding"],
+        task_satisfaction=scores["task_satisfaction"],
+        total=scores["total"],
+        reason=reason,
+        raw_response=raw,
+        parser_mode=parser_mode,
+    )
 
 
 def parse_judge_output(raw: str) -> JudgeScore:
@@ -326,25 +437,33 @@ def parse_judge_output(raw: str) -> JudgeScore:
         stripped = fenced.group(1).strip()
     try:
         payload = _load_judge_json(stripped, raw)
-    except JudgeOutputError as strict_error:
+    except _DuplicateJsonKeyError as strict_error:
+        strict_error.raw_response = raw
+        strict_error.parser_mode = "strict"
+        strict_error.parser_policy_version = JUDGE_PARSER_POLICY_VERSION
+        raise
+    except _StrictJsonSyntaxError as strict_error:
         try:
             payload = _fallback_judge_json(stripped)
-        except JudgeOutputError:
-            raise strict_error from None
-
-    scores: dict[str, int] = {}
-    for field, (minimum, maximum) in SCORE_LIMITS.items():
-        value = payload.get(field)
-        if isinstance(value, bool) or not isinstance(value, int):
-            raise JudgeOutputError(f"{field} must be an integer")
-        if not minimum <= value <= maximum:
-            raise JudgeOutputError(f"{field} must be between {minimum} and {maximum}")
-        scores[field] = value
-    reason = payload.get("reason")
-    if not isinstance(reason, str) or not reason.strip():
-        raise JudgeOutputError("reason must be a non-empty string")
-    total = sum(scores.values())
-    return JudgeScore(total=total, reason=reason, **scores)
+        except JudgeOutputError as fallback_error:
+            fallback_error.raw_response = raw
+            fallback_error.parser_mode = "fallback"
+            fallback_error.parser_policy_version = JUDGE_PARSER_POLICY_VERSION
+            raise fallback_error from strict_error
+        try:
+            return _validate_judge_payload(payload, raw=raw, parser_mode="fallback")
+        except JudgeOutputError as fallback_error:
+            fallback_error.raw_response = raw
+            fallback_error.parser_mode = "fallback"
+            fallback_error.parser_policy_version = JUDGE_PARSER_POLICY_VERSION
+            raise
+    try:
+        return _validate_judge_payload(payload, raw=raw, parser_mode="strict")
+    except JudgeOutputError as strict_error:
+        strict_error.raw_response = raw
+        strict_error.parser_mode = "strict"
+        strict_error.parser_policy_version = JUDGE_PARSER_POLICY_VERSION
+        raise
 
 
 def judge_answer(
@@ -361,11 +480,12 @@ def judge_answer(
         candidate=candidate,
     )
     last_error: JudgeOutputError | None = None
-    for _ in range(2):
+    for attempt in range(1, 3):
         raw = backend.generate(prompt, max_tokens=512)
         try:
-            return parse_judge_output(raw)
+            return replace(parse_judge_output(raw), attempt_count=attempt)
         except JudgeOutputError as exc:
+            exc.attempt_count = attempt
             last_error = exc
     assert last_error is not None
     raise last_error
@@ -389,6 +509,10 @@ def evaluate_quality(
             "task_satisfaction": "",
             "quality_score": "",
             "judge_reason": "",
+            "judge_raw_response": "",
+            "judge_parser_mode": "",
+            "judge_parser_policy_version": JUDGE_PARSER_POLICY_VERSION,
+            "judge_attempt_count": "",
             "error": "",
         }
         result.pop("answer")
@@ -406,8 +530,19 @@ def evaluate_quality(
                 task_satisfaction=score.task_satisfaction,
                 quality_score=score.total,
                 judge_reason=score.reason,
+                judge_raw_response=score.raw_response,
+                judge_parser_mode=score.parser_mode,
+                judge_parser_policy_version=score.parser_policy_version,
+                judge_attempt_count=score.attempt_count,
             )
         except Exception as exc:  # noqa: BLE001 - preserve individual judge failures
+            if isinstance(exc, JudgeOutputError):
+                result.update(
+                    judge_raw_response=exc.raw_response,
+                    judge_parser_mode=exc.parser_mode,
+                    judge_parser_policy_version=exc.parser_policy_version,
+                    judge_attempt_count=exc.attempt_count,
+                )
             result["error"] = f"{type(exc).__name__}: {exc}"
         result["judge_latency_ms"] = (time.perf_counter_ns() - started) / 1_000_000
         results.append(result)
@@ -458,10 +593,16 @@ def export_results(results: list[dict[str, Any]], path: str | Path) -> None:
 def load_existing_results(path: str | Path) -> list[dict[str, str]]:
     with Path(path).open(encoding="utf-8", newline="") as source:
         reader = csv.DictReader(source)
-        missing = set(OUTPUT_FIELDS) - set(reader.fieldnames or ())
+        provenance_fields = {
+            "judge_raw_response",
+            "judge_parser_mode",
+            "judge_parser_policy_version",
+            "judge_attempt_count",
+        }
+        missing = set(OUTPUT_FIELDS) - provenance_fields - set(reader.fieldnames or ())
         if missing:
             raise ValueError(f"existing output is missing fields: {', '.join(sorted(missing))}")
-        return [{field: row[field] for field in OUTPUT_FIELDS} for row in reader]
+        return [{field: row.get(field, "") for field in OUTPUT_FIELDS} for row in reader]
 
 
 def reevaluate_one(
@@ -501,6 +642,10 @@ def reevaluate_one(
         "task_satisfaction": "",
         "quality_score": "",
         "judge_reason": "",
+        "judge_raw_response": "",
+        "judge_parser_mode": "",
+        "judge_parser_policy_version": JUDGE_PARSER_POLICY_VERSION,
+        "judge_attempt_count": "",
         "error": "",
     }
     try:
@@ -517,8 +662,19 @@ def reevaluate_one(
             task_satisfaction=score.task_satisfaction,
             quality_score=score.total,
             judge_reason=score.reason,
+            judge_raw_response=score.raw_response,
+            judge_parser_mode=score.parser_mode,
+            judge_parser_policy_version=score.parser_policy_version,
+            judge_attempt_count=score.attempt_count,
         )
     except Exception as exc:  # noqa: BLE001 - preserve individual judge failures
+        if isinstance(exc, JudgeOutputError):
+            replacement_row.update(
+                judge_raw_response=exc.raw_response,
+                judge_parser_mode=exc.parser_mode,
+                judge_parser_policy_version=exc.parser_policy_version,
+                judge_attempt_count=exc.attempt_count,
+            )
         replacement_row["error"] = f"{type(exc).__name__}: {exc}"
     replacement_row["judge_latency_ms"] = (
         time.perf_counter_ns() - started

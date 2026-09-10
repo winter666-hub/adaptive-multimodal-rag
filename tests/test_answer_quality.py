@@ -9,6 +9,7 @@ import pytest
 from furiosa_rag.cli.evaluate_answer_quality import (
     JudgeOutputError,
     evaluate_quality,
+    judge_answer,
     load_candidates,
     load_references,
     parse_judge_output,
@@ -82,15 +83,18 @@ def test_shuffle_is_deterministic_and_preserves_question_groups() -> None:
     assert [row["id"] for row in first[3:]] == ["E_A02"] * 3
 
 
-def test_parse_judge_json_removes_fence_and_recomputes_total() -> None:
+def test_parse_judge_json_removes_fence_and_validates_total() -> None:
     raw = """```json
 {"correctness":4,"completeness":2,"grounding":1,
- "task_satisfaction":2,"total":1,"reason":"Mostly grounded."}
+ "task_satisfaction":2,"total":9,"reason":"Mostly grounded."}
 ```"""
     result = parse_judge_output(raw)
     assert result.correctness == 4
     assert result.total == 9
     assert result.reason == "Mostly grounded."
+    assert result.parser_mode == "strict"
+    assert result.parser_policy_version == "judge-json-v2"
+    assert result.raw_response == raw
 
 
 @pytest.mark.parametrize(
@@ -111,7 +115,7 @@ def test_parse_judge_output_common_hosted_formats(wrapper: str) -> None:
             "completeness": 2,
             "grounding": 2,
             "task_satisfaction": 2,
-            "total": 3,
+            "total": 10,
             "reason": "Handles braces such as {example} inside a string.",
         }
     )
@@ -147,14 +151,11 @@ def test_malformed_latex_escape_reproduces_invalid_escape_and_is_repaired() -> N
     assert result.total == 10
 
 
-def test_unrecoverable_json_error_reports_decoder_location() -> None:
+def test_unrecoverable_json_error_rejects_missing_score_fields() -> None:
     raw = r'{"correctness": 4, "reason": "bad \sqrt{x}" trailing}'
     with pytest.raises(JudgeOutputError) as raised:
         parse_judge_output(raw)
-    message = str(raised.value)
-    assert "pos=" in message
-    assert "line=" in message
-    assert "column=" in message
+    assert "missing required field: completeness" in str(raised.value)
 
 
 def test_unescaped_quote_in_reason_recovers_scores() -> None:
@@ -167,6 +168,7 @@ def test_unescaped_quote_in_reason_recovers_scores() -> None:
     assert result.total == 8
     assert "handling" in result.reason
     assert result.reason.startswith("[fallback: malformed judge JSON]")
+    assert result.parser_mode == "fallback"
 
 
 def test_multiple_unescaped_quotes_in_reason_recovers_scores() -> None:
@@ -177,6 +179,65 @@ def test_multiple_unescaped_quotes_in_reason_recovers_scores() -> None:
     assert (result.correctness, result.completeness, result.grounding) == (1, 0, 0)
     assert result.task_satisfaction == 1
     assert result.total == 2
+
+
+@pytest.mark.parametrize("field", ("correctness", "total"))
+def test_strict_duplicate_required_key_is_rejected(field: str) -> None:
+    raw = (
+        '{"correctness":3,"completeness":1,"grounding":2,'
+        '"task_satisfaction":2,"total":8,"reason":"ok",'
+        f'"{field}":3}}'
+    )
+    with pytest.raises(JudgeOutputError, match="duplicate JSON key"):
+        parse_judge_output(raw)
+
+
+@pytest.mark.parametrize(
+    "total",
+    (None, 8.0, 11, 7),
+    ids=("missing", "non-integer", "out-of-range", "inconsistent"),
+)
+def test_strict_total_is_required_integer_in_range_and_consistent(total: object) -> None:
+    payload = {
+        "correctness": 3,
+        "completeness": 1,
+        "grounding": 2,
+        "task_satisfaction": 2,
+        "reason": "ok",
+    }
+    if total is not None:
+        payload["total"] = total
+    with pytest.raises(JudgeOutputError):
+        parse_judge_output(json.dumps(payload))
+
+
+def test_fallback_ignores_score_like_text_in_reason() -> None:
+    raw = (
+        '{"correctness":3,"completeness":1,"grounding":2,'
+        '"task_satisfaction":2,"total":8,'
+        '"reason":"It says "correctness": 4, but that is reason text."}'
+    )
+    result = parse_judge_output(raw)
+    assert result.correctness == 3
+    assert result.parser_mode == "fallback"
+
+
+def test_fallback_rejects_correctness_only_present_in_reason() -> None:
+    raw = (
+        '{"completeness":1,"grounding":2,"task_satisfaction":2,"total":8,'
+        '"reason":"It says "correctness": 3, but the top-level field is absent."}'
+    )
+    with pytest.raises(JudgeOutputError, match="missing required field: correctness"):
+        parse_judge_output(raw)
+
+
+def test_fallback_rejects_duplicate_score_in_prefix() -> None:
+    raw = (
+        '{"correctness":3,"correctness":2,"completeness":1,"grounding":2,'
+        '"task_satisfaction":2,"total":8,"reason":"bad "quote""}'
+    )
+    with pytest.raises(JudgeOutputError, match="duplicate JSON key"):
+        parse_judge_output(raw)
 
 
 @pytest.mark.parametrize(
@@ -236,7 +297,7 @@ def test_malformed_json_fallback_rejects_ambiguous_scores(raw: str) -> None:
 def test_escape_repair_preserves_every_valid_json_escape() -> None:
     valid = (
         r'{"correctness":4,"completeness":2,"grounding":2,'
-        r'"task_satisfaction":2,"reason":"line1\nline2\tvalue\r'
+        r'"task_satisfaction":2,"total":10,"reason":"line1\nline2\tvalue\r'
         r' quote=\" slash=\/ backslash=\\ unicode=\u1234"}'
     )
     assert repair_invalid_json_escapes(valid) == valid
@@ -252,7 +313,7 @@ def test_escape_repair_preserves_every_valid_json_escape() -> None:
 def test_escape_repair_handles_common_latex_commands(command: str) -> None:
     raw = (
         '{"correctness":4,"completeness":2,"grounding":2,'
-        f'"task_satisfaction":2,"reason":"formula {command}{{x}}"}}'
+        f'"task_satisfaction":2,"total":10,"reason":"formula {command}{{x}}"}}'
     )
     assert command in parse_judge_output(raw).reason
 
@@ -287,6 +348,24 @@ def test_score_validation(payload: dict[str, object], message: str) -> None:
         parse_judge_output(json.dumps(payload))
 
 
+def test_failed_judge_attempt_preserves_raw_parser_provenance() -> None:
+    class InvalidJudge:
+        def generate(self, prompt: str, *, max_tokens: int = 512) -> str:
+            return '{"correctness":4,"reason":"incomplete"}'
+
+    with pytest.raises(JudgeOutputError) as raised:
+        judge_answer(
+            InvalidJudge(),
+            question="question",
+            reference="reference",
+            candidate="candidate",
+        )
+    assert raised.value.raw_response == '{"correctness":4,"reason":"incomplete"}'
+    assert raised.value.parser_mode == "strict"
+    assert raised.value.parser_policy_version == "judge-json-v2"
+    assert raised.value.attempt_count == 2
+
+
 class FakeJudge:
     def __init__(self) -> None:
         self.prompts: list[str] = []
@@ -299,7 +378,7 @@ class FakeJudge:
                 "completeness": 2,
                 "grounding": 2,
                 "task_satisfaction": 1,
-                "total": 0,
+                "total": 9,
                 "reason": "good",
             }
         )

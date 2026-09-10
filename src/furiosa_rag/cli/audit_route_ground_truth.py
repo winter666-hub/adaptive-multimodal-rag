@@ -15,13 +15,18 @@ from typing import Any
 
 from furiosa_rag.benchmark_checkpoint import (
     BenchmarkFingerprint,
+    ExecutionKey,
     append_checkpoint,
     latest_checkpoint_records,
     load_checkpoint,
     validate_checkpoint_fingerprint,
 )
 from furiosa_rag.benchmark_dataset import load_benchmark_jsonl
-from furiosa_rag.cli.evaluate_answer_quality import judge_answer
+from furiosa_rag.cli.evaluate_answer_quality import (
+    JUDGE_PARSER_POLICY_VERSION,
+    JudgeOutputError,
+    judge_answer,
+)
 from furiosa_rag.clients import FuriosaClient
 from furiosa_rag.config import Settings
 from furiosa_rag.llm import FuriosaLlm
@@ -130,6 +135,7 @@ def judge_candidates(
     resume: bool,
     retry_errors: bool,
     seed: int,
+    retry_execution_keys: set[ExecutionKey] | None = None,
 ) -> list[dict[str, Any]]:
     source_by_id = {row["id"]: row for row in dataset_rows}
     records = (
@@ -138,11 +144,30 @@ def judge_candidates(
     validate_checkpoint_fingerprint(records, fingerprint)
     latest = latest_checkpoint_records(records)
     candidates = [row for rows in candidates_by_strategy.values() for row in rows]
+    candidate_keys = {(row["query_id"], row["strategy"]) for row in candidates}
+    targeted = retry_execution_keys or set()
+    missing_candidates = sorted(targeted - candidate_keys)
+    missing_checkpoint = sorted(targeted - latest.keys())
+    if missing_candidates:
+        raise ValueError(f"targeted retry candidates do not exist: {missing_candidates}")
+    if missing_checkpoint:
+        raise ValueError(f"targeted retry checkpoint records do not exist: {missing_checkpoint}")
+    if targeted:
+        print(f"targeted judge retries ({len(targeted)}):")
+        for query_id, strategy in sorted(targeted):
+            previous = latest[(query_id, strategy)]
+            print(
+                f"  {query_id} / {strategy} "
+                f"previous_score={previous.get('judge_correctness_score', '')} "
+                f"previous_error={previous.get('error', '')!r}"
+            )
     random.Random(seed).shuffle(candidates)
     for candidate in candidates:
         key = (candidate["query_id"], candidate["strategy"])
         previous = latest.get(key)
-        if previous is not None and (not previous.get("error") or not retry_errors):
+        if key not in targeted and previous is not None and (
+            not previous.get("error") or not retry_errors
+        ):
             continue
         source = source_by_id.get(candidate["query_id"])
         if source is None:
@@ -156,6 +181,10 @@ def judge_candidates(
             "judge_correct": False,
             "judge_correctness_score": "",
             "judge_reason": "",
+            "judge_raw_response": "",
+            "judge_parser_mode": "",
+            "judge_parser_policy_version": JUDGE_PARSER_POLICY_VERSION,
+            "judge_attempt_count": "",
             "judge_model_id": fingerprint.payload["judge"]["model"],
             "judge_temperature": 0,
             "judge_max_tokens": AUDIT_JUDGE_MAX_TOKENS,
@@ -179,7 +208,16 @@ def judge_candidates(
                 result["judge_correctness_score"] = score.correctness
                 result["judge_correct"] = score.correctness >= AUDIT_CORRECTNESS_THRESHOLD
                 result["judge_reason"] = score.reason
+                result["judge_raw_response"] = score.raw_response
+                result["judge_parser_mode"] = score.parser_mode
+                result["judge_parser_policy_version"] = score.parser_policy_version
+                result["judge_attempt_count"] = score.attempt_count
             except Exception as exc:  # noqa: BLE001 - checkpoint individual judge failures
+                if isinstance(exc, JudgeOutputError):
+                    result["judge_raw_response"] = exc.raw_response
+                    result["judge_parser_mode"] = exc.parser_mode
+                    result["judge_parser_policy_version"] = exc.parser_policy_version
+                    result["judge_attempt_count"] = exc.attempt_count
                 result["error"] = f"{type(exc).__name__}: {exc}"
         result["judge_latency_ms"] = (
             time.perf_counter_ns() - started
@@ -199,6 +237,13 @@ def _print_summary(rows: list[dict[str, Any]]) -> None:
 
 def _is_true(value: Any) -> bool:
     return value is True or str(value).casefold() == "true"
+
+
+def _retry_execution(value: str) -> ExecutionKey:
+    query_id, separator, strategy = value.rpartition("/")
+    if not separator or not query_id or not strategy:
+        raise argparse.ArgumentTypeError("expected QUERY_ID/STRATEGY")
+    return query_id, strategy
 
 
 def _print_retrieval_aware_summary(rows: list[dict[str, Any]]) -> None:
@@ -260,10 +305,22 @@ def main() -> int:
     )
     parser.add_argument("--resume", action="store_true")
     parser.add_argument("--retry-errors", action="store_true")
+    parser.add_argument(
+        "--retry-execution",
+        action="append",
+        default=[],
+        type=_retry_execution,
+        metavar="QUERY_ID/STRATEGY",
+        help="explicitly append a new judge execution for one existing checkpoint key",
+    )
     parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()
     if args.retry_errors and not args.resume:
         parser.error("--retry-errors requires --resume")
+    if args.retry_execution and not args.resume:
+        parser.error("--retry-execution requires --resume")
+    if len(set(args.retry_execution)) != len(args.retry_execution):
+        parser.error("duplicate --retry-execution key")
     if args.checkpoint.exists() and args.checkpoint.stat().st_size and not args.resume:
         parser.error("checkpoint already exists; use --resume or choose a new path")
 
@@ -294,6 +351,7 @@ def main() -> int:
         resume=args.resume,
         retry_errors=args.retry_errors,
         seed=args.seed,
+        retry_execution_keys=set(args.retry_execution),
     )
     by_strategy = {
         strategy: [row for row in judged if row["strategy"] == strategy]
