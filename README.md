@@ -1,7 +1,10 @@
-# Furiosa Adaptive Multimodal Paper RAG
+# Adaptive Multimodal RAG
 
-A selective multimodal Paper RAG system that accepts a research paper PDF, retrieves evidence,
-selects visual reasoning only when needed, and returns an answer with verifiable source pages.
+> Retrieval-Aware Routing for Document Question Answering
+
+A retrieval-aware multimodal RAG system for Document Question Answering that accepts a PDF
+document, retrieves evidence, selects visual reasoning only when needed, and returns an answer
+with verifiable source pages.
 
 [Live Demo](https://winter666-hub-furiosa-multimodal-rag-frontend.winter666.workers.dev) ·
 [Backend](https://furiosa-multimodal-rag.onrender.com) ·
@@ -9,29 +12,31 @@ selects visual reasoning only when needed, and returns an answer with verifiable
 
 ## Project Overview
 
-Research papers mix prose with figures, tables, and architecture diagrams. A text-only RAG
+PDF documents mix prose with figures, tables, and diagrams. A text-only RAG
 pipeline is efficient for many questions, but it can miss evidence that is primarily visual. At
 the same time, sending every question to a vision model adds avoidable latency and inference cost.
 
-This project places an adaptive router before answer generation. It classifies each question as
-`TEXT_ONLY` or `VISUAL_REQUIRED`, then uses the least expensive suitable path. Text questions use
-retrieval and reranking directly; visual questions can use a vision path in the research setup.
+This project uses Retrieval-Aware Routing before answer generation. The router classifies each
+question as `TEXT_ONLY` or `VISUAL_REQUIRED`, then uses the least expensive suitable path. Text
+questions use retrieval and reranking directly; visual questions can use a vision path in the
+research setup.
 
 The public Cloudflare + Render demo runs in `hosted_only` mode: it reports the router decision, but
 `VISUAL_REQUIRED` requests use text-RAG fallback because Direct NPU Vision is not enabled.
 
 ## Problem
 
-Papers contain evidence in prose, tables, figures, and diagrams, but many factual questions remain
-fully answerable through text retrieval. Running multimodal inference for every question therefore
-wastes compute, while never using it misses visual evidence. The research question is whether
-selective routing can reduce vision calls and latency while preserving routing and answer quality.
+Documents contain evidence in prose, tables, figures, and diagrams, but many factual questions
+remain fully answerable through text retrieval. Running multimodal inference for every question
+therefore wastes compute, while never using it misses visual evidence. The research question is
+whether Retrieval-Aware Routing can reduce vision calls and latency while preserving routing and
+answer quality for Document Question Answering.
 
 ## Proposed Approach
 
 ```text
 Question
-  -> Adaptive Router
+  -> Retrieval-Aware Router
   -> TEXT_ONLY / VISUAL_REQUIRED
   -> Retrieval
   -> Reranking
@@ -164,7 +169,7 @@ router-only results above.
 
 1. Open the [live demo](https://winter666-hub-furiosa-multimodal-rag-frontend.winter666.workers.dev).
 2. Upload a PDF and wait for the document-ready state.
-3. Ask a question about the paper.
+3. Ask a question about the document.
 4. Review the answer, route, and fallback indicators.
 5. Click a source `Page` button.
 6. Compare the answer with the rendered original page.
@@ -192,10 +197,10 @@ and referenced excerpt remain available as the fallback, without OCR or a user-f
 
 Example questions:
 
-- “Summarize the paper's three main contributions.”
-- “Explain the paper's main methodology.”
+- “Summarize the document's three main contributions.”
+- “Explain the document's main methodology.”
 - “What do the experimental setup and key results show?”
-- “What are the limitations of this paper?”
+- “What limitations does the document identify?”
 
 ## Tech Stack
 
@@ -314,7 +319,7 @@ production-grade security layer.
 - Render storage is ephemeral, so uploaded PDFs can disappear after restart or redeployment.
 - Rate limits, concurrency state, and active-document tracking are process-local.
 - The UI maintains one active document session at a time.
-- The current benchmark is small and based on one paper-oriented evaluation set.
+- The current benchmark is small and based on one document-oriented evaluation set.
 - The research visual path currently sends a single page to Vision.
 - Implicit visual queries can produce routing false negatives; the follow-up benchmark had two.
 - Top-1 evidence page selection is imperfect; follow-up benchmark accuracy was 55.0%.

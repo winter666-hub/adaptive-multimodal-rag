@@ -40,9 +40,9 @@ For example, source page `5` maps directly to `/document/page/5`. The response
 is an in-memory PNG (`image/png`) rendered at 216 DPI (3× PDF point resolution). Up to eight rendered pages
 are held in a bounded process-local LRU cache; no PNG files are written to disk.
 
-## Uploaded Paper API
+## Uploaded Document API
 
-Upload an arbitrary research paper:
+Upload an arbitrary PDF document:
 
 ```text
 POST /documents
@@ -130,8 +130,8 @@ HTTP 503 instead of entering an unbounded queue.
 Public document ingestion is also bounded by page count, extracted-text size, chunk count, and
 4,000-point page dimensions. Embedding inputs are sent in ordered batches instead of one
 document-sized request. Page rendering checks the predicted pixel count before allocating a
-pixmap and uses a separate process-local concurrency limit. These defaults preserve ordinary
-academic papers while rejecting workloads that are unsafe for the public Render instance.
+pixmap and uses a separate process-local concurrency limit. These defaults preserve ordinary PDF
+documents while rejecting workloads that are unsafe for the public Render instance.
 
 Before accepting a new PDF, the document store removes expired directories and
 then evicts the least-recently-accessed documents until the count and storage
@@ -156,8 +156,8 @@ downloads `DEMO_PDF_URL` to a temporary file, verifies the `%PDF-` signature,
 and atomically moves it into place. A failed download leaves no partial final
 file and `/ask` returns HTTP 503. `/health` never triggers the download.
 
-Do not commit the paper merely to make deployment work. Ensure that the public
-URL and its use comply with the document host's terms and the paper's license.
+Do not commit the document merely to make deployment work. Ensure that the public
+URL and its use comply with the document host's terms and the document's license.
 
 If `ALLOWED_ORIGINS` is absent, the CORS allow-list is empty. Do not use `*` as a
 production default.

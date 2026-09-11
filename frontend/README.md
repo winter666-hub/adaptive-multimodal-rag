@@ -1,8 +1,10 @@
-# Furiosa Insight
+# Adaptive Multimodal RAG
+
+> Retrieval-Aware Routing for Document Question Answering
 
 # 프로젝트 목표
 
-`Furiosa Agentic PDF RAG` 연구 데모용 웹 프론트엔드를 만들어줘.
+`Adaptive Multimodal RAG` 연구 데모용 웹 프론트엔드를 만들어줘.
 
 백엔드는 이미 Render에 배포되어 있다.
 
@@ -94,15 +96,7 @@ Response 예시:
 
 연구 프로젝트 데모처럼 깔끔하고 전문적인 AI 챗봇 UI를 만들어줘.
 
-현재 문서는:
-
-```text
-
-Attention Is All You Need
-
-```
-
-한 편으로 고정되어 있다.
+사용자가 업로드한 PDF 문서를 대상으로 한다.
 
 ## 페이지 구성
 
@@ -110,9 +104,9 @@ Attention Is All You Need
 
 ```text
 
-Furiosa Agentic PDF RAG
+Adaptive Multimodal RAG
 
-Selective Multimodal RAG Demo
+Retrieval-Aware Routing for Document Question Answering
 
 ```
 
@@ -120,7 +114,7 @@ Selective Multimodal RAG Demo
 
 ```text
 
-Ask questions about "Attention Is All You Need".
+Ask questions about the uploaded PDF document.
 
 The system adaptively decides whether visual reasoning is required.
 
@@ -240,7 +234,7 @@ Send 후 반드시 loading 상태를 표시한다.
 
 ```text
 
-Analyzing the paper...
+Analyzing the document...
 
 ```
 
