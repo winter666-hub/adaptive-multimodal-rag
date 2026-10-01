@@ -1,0 +1,79 @@
+{
+  "status": "COMPLETED",
+  "target_count": 224,
+  "original_hit3": 1376,
+  "cumulative_hit6": 1549,
+  "cumulative_hit9": 1572,
+  "cohort_counts": {
+    "HIT_AT_3": 1376,
+    "MISS_AT_3_HIT_AT_6": 173,
+    "MISS_AT_9": 28,
+    "MISS_AT_6_HIT_AT_9": 23
+  },
+  "first_recovery_depth": {
+    "NEW1": 128,
+    "NEW2": 28,
+    "NEW3": 17,
+    "NEW4": 7,
+    "NEW5": 7,
+    "NEW6": 9,
+    "BEYOND_NEW6": 20,
+    "NOT_RECOVERED_IN_EXPANDED_POOL": 8
+  },
+  "mean_costs_and_page_counts_target224": {
+    "query_embedding_latency_ms": 22867.51576998504,
+    "retrieval_latency_ms": 5.792113394168804,
+    "reranking_latency_ms": 15271.115934818226,
+    "expanded_candidate_count": 18.232142857142858,
+    "reranker_pair_count": 18.232142857142858,
+    "E3_text_chars": 7872.785714285715,
+    "E6_text_chars": 15778.794642857143,
+    "E9_text_chars": 23031.723214285714,
+    "delta_chars_3_to_6": 7906.008928571428,
+    "delta_chars_6_to_9": 7252.928571428572,
+    "original_top3_unique_pages": 2.888392857142857,
+    "E6_unique_pages": 5.691964285714286,
+    "E9_unique_pages": 8.209821428571429
+  },
+  "unique_page_no_increase_counts": {
+    "E3_to_E6": 0,
+    "E6_to_E9": 15
+  },
+  "human_retrieve_more_cohorts": {
+    "HIT_AT_3": 6,
+    "MISS_AT_3_HIT_AT_6": 14,
+    "MISS_AT_9": 2
+  },
+  "short_document_under30_count": 204,
+  "E6_incomplete_count": 7,
+  "E9_incomplete_count": 25,
+  "strict_nesting_unavailable_count": 12,
+  "expanded_candidate_total": 4084,
+  "workers": 3,
+  "embedding_batch_count": 7,
+  "embedding_batch_sizes": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    12
+  ],
+  "embedding_batch_latency_ms": [
+    27341.432800050825,
+    26858.72580006253,
+    27268.150199903175,
+    26853.439399972558,
+    27101.27859993372,
+    26928.723699995317,
+    10254.691899986938
+  ],
+  "individual_embedding_query_count": 20,
+  "protected_input_hashes_unchanged": true,
+  "same_page_only_addition_counts": {
+    "E3_to_E6": 0,
+    "E6_to_E9": 3
+  },
+  "short_document_under20_count": 119
+}

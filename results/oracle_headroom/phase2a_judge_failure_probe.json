@@ -1,0 +1,6 @@
+{
+  "query_id": "unidoc_education_0153",
+  "state": "E3",
+  "raw": "```json\n{\n  \"correctness\": 2,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 4,\n  \"reason\": \"The candidate answer correctly describes the general principles of the elaboration-likelihood model (central vs. peripheral processing), but it does not address the specific question about how persuasion outcomes vary between high and low knowledge individuals in immediate and delayed assessments. It lacks the key comparison of persuasion outcomes over time (immediate vs. delayed posttests) and does not mention the differing stability of persuasion effects between the two groups, which is central to the reference answer. As a result, it is not grounded in the reference and fails to satisfy the task.\"\n}\n```",
+  "parser_error": "total does not match component scores"
+}

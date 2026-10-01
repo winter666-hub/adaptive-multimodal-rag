@@ -48,3 +48,11 @@ node_modules/
 dist/
 
 .pytest_tmp/
+
+# Temporary human-review upload folders
+review_upload_batch*/
+
+# Experiment checkpoints / resumable intermediate states
+*.checkpoint.jsonl
+results/unidoc_full_cache/
+results/unidoc_gt_audit_cache/

@@ -1,0 +1,17 @@
+﻿query_id,evidence_state,status,judge_correct,judge_reason
+unidoc_commerce_manufacturing_0036,E3,RECOVERED,False,"The candidate answer partially correctly identifies Glencore and Huayou as entities involved but introduces unsupported claims (e.g., NGOs, DRC and South Korean governments, Samsung's initiatives). It misses the specific entities in the reference answer (Katanga Mining Limited, MUMI) and adds elements not grounded in the reference."
+unidoc_commerce_manufacturing_0036,E6,JUDGE_ERROR,,
+unidoc_construction_0017,E3,JUDGE_ERROR,,
+unidoc_construction_0112,E6,JUDGE_ERROR,,
+unidoc_crm_0104,E6,RECOVERED,False,"The candidate answer is partially correct by identifying a vulnerable device as the source of infection, but it does not specifically name the video camera as the origin, which is essential according to the reference. It captures the main idea but misses a key detail. The answer is grounded in the general context of the Mirai botnet but includes a minor unsupported claim about the device being a general 'vulnerable device' rather than the specific video camera."
+unidoc_energy_0139,E3,JUDGE_ERROR,,
+unidoc_energy_0139,E6,RECOVERED,False,"The candidate correctly identifies the significant influence from natural gas to EUA, which aligns with the reference. However, it adds an unsupported claim about influence from EUA to Brent oil, which is not mentioned in the reference. This introduces a minor unsupported claim, reducing grounding and completeness."
+unidoc_finance_0113,E9,RECOVERED,False,"The candidate answer correctly identifies a significant decline in the value of U.S. energy-related petroleum imports from 2012 to early 2015 and provides specific data on price and volume changes. However, it does not directly mention the $35 billion to $15 billion decline from the reference, which is a key point. The inclusion of 2014 and 2015 comparisons is relevant but slightly shifts the focus from the full 2012–2015 timeframe. The answer is partially correct and includes some unsupported details (e.g., the 45.1% drop in 2015 compared to 2014)."
+unidoc_finance_0168,E9,RECOVERED,False,"The candidate answer provides a detailed account of oil price fluctuations from 2008 to 2012, including specific months and price points. However, it contains some inaccuracies compared to the reference answer, such as the peak in 2008 being reported as $140 instead of $125, and the 2009 bottom being around $35 in the reference but not clearly stated in the candidate answer. The candidate answer also includes more granular data not present in the reference, which introduces minor unsupported claims. It covers the main idea but misses the broader summary of the reference, and it includes additional information about the U.S. trade deficit, which is not part of the question."
+unidoc_finance_0183,E6,JUDGE_ERROR,,
+unidoc_finance_0183,E9,JUDGE_ERROR,,
+unidoc_finance_0184,E9,JUDGE_ERROR,,
+unidoc_healthcare_0036,E6,RECOVERED,True,"The candidate answer is mostly correct and grounded in the reference, accurately reporting the percentages of variance explained by age for ToM emotions and beliefs. However, it misses the important detail about the positive correlations between age and both ToM emotions and beliefs, which is a key part of the reference answer."
+unidoc_healthcare_0170,E3,JUDGE_ERROR,,
+unidoc_healthcare_0170,E9,JUDGE_ERROR,,
+unidoc_legal_0033,E3,JUDGE_ERROR,,

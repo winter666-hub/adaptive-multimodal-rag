@@ -1,0 +1,132 @@
+{
+  "status": "PARTIAL_BLOCKED_INITIAL_TOP_K_3",
+  "query_count": 1600,
+  "fresh_top3_reproduction": "NOT_RUN",
+  "saved_artifact_agreement": {
+    "forced_text": {
+      "rank1_chunk": 1600,
+      "rank1_page": 1600,
+      "ordered_top3_chunks": 1600,
+      "ordered_top3_pages": 1600,
+      "top3_page_set": 1600,
+      "mismatch_query_count": 0,
+      "mismatch_samples": []
+    },
+    "forced_vision": {
+      "rank1_chunk": 1600,
+      "rank1_page": 1600,
+      "ordered_top3_chunks": 1600,
+      "ordered_top3_pages": 1600,
+      "top3_page_set": 1600,
+      "mismatch_query_count": 0,
+      "mismatch_samples": []
+    },
+    "retrieval_aware": {
+      "rank1_chunk": 1600,
+      "rank1_page": 1600,
+      "ordered_top3_chunks": 1600,
+      "ordered_top3_pages": 1600,
+      "top3_page_set": 1600,
+      "mismatch_query_count": 0,
+      "mismatch_samples": []
+    }
+  },
+  "hit_counts_chunk_rank": {
+    "1": 1115,
+    "3": 1376,
+    "6": null,
+    "9": null
+  },
+  "cohorts": {
+    "HIT_AT_3": 1376,
+    "MISS_AT_3_DEPTH_UNMEASURED": 224
+  },
+  "visual_subsets": {
+    "GT_IN_TOP3_NOT_TOP1": 261,
+    "AND_FORCED_VISION_INCORRECT": 161,
+    "AND_RA_INCORRECT": 157,
+    "AND_BOTH_INCORRECT": 144,
+    "AND_RA_TEXT_ONLY": 120
+  },
+  "mean_top3_text_chars": 7344.794375,
+  "human_valid_count": 49,
+  "human_action_cohort_counts": [
+    {
+      "action": "ANSWER_CURRENT_EVIDENCE",
+      "cohort": "HIT_AT_3",
+      "count": 3
+    },
+    {
+      "action": "ANSWER_CURRENT_EVIDENCE",
+      "cohort": "MISS_AT_3_DEPTH_UNMEASURED",
+      "count": 1
+    },
+    {
+      "action": "INSPECT_CURRENT_PAGE_VISUALLY",
+      "cohort": "HIT_AT_3",
+      "count": 4
+    },
+    {
+      "action": "INSPECT_OTHER_RETRIEVED_PAGE",
+      "cohort": "HIT_AT_3",
+      "count": 9
+    },
+    {
+      "action": "REASON_OR_GENERATE_BETTER",
+      "cohort": "HIT_AT_3",
+      "count": 10
+    },
+    {
+      "action": "RETRIEVE_MORE",
+      "cohort": "HIT_AT_3",
+      "count": 6
+    },
+    {
+      "action": "RETRIEVE_MORE",
+      "cohort": "MISS_AT_3_DEPTH_UNMEASURED",
+      "count": 16
+    }
+  ],
+  "human_failure_cohort_counts": [
+    {
+      "failure": "REASONING_GENERATION",
+      "cohort": "HIT_AT_3",
+      "count": 10
+    },
+    {
+      "failure": "RETRIEVAL",
+      "cohort": "HIT_AT_3",
+      "count": 6
+    },
+    {
+      "failure": "RETRIEVAL",
+      "cohort": "MISS_AT_3_DEPTH_UNMEASURED",
+      "count": 16
+    },
+    {
+      "failure": "ROUTING",
+      "cohort": "HIT_AT_3",
+      "count": 10
+    },
+    {
+      "failure": "ROUTING",
+      "cohort": "MISS_AT_3_DEPTH_UNMEASURED",
+      "count": 1
+    },
+    {
+      "failure": "VISUAL_PAGE_SELECTION",
+      "cohort": "HIT_AT_3",
+      "count": 6
+    }
+  ],
+  "input_sha256": {
+    "results\\error_analysis\\analysis_master.csv": "4120386643c9d830b6152e61861b68e06b85ffc825f9bbc351a55691c2407636",
+    "results\\error_analysis\\human_review_progress.csv": "ea5454c1890806fc3215cb81961f6a9add8b723dad02f8df81215fa3bccf7871",
+    "benchmarks\\unidoc.jsonl": "8ab646651fbb3a0617be50f10df58b360aeaa256550aee90d2ee691eff7a9d77",
+    "results\\unidoc_full_forced_text.checkpoint.jsonl": "0075c93e9b25951d3d8c1f4b267f84f8ba5708d4b8508542ef68b440be37bf73",
+    "results\\unidoc_full_forced_vision.checkpoint.jsonl": "695f40e54c5284983973da9524ab93d8c61f56cbc73bfa25db345b3f733518df",
+    "results\\unidoc_full_retrieval_aware.checkpoint.jsonl": "3477bac2646e4e5cf947f743e05b4063183d877aafbf19dd0e37f9f182365393",
+    "docs\\RESEARCH_NOTES.md": "701330e7691f6ab4426deba16f73fd9979a80b24e1cfecf8b7535fb509f36d0b"
+  },
+  "protected_input_hashes_unchanged": true
+}

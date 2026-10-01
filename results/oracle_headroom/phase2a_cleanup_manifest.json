@@ -1,0 +1,132 @@
+{
+  "protected_sha256": {
+    "results\\oracle_headroom\\expanded_reranked_candidates.csv": "91665308de13ef68d8385f23d416719c9d9e1380e0ec9f844613fe35f5e86df1",
+    "results\\oracle_headroom\\human_retrieve_more_counterfactual.csv": "e1878569192cc1e68f2ec7f888623dd321570b7d12a31390d23d9f7513a332c3",
+    "results\\oracle_headroom\\human_review_expansion_join.csv": "e8bd9a4613d429e825e7de7516812be819852264ae7ef426f32a9ae66810c6ec",
+    "results\\oracle_headroom\\human_review_oracle_join.csv": "2dcccbbe175481d62d3372e770c661c77322bc49600c6a5de795855a94356aee",
+    "results\\oracle_headroom\\phase1b_expansion.checkpoint.jsonl": "324a8a0358b3ebd710bbc738d23455c9c30e15eed78c02f88a0b64ef30f94519",
+    "results\\oracle_headroom\\phase1b_metrics.json": "c0ca9a73e55c29a84e7d9178b43b653316c11cb6f434547ae235cc0d4f589743",
+    "results\\oracle_headroom\\phase1b_query_embeddings.checkpoint.jsonl": "40892e251191fb60b9c02bf8a67b0808a2f66369a6be982cd37c8ef0bbff9eaf",
+    "results\\oracle_headroom\\phase1b_run_manifest.json": "b22ed623cbbf6e4bdc3c6ee0d81f19df3a6f50cc09609804467cd481fb7066ce",
+    "results\\oracle_headroom\\phase1b_summary.md": "ef9b11bee7c25a9718a375b9103e28fd77dcfefba5a7bc232bd713bd2bc7b334",
+    "results\\oracle_headroom\\phase1_audit.json": "10af70ffd193072a31fcdf2982fa6d4ee06fc6bd61958070a584f0be9307c3d6",
+    "results\\oracle_headroom\\phase1_summary.md": "ca1e82adff66e989456af7b3d91d9f9bb59700a1d6d3773dfbc78ed9e2b8b775",
+    "results\\oracle_headroom\\phase2a_generation.checkpoint.jsonl": "b9e06fe4b3bdf3f82bf19e6f0aebeede4751ec4d75002f04945f3f41854d99e9",
+    "results\\oracle_headroom\\phase2a_judge_failures.checkpoint.jsonl": "c9ea17c55a72b8c52abd4a0935edd3633d9020d822239a80ec8a8d730bfd47be",
+    "results\\oracle_headroom\\phase2a_judge_failure_probe.json": "2be2eaea922143fe95488b1f48ce178446d3cba82eb2c897b9bc3f1fd353bffb",
+    "results\\oracle_headroom\\phase2a_judgments.checkpoint.jsonl": "d77753467afa1b4b9bcfd74ddf75062582d51b63b31bcb8c2eb41e68cd154c4b",
+    "results\\oracle_headroom\\phase2a_metrics.json": "dafa58eacfa35ef4272ef09f0bb6eebb35035cc94844b3f99623f8d81c77328f",
+    "results\\oracle_headroom\\phase2a_run_manifest.json": "42ef36399c91e5f8e391f8f97b794ecf436e7db912bae7528366c941ffad483c",
+    "results\\oracle_headroom\\phase2a_summary.md": "ecf68e37fa5282bc03d0ed0eb7c176816f8131b856638acfc577579ac10c5947",
+    "results\\oracle_headroom\\reranked_top3_audit.csv": "afd787bb2dcd33552a0cc00ed9802d9d0c234734b027c1c8ffd402f13605eace",
+    "results\\oracle_headroom\\retrieval_depth_cohorts.csv": "b7fd380fee013b5ecea26dd5cba5fffcda9d4da5504255eef71c5af9e86404da",
+    "results\\oracle_headroom\\retrieval_depth_cohorts_partial.csv": "a555f977041ddd41107adfd83addcfa4f64f6adc090bc7bed99f98d4c3338bdf",
+    "results\\oracle_headroom\\retrieval_expansion_costs.csv": "e3c99d2275bdb6e11624683a0c47924106ae060eb08c7f1b505c1f0f79bb1a05",
+    "results\\oracle_headroom\\text_depth_costs_partial.csv": "d687b8a9669bf7cd3c255a6f6319853526b96767c319bc6d42557a2b9b2eac52",
+    "results\\oracle_headroom\\text_expansion_counterfactual_answers.csv": "1178508d739471b73ce236113b0c8f1c2e1164f42773c3bbbf4fcce9ce7a1c9c",
+    "results\\oracle_headroom\\text_expansion_counterfactual_judgments.csv": "68d1c974550854bcf7a3eee8de603c361efe83a3907586c1992599a4d4bb5fdb",
+    "results\\oracle_headroom\\text_expansion_human_review_queue.csv": "62631ac495321a167cf068c8961bad72da19a735e0911ad0029179d521cb823b",
+    "results\\oracle_headroom\\text_expansion_transition_matrix.csv": "fc3be5d52c3e8627e235bd15f039b63a16cb0e68c030abf436975b69e872910d",
+    "results\\oracle_headroom\\visual_oracle_candidates.csv": "1d651b717bf7e00b070ce0938cfb7bc682abbfc547446f0d8e5268d2df777049",
+    "benchmarks\\unidoc.jsonl": "8ab646651fbb3a0617be50f10df58b360aeaa256550aee90d2ee691eff7a9d77",
+    "docs\\RESEARCH_NOTES.md": "701330e7691f6ab4426deba16f73fd9979a80b24e1cfecf8b7535fb509f36d0b",
+    "results\\unidoc_full_alignment.csv": "3b40551ba94e4a6ecc79aabcf92bf370f9d679478f40064edbe644c84372dff0",
+    "results\\unidoc_full_comparison_judge.checkpoint.jsonl": "d35a370f87f7a7468b5fd1abef7f0237595e9f93040686dba05cdf41abc218e8",
+    "results\\unidoc_full_forced_text.checkpoint.jsonl": "0075c93e9b25951d3d8c1f4b267f84f8ba5708d4b8508542ef68b440be37bf73",
+    "results\\unidoc_full_forced_text.csv": "7b55994e562e97ad7551384f9a47ba970cda8724e8d2b95140bba2a761204fcc",
+    "results\\unidoc_full_forced_vision.checkpoint.jsonl": "695f40e54c5284983973da9524ab93d8c61f56cbc73bfa25db345b3f733518df",
+    "results\\unidoc_full_forced_vision.csv": "8c6d0326bc383265aae6a018df7d4ca9c29295f28559aa00e1cab792be2d4e31",
+    "results\\unidoc_full_paired_correctness.csv": "49ddf26c5dcba09c5a60ca9cb9dcec287723e775c4e15c24eb531d546a38ddbd",
+    "results\\unidoc_full_retrieval_aware.checkpoint.jsonl": "3477bac2646e4e5cf947f743e05b4063183d877aafbf19dd0e37f9f182365393",
+    "results\\unidoc_full_retrieval_aware.csv": "fbb9b339b4eaeebb8fca62245206bc5db78a14bdb592ae4df2e3df9b16fb6fc4",
+    "results\\unidoc_full_route_utility.csv": "789d029d96159053a63a2c005521087b9682eb5193d32308bfed2b169e421d11",
+    "results\\unidoc_full_route_utility_by_answer_type.csv": "846dd7a907dd39f967c02fd71ddf4d5d51c44ae95dee951d3abe62ca8d59ab77",
+    "results\\unidoc_full_statistical_analysis.json": "36e7e25fb1b4af7a41fd7c263ba706a012828a87a9b6d7b6dd480a2052ba6644",
+    "results\\error_analysis\\analysis_master.csv": "4120386643c9d830b6152e61861b68e06b85ffc825f9bbc351a55691c2407636",
+    "results\\error_analysis\\human_review_progress.csv": "ea5454c1890806fc3215cb81961f6a9add8b723dad02f8df81215fa3bccf7871",
+    "results\\error_analysis\\human_review_queue.csv": "ebdc62ffbdbc3925ece760a96adda239bb2e7c683fcd877a7eca2b271a8951db",
+    "results\\error_analysis\\human_review_sample_72.csv": "c48c96cecabda3d5559a8913b67abf3e5e03f5caf50f828d4ebdfdbc4017649f",
+    "results\\error_analysis\\human_review_state_matrix.csv": "85026e8818ac8b2828d4ee3763ce91540b52b2d3f3d525a2623ab5e94c687162",
+    "results\\error_analysis\\human_review_summary.md": "dd97b600a0247742434eab7370ad44bbbac1382616189cdca00da569130153e1",
+    "results\\error_analysis\\human_review_summary_by_type.csv": "8e58e3119f67cb506868a881a6de74e6118f704d553bd715d467b26d608e5ec8",
+    "results\\error_analysis\\review_batch_03.csv": "f266d970bcda987f3b64665da9f21cf065978e80d2a4d05b76d3aa432eb80fda",
+    "results\\error_analysis\\review_batch_04.csv": "e9d931e651dd2d9779bb68cea124ae3afbf7befc6138c280750a7bd6ff65fc9b",
+    "results\\error_analysis\\review_batch_05.csv": "0a08acddbb30a2138ce780fa60dc27b8297449174b4c480f6388b34bee3f4d54",
+    "results\\error_analysis\\review_batch_06.csv": "f274f5d71379b93bd16910bba6ddda2c8e349d9d21b06e64f0e94213b1dd2aac",
+    "results\\error_analysis\\review_batch_selected_gt_wrong.csv": "a17748120e64bbc93dc7601c6132defa0de6e1635035842fcd6ba2a861b0c006",
+    "results\\error_analysis\\review_batch_visual_page_selection.csv": "88cd3ffb67766e00c36d5a22f2448e5e142cf0dd098fc079e2da3d4573e139b7"
+  },
+  "missing_states": [
+    [
+      "unidoc_commerce_manufacturing_0036",
+      "E3"
+    ],
+    [
+      "unidoc_commerce_manufacturing_0036",
+      "E6"
+    ],
+    [
+      "unidoc_construction_0017",
+      "E3"
+    ],
+    [
+      "unidoc_construction_0112",
+      "E6"
+    ],
+    [
+      "unidoc_crm_0104",
+      "E6"
+    ],
+    [
+      "unidoc_energy_0139",
+      "E3"
+    ],
+    [
+      "unidoc_energy_0139",
+      "E6"
+    ],
+    [
+      "unidoc_finance_0113",
+      "E9"
+    ],
+    [
+      "unidoc_finance_0168",
+      "E9"
+    ],
+    [
+      "unidoc_finance_0183",
+      "E6"
+    ],
+    [
+      "unidoc_finance_0183",
+      "E9"
+    ],
+    [
+      "unidoc_finance_0184",
+      "E9"
+    ],
+    [
+      "unidoc_healthcare_0036",
+      "E6"
+    ],
+    [
+      "unidoc_healthcare_0170",
+      "E3"
+    ],
+    [
+      "unidoc_healthcare_0170",
+      "E9"
+    ],
+    [
+      "unidoc_legal_0033",
+      "E3"
+    ]
+  ],
+  "judge_model": "furiosa-ai/Qwen3-32B-FP8",
+  "judge_prompt_sha256": "7964b7fced4138669ae918b734a7c2b6cc2baeee91dcf824e41edc1ae4058ef2",
+  "judge_max_tokens": 512,
+  "temperature": 0,
+  "enable_thinking": false,
+  "correctness_threshold": 3,
+  "policy": "unchanged judge_answer and strict parser; no total repair; successes never rerun"
+}

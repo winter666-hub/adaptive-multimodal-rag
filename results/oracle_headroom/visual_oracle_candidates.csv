@@ -1,0 +1,262 @@
+﻿query_id,gt_pages,rank1_page,rank2_page,rank3_page,gt_candidate_rank,forced_text_judge_correct,forced_vision_judge_correct,retrieval_aware_judge_correct,retrieval_aware_route,retrieval_aware_selected_page,evidence_origin
+unidoc_commerce_manufacturing_0002,[7],8,6,7,3,False,False,False,VISUAL_REQUIRED,8,saved_ack_top3
+unidoc_commerce_manufacturing_0008,[11],8,11,9,2,True,False,False,VISUAL_REQUIRED,8,saved_ack_top3
+unidoc_commerce_manufacturing_0009,[4],6,4,5,2,False,False,False,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_commerce_manufacturing_0012,[3],4,1,3,3,False,True,False,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0015,[1],2,6,1,3,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0016,[20],19,20,1,2,False,False,False,VISUAL_REQUIRED,19,saved_ack_top3
+unidoc_commerce_manufacturing_0018,[6],5,6,11,2,False,True,False,VISUAL_REQUIRED,5,saved_ack_top3
+unidoc_commerce_manufacturing_0020,[12],21,10,12,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0024,[5],4,5,12,2,False,False,False,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_commerce_manufacturing_0028,[5],4,7,5,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0031,[17],18,17,16,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0035,[6],2,3,6,3,False,False,False,VISUAL_REQUIRED,2,saved_ack_top3
+unidoc_commerce_manufacturing_0037,[6],5,6,5,2,False,False,False,VISUAL_REQUIRED,5,saved_ack_top3
+unidoc_commerce_manufacturing_0038,[1],2,16,1,3,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0041,[11],9,11,8,2,False,True,False,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0055,"[8, 9]",7,8,6,2,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0056,"[9, 10]",1,9,8,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0058,[10],1,10,8,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0060,"[5, 6, 7]",4,7,5,2,True,True,True,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_commerce_manufacturing_0064,"[2, 5, 6]",7,2,3,2,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0078,[1],2,4,1,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0080,"[12, 13]",11,12,6,2,False,True,False,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0107,"[3, 4, 5]",6,4,1,2,True,False,False,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_commerce_manufacturing_0109,"[2, 3]",1,2,3,2,True,True,True,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_commerce_manufacturing_0134,"[18, 19]",14,18,6,2,False,False,False,VISUAL_REQUIRED,14,saved_ack_top3
+unidoc_commerce_manufacturing_0136,"[5, 6]",4,5,6,2,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0139,"[4, 5]",2,4,3,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0140,[1],4,1,3,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0146,"[5, 6]",2,6,4,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0159,"[4, 5, 6, 7]",2,4,14,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0160,[1],2,1,4,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0168,"[2, 3]",13,2,12,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0175,"[2, 3, 4, 5, 6]",1,2,8,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0184,"[9, 10, 11, 12, 13]",1,2,12,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_commerce_manufacturing_0186,[11],4,11,12,2,False,False,False,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_construction_0008,"[5, 6]",4,1,5,3,True,True,True,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_construction_0009,[15],16,15,14,2,False,False,False,VISUAL_REQUIRED,16,saved_ack_top3
+unidoc_construction_0016,"[1, 2, 3, 4]",6,1,7,2,False,False,False,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_construction_0025,[21],20,21,20,2,False,False,False,VISUAL_REQUIRED,20,saved_ack_top3
+unidoc_construction_0027,[4],3,4,5,2,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_construction_0034,[6],5,6,4,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_construction_0043,"[7, 8]",3,1,7,3,False,False,False,VISUAL_REQUIRED,3,saved_ack_top3
+unidoc_construction_0044,"[7, 9, 10, 11]",6,7,8,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_construction_0055,"[10, 11]",9,11,4,2,False,False,False,VISUAL_REQUIRED,9,saved_ack_top3
+unidoc_construction_0056,[7],6,7,5,2,True,False,False,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_construction_0063,[18],3,18,17,2,False,False,False,VISUAL_REQUIRED,3,saved_ack_top3
+unidoc_construction_0068,[7],8,7,6,2,False,False,False,VISUAL_REQUIRED,8,saved_ack_top3
+unidoc_construction_0072,[1],2,1,12,2,False,False,False,VISUAL_REQUIRED,2,saved_ack_top3
+unidoc_construction_0074,[6],5,6,7,2,False,True,False,TEXT_ONLY,,saved_ack_top3
+unidoc_construction_0083,"[5, 6]",2,6,1,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_construction_0084,"[3, 4]",8,3,13,2,False,False,False,VISUAL_REQUIRED,8,saved_ack_top3
+unidoc_construction_0105,[11],10,15,11,3,False,False,False,VISUAL_REQUIRED,10,saved_ack_top3
+unidoc_construction_0108,"[7, 9, 10, 11]",6,7,9,2,False,False,False,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_construction_0113,[8],7,8,4,2,False,False,False,VISUAL_REQUIRED,7,saved_ack_top3
+unidoc_construction_0116,[4],3,4,13,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_construction_0119,[5],3,1,5,3,False,True,True,VISUAL_REQUIRED,3,saved_ack_top3
+unidoc_construction_0131,[25],14,25,17,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_construction_0139,[3],1,3,4,2,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_construction_0148,[7],1,2,7,3,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_construction_0160,[16],12,16,8,2,False,True,False,TEXT_ONLY,,saved_ack_top3
+unidoc_construction_0161,[17],15,14,17,3,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_construction_0163,[2],1,2,8,2,True,True,True,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_construction_0179,[6],2,7,6,3,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_construction_0184,[4],2,4,3,2,False,False,False,VISUAL_REQUIRED,2,saved_ack_top3
+unidoc_construction_0189,[5],4,5,6,2,False,False,False,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_construction_0193,[5],4,5,3,2,False,False,False,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_crm_0006,[7],2,4,7,3,False,False,False,VISUAL_REQUIRED,2,saved_ack_top3
+unidoc_crm_0039,[11],14,5,11,3,False,False,False,VISUAL_REQUIRED,14,saved_ack_top3
+unidoc_crm_0041,[1],2,1,4,2,False,False,False,VISUAL_REQUIRED,2,saved_ack_top3
+unidoc_crm_0048,"[5, 6]",4,5,1,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_crm_0067,[2],23,24,2,3,False,False,False,VISUAL_REQUIRED,23,saved_ack_top3
+unidoc_crm_0083,"[11, 12]",10,11,21,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_crm_0092,[4],11,3,4,3,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_crm_0099,"[11, 12]",10,11,12,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_crm_0103,[28],27,26,28,3,False,False,False,VISUAL_REQUIRED,27,saved_ack_top3
+unidoc_crm_0110,"[3, 4, 5, 6]",15,10,4,3,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_crm_0114,"[9, 10]",8,9,7,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_crm_0119,[12],1,12,11,2,False,True,True,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_crm_0121,"[10, 11]",2,3,10,3,False,False,False,VISUAL_REQUIRED,2,saved_ack_top3
+unidoc_crm_0127,"[8, 9]",10,4,9,3,True,False,False,VISUAL_REQUIRED,10,saved_ack_top3
+unidoc_crm_0131,"[1, 2, 3, 4, 5]",7,5,1,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_crm_0136,"[9, 10]",11,9,10,2,False,True,True,VISUAL_REQUIRED,11,saved_ack_top3
+unidoc_crm_0139,"[1, 2, 3]",10,3,16,2,True,True,True,VISUAL_REQUIRED,10,saved_ack_top3
+unidoc_crm_0143,"[1, 2, 3, 4]",10,1,2,2,False,False,False,VISUAL_REQUIRED,10,saved_ack_top3
+unidoc_crm_0148,"[1, 2, 3, 9, 10, 11, 12]",4,6,2,3,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_crm_0150,[8],7,8,9,2,False,False,False,VISUAL_REQUIRED,7,saved_ack_top3
+unidoc_crm_0151,[28],26,13,28,3,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_crm_0178,"[2, 3, 11, 12, 13]",1,2,11,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_crm_0194,[6],4,6,1,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_crm_0198,[1],3,1,2,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_education_0002,"[9, 10, 11]",18,17,11,3,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_education_0012,[9],8,9,10,2,True,True,True,VISUAL_REQUIRED,8,saved_ack_top3
+unidoc_education_0014,"[5, 6]",3,2,6,3,False,True,True,VISUAL_REQUIRED,3,saved_ack_top3
+unidoc_education_0021,[3],4,3,4,2,False,False,False,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_education_0027,"[4, 5, 6]",2,4,1,2,False,False,False,VISUAL_REQUIRED,2,saved_ack_top3
+unidoc_education_0029,"[6, 7]",8,9,7,3,False,False,False,VISUAL_REQUIRED,8,saved_ack_top3
+unidoc_education_0042,"[10, 11, 12]",15,11,9,2,False,False,False,VISUAL_REQUIRED,15,saved_ack_top3
+unidoc_education_0043,[3],1,4,3,3,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_education_0044,"[6, 7]",3,6,5,2,False,False,False,VISUAL_REQUIRED,3,saved_ack_top3
+unidoc_education_0049,[13],12,13,4,2,False,False,False,VISUAL_REQUIRED,12,saved_ack_top3
+unidoc_education_0060,[9],6,9,7,2,False,False,False,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_education_0070,[8],10,8,9,2,False,True,False,TEXT_ONLY,,saved_ack_top3
+unidoc_education_0076,[5],12,5,14,2,False,False,False,VISUAL_REQUIRED,12,saved_ack_top3
+unidoc_education_0078,[7],10,7,10,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_education_0080,[3],4,3,4,2,True,False,False,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_education_0086,[6],5,4,6,3,True,False,False,VISUAL_REQUIRED,5,saved_ack_top3
+unidoc_education_0087,"[2, 3]",1,3,2,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_education_0104,"[2, 3]",1,5,2,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_education_0105,[2],1,2,3,2,False,True,False,TEXT_ONLY,,saved_ack_top3
+unidoc_education_0106,"[11, 12]",16,12,4,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_education_0119,"[10, 11, 12, 13]",14,12,2,2,False,False,False,VISUAL_REQUIRED,14,saved_ack_top3
+unidoc_education_0121,"[11, 12, 13]",10,12,9,2,True,True,True,VISUAL_REQUIRED,10,saved_ack_top3
+unidoc_education_0125,"[3, 4, 5]",6,4,5,2,False,False,False,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_education_0144,"[9, 10, 24, 25, 26]",13,10,9,2,True,False,False,VISUAL_REQUIRED,13,saved_ack_top3
+unidoc_education_0146,[16],7,11,16,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_education_0155,[3],2,3,1,2,False,False,False,VISUAL_REQUIRED,2,saved_ack_top3
+unidoc_education_0159,"[9, 10, 11]",7,8,10,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_education_0163,[14],13,14,11,2,False,False,False,VISUAL_REQUIRED,13,saved_ack_top3
+unidoc_education_0167,[4],3,4,1,2,False,True,False,TEXT_ONLY,,saved_ack_top3
+unidoc_education_0168,"[17, 18, 23, 24]",19,18,3,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_education_0173,"[4, 5, 6]",7,6,5,2,False,True,False,TEXT_ONLY,,saved_ack_top3
+unidoc_education_0181,[7],2,6,7,3,False,False,False,VISUAL_REQUIRED,2,saved_ack_top3
+unidoc_education_0182,[8],7,8,6,2,False,False,False,VISUAL_REQUIRED,7,saved_ack_top3
+unidoc_education_0190,"[4, 5, 6, 7]",9,10,6,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0001,[5],6,6,5,3,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0004,"[3, 4, 7, 8]",6,7,8,2,True,True,True,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_energy_0008,"[3, 4]",1,5,4,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0009,[9],6,6,9,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0014,"[17, 18]",1,17,19,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0034,"[15, 16]",14,16,15,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0036,"[16, 17]",5,2,17,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0042,"[24, 25]",20,25,24,2,False,False,False,VISUAL_REQUIRED,20,saved_ack_top3
+unidoc_energy_0046,"[3, 4]",1,4,2,2,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_energy_0047,"[10, 11, 12]",13,11,10,2,True,True,True,VISUAL_REQUIRED,13,saved_ack_top3
+unidoc_energy_0058,[9],8,9,6,2,False,False,True,VISUAL_REQUIRED,8,saved_ack_top3
+unidoc_energy_0070,[7],6,7,8,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0072,"[21, 22, 23, 24]",6,24,18,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0078,"[4, 5, 6, 7]",2,6,7,2,False,False,False,VISUAL_REQUIRED,2,saved_ack_top3
+unidoc_energy_0093,"[2, 3, 4]",11,3,3,2,True,True,True,VISUAL_REQUIRED,11,saved_ack_top3
+unidoc_energy_0111,[3],1,3,2,2,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_energy_0118,[4],3,4,5,2,False,False,False,VISUAL_REQUIRED,3,saved_ack_top3
+unidoc_energy_0119,[5],2,5,4,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0132,[9],8,9,2,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0133,[4],3,4,5,2,False,False,False,VISUAL_REQUIRED,3,saved_ack_top3
+unidoc_energy_0147,"[22, 23]",1,22,2,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0150,[8],7,8,2,2,False,False,False,VISUAL_REQUIRED,7,saved_ack_top3
+unidoc_energy_0153,"[10, 11, 16]",12,10,13,2,False,False,False,VISUAL_REQUIRED,12,saved_ack_top3
+unidoc_energy_0162,[10],2,3,10,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0170,"[1, 2, 3]",4,2,1,2,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0172,"[7, 8]",4,7,8,2,False,True,False,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0173,"[4, 7]",5,1,7,3,True,True,True,VISUAL_REQUIRED,5,saved_ack_top3
+unidoc_energy_0176,"[15, 17]",7,17,5,2,False,False,False,VISUAL_REQUIRED,7,saved_ack_top3
+unidoc_energy_0179,"[3, 4, 7, 8]",1,7,3,2,True,True,True,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_energy_0181,[3],14,11,3,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0185,"[4, 5]",3,6,5,3,False,False,False,VISUAL_REQUIRED,3,saved_ack_top3
+unidoc_energy_0188,"[15, 16]",13,15,16,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_energy_0193,[4],6,5,4,3,False,False,False,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_energy_0198,[4],3,1,4,3,True,True,True,VISUAL_REQUIRED,3,saved_ack_top3
+unidoc_finance_0010,"[13, 14, 15]",17,13,3,2,False,False,False,VISUAL_REQUIRED,17,saved_ack_top3
+unidoc_finance_0012,[9],1,9,5,2,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_finance_0013,[11],9,11,3,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0018,"[3, 4, 5]",10,5,7,2,False,True,False,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0019,[7],21,7,20,2,False,False,False,VISUAL_REQUIRED,21,saved_ack_top3
+unidoc_finance_0042,"[6, 7, 8]",1,6,13,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0047,"[2, 7, 8]",4,7,6,2,True,True,True,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_finance_0049,"[19, 20, 22, 23]",21,19,18,2,False,False,False,VISUAL_REQUIRED,21,saved_ack_top3
+unidoc_finance_0053,"[3, 4]",5,3,4,2,False,False,False,VISUAL_REQUIRED,5,saved_ack_top3
+unidoc_finance_0059,"[2, 3]",1,2,6,2,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_finance_0060,"[4, 5, 6]",1,6,4,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0061,"[23, 24, 25, 26]",18,24,22,2,False,False,False,VISUAL_REQUIRED,18,saved_ack_top3
+unidoc_finance_0066,"[1, 2, 7, 8]",21,7,1,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0085,[16],8,16,9,2,False,True,False,VISUAL_REQUIRED,8,saved_ack_top3
+unidoc_finance_0088,[6],7,5,6,3,False,False,False,VISUAL_REQUIRED,7,saved_ack_top3
+unidoc_finance_0089,[5],6,5,3,2,False,False,False,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_finance_0092,[3],1,3,6,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0094,[24],17,16,24,3,False,True,True,VISUAL_REQUIRED,17,saved_ack_top3
+unidoc_finance_0098,"[4, 5, 6]",2,3,6,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0099,"[2, 3, 6, 7]",4,6,3,2,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0100,"[3, 4, 5]",6,5,7,2,False,True,True,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_finance_0108,"[19, 20]",16,19,14,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0122,"[21, 22]",23,22,26,2,False,False,False,VISUAL_REQUIRED,23,saved_ack_top3
+unidoc_finance_0125,[18],17,18,19,2,False,False,False,VISUAL_REQUIRED,17,saved_ack_top3
+unidoc_finance_0129,[2],1,2,3,2,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_finance_0136,"[7, 8, 9, 10]",3,9,7,2,True,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0137,[3],5,4,3,3,False,False,False,VISUAL_REQUIRED,5,saved_ack_top3
+unidoc_finance_0140,"[1, 2, 3, 6, 7, 8]",5,6,4,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0147,"[1, 2, 3, 14, 15, 16, 17]",6,15,9,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0172,"[18, 19, 20, 21, 22, 23, 24]",7,22,5,2,False,False,False,VISUAL_REQUIRED,7,saved_ack_top3
+unidoc_finance_0186,"[7, 8]",1,7,6,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0190,"[2, 3]",1,2,3,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_finance_0197,"[21, 22]",23,22,26,2,False,False,False,VISUAL_REQUIRED,23,saved_ack_top3
+unidoc_healthcare_0021,"[8, 9]",6,8,7,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0032,[9],4,4,9,3,False,False,False,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_healthcare_0040,[11],1,11,10,2,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_healthcare_0046,[4],1,5,4,3,True,True,True,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_healthcare_0049,"[3, 4]",2,4,7,2,True,False,False,VISUAL_REQUIRED,2,saved_ack_top3
+unidoc_healthcare_0060,"[3, 7, 8]",6,6,7,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0063,[11],6,6,11,3,False,False,False,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_healthcare_0064,[7],3,8,7,3,False,False,False,VISUAL_REQUIRED,3,saved_ack_top3
+unidoc_healthcare_0065,"[3, 7, 8]",6,7,6,2,True,True,True,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_healthcare_0067,"[14, 15]",1,17,14,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0068,[7],5,7,8,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0069,"[2, 3]",1,2,3,2,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0071,"[5, 6]",4,5,1,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0081,"[4, 5]",3,5,2,2,False,True,True,VISUAL_REQUIRED,3,saved_ack_top3
+unidoc_healthcare_0082,[3],1,5,3,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0092,[5],2,5,8,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0095,[8],6,8,5,2,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0101,[6],5,6,3,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0106,[13],12,13,10,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0108,"[4, 5]",1,5,4,2,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_healthcare_0111,[6],4,5,6,3,True,True,True,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_healthcare_0114,[8],5,3,8,3,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0122,"[6, 7, 8]",1,2,7,3,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_healthcare_0130,[7],11,7,4,2,False,False,False,VISUAL_REQUIRED,11,saved_ack_top3
+unidoc_healthcare_0131,"[6, 7]",1,5,6,3,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_healthcare_0138,"[2, 3, 4]",5,4,3,2,False,False,False,VISUAL_REQUIRED,5,saved_ack_top3
+unidoc_healthcare_0145,"[8, 9]",7,8,9,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0146,[9],6,9,3,2,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0150,"[3, 4, 5]",2,1,4,3,True,True,True,VISUAL_REQUIRED,2,saved_ack_top3
+unidoc_healthcare_0155,"[6, 7]",5,7,3,2,False,False,False,VISUAL_REQUIRED,5,saved_ack_top3
+unidoc_healthcare_0157,"[3, 5, 6]",1,3,4,2,True,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_healthcare_0158,[4],5,5,4,3,False,False,False,VISUAL_REQUIRED,5,saved_ack_top3
+unidoc_healthcare_0173,[4],5,4,3,2,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0179,[8],5,4,8,3,False,False,False,VISUAL_REQUIRED,5,saved_ack_top3
+unidoc_healthcare_0181,[3],4,3,3,2,False,False,False,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_healthcare_0183,"[2, 3]",1,2,5,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_healthcare_0185,[5],12,5,5,2,False,False,False,VISUAL_REQUIRED,12,saved_ack_top3
+unidoc_healthcare_0194,[4],5,4,10,2,False,False,False,VISUAL_REQUIRED,5,saved_ack_top3
+unidoc_legal_0004,[21],28,21,24,2,False,False,False,VISUAL_REQUIRED,28,saved_ack_top3
+unidoc_legal_0011,[2],13,2,1,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0022,"[20, 21, 22]",19,20,18,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0032,[5],4,5,6,2,True,False,False,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_legal_0035,"[16, 17, 18]",21,16,7,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0036,[7],6,7,5,2,True,True,True,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_legal_0046,[5],4,5,2,2,False,False,False,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_legal_0048,[7],1,7,12,2,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_legal_0057,"[8, 9, 10]",6,8,9,2,False,False,False,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_legal_0061,[5],4,5,3,2,False,False,False,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_legal_0064,[19],16,19,18,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0076,[5],4,5,3,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0086,[2],6,2,1,2,False,False,False,VISUAL_REQUIRED,6,saved_ack_top3
+unidoc_legal_0092,"[3, 6, 7]",4,3,5,2,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0097,[2],4,2,1,2,True,True,True,VISUAL_REQUIRED,4,saved_ack_top3
+unidoc_legal_0101,[2],1,2,3,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0107,"[4, 5]",3,4,5,2,False,False,False,VISUAL_REQUIRED,3,saved_ack_top3
+unidoc_legal_0108,[5],4,7,5,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0110,"[6, 7]",17,11,6,3,True,True,True,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0118,"[4, 5, 14, 15]",8,2,4,3,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0123,[12],7,12,10,2,False,False,False,VISUAL_REQUIRED,7,saved_ack_top3
+unidoc_legal_0136,[20],19,18,20,3,True,False,False,VISUAL_REQUIRED,19,saved_ack_top3
+unidoc_legal_0154,[6],5,6,11,2,False,False,False,VISUAL_REQUIRED,5,saved_ack_top3
+unidoc_legal_0163,[2],1,2,3,2,False,False,False,VISUAL_REQUIRED,1,saved_ack_top3
+unidoc_legal_0165,"[7, 8, 9]",11,9,3,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0167,[15],13,15,10,2,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0168,"[8, 9, 10]",6,10,8,2,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0177,"[9, 10]",11,10,12,2,False,False,False,VISUAL_REQUIRED,11,saved_ack_top3
+unidoc_legal_0181,"[5, 6, 7, 8]",4,5,3,2,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0184,[16],20,15,16,3,True,False,True,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0187,[4],3,1,4,3,False,False,False,TEXT_ONLY,,saved_ack_top3
+unidoc_legal_0191,"[2, 3]",6,2,5,2,True,True,True,TEXT_ONLY,,saved_ack_top3

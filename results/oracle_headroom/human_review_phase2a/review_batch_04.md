@@ -1,0 +1,3065 @@
+# P2A_HR_037 / unidoc_healthcare_0036
+
+Priority: 1 / Cohort: MISS_AT_3_HIT_AT_6 / Selection: AUTOMATIC_TRANSITION
+
+## Question
+
+```text
+What impact did the age of typically developing children have on the variance in Theory of Mind emotions and beliefs?
+```
+
+## Gold / Reference
+
+```text
+Chronological age explained 32.6% of the variance in ToM emotions and 31.3% of the variance in ToM beliefs in the TD group. Additionally, there are positive correlations between chronological age and both ToM emotions (.54) and ToM beliefs (.55) for typically developing children.
+```
+
+## GT Pages
+
+[9, 10]
+
+## Document Verification
+
+- Document: 6858508
+- Dataset identifier: healthcare/healthcare/6858508.pdf
+- Local PDF: C:\Users\sp\Desktop\adaptive-multimodal-rag\datasets\unidoc\healthcare\healthcare\6858508.pdf
+- Unique E3/E6/E9 pages: [3, 4, 6, 9, 10, 11, 12, 19]
+- E3 pages: [6, 12, 19]
+- E6 pages: [6, 10, 11, 12, 19]
+- E9 pages: [3, 4, 6, 9, 10, 11, 12, 19]
+- PDF direct verification flag: False
+
+### GT page extracted text
+
+### GT page 9 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+Author's personal copy
+of joint attention and of attention, which was lower in groups with EB and with ID than in TD children. Moreover,
+Bonferroni’s post hoc tests of multiple comparisons showed that children with EB displayed lower self-regulation of joint
+attention and of attention than children with ID ( p < .05).
+4.4. Socio-affective proﬁles, social adjustment and maladjustment
+Table 4 presents mean scores and standard deviations for all SCBE scales, for each group.
+A one-way ANOVA applied to scores on the SCBE scales showed signiﬁcant differences between the groups to the
+disadvantage of children with EB and with ID in comparison with TD children for the six following basic scales: (2) anxious-
+secure, (4) dependent-autonomous, (5) angry-tolerant, (6) aggressive-controlled, (7) egoistic-prosocial, (8) resistant-
+cooperative. Moreover, children with EB and with ID, in comparison with TD children, obtained signiﬁcantly lower scores on
+three global scales (social competence, internalizing problems, externalizing problems) and their composite scores for
+affective adaptation, interactions with peers, and interactions with adults. The one-way ANOVA also emphasized a very
+important variance in general adaptation speciﬁcally in the group with EB. Moreover, Bonferroni’s post hoc tests of multiple
+comparisons showed lower scores in the SCBE scales in children with EB and in children with ID, than in TD children.
+Children with EB presented lower scores in the SCBE scales than children with ID, although the difference was signiﬁcant
+only for the scale angry-tolerant ( p < .05).
+4.5. Links between chronological and developmental ages, self-regulation, ToM abilities and socio-emotional problem-solving
+Table 5 shows the results of correlational analyses obtained by applying Spearman’s coefﬁcient between the
+chronological age, developmental age and scores for self-regulation, ToM emotions, ToM beliefs and socio-emotional
+problem-solving, in each group.
+In the TD group, positive signiﬁcant correlations (from p < .05 to p < .001) were obtained between on the one hand,
+chronological age, global developmental age, verbal developmental age, overall self-regulation, self-planning, self-attention
+and joint attention, and on the other hand, scores for ToM emotions and ToM beliefs. In the group with EB, positive signiﬁcant
+correlations (from p < .05 to p < .001) were obtained between on the one hand, developmental age (verbal and non verbal),
+overall self-regulation, self-planning, joint attention, self-motivation and self-evaluation, and on the other hand, scores for
+ToM emotions and ToM beliefs; self-identiﬁcation of objective and self-attention were also positively and signiﬁcantly
+linked with ToM emotions. In the group with ID, developmental age (verbal and non verbal) was positively and signiﬁcantly
+linked with scores for ToM emotions and ToM beliefs (from p < .005 to p < .001); overall self-regulation, self-identiﬁcation of
+objective, self-planning and self-evaluation were positively and signiﬁcantly linked with ToM emotions; and self-attention
+was positively and signiﬁcantly linked with ToM beliefs (from p < .05 to p < .01).
+Table 4
+Mean scores and standard deviations for SCBE scales in each group and between-group comparisons.
+TD children ( n = 33) Children with EB ( n = 43) Children with ID ( n = 40) F(df)
+M(SD) M(SD) M(SD)
+SCBE scales
+(1) Depressive-happy 51.7(7) 48.7(10.5) 47.6(8.6) 1.69(2)
+(2) Anxious-secure 51.9(5.6) 43.4(9.1) 45.4(7.5) 10.87(2) ***
+(3) Isolated-integrated 50.3(8.3) 44.1(13) 46.5(10.2) 2.77(2)
+(4) Dependent-autonomous 50.9(5.3) 42.5(6.9) 43.7(7.9) 14.5(2) ***
+(5) Angry-tolerant 52.9(7.3) 39.3(8.6) 44.3(9.3) 22.23(2) ***
+(6) Aggressive-controlled 52.6(7.7) 42.9(8.2) 45.7(10.7) 10.47 ***
+(7) Egoistic-prosocial 53.9(8.5) 46.3(10.7) 46.9(11.2) 5.46(2) **
+(8) Resistant-cooperative 51(6.7) 42.9(8.5) 46.3(10.3) 7.63(2) ***
+Social adaptation in SCBE
+Affective adaptation (scales 1, 2, 5) 52.2(5.4) 43.8(7.6) 45.7(6.7) 13.97(2) ***
+Interactions with peers (scales 1, 2, 5) 52.3(6.4) 44.4(9.2) 46.4(8.9) 7.84(2) ***
+Interactions with adults (scales 1, 2, 5) 50.9(4.9) 42.7(6.8) 45(6.6) 15.46(2) ***
+Social competence (positive socio-affective
+behavior in all scales)
+51.9(6.7) 46(8.4) 47.6(6.7) 5.43(2) **
+General adaptation (all basic scales) 53.3(7.2) 51.7(35.5) 45.5(8.4) .95(2)
+Social maladjustment in SCBE
+Internalizing problems (presence of
+affective difﬁculties in scales 1, 2, 3, 4)
+52.4(8.1) 45.4(8.3) 45.2(8) 9.01(2) ***
+Externalizing problems (presence of
+behavioral difﬁculties in scales 5, 6, 7, 8)
+53.7(7) 44.9(11.7) 45.9(10.9) 7.22(2) ***
+M: mean; SD: standard deviation; ID: with intellectual disability; EB: with externalizing behavior disorders; TD: typically developing children.
+** p < .006.
+*** p < .001.
+N. Nader-Grosbois et al. / Research in Developmental Disabilities 34 (2013) 2642–2660 2649
+```
+
+### GT page 10 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+Author's personal copy
+In addition, performances in socio-emotional problem-solving were correlated positively and signiﬁcantly with
+developmental age (verbal and non verbal) and overall self-regulation in each group. In the three groups, self-planning was
+positively linked with performances in socio-emotional problem-solving. However, different positive correlational patterns
+were obtained in the three groups between performances in socio-emotional problem-solving and other speciﬁc self-
+regulatory strategies.
+Multiple regressions by the stepwise method were applied in order to verify the extent to which chronological age, global
+developmental age and self-regulation (as independent variables) could predict the variance in ToM emotions and the
+variance in ToM beliefs (as dependent variables, respectively) displayed by the participants in each group. The results are
+presented in Table 6 .
+In the TD group, chronological age explained 32.6% of the variance in ToM emotions and 31.3% of the variance in ToM
+beliefs. In the group with EB, global developmental age explained 28.8% of the variance in ToM emotions and 20.7% of the
+variance in ToM beliefs. In the group with ID, global developmental age explained 28.6% of the variance in ToM emotions and
+17.8% of the variance in ToM beliefs.
+4.6. Predictive links between chronological and developmental ages, self-regulation, ToM and social (mal)adjustment proﬁles
+Multiple regressions by the stepwise method were applied, for each group separately, in order to verify the extent to
+which their chronological and developmental ages, self-regulation and ToM emotions and beliefs abilities (as independent
+variables) could predict the variance in scores on the composite and global SCBE scales (see Table 7), and in scores on the
+speciﬁc targeted SCBE scales (see Table 8 ).
+Table 5
+Correlations between chronological age, global developmental age, verbal developmental age, self-regulation, ToM emotions and beliefs, and soci o-
+emotional problem-solving abilities in each group.
+Groups ToM emotions ToM beliefs Socio-emotional problem-solving
+TD children ( n = 33)
+Chronological age .54 **** .55**** .50***
+Global developmental age .61 **** .44** .53***
+Verbal developmental age .65 **** .43* .54***
+Overall self-regulation .65 **** .44** .46**
+Self-identiﬁcation of objective .35 .20 .30
+Self-planning .52 **** .50*** .50***
+Joint attention .67 **** .70**** .20
+Behavior regulation .20 .22 .06
+Self-attention .46 ** .45** .40*
+Self-motivation .30 .28 .18
+Self-evaluation .33 .34 .22
+Children with EB ( n = 43)
+Chronological age .29 .25 .21
+Global developmental age .57 **** .52**** .45***
+Verbal developmental age .66 **** .67**** .46***
+Overall self-regulation .63 **** .41* .42**
+Self-identiﬁcation of objective .54 *** .27 .31 *
+Self-planning .78 **** .71**** .61****
+Joint attention .74 **** .77**** .40**
+Behavior regulation .05 .12 .01
+Self-attention .44 *** .16 .16
+Self-motivation .43 *** .33* .12
+Self-evaluation .35 * .41** .12
+Children with ID ( n = 40)
+Chronological age .22 .12 .02
+Global developmental age .58 **** .50**** .61****
+Verbal developmental age .55 **** .45*** .62****
+Overall self-regulation .43 ** .31 .53 ****
+Self-identiﬁcation of objective .33 * .08 .30
+Self-planning .38 * .04 .38 *
+Joint attention .03 .14 .13
+Behavior regulation .16 .08 .02
+Self-attention .26 .43 ** .39*
+Self-motivation .19 .15 .26
+Self-evaluation .32 * .13 .23
+ID: with intellectual disability; EB: with externalizing behavior disorders; TD: typically developing children.
+* p < .05.
+** p < .01.
+*** p < .005.
+**** p < .001.
+N. Nader-Grosbois et al. / Research in Developmental Disabilities 34 (2013) 2642–26602650
+```
+
+## E3 Evidence
+
+Ordered IDs: ["page-12-chunk-2", "page-19-chunk-2", "page-6-chunk-1"]
+
+### Chunk 1: page-12-chunk-2 / source page 12
+
+```text
+6.70 * ToM beliefs 5.595 2.334 .488 .364 7.01 *** (5) Angry-tolerant ToM beliefs 3.051 1.037 .435 .168 8.65 ** (6) Aggressive-controlled DA .212 .090 .467 .179 5.59 * (7) Egoistic-prosocial ToM beliefs 5.322 1.703 .573 .294 9.76 *** (8) Resistant-cooperative ToM beliefs 2.907 1.392 .423 .138 4.36 * Children with ID (3) Isolated-integrated ToM emotions 2.626 .922 .669 .393 8.11 * (5) Angry-tolerant ToM emotions 1.694 .625 .651 .366 7.35 * (7) Egoistic-prosocial ToM emotions 2.418 1.041 .592 .285 5.39 * CA: chronological age; DA: developmental age; ID: with intellectual disability; EB: with externalizing behavior disorders; TD: typically developing children; B: regression coefﬁcient; SE/ B: standard deviation of B; BETA: standardized regression coefﬁcient; R2 ad j: : multiple regression coefﬁcient (percentage of explained variance). * p < .05. ** p < .01. *** p < .005. N. Nader-Grosbois et al. / Research in Developmental Disabilities 34 (2013) 2642–26602652
+```
+
+### Chunk 2: page-19-chunk-2 / source page 19
+
+```text
+D. C. (2011). Theory of mind and emotion understanding predict moral development in early childhood. British Journal of Developmental Psychology, 28 (4), 871–889. Lansford, J. E., Malone, P. S., Dodge, K. A., Crozier, J. C., Pettit, G. S., & Bates, J. E. (2006). A 12-year prospective study of patterns of social information processing problems and externalizing behaviours. Journal of Abnormal Child Psychology, 34 (5), 715–724. Marsh, A. A., & Blair, R. J. R. (2008). Deﬁcits in facial affect recognition among antisocial populations: A meta-analysis. Neuroscience and Biobehavioural Reviews, 32, 454–465. Martin, S. (2010). Theory of mind, social information processing and children’s social behaviour . Ohio, Bowling Green: Graduate College of Bowling Green State University (Ph.D. dissertation in Philosophy). McGregor, E., Whiten, A., & Blackburn, P. (1998). Teaching Theory of Mind by highlighting intention and illustrating thoughts: A comparison of their effectiveness with three-year-olds and autistic subjects. British Journal of Developmental Psychology, 16 , 281–300. Melot, A.-M., & Angeard, N. (2003). Theory of Mind: Is training contagious? Developmental Science, 6 , 178–184. Merrell, K. W., & Holland, M. L. (1997). Social-emotional behaviour of preschool-age children with and without developmental delays. Research in Developmental Disabilities, 18 (6), 393–405. Mize, J., & Pettit, G. S. (2008). Social information-processing and the development of conduct problems in children and adolescents: Looking beneath the surface. In C. Sharp, P. Fonagy, & I. Goodyer (Eds.), Social cognition and developmental psychopathology (pp. 141–174). New York: Oxford University Press. Morris, A. S., Silk, J. S., Steinberg, L., Myers, S. S., & Robinson, L. R. (2007). The role of the family context in the development of emotion regulation. Social development, 16 , 361–388. Nader-Grosbois, N. (2007). Vers un mode` le inte´ gre´ de l’autore´ gulation et l’he´ te´ rore´ gulation? In N. Nader-Grosbois (Ed.), Re´gulation, autore´gulation, dysre´gulation (pp. 15–30). Wavre: Mardaga. Nader-Grosbois, N., & Fiasse, C. (2011). The´ orie de l’esprit chez des enfants avec troubles du comportement et caracte ´ ristiques de´ veloppementales, cognitives affectives et en adaptation sociale. In N. Nader-Grosbois (Ed.), La the´orie de l’esprit: Entre cognition, e´motion et adaptation sociale (pp. 283–299). Bruxelles: De Boeck. Nader-Grosbois, N., Mazzone, S., & Houssa, M. (2012). Epreuves de The´orie de l’esprit e ´valuant la compre´hension des causes et conse ´quences des e´motions - ToM- e´motions version informatise´e, non publie´e. Louvain-la-Neuve, Belgium: Universite´ catholique de Louvain. Nader-Grosbois, N., Normandeau, S., Ricard-Cossette, M., & Quintal, G. (2008). European Journal of Psychology of Education, 23 (1), 95–105. Nader-Grosbois, N., & Thirion-Marissiaux, A.-F. (2011). Evaluer la compre´ hension des e´ tats mentaux « e´ motions » et « croyances ». In N. Nader-Grosbois (Ed.), La The´orie de l’esprit. Entre cognition, e ´motion et adaptation sociale (pp. 95–124). Bruxelles: De Boeck. Nader-Grosbois, N., Fiasse, C., & Baurain, C. (2011). The´ orie de l’esprit fonctions exe´ cutives et autore´ gulation chez des enfants typiques et des personnes avec de´ ﬁcience intellectuelle. In N. Nader-Grosbois (Ed.), La The´orie de l’esprit. Entre cognition, e ´motion et adaptation sociale (pp. 259–281). Bruxelles: De Boeck. Orobio de Castro, B., Veerman, J. W., Koops, W., Bosch, J. D., & Monshouwer, H. J. (2002). Hostile attribution of intent and aggressive behaviour: A meta-analysis. Child Development, 73 , 916–934. Orobio de Castro, B., Bosch, J. D., Veerman, J. W., & Koops, W. (2003). The inﬂuence of emotion regulation, attribution prompts, and delay, on response aggressiveness in antisocial boys. Cognitive Therapy and Research, 27 , 153–166. Orobio de Castro, B., Merk, W., Koops, W., Veerman, J. W., & Bosch, J. D. (2005). Emotions in social information processing and their relations with reactive and proactive aggression in referred aggressive boys. Journal of Clinical Child and Adolescent Psychology, 34 (1), 105–116. Oswald, D. P., & Ollendick, T. (1989). Role-taking and social competence in autism and mental retardation. Journal of Autism and Developmental Disorders, 19 , 119– 128. Owens, E. B., & Shaw, D. S. (2003). Predicting growth curves of externalizing behaviour across the preschool years. Journal of Abnormal Child Psychology, 31(6), 575– 590. Ozonoff, S., & Miller, J. (1995). Teaching theory of mind: A new approach to social skills training for individuals with autism. Journal of Autism and Developmental Disorders, 25 (4), 415–433. Parsons, S., & Mitchell, P. (1999). What children with autism understand about
+```
+
+### Chunk 3: page-6-chunk-1 / source page 6
+
+```text
+Author's personal copy with ID were in special classes (types 1 and 2) adapted for children presenting mild and moderate intellectual disabilities respectively. Participants with EB and with ID had all been diagnosed by a centre for psychological and medical care on the basis of standardized intellectual, social and medical assessments before being assigned to these speciﬁc specialized classes. The children’s records included information about their diagnoses and the reasons why they had been assigned to their speciﬁc class. The school director and the teachers have access to these records. All this information was used to select our samples. As presented in Table 1, the mean chronological ages in the group with EB ( M = 7 years, SD = 2.5) and the group with ID (M = 9.8 years, SD = 2.8) were signiﬁcantly higher than in the TD group ( M = 4.6 years, SD = 7), F(2) = 5.02, p < 001. The mean global developmental age did not differ between the group with EB (M = 5.4 years, SD = 1.3), the group with ID (M = 5.3 years, SD = 1.3) and the TD group ( M = 5 years, SD = 1.2), F(2) = .29, ns. Moreover, the mean verbal developmental age did not differ between the group with EB ( M = 5 years, SD = 1.5), the group with ID ( M = 5.3 years, SD = 1.4) and the TD group ( M = 5 years, SD = 1.2), F(2) = .26, ns. The groups were matched for their global developmental age and their verbal developmental age. 3.2. Instruments 3.2.1. Differential scales of intellectual efﬁciency-revised edition (EDEI-R, Perron-Borelli, 1996 ) These scales were used to match the participants for global developmental age. They distinguish between verbal developmental age and non-verbal developmental age. The verbal developmental age was calculated by means of scores on ﬁve scales: vocabulary in picture naming, vocabulary in word deﬁnition, knowledge, social understanding and conceptualization. The non-verbal developmental age was calculated by means of scores on four scales: classiﬁcation of pairs of pictures, classiﬁcation of three pictures, category analysis and practical adaptation. 3.2.2. ToM emotions tasks ( Nader-Grosbois & Thirion-Marissiaux, 2011 ) Inspired by and adapted from tasks proposed in the literature about causes and consequences of the four basic emotions (Cutting & Dunn, 1999; Denham, 1986; Dunn, Brown, & Maguire, 1995; Harris & Pons, 2003; Hughes & Dunn, 1998; Schultz, Izard, & Bear, 2004; Thommen, Suarez, Guidetti, Guidoux, Roge´ , & Reilly, 2010), three tasks were conceived and validated for use with TD preschoolers and atypically developing children or adolescents (with ID, autism or EB). (1) The preliminary task of facial emotional expression (FEE) recognition . This concerned four basic emotions (joy, sadness, anger and fear). Correct recognition was a necessary condition for the child to be set ToM emotions tasks. (2) The causes of emotions task . This task included four similar beginnings of scripts (‘‘three friends go on a picnic in the forest’’, illustrated by two pictures). The end of each script (a third picture) varied in order to elicit an appropriate response according to the emotional coloring in the script: joy (friends eat picnic); sadness (picnic canceled because of rain); fear (ﬁerce dog approaches the picnic); anger (picnic is ruined by two friends). For each script, ﬁrstly, the experimenter recounted the script (the faces of the protagonists being left blank) and secondly, the participant was asked to make an emotion attribution to the main protagonist by pointing to the most appropriate of the four FEEs. The response to each emotional script was scored between 0 and 1.5 points according to the participant’s justiﬁcation (0 = false FEE, non-justiﬁed or incoherent justiﬁcation; 0.5 = false FEE, coherent justiﬁcation; 1 = correct FEE, non- justiﬁed or incoherent justiﬁcation; 1.5 = correct FEE, coherent justiﬁcation). The maximum score was 6 points in this task. (3) The consequences of emotions task. This task included four different scripts illustrated by two pictures, each including: joy (receiving a gift); sadness (a pet’s death); fear (imagining monsters in bedroom at night) and anger (conﬂict between friends). For each script, ﬁrstly, the experimenter recounted the beginning of the script (two pictures), specifying
+```
+
+## E3 Answer
+
+```text
+The information provided does not directly address the impact of the age of typically developing children on the variance in Theory of Mind (ToM) emotions and beliefs. Therefore, the question cannot be answered based on the given evidence.
+```
+
+## E6 Added Evidence
+
+Added ordered IDs: ["page-10-chunk-1", "page-12-chunk-1", "page-11-chunk-1"]
+
+### Chunk 1: page-10-chunk-1 / source page 10
+
+```text
+Author's personal copy In addition, performances in socio-emotional problem-solving were correlated positively and signiﬁcantly with developmental age (verbal and non verbal) and overall self-regulation in each group. In the three groups, self-planning was positively linked with performances in socio-emotional problem-solving. However, different positive correlational patterns were obtained in the three groups between performances in socio-emotional problem-solving and other speciﬁc self- regulatory strategies. Multiple regressions by the stepwise method were applied in order to verify the extent to which chronological age, global developmental age and self-regulation (as independent variables) could predict the variance in ToM emotions and the variance in ToM beliefs (as dependent variables, respectively) displayed by the participants in each group. The results are presented in Table 6 . In the TD group, chronological age explained 32.6% of the variance in ToM emotions and 31.3% of the variance in ToM beliefs. In the group with EB, global developmental age explained 28.8% of the variance in ToM emotions and 20.7% of the variance in ToM beliefs. In the group with ID, global developmental age explained 28.6% of the variance in ToM emotions and 17.8% of the variance in ToM beliefs. 4.6. Predictive links between chronological and developmental ages, self-regulation, ToM and social (mal)adjustment proﬁles Multiple regressions by the stepwise method were applied, for each group separately, in order to verify the extent to which their chronological and developmental ages, self-regulation and ToM emotions and beliefs abilities (as independent variables) could predict the variance in scores on the composite and global SCBE scales (see Table 7), and in scores on the speciﬁc targeted SCBE scales (see Table 8 ). Table 5 Correlations between chronological age, global developmental age, verbal developmental age, self-regulation, ToM emotions and beliefs, and soci o- emotional problem-solving abilities in each group. Groups ToM emotions ToM beliefs Socio-emotional problem-solving TD children ( n = 33) Chronological age .54 **** .55**** .50*** Global developmental age .61 **** .44** .53*** Verbal developmental age .65 **** .43* .54*** Overall self-regulation .65 **** .44** .46** Self-identiﬁcation of objective .35 .20 .30 Self-planning .52 **** .50*** .50*** Joint attention .67 **** .70**** .20 Behavior regulation .20 .22 .06 Self-attention .46 ** .45** .40* Self-motivation .30 .28 .18 Self-evaluation .33 .34 .22 Children with EB ( n = 43) Chronological age .29 .25 .21 Global developmental age .57 **** .52**** .45*** Verbal developmental age .66 **** .67**** .46*** Overall self-regulation .63 **** .41* .42** Self-identiﬁcation of objective .54 *** .27 .31 * Self-planning .78 **** .71**** .61**** Joint attention .74 **** .77**** .40** Behavior regulation .05 .12 .01 Self-attention .44 *** .16 .16 Self-motivation .43 *** .33* .12 Self-evaluation .35 * .41** .12 Children with ID ( n = 40) Chronological age .22 .12 .02 Global developmental age .58 **** .50**** .61**** Verbal developmental age .55 **** .45*** .62**** Overall self-regulation .43 ** .31 .53 **** Self-identiﬁcation of objective .33 * .08 .30 Self-planning .38 * .04 .38 * Joint attention .03 .14 .13 Behavior regulation .16 .08 .02 Self-attention .26 .43 ** .39* Self-motivation .19 .15 .26 Self-evaluation .32 * .13 .23 ID: with intellectual disability; EB: with externalizing behavior disorders; TD: typically developing children. * p < .05. ** p < .01. *** p < .005. **** p < .001. N. Nader-Grosbois et al. / Research in Developmental Disabilities 34 (2013) 2642–26602650
+```
+
+### Chunk 2: page-12-chunk-1 / source page 12
+
+```text
+Author's personal copy developmental age explained 21.3% of the variance in the isolated-integrated scale and 17.9% of the variance in the aggressive-controlled scale. In the group with ID, ToM emotions explained from 28.5% to 39.3% of the variance in three SCBE scales: isolated-integrated, angry-tolerant and egoistic-prosocial. 5. Discussion 5.1. Speciﬁc ToM, socio-emotional problem-solving and self-regulation characteristics, and the links between them In terms of between-group comparisons of ToM abilities, children in the group with EB were less likely to understand the causes of emotions than the group with ID and TD group matched for developmental age, but not the consequences of emotions and beliefs (where they only displayed a slight delay). The prediction of basic emotions according to situations appeared deﬁcient speciﬁcally in children with EB (as observed by Hughes et al., 1998) and should be trained in their psycho- educational intervention program. In both atypical groups, global developmental age partially explains the variance in ToM emotions and beliefs abilities; this has also been reported in previous studies in children with EB ( Nader-Grosbois & Fiasse, 2011) and in children with ID (Baurain & Nader-Grosbois, 2013; Charman & Campbell, 2002; Fiasse & Nader-Grosbois, 2012; Thirion-Marissiaux & Nader-Grosbois, 2008a, 2008b; Williams et al., 2005 ). No between-group differences were obtained in performances in socio-emotional problem-solving: in comparison with TD children, both atypical groups showed only a slight delay but not a deﬁcit (as also observed in children with ID by Baurain and Nader-Grosbois, 2013 ). However, in terms of self-regulatory strategies during socio-emotional problem-solving, the between-group comparisons emphasized that the group with EB made less use of self-regulation of joint attention and of attention than the group with ID or the TD group. This weakness in maintaining attention and selective attention has also been observed in children with EB by other authors ( Fahie & Symons, 2003; Hughes et al., 1998; Perner et al., 2002; Speltz et al., 1999 ). Some studies have pointed to the role of attention in the regulation of anger and other negative emotions (Posner & Rothbart, 2007, pp. 19–22), which can protect against externalizing problems (Jungmeen & Deater-Deckard, 2011). Difﬁculties in joint attention in socio-emotional problem-solving have also been observed in children with EB at a similar developmental period ( Nader-Grosbois & Fiasse, 2011 ). In addition, there were more numerous positive signiﬁcant links between several self-regulatory strategies and ToM emotions or ToM beliefs in children with EB than in children with ID. It therefore seems that executive functioning and the development of ToM are linked together more intricately in the group with EB (as observed by other authors: Fahie & Symons, 2003; Hughes et al., 1998, 2001; Lansford et al., 2006; Nader-Grosbois & Fiasse, 2011; Perner et al., 2002; Speltz et al., 1999 ) than in the group with ID (as observed by Nader-Grosbois and Fiasse, 2011 ). Our predictions in (a) were partially conﬁrmed. By comparison with TD children presenting similar developmental age, children with EB presented partial deﬁcits in ToM emotions (understanding causes of emotions) and in two self-regulatory strategies related to joint attention and attention; and children with ID presented delays in ToM, in socio-emotional problem-solving and in self-regulation (but deﬁcits in joint attention and attention). As we predicted in (b), in both atypical groups, developmental age and self-regulation were positively linked with ToM level and socio-emotional problem-solving. (see Figs. 2 and 3 ). Table 8 Summary of multiple regression analyses on predictors of SCBE scales in each group. Groups Predictors Dependent variables SCBE scales B SE/B BETA R2 ad j: F Children with EB (3) Isolated-integrated DA .417 .161 .501 .213 6.70 * ToM beliefs 5.595 2.334 .488 .364 7.01 *** (5) Angry-tolerant ToM beliefs 3.051 1.037 .435 .168 8.65 ** (6) Aggressive-controlled DA .212 .090 .467 .179 5.59 * (7) Egoistic-prosocial ToM beliefs 5.322 1.703 .573 .294 9.76 *** (8) Resistant-cooperative ToM beliefs 2.907 1.392 .423 .138 4.36 * Children with ID (3) Isolated-integrated ToM emotions 2.626 .922 .669 .393 8.11 * (5) Angry-tolerant ToM emotions 1.694 .625 .651 .366 7.35 * (7) Egoistic-prosocial ToM emotions 2.418 1.041 .592 .285 5.39 * CA: chronological age; DA: developmental age; ID: with intellectual disability; EB: with externalizing behavior disorders; TD: typically developing
+```
+
+### Chunk 3: page-11-chunk-1 / source page 11
+
+```text
+Author's personal copy As can be seen from Table 7, distinct independent predictors, according to the group, explained scores on composite or global SCBE scales. In the TD group, no signiﬁcant result was obtained. In the group with EB, general adaptation was highly predicted by ToM emotions (35.9% of variance) and by self-regulation (48.4% of variance); ToM beliefs explained 36.8% of variance in interactions with peers; developmental age explained moderate to high percentages of variances in affective adaptation (20.3%), interactions with peers (21.6%) and interactions with adults (29.4%); and ToM emotions strongly predicted a low level of externalizing problems (45.2%). In the group with ID, ToM emotions explained very high percentages of variances in general adaptation (54.2%), affective adaptation (49.4%), interactions with peers (34.9%) and interactions with adults (42.2%), as well as a low level of internalizing problems (40.6%). As can be seen from Table 8 , distinct independent predictors, according to the group, explained speciﬁc targeted SCBE scales. No signiﬁcant result was obtained in the TD group. In the group with EB, ToM beliefs explained from 13.8% to 36.4% of the variance in the following SCBE scales: isolated-integrated, angry-tolerant, egoistic-prosocial and resistant-cooperative; Table 6 Summary of multiple regression analyses on predictors of ToM emotions and ToM beliefs in each group. Groups Predictors Dependent variables ToM emotions ToM beliefs B SE/B BETA R2 ad j: FB SE/B BETA R2 ad j: F TD children CA .193 .048 .589 .326 16.47 **** .088 .022 .578 .313 15.56 **** Children with EB DA .081 .025 .565 .288 10.31 *** .034 .013 .495 .207 6.49 * Children with ID DA .085 .028 .566 .286 9.43 **** .039 .016 .466 .178 5.55 * CA: chronological age; DA: developmental age; ID: with intellectual disability; EB: with externalizing behavior disorders; TD: typically developing children; B: regression coefﬁcient, SE/ B: standard deviation of B, BETA: standardized regression coefﬁcient, R2 ad j: : multiple regression coefﬁcient (percentage of explained variance). * p < .05. *** p < .005. **** p < .001. Table 7 Summary of multiple regression analyses on predictors of composite and global SCBE scales in each group. Groups Predictors Dependent variables composite and global SCBE scales B SE/B BETA R2 ad j: F Children with EB Adjustment General adaptation ToM emotions 9.906 2.775 .624 .359 12.74 *** Self-regulation 1.088 .419 .610 .484 7.55 *** Affective adaptation DA .225 .089 .491 .203 6.36 * Interactions with peers DA .298 .114 .504 .216 6.80 * ToM beliefs 3.981 1.654 .489 .368 7.11 *** Interactions with adults DA .228 .073 .573 .294 9.76 *** Maladjustment Externalizing problems ToM emotions 3.238 .727 .691 .452 18.31 **** Children with ID Adjustment General adaptation ToM emotions 2.151 .575 .764 .542 13.99 *** Affective adaptation ToM emotions 1.641 .479 .735 .494 11.73 ** Interactions with peers ToM emotions 2.288 .871 .639 .349 6.89 * Interactions with adults ToM emotions 1.741 .579 .689 .422 9.03 * Maladjustment Internalizing problems ToM emotions 1.943 .666 .678 .406 8.52 * DA: developmental age; ID: with intellectual disability; EB: with externalizing behavior disorders; TD: typically developing children; B: regression coefﬁcient; SE/ B: standard deviation of B; BETA: standardized regression coefﬁcient; R2 ad j: : multiple regression coefﬁcient (percentage of explained variance). * p < .05. ** p < .01. *** p < .005. **** p < .001. N. Nader-Grosbois et al. / Research in Developmental Disabilities 34 (2013) 2642–2660 2651
+```
+
+## E6 Answer
+
+```text
+In the group of typically developing children (TD), chronological age explained 32.6% of the variance in Theory of Mind (ToM) emotions and 31.3% of the variance in ToM beliefs.
+```
+
+## E9 Added Evidence
+
+Added ordered IDs: ["page-9-chunk-1", "page-3-chunk-2", "page-4-chunk-1"]
+
+### Chunk 1: page-9-chunk-1 / source page 9
+
+```text
+Author's personal copy of joint attention and of attention, which was lower in groups with EB and with ID than in TD children. Moreover, Bonferroni’s post hoc tests of multiple comparisons showed that children with EB displayed lower self-regulation of joint attention and of attention than children with ID ( p < .05). 4.4. Socio-affective proﬁles, social adjustment and maladjustment Table 4 presents mean scores and standard deviations for all SCBE scales, for each group. A one-way ANOVA applied to scores on the SCBE scales showed signiﬁcant differences between the groups to the disadvantage of children with EB and with ID in comparison with TD children for the six following basic scales: (2) anxious- secure, (4) dependent-autonomous, (5) angry-tolerant, (6) aggressive-controlled, (7) egoistic-prosocial, (8) resistant- cooperative. Moreover, children with EB and with ID, in comparison with TD children, obtained signiﬁcantly lower scores on three global scales (social competence, internalizing problems, externalizing problems) and their composite scores for affective adaptation, interactions with peers, and interactions with adults. The one-way ANOVA also emphasized a very important variance in general adaptation speciﬁcally in the group with EB. Moreover, Bonferroni’s post hoc tests of multiple comparisons showed lower scores in the SCBE scales in children with EB and in children with ID, than in TD children. Children with EB presented lower scores in the SCBE scales than children with ID, although the difference was signiﬁcant only for the scale angry-tolerant ( p < .05). 4.5. Links between chronological and developmental ages, self-regulation, ToM abilities and socio-emotional problem-solving Table 5 shows the results of correlational analyses obtained by applying Spearman’s coefﬁcient between the chronological age, developmental age and scores for self-regulation, ToM emotions, ToM beliefs and socio-emotional problem-solving, in each group. In the TD group, positive signiﬁcant correlations (from p < .05 to p < .001) were obtained between on the one hand, chronological age, global developmental age, verbal developmental age, overall self-regulation, self-planning, self-attention and joint attention, and on the other hand, scores for ToM emotions and ToM beliefs. In the group with EB, positive signiﬁcant correlations (from p < .05 to p < .001) were obtained between on the one hand, developmental age (verbal and non verbal), overall self-regulation, self-planning, joint attention, self-motivation and self-evaluation, and on the other hand, scores for ToM emotions and ToM beliefs; self-identiﬁcation of objective and self-attention were also positively and signiﬁcantly linked with ToM emotions. In the group with ID, developmental age (verbal and non verbal) was positively and signiﬁcantly linked with scores for ToM emotions and ToM beliefs (from p < .005 to p < .001); overall self-regulation, self-identiﬁcation of objective, self-planning and self-evaluation were positively and signiﬁcantly linked with ToM emotions; and self-attention was positively and signiﬁcantly linked with ToM beliefs (from p < .05 to p < .01). Table 4 Mean scores and standard deviations for SCBE scales in each group and between-group comparisons. TD children ( n = 33) Children with EB ( n = 43) Children with ID ( n = 40) F(df) M(SD) M(SD) M(SD) SCBE scales (1) Depressive-happy 51.7(7) 48.7(10.5) 47.6(8.6) 1.69(2) (2) Anxious-secure 51.9(5.6) 43.4(9.1) 45.4(7.5) 10.87(2) *** (3) Isolated-integrated 50.3(8.3) 44.1(13) 46.5(10.2) 2.77(2) (4) Dependent-autonomous 50.9(5.3) 42.5(6.9) 43.7(7.9) 14.5(2) *** (5) Angry-tolerant 52.9(7.3) 39.3(8.6) 44.3(9.3) 22.23(2) *** (6) Aggressive-controlled 52.6(7.7) 42.9(8.2) 45.7(10.7) 10.47 *** (7) Egoistic-prosocial 53.9(8.5) 46.3(10.7) 46.9(11.2) 5.46(2) ** (8) Resistant-cooperative 51(6.7) 42.9(8.5) 46.3(10.3) 7.63(2) *** Social adaptation in SCBE Affective adaptation (scales 1, 2, 5) 52.2(5.4) 43.8(7.6) 45.7(6.7) 13.97(2) *** Interactions with peers (scales 1, 2, 5) 52.3(6.4) 44.4(9.2) 46.4(8.9) 7.84(2) *** Interactions with adults (scales 1, 2, 5) 50.9(4.9) 42.7(6.8) 45(6.6) 15.46(2) *** Social competence (positive socio-affective behavior in all scales) 51.9(6.7) 46(8.4) 47.6(6.7) 5.43(2) ** General adaptation (all basic scales) 53.3(7.2) 51.7(35.5) 45.5(8.4) .95(2) Social maladjustment in SCBE Internalizing problems (presence of affective difﬁculties in scales 1, 2, 3, 4) 52.4(8.1) 45.4(8.3) 45.2(8) 9.01(2) *** Externalizing problems (presence of behavioral difﬁculties in scales 5, 6, 7, 8) 53.7(7) 44.9(11.7) 45.9(10.9) 7.22(2) *** M: mean; SD: standard deviation; ID: with intellectual disability; EB: with externalizing behavior disorders; TD: typically developing children. ** p < .006. *** p < .001. N. Nader-Grosbois et al. / Research in Developmental Disabilities 34 (2013) 2642–2660 2649
+```
+
+### Chunk 2: page-3-chunk-2 / source page 3
+
+```text
+and interpretation of social cues, access to appropriate responses, the selection of goals and of social responses, the response decision and behavioral enactment ( Crick & Dodge, 1994; Dodge & Crick, 1990; Dodge & Pettit, 2003; Fontaine & Dodge, 2009; Harvey, Fletcher, & French, 2001; Mize & Pettit, 2008 ), or in social problem-solving ( Pettit, Dodge, & Brown, 1988 ). However, few studies have been conducted on social information processing in preschoolers with EB ( Castro, Veerman, Koops, Bosch, & Monshouwer, 2002 ). Positive signiﬁcant links have been emphasized between the executive functioning of preschoolers with EB (attention, memory, inhibition, control of impulsivity, or self-regulation) and either their ToM beliefs ( Fahie & Symons, 2003; Hughes et al., 1998; Hughes, Cutting, & Dunn, 2001; Lansford et al., 2006; Perner, Kain, & Barchfeld, 2002 ) or their ToM emotions (Hughes et al., 1998; Speltz et al., 1999). Recently, in children with EB and low intelligence presenting a mean developmental age of 5½ years, Nader-Grosbois and Fiasse (2011) observed a great variability in levels of ToM beliefs and emotions, and found positive signiﬁcant links between these ToM abilities and self-planning and self-regulation of joint attention during socio-emotional problem-solving. Some authors have drawn attention to the fact that both ToM and executive functioning are positively linked with the level of social skills or negatively linked with social behavioral in children with EB presenting reactive aggressive behavior, oppositional deﬁant disorder (ODD), or hyperactivity-impulsivity and attention deﬁcit (ADHD), or who are ‘‘rejected’’ by peers ( Badenes, Estevan, & Bacete, 2000; Capage & Watson, 2001; Fahie & Symons, 2003; Happe ´ & Frith, 1996; Lansford et al., 2006; Renouf, Brendgen, Se´ guin, et al., 2010 ). By contrast, other studies have emphasized that a higher level of ToM beliefs does not necessarily lead to positive social skills, including empathic and prosocial behaviors, or to less externalizing behavior, in ‘‘hard to manage’’ preschoolers ( Astington & Jenkins, 1995; Hughes, White, Sharpen, & Dunn, 2000; Hughes et al., 2001; Repacholi, Slaughter, Pritchard, & Gibbs, 2003 ). Some authors have warned against approaching children with EB or aggressive children as a homogeneous group presenting a lack of socio-cognitive skills ( Gini, 2006; Hughes & Leekam, 2004; Jolliffe and Farrington, 2006; Sutton, Smith, & Swettenham, 1999a, 1999b ), as they may use their ToM abilities in their social interactions in a negative way in order to manipulate or bully others (called the Theory of ‘‘Nasty Minds’’ by Happe´ and Frith, 1996, or ‘‘Machiavellian ToM’’ by Repacholi et al., 2003 ). According to Hughes (2011, pp. 125–140), there are heterogeneous links between social understanding of distinct mental states (emotions, beliefs, intentions) and antisocial behaviors in children. N. Nader-Grosbois et al. / Research in Developmental Disabilities 34 (2013) 2642–2660 2643
+```
+
+### Chunk 3: page-4-chunk-1 / source page 4
+
+```text
+Author's personal copy Over the course of childhood, thanks to the development of socio-cognitive and language skills, children may display their aggressiveness in different ways ( Bjo¨ rkqvist, O¨ sterman, & Kaukiainen, 1992). In the literature, different forms and functions of aggression have been distinguished: physical and relational aggression ( Martin, 2010), direct versus indirect aggression, and proactive versus reactive aggression (see the reviews in Renouf, Brendgen, Se´ guin, et al., 2010; Renouf, Brendgen, Parent, et al., 2010). Direct aggression is essentially physical (ﬁghting, biting or kicking others); indirect aggression is usually verbal and subtle (manipulation, exclusion, bullying). Proactive aggression is deliberately planned and aimed at victimizing peers; reactive aggression corresponds to negative reactions when the child is frustrated or annoyed, or when the child perceives provocations in social interactions. Some studies have shown that ToM (essentially beliefs) is positively linked with proactive aggression and indirect aggression (with prosocial behavior playing a moderating effect); but negatively linked with reactive aggression, and not linked with direct aggression ( Gini, 2006; Hughes et al., 2000; Renouf, Brendgen, Se ´ guin, et al., 2010; Renouf, Brendgen, Parent, et al., 2010 ). Given the heterogeneous behavioral symptoms in children with EB and the different forms and functions of aggressiveness, studies should differentiate distinct types of social or asocial proﬁle more accurately in order to establish how ToM could play a role in social (mal)adjustment in these children (as suggested by Deneault & Ricard, 2013 ). Moreover, gender differences appear in the link between ToM beliefs and social interactions with peers: girls are more intuitive, determine others’ intentions more easily and solve social problems more effectively; while boys are more likely to engage in verbally aggressive or physically disruptive behavior ( Walker, 2005 ). 1.2. Speciﬁc ToM and social cognition characteristics in children with ID Recent studies have emphasized delayed development of ToM emotions and a deﬁcit in ToM beliefs in children with ID in comparison with typically developing (TD) preschoolers matched for developmental age, and have shown the impact of developmental age and language level on their ToM abilities ( Abbeduto & Murphy, 2004; Alevriadou & Giaouri, 2011; Charman & Campbell, 2002; Thirion-Marissiaux & Nader-Grosbois, 2008a, 2008b; Williams, Wishart, Pitcairn, & Willis, 2005). However, the relation between executive functioning and development of ToM in children with ID has not been speciﬁcally explored, although some weaknesses in executive functioning have been identiﬁed, in comparison with TD children matched for chronological and mental age (see details in Danielsson, Henry, Messer, & Ronnberg, 2012 ). Only recently, Nader-Grosbois, Fiasse, and Baurain (2011) have emphasized in children with ID (mean developmental age of 5½ years) presenting great variability in levels of ToM beliefs and ToM emotions, the presence of positive signiﬁcant links between both these ToM abilities and self-planning, between ToM beliefs and self-regulated attention and joint attention, and between ToM emotions and self-evaluation. Some studies have highlighted that weaknesses in ToM beliefs in children with ID are linked with their low social abilities (Abbeduto & Murphy, 2004; Jervis & Baker, 2004; Thirion-Marissiaux & Nader-Grosbois, 2008c ); and that their weaknesses in ToM emotions are linked with low social skills ( Turk & Cornish, 1998 ), with the presence of internalizing problems (Thirion-Marissiaux & Nader-Grosbois, 2008c ) and with their less social behavior during social interactions in different dyadic play contexts (cooperative, competitive with peers, or neutral with an adult) ( Baurain & Nader-Grosbois, 2013 ). By contrast, other authors have failed to ﬁnd any signiﬁcant link between social abilities in children with ID and their understanding of emotions ( Williams et al., 2005 ) or their ToM beliefs ( Charman & Campbell, 2002 ). In addition, a recent study has reported that the self-perception of social acceptance in children with ID and in TD preschoolers could mediate the relation between their abilities in ToM (emotions and beliefs) and their social adjustment ( Fiasse & Nader-Grosbois, 2012 ). Baurain and Nader-Grosbois (2013) also observed a developmental delay in socio-emotional problem solving in children with ID in comparison with TD children, and emphasized that socio-emotional problem solving abilities were positively linked with their behavior toward social rules in dyadic interactions with a peer and an adult while playing a
+```
+
+## E9 Answer
+
+Canonical judgment source: E9; E6/E9 input identical: False
+
+```text
+In the group of typically developing children (TD), chronological age explained 32.6% of the variance in Theory of Mind (ToM) emotions and 31.3% of the variance in ToM beliefs. This indicates that the age of typically developing children had a significant impact on the variance in both ToM emotions and beliefs.
+```
+
+## Automatic Labels
+
+- E3: False; OK
+- E6: True; OK
+- E9: True; OK
+
+Raw incomplete states: []
+
+- E3_to_E6_wrong_to_correct: True
+- E3_to_E6_correct_to_wrong: False
+- E6_to_E9_wrong_to_correct: False
+- E6_to_E9_correct_to_wrong: False
+
+```text
+{"E3": "The candidate answer is incorrect and fails to address the question. The reference clearly states that age explains a significant portion of the variance in ToM emotions and beliefs, and the candidate answer claims the information is not provided.", "E6": "The candidate answer is mostly correct and grounded in the reference, accurately reporting the percentages of variance explained by age for ToM emotions and beliefs. However, it misses the important detail about the positive correlations between age and both ToM emotions and beliefs, which is a key part of the reference answer.", "E9": "The candidate answer correctly states the percentages of variance explained by age for ToM emotions and beliefs and correctly identifies the impact of age. However, it omits the correlation values (.54 and .55) mentioned in the reference, which are important details. The answer is grounded in the reference and directly addresses the question, but it is slightly incomplete."}
+```
+
+## Human Annotation
+
+| Field | Value |
+|---|---|
+| human_e3_correct |  |
+| human_e6_correct |  |
+| human_e9_correct |  |
+| human_reference_valid |  |
+| human_e3_evidence_sufficient |  |
+| human_e6_added_evidence_useful |  |
+| human_e9_added_evidence_useful |  |
+| human_confidence |  |
+| human_notes |  |
+
+
+
+---
+
+# P2A_HR_038 / unidoc_healthcare_0053
+
+Priority: 1 / Cohort: MISS_AT_3_HIT_AT_6 / Selection: AUTOMATIC_TRANSITION
+
+## Question
+
+```text
+In the research involving EKTOMUN and NB69 neuroblastoma cells, which markers indicate activation in CD3+ cells?
+```
+
+## Gold / Reference
+
+```text
+CD25 and CD69 are the activation markers for CD3+ cells. EKTOMUN treatment leads to significant upregulation of these markers in CD3+ cells, indicating strong activation.
+```
+
+## GT Pages
+
+[7, 8]
+
+## Document Verification
+
+- Document: 0132894
+- Dataset identifier: healthcare/healthcare/0132894.pdf
+- Local PDF: C:\Users\sp\Desktop\adaptive-multimodal-rag\datasets\unidoc\healthcare\healthcare\0132894.pdf
+- Unique E3/E6/E9 pages: [1, 3, 4, 5, 6, 7, 8, 9]
+- E3 pages: [4, 5, 6]
+- E6 pages: [4, 5, 6, 7, 8]
+- E9 pages: [1, 3, 4, 5, 6, 7, 8, 9]
+- PDF direct verification flag: False
+
+### GT page extracted text
+
+### GT page 7 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+7
+Zirngibl F, et al. J Immunother Cancer 2021;9:e002923. doi:10.1136/jitc-2021-002923
+Open access
+main method through which ch14.18 delivers tumor cell 
+death.24 We used a commercially available ADCC reporter 
+assay in which Jurkat cells stably express the human FcγR 
+IIIa (CD16), which can be bound by human and murine 
+Fc regions with similar affinity.25 FcγR IIIa binding on the 
+engineered Jurkat cells mediates a quantifiable luciferase 
+activation as a surrogate for ADCC activity. SUREK was 
+used to evaluate the Fc region instead of EKTOMUN 
+because it does not recognize human CD3, thus avoiding 
+trAb-
+ CD3 
+interaction on the surface of CD3+ Jurkat cells. 
+As expected, ch14.18 produced a strong concentration-
+ 
+dependent bioluminescent signal. SUREK also induced 
+Jurkat activation, but to a lesser extent (21% relative 
+to ch14.18 at 25
+ µg/mL, 
+figure
+ 
+3A), demonstrating the 
+noticeably weaker ability of the murine Fc region to 
+induce ADCC.
+CDC is thought to be the main mechanism of action 
+for neuropathic pain, a common side effect of ch14.18. 
+Whether the trAb Fc region induces CDC is also currently 
+unknown, but is interesting in regard to its potential 
+ability to induce neuropathic pain. We performed a 
+CDC assay where the neuroblastoma cell line NB69 was 
+treated with ch14.18 or EKTOMUN in culture medium 
+with 12.5% complement factor-
+ containing human serum. 
+While ch14.18 induced a strong complement-
+ dependent 
+cytotoxic effect after 24
+ hours (specific lysis: 74.9%±5.4), 
+EKTOMUN induced significantly less CDC (specific 
+lysis: 24.3%±16.0, 
+figure
+ 
+3B). Our data demonstrate that 
+the cytotoxic effect mediated by the trAb Fc fragment is 
+lower compared with ch14.18, possibly avoiding ch14.18-
+ 
+dependent side effects.
+EKTOMUN strongly activ
+ates effector cells in vitro
+In order to decipher which immune cell subtype is acti-
+vated on EKTOMUN treatment, we flow cytometrically 
+characterized PBMCs after 48
+ hours coculture with NB69 
+neuroblastoma cells and EKTOMUN or control anti
+-
+bodies. CD4+ and CD8+ T cells, NK cells (CD56+CD3−) 
+and NKT (CD56+CD3+) cells were effector cells of this 
+activity. CD3+ cells strongly upregulated activation 
+markers (CD25 and CD69) in the presence of EKTOMUN 
+and, to a lesser extent, in the presence of the unspecific 
+TRBs011 trAb (figure
+ 
+4A). Similarly, we detected CD25 
+and CD69 upregulation in CD3−CD56+ cells, indicating 
+that NK cells were engaged and activated by the Fc 
+region (figure
+ 
+4A). CD4+ T cells expressed the highest 
+CD25 levels (33.6%±6.4 positive cells), while NKT cells 
+expressed the highest CD69 levels (89.0%±2.2 positive 
+cells). After coculturing PBMCs with neuroblastoma cells 
+and EKTOMUN, T-
+ cell effector function was assessed by 
+quantifying IFNG and IL2 cytokine release (
+figure
+ 
+4B). 
+EKTOMUN induced PBMCs to release IFNG and IL2 
+release more strongly than treatment with TRBs011, while 
+ch14.18 induced no cytokine release. Intracellular IFNG 
+staining in effector cells demonstrated that CD4+ and 
+CD8+ T cells, NK (CD56+CD3−) and NKT (CD56+CD3+) 
+cells were IFNG+. While most NKT cells were identified as 
+IFNG-
+ producing (more than 40%), the numbers of CD4+ 
+T cells made them the largest IFN-
+ producing population 
+(
+figure
+ 
+4C). However, other immune cell types than those 
+we have analyzed, such as M1 macrophages, could also 
+contribute to IFNG production. Our data demonstrate 
+that treatment with EKTOMUN, strongly activates T, NK 
+and NKT cells as effectors within human PBMCs cocul-
+tured with neuroblastoma cells in vitro. Furthermore, T 
+cells exert their effector function by releasing IL2 and 
+IFNG on exposure to EKTOMUN.
+SUREK treatment shifts Cd4/Cd8 ratio toward cytotoxic Cd8+ 
+T cells in vivo
+The presence of activated TIL has been associated with 
+improved outcomes for neuroblastoma patients. 26 We 
+investigated whether SUREK has an impact on TILs 
+and their activation status in a highly aggressive murine 
+model mimicking neuroblastoma minimal residual 
+disease. We used the established murine neuroblastoma 
+cell line, NXS2, which is a hybrid of the murine C1300 
+neuroblastoma cell line (A/J background) and murine 
+dorsal root ganglia cells (C57BL/6 background) in order 
+to achieve GD2 expression. 19 We transduced NXS2 cells 
+with GFP to support flow cytometric identification after 
+tumor cell harvest. After intravenous NXS2 cell injection, 
+Figure 3 EKTOMUN/SUREK induce less Fc-  mediated 
+cytotoxicity than ch14.18. (
+A) NB69 cells were seeded in 
+the presence of CD16 positive Jurkat cells, which served as 
+effector cells, at an E:T of 3:1. Ch14.18 and the GD2-
+ dir
+ected 
+trAb SUREK were added at rising concentrations. The 
+binding of an antibody Fc-
+ r
+egion to CD16 induces luciferase 
+expression in Jurkat cells. The bioluminescent signal 
+was measured 6
+ hours after adding the antibodies to the 
+cocultur
+e. (B) The NB69 cell line was stably transduced with 
+a GFP_ffluc construct and treated with rising concentrations 
+of antibodies in the presence of 12.5% human serum from 
+a healthy donor in the culture medium. Tumor cell lysis was 
+determined by bioluminescent flux relative to untreated 
+cells after 24
+ hours. Student’
+s t-
+ test; n.s., not significant; 
+***p<0.001. huIgG, human immunoglobulin G.
+ on September 16, 2021 by guest. Protected by copyright.http://jitc.bmj.com/ J Immunother Cancer: first published as 10.1136/jitc-2021-002923 on 20 July 2021. Downloaded from
+```
+
+### GT page 8 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+8
+Zirngibl F, et al. J Immunother Cancer 2021;9:e002923. doi:10.1136/jitc-2021-002923
+Open access  
+immunocompetent A/J mice predominantly developed 
+liver metastases.24 Hence, animals were treated as shown 
+in figure
+ 
+5A, spleens and liver metastases were harvested 
+on day 21 and Cd3+ cells were measured via flow cytom-
+etry (gating strategy to identify Cd3+ TILs is shown in 
+online supplemental figure 4). No difference was seen 
+in the frequency of TILs between mice receiving SUREK 
+or the negative control, PBS (online supplemental figure 
+5A). Interestingly, the composition of T-
+ cell subsets 
+within 
+the metastases changed dramatically on SUREK 
+treatment. The proportion of Cd4+ T cells significantly 
+decreased and there was a trend toward an increase of the 
+Cd8+ T-
+ cell proportion in SUREK-
+ treated animals (online 
+supplemental 
+figure 5B,C). Consequently, the Cd4/Cd8 
+ratio of TILs was different between mice treated with 
+SUREK (0.59±0.28) and control mice receiving PBS 
+(2.2±0.13), thus, shifting the ratio toward cytotoxic Cd8+ 
+T cells. This effect was also much more pronounced in 
+T cells harvested from tumors, compared with spleens, 
+from SUREK-
+ treated animals (
+figure
+ 
+5B). To assess TIL 
+activation, we flow cytometrically determined Cd25 and 
+Cd69 expression on Cd4+ and Cd8+ TILs compared with 
+background activation observed in splenic T cells. Both 
+Cd4+ and CD8+ TILs specifically upregulated the Cd69 
+activation marker compared with TILs from the PBS 
+control cohort or to splenic T cells from SUREK-
+ treated 
+mice (
+figure
+ 
+5C). The Cd25 activation marker was signifi-
+cantly upregulated in Cd4+ TILs from SUREK-
+ treated 
+animals compared with TILs from PBS-
+ treated controls 
+and splenic T cells from SUREK-
+ treated mice (
+figure
+ 
+5D). 
+Though Cd25 expression on Cd8+ TILs from SUREK-
+ 
+treated mice was higher than in splenic T cells from the 
+same 
+animals, expression did not significantly differ from 
+CD8+ TILs from PBS-
+ treated mice. Here, we show that 
+SUREK 
+treatment causes a shift in the Cd4-
+ expressing 
+and 
+Cd8-
+ expressing 
+TIL population toward a higher 
+proportion of cytotoxic Cd8+ cells, while also inducing 
+TIL-
+ specific activation of Cd4+ and Cd8+ T cells.
+Figure 4 EKTOMUN activates T cells and causes pr oinflammatory cytokine release. NB69 cells were treated with the trAbs 
+EKTOMUN or TRBs011 or with the monoclonal ch14.18 antibody during coculture with PBMCs from a healthy donor. (A) 
+Representative dot plots of CD69 and CD25 expression on living CD3+/CD56− cells as well as quantification of positive stained 
+cells for CD69 (left panel) and CD25 (right panel) in different effector subpopulations are shown. (B) After 24 and 48
+ hours, the 
+concentration of Interleukin 2 (IL2) and Interfer
+on-γ (IFNG) in the conditioned media were determined by ELISA. Results are 
+pooled medians of experimental triplicates of three independent experiments. (C) Representative histogram plots of intracellular 
+IFNG production in different effector subpopulations. Definitions of subpopulations: CD4+:CD3+, CD4+, CD8−; CD8+:CD3+, 
+CD4−, CD8+; NK cells: CD3−, CD56+; NKT cells: CD3+, CD56+. Ab: antibody; w/o: without. Student’s t-
+ test; *p<0.05; **p<0.01; 
+***p<0.001; n.s., not significant.
+ on September 16, 2021 by guest. Protected by copyright.http://jitc.bmj.com/ J Immunother Cancer: first published as 10.1136/jitc-2021-002923 on 20 July 2021. Downloaded from
+```
+
+## E3 Evidence
+
+Ordered IDs: ["page-6-chunk-1", "page-5-chunk-2", "page-4-chunk-1"]
+
+### Chunk 1: page-6-chunk-1 / source page 6
+
+```text
+6 Zirngibl F, et al. J Immunother Cancer 2021;9:e002923. doi:10.1136/jitc-2021-002923 Open access Figure 2 EKTOMUN mediates a cytotoxic ef fect against neuroblastoma cell lines in the presence of human PBMCs. (A) The NB69 neuroblastoma cell line was stably transduced with a GFP_ffluc construct and cocultivated with T cells, effector:target (E:T)=7:1; accessory immune cells (AIC), E:T=3:1; or PBMCs that include both T cells+AICs, E:T=10 (7+3):1, from the same healthy donor. Cocultures were treated with the trAbs EKTOMUN or SUREK in rising concentrations with or without FcγR- block. Tumor cell lysis was determined by bioluminescent flux relative to an untreated coculture after 72 hours. (B) The MYCN- non- amplified neur oblastoma cell lines SK- N- FI (low GD2 expr ession) and NB69 (medium GD2 expression) and the MYCN- amplified cells lines SK- N- BE(2) and IMR-5/75 (both high GD2 expr ession) were cocultured as described in (A) and treated with the trAbs EKTOMUN or TRBs011 or with the monoclonal ch14.18 antibody. Tumor cell lysis was determined by bioluminescent flux relative to an untreated coculture after 72 hours. (C) SK- N- BE(2) and IMR-5/75 cells wer e cocultured as described in (A) and treated with the trAbs EKTOMUN or TRBs011 or with ch14.18 at indicated concentrations at an E:T ratio of 1:10 (left panels) and at indicated E:T ratios at an antibody concentration of 0.1 ng/mL (right panels). T umor cell lysis was determined by bioluminescent flux relative to an untreated coculture after 72 hours. (D) NB69 cells wer e cocultured as described in (A) and treated with either the trAbs EKTOMUN, TRBs011, ch14.18 at 0.1 ng/mL, or without antibody . Micrographs were taken after 72 hours. Results ar e pooled medians of technical triplicates of three independent experiments. Student’s t- test; *p<0.05; **p<0.01. on September 16, 2021 by guest. Protected by copyright.http://jitc.bmj.com/ J Immunother Cancer: first published as 10.1136/jitc-2021-002923 on 20 July 2021. Downloaded from
+```
+
+### Chunk 2: page-5-chunk-2 / source page 5
+
+```text
+reached nearly 100% using 1 ng/mL at an E:T ratio of 10:1 indepen - dent of the PBMC donor (online supplemental figure 2). The half maximal effective concentration (EC 50) ranged between 0.04 and 0.15 ng/mL. All following experiments were conducted with PBMCs from donor #2, as they displayed a mid- range cytotoxic potential. W e next compared EKTOMUN efficacy against four different GD2+ neuroblastoma cell lines cocultured with PBMCs to the standard- of- care monoclonal ch14.18 anti - body and tumor- blind trAb TRBs011 negative control. T reatment with EKTOMUN in the presence of PBMCs lysed 73%±4.0 and 77%±17.4 of SK- N- FI and NB69 tumor cells, respectively, independent of target antigen expres- sion. TRBs011 mediated only limited NB69 cytotoxicity, and ch14.18 had almost no cytotoxic effect in this exper - imental setting (figure 2B). The two highly aggressive MYCN- amplified cell lines, IMR-5/75 and SK- N- BE(2), proved more resistant to EKTOMUN, despite ver y high GD2 surface densities. Resistance was overcome by increasing either the EKTOMUN concentration or E:T ratio (figure 2C), which however, also increased non- specific effects, as seen by the increased cytotoxicity medi - ated by the tumor- blind trAb, TRBs011. NB69 cytotoxicity in the presence of PBMCs and the indicated antibody was also viewed microscopically. Tumor cells detached when EKTOMUN was added, indicating their imminent death, while NB69 cells remained adherent when exposed to ch14.18, TRBs011 or no antibodies (figure 2D). In a similar experiment green- fluorescent SK- N- FI and NB69 tumor cells were treated with EKTOMUN or the control TRBs011 trAb in the presence of PBMCs. EKTOMUN treatment reduced GFP+ tumor cells, indicating GD2- specific tumor cell death (online supplemental figure 3). Here we show that the GD2- directed trAb, EKTOMUN, mediates a GD2- dependent cytotoxic effect on neuroblas- toma cells harboring or lacking MYCN amplifications, and that activity requires the interplay between tumor, T and AICs. EKTOMUN/SUREK induce less Fc-mediated cytotoxicity than ch14.18 The identical Fc regions in EKTOMUN and SUREK each contain one mouse and one rat heavy chain, in contrast to the fully human- derived Fc region of ch14.18. It is unknown, how effectively the murine- derived Fc regions induce ADCC and CDC. Thus, we evaluated the biolog - ical activity of the trAb Fc fragment in comparison to ch14.18. NK cell- mediated ADCC is considered to be the on September 16, 2021 by guest. Protected by copyright.http://jitc.bmj.com/ J Immunother Cancer: first published as 10.1136/jitc-2021-002923 on 20 July 2021. Downloaded from
+```
+
+### Chunk 3: page-4-chunk-1 / source page 4
+
+```text
+4 Zirngibl F, et al. J Immunother Cancer 2021;9:e002923. doi:10.1136/jitc-2021-002923 Open access statistically significant. Statistical analyses were performed using GraphPad Prism V.8.3 software (GraphPad Soft- ware, San Diego, CA, USA). RESULTS EKTOMUN induces neuroblastoma cytotoxicity in vitro To assess EKTOMUN response against neuroblastoma cells presenting a clinically relevant range of target molecule density, we selected four human neuroblastoma cell lines expressing different GD2 levels from intermediate- risk or high- risk genomic backgrounds, either lacking or harboring MYCN amplifications. Quantification of GD2 molecules on the cell surface in these four human neuro- blastoma cell lines and the murine NXS2 neuroblastoma cell line, which is used in our syngeneic mouse model, showed that GD2 molecule density was highest in the MYCN- amplified IMR-5/75 cell line (599 163±5095 mole - cules/cell) and lowest in the SK- N- FI cell line (4357±327 molecules/cell; figure 1A). The murine NXS2 cell line expressed 19 645±1266 molecules/cell, ranking in the Figure 1 SUREK and EKTOMUN bispecific trifunctional antibodies bind to GD2 positive neuroblastoma cell lines and form effector- tar get cell clusters. (A) Flow cytometric quantification of GD2 molecules on the cell surface of five different neuroblastoma cell lines. (B) Schematic description of the antibodies in this study. blue: mouse IgG2a recognizing GD2; gray: mouse IgG2a recognizing the alphavirus glycoprotein E1; red: rat IgG2b recognizing human CD3; yellow: rat IgG2b recognizing mouse Cd3; green- light blue: ch14.18 a humanized chimeric antibody consisting of a human IgG1 Fc fragment attached to a murine Fab r egion (ligand binding domain recognizing GD2). (C) Flow cytometric binding analysis of the bispecific trifunctional antibodies SUREK, EKTOMUN, TRBs011 and TRBs012 as well as the parental GD2- dir ected monoclonal antibody Me361 on a human (SK- N- BE(2)) and a murine (NXS2) neur oblastoma cell line. (D) Effector- tar get cell cluster formation is visualized by representative dot plots showing triple+ cell clusters. Triple+ events are positive for CD4 or CD8 (T cells), CD11b (monocytic accessory immune cells) and GFP (neuroblastoma cells). on September 16, 2021 by guest. Protected by copyright.http://jitc.bmj.com/ J Immunother Cancer: first published as 10.1136/jitc-2021-002923 on 20 July 2021. Downloaded from
+```
+
+## E3 Answer
+
+```text
+The provided text does not mention specific markers indicating activation in CD3+ cells in the research involving EKTOMUN and NB69 neuroblastoma cells.
+```
+
+## E6 Added Evidence
+
+Added ordered IDs: ["page-7-chunk-1", "page-8-chunk-1", "page-5-chunk-1"]
+
+### Chunk 1: page-7-chunk-1 / source page 7
+
+```text
+7 Zirngibl F, et al. J Immunother Cancer 2021;9:e002923. doi:10.1136/jitc-2021-002923 Open access main method through which ch14.18 delivers tumor cell death.24 We used a commercially available ADCC reporter assay in which Jurkat cells stably express the human FcγR IIIa (CD16), which can be bound by human and murine Fc regions with similar affinity.25 FcγR IIIa binding on the engineered Jurkat cells mediates a quantifiable luciferase activation as a surrogate for ADCC activity. SUREK was used to evaluate the Fc region instead of EKTOMUN because it does not recognize human CD3, thus avoiding trAb- CD3 interaction on the surface of CD3+ Jurkat cells. As expected, ch14.18 produced a strong concentration- dependent bioluminescent signal. SUREK also induced Jurkat activation, but to a lesser extent (21% relative to ch14.18 at 25 µg/mL, figure 3A), demonstrating the noticeably weaker ability of the murine Fc region to induce ADCC. CDC is thought to be the main mechanism of action for neuropathic pain, a common side effect of ch14.18. Whether the trAb Fc region induces CDC is also currently unknown, but is interesting in regard to its potential ability to induce neuropathic pain. We performed a CDC assay where the neuroblastoma cell line NB69 was treated with ch14.18 or EKTOMUN in culture medium with 12.5% complement factor- containing human serum. While ch14.18 induced a strong complement- dependent cytotoxic effect after 24 hours (specific lysis: 74.9%±5.4), EKTOMUN induced significantly less CDC (specific lysis: 24.3%±16.0, figure 3B). Our data demonstrate that the cytotoxic effect mediated by the trAb Fc fragment is lower compared with ch14.18, possibly avoiding ch14.18- dependent side effects. EKTOMUN strongly activ ates effector cells in vitro In order to decipher which immune cell subtype is acti- vated on EKTOMUN treatment, we flow cytometrically characterized PBMCs after 48 hours coculture with NB69 neuroblastoma cells and EKTOMUN or control anti - bodies. CD4+ and CD8+ T cells, NK cells (CD56+CD3−) and NKT (CD56+CD3+) cells were effector cells of this activity. CD3+ cells strongly upregulated activation markers (CD25 and CD69) in the presence of EKTOMUN and, to a lesser extent, in the presence of the unspecific TRBs011 trAb (figure 4A). Similarly, we detected CD25 and CD69 upregulation in CD3−CD56+ cells, indicating that NK cells were engaged and activated by the Fc region (figure 4A). CD4+ T cells expressed the highest CD25 levels (33.6%±6.4 positive cells), while NKT cells expressed the highest CD69 levels (89.0%±2.2 positive cells). After coculturing PBMCs with neuroblastoma cells and EKTOMUN, T- cell effector function was assessed by quantifying IFNG and IL2 cytokine release ( figure 4B). EKTOMUN induced PBMCs to release IFNG and IL2 release more strongly than treatment with TRBs011, while ch14.18 induced no cytokine release. Intracellular IFNG staining in effector cells demonstrated that CD4+ and CD8+ T cells, NK (CD56+CD3−) and NKT (CD56+CD3+) cells were IFNG+. While most NKT cells were identified as IFNG- producing (more than 40%), the numbers of CD4+ T cells made them the largest IFN- producing population ( figure 4C). However, other immune cell types than those we have analyzed, such as M1 macrophages, could also contribute to IFNG production. Our data demonstrate that treatment with EKTOMUN, strongly activates T, NK and NKT cells as effectors within human PBMCs cocul- tured with neuroblastoma cells in vitro. Furthermore, T cells exert their effector function by releasing IL2 and IFNG on exposure to EKTOMUN. SUREK treatment shifts Cd4/Cd8 ratio toward cytotoxic Cd8+ T cells in vivo The presence of activated TIL has been associated with improved outcomes for neuroblastoma patients. 26 We investigated whether SUREK has an impact on TILs and their activation status in a highly aggressive murine model mimicking neuroblastoma minimal residual disease. We used the established murine neuroblastoma cell line, NXS2, which is a hybrid of the murine C1300 neuroblastoma cell line (A/J background) and murine dorsal root ganglia cells (C57BL/6 background) in order to achieve GD2 expression. 19 We transduced NXS2 cells with GFP to support flow cytometric identification after tumor cell harvest. After intravenous NXS2 cell injection, Figure 3 EKTOMUN/SUREK induce less Fc- mediated cytotoxicity than ch14.18. ( A) NB69 cells were seeded in the presence of CD16 positive Jurkat cells, which served as effector cells, at an E:T of 3:1. Ch14.18 and the GD2-
+```
+
+### Chunk 2: page-8-chunk-1 / source page 8
+
+```text
+8 Zirngibl F, et al. J Immunother Cancer 2021;9:e002923. doi:10.1136/jitc-2021-002923 Open access immunocompetent A/J mice predominantly developed liver metastases.24 Hence, animals were treated as shown in figure 5A, spleens and liver metastases were harvested on day 21 and Cd3+ cells were measured via flow cytom- etry (gating strategy to identify Cd3+ TILs is shown in online supplemental figure 4). No difference was seen in the frequency of TILs between mice receiving SUREK or the negative control, PBS (online supplemental figure 5A). Interestingly, the composition of T- cell subsets within the metastases changed dramatically on SUREK treatment. The proportion of Cd4+ T cells significantly decreased and there was a trend toward an increase of the Cd8+ T- cell proportion in SUREK- treated animals (online supplemental figure 5B,C). Consequently, the Cd4/Cd8 ratio of TILs was different between mice treated with SUREK (0.59±0.28) and control mice receiving PBS (2.2±0.13), thus, shifting the ratio toward cytotoxic Cd8+ T cells. This effect was also much more pronounced in T cells harvested from tumors, compared with spleens, from SUREK- treated animals ( figure 5B). To assess TIL activation, we flow cytometrically determined Cd25 and Cd69 expression on Cd4+ and Cd8+ TILs compared with background activation observed in splenic T cells. Both Cd4+ and CD8+ TILs specifically upregulated the Cd69 activation marker compared with TILs from the PBS control cohort or to splenic T cells from SUREK- treated mice ( figure 5C). The Cd25 activation marker was signifi- cantly upregulated in Cd4+ TILs from SUREK- treated animals compared with TILs from PBS- treated controls and splenic T cells from SUREK- treated mice ( figure 5D). Though Cd25 expression on Cd8+ TILs from SUREK- treated mice was higher than in splenic T cells from the same animals, expression did not significantly differ from CD8+ TILs from PBS- treated mice. Here, we show that SUREK treatment causes a shift in the Cd4- expressing and Cd8- expressing TIL population toward a higher proportion of cytotoxic Cd8+ cells, while also inducing TIL- specific activation of Cd4+ and Cd8+ T cells. Figure 4 EKTOMUN activates T cells and causes pr oinflammatory cytokine release. NB69 cells were treated with the trAbs EKTOMUN or TRBs011 or with the monoclonal ch14.18 antibody during coculture with PBMCs from a healthy donor. (A) Representative dot plots of CD69 and CD25 expression on living CD3+/CD56− cells as well as quantification of positive stained cells for CD69 (left panel) and CD25 (right panel) in different effector subpopulations are shown. (B) After 24 and 48 hours, the concentration of Interleukin 2 (IL2) and Interfer on-γ (IFNG) in the conditioned media were determined by ELISA. Results are pooled medians of experimental triplicates of three independent experiments. (C) Representative histogram plots of intracellular IFNG production in different effector subpopulations. Definitions of subpopulations: CD4+:CD3+, CD4+, CD8−; CD8+:CD3+, CD4−, CD8+; NK cells: CD3−, CD56+; NKT cells: CD3+, CD56+. Ab: antibody; w/o: without. Student’s t- test; *p<0.05; **p<0.01; ***p<0.001; n.s., not significant. on September 16, 2021 by guest. Protected by copyright.http://jitc.bmj.com/ J Immunother Cancer: first published as 10.1136/jitc-2021-002923 on 20 July 2021. Downloaded from
+```
+
+### Chunk 3: page-5-chunk-1 / source page 5
+
+```text
+5 Zirngibl F, et al. J Immunother Cancer 2021;9:e002923. doi:10.1136/jitc-2021-002923 Open access lower half of the tested cell lines. We investigated binding of the bispecific trifunctional antibodies, EKTOMUN (binding of human T cells) and SUREK (binding of murine T cells), and control antibodies (binding speci- ficities and structures in figure 1B) to appropriate target- expressing cells in our cell line panel. Both EKTOMUN and SUREK were able to bind the neuroblastoma cell lines SK- N- BE(2) and NXS2 (figure 1C ). The bivalent GD2- directed monoclonal Me361 antibody, the parental antibody to the GD2- directed antibody half of EKTOMUN and SUREK, bound at lower concentrations compared with monovalent EKTOMUN and SUREK. The more effective binding of EKTOMUN to SK- N- BE(2) compared with SUREK binding to NXS2, representing the higher GD2 density on SK- N- BE(2) cells. Both TRBs011 and TRBs012 did not bind to neuroblastoma cells and are used as tumor - blind negative controls. T o show trAb- mediated effector and target cell interaction, we coincu- bated PBMCs together with a GFP+ neuroblastoma cell line with or without EKTOMUN. We stained the mixture with fluorochrome- labeled antibodies against CD4 and CD8 to detect T cells, and against CD11b to detect Fc γR+ monocytic AICs. We detected 8.4% triple+effector- target cell clusters (CD11b+/CD4+ or CD8+/GFP+) in the pres- ence of EKTOMUN and only 0.82% without EKTOMUN via flow cytometry (figure 1D). In conclusion, we show differential GD2 expression on neuroblastoma cell lines and provide evidence that both SUREK and EKTOMUN bind to neuroblastoma cells in a concentration- dependent manner . We also show simultaneous interac- tion of EKTOMUN with all effector and target cell types. In order to evaluate EKTOMUN- dependent neuroblas - toma cytotoxicity in vitro, we used human PBMCs from healthy donors in coculture with neuroblastoma cell lines. We first assessed the ‘trifunctionality’ of EKTOMUN by testing, whether all three EKTOMUN specificities (GD2- expressing tumor cells, CD3- expressing T cells and FcγR- expressing AICs) are able and necessar y to induce neuroblastoma cell death. The PBMCs were analyzed for their proportion of T cells and AICs by flow cytometry to assess T or AIC contributions to tumor cytolysis. The PBMCs used, consisted of 70% T cells and 30% AICs as determined by flow cytometr y (online supplemental figure 1). To differentially investigate each of the three antibody functions, NB69 cells were incubated with (i) T cells at an effector to target (E:T) ratio of 7:1, (ii) AICs (E:T ratio of 3:1) or (iii) or both (E:T ratio of 10:1). PBMC or T cells were not activated prior to incubation. To block trAb–effector cell interaction, we treated one condition with SUREK, which binds murine instead of human CD3 but has the same Fc fragment and GD2 binding arm as EKTOMUN. To prevent FcγR binding, we incubated PBMCs with a FcγR- blocking reagent before adding them to the coculture. The use of SUREK or only AIC completely abolished the CD3- mediated cyto - toxic effect and the use of FcγR blocking reagent or only T cells massively decreased tumor cell lysis. EKTOMUN concentration- dependent neuroblastoma cell lysis was only fully induced when both T cells and AICs were present and all EKTOMUN functions were operative ( figure 2A), demonstrating EKTOMUN trifunctionality to recognize target cells (via GD2- binding), activate T cells (via CD3- binding) and activate AICs (via Fc γR- binding). Next, we compared EKTOMUN- mediated lysis of the human NB69 neuroblastoma cell line using PBMCs from three different donors to exclude donor - dependent factors. V ery low EKTOMUN concentrations (0.1 ng/mL) already induced tumor cell lysis, which reached nearly 100% using 1 ng/mL at an E:T ratio of 10:1 indepen - dent of the PBMC donor (online supplemental figure 2). The half maximal effective concentration (EC 50) ranged between 0.04 and 0.15 ng/mL. All following experiments were conducted with PBMCs from donor #2, as they displayed a mid- range cytotoxic potential. W e next compared EKTOMUN efficacy against four different GD2+ neuroblastoma cell lines cocultured with PBMCs to the standard- of- care monoclonal ch14.18 anti - body and tumor- blind trAb TRBs011 negative control. T reatment with EKTOMUN in the presence of PBMCs lysed 73%±4.0 and 77%±17.4
+```
+
+## E6 Answer
+
+```text
+In the research involving EKTOMUN and NB69 neuroblastoma cells, the markers indicating activation in CD3+ cells are CD25 and CD69.
+```
+
+## E9 Added Evidence
+
+Added ordered IDs: ["page-1-chunk-1", "page-3-chunk-1", "page-9-chunk-1"]
+
+### Chunk 1: page-1-chunk-1 / source page 1
+
+```text
+1 Zirngibl F, et al. J Immunother Cancer 2021;9:e002923. doi:10.1136/jitc-2021-002923 Open access GD2-­ directed­bispecific­trifunctional­ antibody ­ outperforms ­ dinutuximab ­ beta ­ in ­ a ­ murine ­ model ­ for ­ aggressive ­ metastasized ­ neuroblastoma Felix Zirngibl ,1,2 Sara M Ivasko,1,2 Laura Grunewald,1 Anika Klaus,1 Silke Schwiebert,1 Peter Ruf,3 Horst Lindhofer,3 Kathy Astrahantseff,1 Lena Andersch,1 Johannes H Schulte,1,4 Holger N Lode,5 Angelika Eggert,1,4 Kathleen Anders,1,4 Patrick Hundsdoerfer,1,6 Annette Künkele1,4 To cite: Zirngibl F, Ivasko SM, Grunewald L, et al. GD2- directed bispecific trifunctional antibod y outperforms dinutuximab beta in a murine model for aggressive metastasized neuroblastoma. Journal for ImmunoTherapy of Cancer 2021;9:e002923. doi:10.1136/jitc-2021-002923 ► Additional supplemental material is published online only. To view, please visit the journal online (http:// dx. doi. org/ 10. 1136/ jitc- 2021- 002923). Accepted 18 June 2021 For numbered affiliations see end of article. Correspondence to Felix Zirngibl; felix. zirngibl@ charite. de Original research © Author(s) (or their employer(s)) 2021. Re- use permitted under CC BY - NC. No commercial re- use. See rights and permissions. Published by BMJ. ABSTRACT Background Neuroblastoma is the most common extracranial solid tumor of childhood. Patients with high- risk disease undergo extremely a ggressive therapy and nonetheless have cure rates below 50%. Treatment with the ch14.18 monoclonal antibody (dinutuximab beta), directed against the GD2 disialoganglioside, improved 5- year event- free sur vival in high- risk pa tients when administered in postconsolidation therapy and was recently implemented in standard therapy. Relapse still occurred in 57% of these patients, necessitating new therapeutic options. Bispecific trifunctional antibodies (trAbs) are IgG- like molecules directed a gainst T cells and cancer surface antigens, redirecting T cells (via their CD3 specificity) and accessory immune cells (via their functioning Fc- fra gment) toward tumor cells. We sought proof- of- concept for GD2/CD3- directed trAb efficac y against neuroblastoma. Methods W e used two GD2- specific trAbs differing only in their CD3- binding specificity: EKTOMUN (GD2/human CD3) and SUREK (GD2/mouse Cd3). This allowed trAb evaluation in human and murine experimental settings. Tumor- blind trAb and the ch14.18 antibod y were used as controls. A coculture model of human peripheral blood mononuclear cells (PBMCs) and neuroblastoma cell lines was established to evaluate trAb antitumor efficacy by assessing expression of T- cell surface markers for activa tion, proinflammatory cytokine release and cytotoxicity assays. Characteristics of tumor- infiltra ting T cells and response of neuroblastoma metastases to SUREK treatment were investigated in a syngeneic immunocompetent neuroblastoma mouse model mimicking minimal residual disease. Results W e show that EKTOMUN treatment caused effector cell activation and release of proinflammatory cytokines in coculture with neuroblastoma cell lines. Furthermore, EKTOMUN mediated GD2- dependent c ytotoxic effects in human neuroblastoma cell lines in coculture with PBMCs, irrespective of the level of target antigen expression. This effect was dependent on the presence of accessory immune cells. Treatment with SUREK reduced the intratumor Cd4/Cd8 ratio and activated tumor infiltrating T cells in vivo. In a minimal residual disease model for neuroblastoma, we demonstrated that single- a gent treatment with SUREK strongly reduced or eliminated neuroblastoma metastases in vivo. SUREK as well as EKTOMUN demonstrated superior tumor control compared with the anti- GD2 antibod y, ch14.18. Conclusions Here we provide proof- of- concept for EKTOMUN prec linical efficacy against neuroblastoma, presenting this bispecific trAb as a promising new agent to fight neuroblastoma. BACKGROUND Bispecific trifunctional antibodies are an emerging immuno- oncology strategy for tumor therapy . Innate and adaptive immune responses are jointly activated against tumor cells. These engineered heterodimeric IgG- like antibodies consist of two different heavy and light chains, to combine two antigen- binding sites in one molecule, one directed against a tumor- associated antigen and the other against CD3 in the T- cell receptor complex.1 This construction brings T cells in close proximity to tumor cells to elicit a tumor cytotoxic effect. The intact Fc region binds and activates Fcγ receptors (FcγR) on dendritic cells and macrophages, 2 which provide costimulatory signals enhancing T- cell effector function. This third recruited immune component presents tumor- specific antigens internalized from lysed tumor cells either directly at the tumor site to initiate a local tumor- specific T - cell response or in lymphoid organs to create memor
+```
+
+### Chunk 2: page-3-chunk-1 / source page 3
+
+```text
+3 Zirngibl F, et al. J Immunother Cancer 2021;9:e002923. doi:10.1136/jitc-2021-002923 Open access cytoperm according to the manufacturer’s instructions. Subsequently flow cytometric analysis was performed using antibodies against CD11b (cat#101236, Biolegend), CD4 (cat#357407, Biolegend) and CD8 (cat# 300912, Biolegend). Data were analyzed using FlowJo software (BD). In vitro assessment of tumor cytotoxicity, cytokine release and T-cell activation In vitro antibody- mediated tumor cytotoxicity was quan - tified as previously described22 using a biophotonic lucif- erase assay. In brief, GFP_ffluc- expressing NB69, SK- N- FI, IMR-5/75 or SK- N- BE(2) neuroblastoma cells were cocul - tured with freshly thawed peripheral blood mononu- clear cells (PBMCs) added 3 hour after neuroblastoma cell seeding in the presence of test antibodies. Fc γR blocking was performed using the FcR blocking reagent human (Miltenyi Biotec, Bergisch Gladbach, Germany) according to the manufacturer’s instructions. Biolumi- nescence was measured 72 hours after adding 28.6 µg of Xenolight D- Luciferin (PerkinElmer , Rodgau, Germany) per 150 µl media, with an exposure time of 180 s. Instru - mental background was subtracted. Antibody- mediated tumor cell lysis was calculated using following formula: % specific lysis = [(RLUtumor cells +PBMCs)−(RLUtumor cells + PBMCs + anti- body)]/[(RLUtumor cells + PBMCs)−(RLUPBMCs)]×100%. To obtain individual cell populations as required to assess bispecific trAb trifunctionality, T cells were isolated from PBMCs by magnetic- activated cell separation using the Pan T - Cell Isolation Kit (Miltenyi Biotec). Non- T cells retained in the column were eluted and used as accessor y immune cells (AICs). IL2 and interferon-γ (IFNG) release by T cells was quantified in media conditioned (24 and 48 hours) by coculture of neuroblastoma cell lines (seeded at 2×105 cells/well in 24- well plates 24 hours before adding PBMCs at an effector ratio of 10:1) using OptEIA enzyme‐linked immunosorbent assays (BD, Heidelberg, Germany) according to the manufacturer’s instructions. T- cell acti- vation and IFNG producing effector cells were flow cyto- metrically quantified (as previously described 22 48 hours after neuroblastoma- PBMC coculture (identical set up to cytokine release assays) using LIVE/DEAD cell stain kit (Invitrogen, Carlsbad, CA, USA) to gate out dead cells and antibodies against CD3 (cat#300328, Biolegend, San Diego, CA, USA), CD4 (cat#300546, Biolegend), CD8a (cat#344742, Biolegend), CD25 (cat#302612, Biolegend), CD56 (cat#318306, Biolegend), CD69 (cat#310904, Biolegend) and IFNG (cat#502532, Biolegend). IFNG was stained intracellularly using cytofix/cytoperm (cat#554722, BD) according to the manufacturer’s instructions. Murine cell surface activation markers were detected using antibodies against Cd3 (cat#100218, Biolegend), Cd4 (cat#100559, Biolegend), Cd8a (cat#100744, Biolegend), Cd25 (cat#101916, Biolegend) and Cd69 (cat#104506, Biolegend). Data were analyzed using FlowJo software (BD). All assays were conducted in triplicates. Analyzing the method of tumor cell death The ADCC Reporter Bioassay (Promega, Walldorf, Germany) was used in 96- well format to detect cytotox - icity in NB69 cells (25 000 cells/well, effector to target ratio of 3:1) exposed to antibody and engineered Jurkat effector cells (stably expressing the relevant Fc gamma receptor and a luciferase reporter gene under control of the NFAT response element). CDC in NB69 cells (stably expressing luciferase, 30 000 cells/well) exposed to test antibodies was per formed as previously described 23 in 96- well format. After 24 hours, background biolumines - cence was measured in culture media before adding 28.6 µg of XenoLight D- luciferin (PerkinElmer) per 150 µl media for either assay (ADCC and CDC), and biolu - minescence was quantified. Relative light units (RLUs) were reported directly as surrogates for ADCC, and CDC was calculated by [1−(RLUtumor cells + serum + antibody )/(RLUtumor cells + serum)]×100%. Testing in syngeneic mouse model Male and female A/J mice (The Jackson Laboratory, Bar Harbor, ME, USA) were bred in- house and group- housed under pathogen- free conditions on a 12- hour day/night cycle with free access to food and water , according to institutional guidelines and compliant with national and EU regulations for animal use in research. Tumor- infiltrating lymphocytes (TILs) were analyzed in A/J mice (8–12- week- old males, 7 per treatment group) intra - venously injected with 1×10 6 NXS2 cells on day 0, then intraperitoneally injected with either 10 µg SUREK in 100 µL phosphate- buffered saline (PBS) or only PBS on day 17. Mice were euthanized on day 21 and macroscopic metastases were dissected
+```
+
+### Chunk 3: page-9-chunk-1 / source page 9
+
+```text
+9 Zirngibl F, et al. J Immunother Cancer 2021;9:e002923. doi:10.1136/jitc-2021-002923 Open access SUREK outperforms ch14.18 in a murine model for neuroblastoma minimal residual disease We used our murine model mimicking neuroblastoma minimal residual disease to directly compare the anti- tumor potency of SUREK to that of the GD2- directed monoclonal ch14.18 antibody, the current standard- of- care. W e intravenously injected NSX2 tumor cells into mice, before treating cohorts every 4 days for a total of three cycles with either SUREK, the unspecific TRBs012 trAb, ch14.18 or PBS starting on day +1. This design mimicks the clinical setting, in which ch14.18 is used as postconsolidation therapy for minimal residual disease (figure 6A). On day +21 post- tumor cell injection, mice were sacrificed to quantify macroscopically visible metas - tases on the liver surface (examples shown in figure 6B). No superficial liver metastases were detected in four of six mice (67%) belonging to the SUREK treatment group. Single metastasis was detected in each of the other two mice in this group. In contrast, only two of six mice (33%) receiving ch14.18 were free of liver metastases, Figure 5 SUREK r educes the Cd4/Cd8 ratio and leads to activation of Cd4+ and Cd8+ tumor - infiltrating T cells in an immunocompetent murine model for neur oblastoma minimal residual disease. (A) Schematic representation of experimental design and time point of analysis. A/J mice were intravenously (+) injected with 1×106 viable NXS2 cells into a lateral tail vein. Mice received a single intraperitoneal (i.p.) injection of 10 µg SUREK (n=7) or PBS only (n=5) 17 days (d) later . Five days after antibody treatment, mice were sacrificed to tumor infiltrating T cells and splenic T cells. (B) Representative dot plots indicating gating strategy to select tumor infiltrating T cells and determine Cd4/Cd8 ratio in spleen and tumor by flow cytometry. Quantification of (C) Cd69 and (D) Cd25 expression by flow cytometry on Cd4+ and Cd8+ T cells isolated from spleen and tumor. Results are pooled from two independent experiments. Mann- Whitney test; **p<0.01; *p<0.05; n.s., not significant. PBS, phosphate- buffered saline. on September 16, 2021 by guest. Protected by copyright.http://jitc.bmj.com/ J Immunother Cancer: first published as 10.1136/jitc-2021-002923 on 20 July 2021. Downloaded from
+```
+
+## E9 Answer
+
+Canonical judgment source: E9; E6/E9 input identical: False
+
+```text
+In the research involving EKTOMUN and NB69 neuroblastoma cells, the markers indicating activation in CD3+ cells are CD25 and CD69.
+```
+
+## Automatic Labels
+
+- E3: False; OK
+- E6: True; OK
+- E9: True; OK
+
+Raw incomplete states: []
+
+- E3_to_E6_wrong_to_correct: True
+- E3_to_E6_correct_to_wrong: False
+- E6_to_E9_wrong_to_correct: False
+- E6_to_E9_correct_to_wrong: False
+
+```text
+{"E3": "The candidate answer is incorrect and fails to answer the question. The reference clearly states that CD25 and CD69 are the activation markers for CD3+ cells, and the candidate answer claims no information is provided.", "E6": "The candidate answer is fully correct, covers all essential points, is consistent with the reference, and directly answers the question.", "E9": "The candidate answer is fully correct, covers all essential points, is consistent with the reference, and directly answers the question."}
+```
+
+## Human Annotation
+
+| Field | Value |
+|---|---|
+| human_e3_correct |  |
+| human_e6_correct |  |
+| human_e9_correct |  |
+| human_reference_valid |  |
+| human_e3_evidence_sufficient |  |
+| human_e6_added_evidence_useful |  |
+| human_e9_added_evidence_useful |  |
+| human_confidence |  |
+| human_notes |  |
+
+
+
+---
+
+# P2A_HR_039 / unidoc_healthcare_0055
+
+Priority: 1 / Cohort: MISS_AT_3_HIT_AT_6 / Selection: AUTOMATIC_TRANSITION
+
+## Question
+
+```text
+How do the survival chances vary among the LMS Stage I risk categories defined by tumor size and MI over a five-year period?
+```
+
+## Gold / Reference
+
+```text
+The survival probabilities for different risk groups in LMS Stage I show that risk group 1 has the highest survival probability, followed by risk group 2, with risk group 3 having the lowest survival probability over 60 months. Risk group 1 is defined by tumor size <10 cm and MI<10 per HPF, risk group 2 by either tumor size > 10 cm or MI > 10 per HPF, and risk group 3 by tumor size > 10 cm and MI > 10 per HPF. The differences in survival probabilities among these groups are statistically significant (P<0.001).
+```
+
+## GT Pages
+
+[10]
+
+## Document Verification
+
+- Document: 2068379
+- Dataset identifier: healthcare/healthcare/2068379.pdf
+- Local PDF: C:\Users\sp\Desktop\adaptive-multimodal-rag\datasets\unidoc\healthcare\healthcare\2068379.pdf
+- Unique E3/E6/E9 pages: [1, 2, 3, 6, 7, 9, 10]
+- E3 pages: [6, 7]
+- E6 pages: [6, 7, 9, 10]
+- E9 pages: [1, 2, 3, 6, 7, 9, 10]
+- PDF direct verification flag: False
+
+### GT page extracted text
+
+### GT page 10 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+prognostic marker based on nuclear texture independently of
+histological type. However, we have shown that nuclear tex-
+ture is of prognostic value both independently of histological
+types and also within the two types tested.
+In a multivariate analysis, including nuclear texture,
+tumor extent, MI, tumor size, tumor necrosis, cellular atypia,
+hyaline necrosis, vascular invasion, tumor margins, and tumor
+type, only nuclear texture, tumor extent, MI, and tumor size
+were found to be of independent prognostic significance for
+crude survival (T able 2). T exture contained additional prog-
+nostic information in combination with each of the clinicopa-
+thological features that were significant in univariate analysis
+of the training data set (Figs. 3g–3q). Abeler et al. (2) found
+that tumor size and MI were significant prognostic markers
+(P < 0.001) in leiomyosarcomas confined to the uterus (Stage
+I) and that these parameters allowed for a separation into
+three risk groups with marked differences in prognosis. In the
+current study, we have shown that nuclear texture contained
+additional prognostic information when stratified for the two
+largest risk groups (Figs. 4b and 4c).
+In several studies (9,10,17,18), we have found a differ-
+ence in chromatin structure between cell nuclei from differ-
+ent clinical classes. In the current study, we have found that
+the entropy patterns were more homogeneous in nuclei
+from patients with a good prognosis, whereas entropy pat-
+terns in nuclei from poor prognosis patients showed more
+variation. GLEM class difference matrices showed that the
+tumor nuclei from patients with good prognosis have a
+higher probability of higher gray level values and lower local
+entropy values compared to nuclei from patients with poor
+prognosis (Fig. 2a). These findings were also observed in a
+study of tumors from patients with early ovarian cancer
+(10), and in a study on dysplasia in Barrett’s oesophagus,
+we found that entropy patterns in nuclei from dysplastic
+cases showed more variation than in nuclei from nondys-
+plastic cases (21).
+In digital pathology, the concept of entropy is useful for
+describing and quantifying the heterogeneity in digital images
+of cancer tissue and nuclei (27,30). It is not unreasonable to
+believe that the mutations of the genome and epigenetic
+Figure 4. Kaplan-Meier 5-year crude survival curves for risk groups based on MI and tumor size for ( a) LMS Stage I ( n 5 165). Crude sur-
+vival based on the texture stratified for ( b) risk Group 1; LMS Stage I ( n 5 69), ( c) risk Group 2; LMS Stage I ( n 5 95) and ( d) risk Group 3;
+LMS Stage I ( n 5 19). The risk groups were defined as in Ref. (2): low risk: tumor size /C20 10 cm and MI /C20 10 per high power field (HPF),
+medium risk: either tumor size > 10 cm or MI > 10 per 10 HPF, high risk: tumor size > 10 cm and MI > 10 per HPF. P-values were estimated
+by the log-rank test.
+Original Article
+10 Nuclear Texture Features in Uterine Sarcomas
+```
+
+## E3 Evidence
+
+Ordered IDs: ["page-6-chunk-2", "page-6-chunk-1", "page-7-chunk-1"]
+
+### Chunk 1: page-6-chunk-2 / source page 6
+
+```text
+The 5-year crude survival for patients with Stage I LMS tumors were 69% versus 42% for tumors with high ver- sus low texture feature value (HR 5 2.2, P 5 0.002). The 5- year crude survival was 82% for ESS patients with high feature value and 50% for patients with low feature value (HR 5 3.5, P 5 0.006), and the 5-year crude survival for patients with Stage I ESS were 90% versus 67% for patients with high versus low texture feature value (HR 5 3.7, P 5 0.067). T exture was significant in multivariate analysis (T able 2). Figures 3g–3q show survival curves based on texture, stratified for the relevant clinicopathological features that were signifi- cant for 5-year crude survival on the training data set. b- catenin expression was not found to be significant for 5-year crude survival when including only the training cases. Figure 4 shows survival curves for the three risk groups based on tumor size and MI that were defined for Stage I LMS cases in the study of Abeler et al. (2), and also survival curves based on texture, stratified for these risk groups. Figure 2 illustrates the difference in nuclear texture between the two prognostic classes. The entropy-patterns were more homogeneous in nuclei from patients with a good prognosis (Fig. 2b), whereas entropy patterns in nuclei from poor prognosis patients showed more variation (Fig. 2c). The average proportion of nuclei with negative JSDiff (i.e., with entropy matrices more similar to the average good prognosis matrix compared to nuclei with more deviating patterns) were 76.9% for the 92 good prognosis and 58.1% for 83 poor prognosis training set cases. Figures 2d and 2e Table 1. The correct classification rates (CCR), sensitivity, and specificity obtained by minimum Euclidean classifiers based on single texture features, and hazard ratios and P-values obtained by Cox proportional hazard regression model of the 175 training cases (92 good prognosis and 83 poor prognosis) and the 179 val- idation cases (92 good prognosis and 87 poor prognosis). FEATURE: CCR (%) SENS. (%) SPEC. (%) HR (95% CI) (5-YEAR) P (5-YEAR) Training AF2Dpos 61 53 67 1.83 (1.19–2.81) 0.006 AF4Dpos 67 73 61 2.93 (1.80–4.78) <0.001 Validation AF2Dpos 65 61 68 2.17 (1.41–3.34) <0.001 AF4Dpos 68 74 63 2.96 (1.84–4.78) <0.001 CI, confidence interval; HR, hazard ratio. Original Article 6 Nuclear Texture Features in Uterine Sarcomas
+```
+
+### Chunk 2: page-6-chunk-1 / source page 6
+
+```text
+For comparison, predefined features from GLEM matri- ces were extracted and minimum Euclidean distance classifiers based on single features and combinations of two and three features were constructed. Bootstrap estimates of CCR, sensi- tivity, and specificity (resampling with replacement, 10,000 iterations) were computed by dividing the training set into several smaller training (46 good and 42 poor prognosis cases) and test (46 good and 41 poor prognosis cases) sets. Statistical Analysis The SPSS statistical package (SPSS Statistics 20) was used for survival analysis. Survival of patients was estimated using univariate Kaplan-Meier analysis. Crude survival was calcu- lated from date of diagnosis to death or end of (5-year) follow-up. The log-rank test was used for test of equality of survival distributions for the different levels of each feature. The Cox proportional hazards regression model was used for both univariate and multivariate analyses. P-values <0.05 were considered statistically significant. The variables were grouped as follows: histological sub- type as LMS, ESS, AS, undifferentiated uterine sarcomas (UUS), or other sarcomas; DNA ploidy as diploid/nondiploid; MI as below ( /C20 )/above 10 per 10 high-power field (HPF); tumor extent as confined to uterus (Stage I)/not confined to uterus (Stages II–IV); tumor size as below ( /C20 )/above 10 cm; tumor margins as pushing or infiltrating; cellular atypia as mild, moderate or severe; tumor necrosis as present or absent, hyaline necrosis as present or absent, and vascular invasion as present or absent (11). The texture feature ( AF4Dpos) was grouped as high/low feature value based on an optimal thresh- old identified in the training set. b-catenin expression was grouped as positive/negative membranous, cytoplasmic and nuclear (22). RESUL TS All adaptive texture features were significant for crude survival in Cox univariate analyses based on the training set, and were also found to be significant when evaluated on the independent validation set. The best texture feature ( AF4D- pos) classified the training cases into good or poor prognosis with a CCR of 67%, and the validation cases were classified with a CCR of 68% (T able 1), and this feature was selected for further analyses. The 5-year crude survival, as computed from the complete data set, was significantly higher ( P <0.001) for patients with high texture feature value (72%) than for patients with low feature value (36%, Fig. 3a). When combin- ing DNA ploidy category (diploid/nondiploid) and texture (high/low feature value), the training set patients could be stratified into tree risk groups: a low risk group for cases clas- sified as DNA diploid, a medium risk group for nondiploid cases with high texture feature value, and a high risk group for nondiploid cases with low texture feature value, and this result was verified on the validation set. The 5-year crude sur- vival computed for the complete data set for the three risk groups were 77% ( n 5 110), 57% ( n 5 69), and 34% (n 5 175), with relative HR of 1, 2.3, and 4.1 ( P < 0.001), respectively (Fig. 3b). The CCR bootstrap estimates of the predefined, nona- daptive GLEM features were about 50% for AE, LEE, HEE, and ENN and about 55% for LGEE, HGEE, and EH. Combi- nations of two and three features did not increase the CCR values. Univariate analyses were performed separately on patients with tumors of the two largest histology types (Figs. 3c–3f), whereas the other types were too small for similar analysis. The 5-year crude survival for patients with LMS were 65% for tumors with high texture feature value compared to 34% for patients with LMS with low feature value (HR 5 2.4, P < 0.001). The 5-year crude survival for patients with Stage I LMS tumors were 69% versus 42% for tumors with high ver- sus low texture feature value (HR 5 2.2, P 5 0.002). The 5- year crude survival was 82% for ESS patients with high feature value and 50% for patients with low feature value (HR 5 3.5, P 5 0.006), and the 5-year crude survival for patients with Stage I ESS were 90% versus 67% for patients with high versus low texture feature value (HR 5 3.7, P 5 0.067). T exture was significant in multivariate analysis (T able 2). Figures
+```
+
+### Chunk 3: page-7-chunk-1 / source page 7
+
+```text
+illustrate the difference in texture between two example training set LMS cases with different prognosis. The propor- tion of nuclei with negative JSDiff were higher for the good prognosis case M05-041 (85% within area Group 3) than for the poor prognosis case M05-017 (64%, Fig. 2d). The figure also illustrates an example of mapping windows contributing to the entropy matrices back to cell nuclei. The entropy pat- terns that were given the largest weights in the extraction of AF2Dpos (as shown in Fig. 2b) were identified, and the pixels in two example nuclei that contributed to these patterns were identified and visualized (Fig. 2e). These patterns occurred 811 times (for 25% of the nuclear pixels) in the nucleus from the good prognosis case and zero times in the nucleus from the poor prognosis case. Figure 3. Kaplan-Meier 5-year crude survival curves based on texture. ( a) Survival curves are based on the complete data set ( n 5 354), HR 5 2.9 (2.1–4.1), ( b) Survival curves based on a combination of texture (high/low value) and DNA ploidy category (diploid/nondiploid) on the complete data set. Survival curves based on ( c) all LMS cases ( n 5 222), HR 5 2.41 (1.56–3.72) ( d) LMS Stage I ( n 5 173), HR 5 2.25 (1.35–3.75) ( e) all ESS cases ( n 5 78), HR 5 3.47 (1.43–8.38), and ( f) ESS Stage I ( n 5 52), HR 5 3.65 (0.91–14.64). Five-year crude survival curves based on texture stratified for ( g) tumor extent; tumor confined to the uterus ( n 5 267 cases), ( h) tumor spread outside the uterus (n 5 87), ( i) MI; 0–10 per 10 high power field ( n 5 207), ( j) >10 per 10 high power field ( n 5 143), ( k) tumor size; /C20 10 cm ( n 5 260) (l) above 10 cm ( n 5 75), (m) tumor necrosis; absent ( n 5 86), (n) present ( n 5 264), (o) cellular atypia; mild ( n 5 106), (p) moderate ( n 5 130), and ( q) severe (n 5 112). P-values were estimated by the log-rank test and hazard ratios were estimated by the Cox model. Original Article Cytometry Part A /C15 00A: 00/C0 00, 2014 7
+```
+
+## E3 Answer
+
+```text
+The survival chances for patients with Stage I LMS (uterine leiomyosarcoma) tumors vary based on tumor size and mitotic index (MI). The document provides survival data stratified into three risk groups defined by these factors. However, the specific survival rates for each of these three risk groups are not directly stated in the retrieved text. The text does mention survival rates for Stage I LMS tumors categorized by texture feature values, with 69% 5-year crude survival for high texture feature value and 42% for low texture feature value. The retrieved evidence does not provide the exact survival rates for the three risk groups based on tumor size and MI.
+```
+
+## E6 Added Evidence
+
+Added ordered IDs: ["page-10-chunk-1", "page-9-chunk-1", "page-9-chunk-2"]
+
+### Chunk 1: page-10-chunk-1 / source page 10
+
+```text
+prognostic marker based on nuclear texture independently of histological type. However, we have shown that nuclear tex- ture is of prognostic value both independently of histological types and also within the two types tested. In a multivariate analysis, including nuclear texture, tumor extent, MI, tumor size, tumor necrosis, cellular atypia, hyaline necrosis, vascular invasion, tumor margins, and tumor type, only nuclear texture, tumor extent, MI, and tumor size were found to be of independent prognostic significance for crude survival (T able 2). T exture contained additional prog- nostic information in combination with each of the clinicopa- thological features that were significant in univariate analysis of the training data set (Figs. 3g–3q). Abeler et al. (2) found that tumor size and MI were significant prognostic markers (P < 0.001) in leiomyosarcomas confined to the uterus (Stage I) and that these parameters allowed for a separation into three risk groups with marked differences in prognosis. In the current study, we have shown that nuclear texture contained additional prognostic information when stratified for the two largest risk groups (Figs. 4b and 4c). In several studies (9,10,17,18), we have found a differ- ence in chromatin structure between cell nuclei from differ- ent clinical classes. In the current study, we have found that the entropy patterns were more homogeneous in nuclei from patients with a good prognosis, whereas entropy pat- terns in nuclei from poor prognosis patients showed more variation. GLEM class difference matrices showed that the tumor nuclei from patients with good prognosis have a higher probability of higher gray level values and lower local entropy values compared to nuclei from patients with poor prognosis (Fig. 2a). These findings were also observed in a study of tumors from patients with early ovarian cancer (10), and in a study on dysplasia in Barrett’s oesophagus, we found that entropy patterns in nuclei from dysplastic cases showed more variation than in nuclei from nondys- plastic cases (21). In digital pathology, the concept of entropy is useful for describing and quantifying the heterogeneity in digital images of cancer tissue and nuclei (27,30). It is not unreasonable to believe that the mutations of the genome and epigenetic Figure 4. Kaplan-Meier 5-year crude survival curves for risk groups based on MI and tumor size for ( a) LMS Stage I ( n 5 165). Crude sur- vival based on the texture stratified for ( b) risk Group 1; LMS Stage I ( n 5 69), ( c) risk Group 2; LMS Stage I ( n 5 95) and ( d) risk Group 3; LMS Stage I ( n 5 19). The risk groups were defined as in Ref. (2): low risk: tumor size /C20 10 cm and MI /C20 10 per high power field (HPF), medium risk: either tumor size > 10 cm or MI > 10 per 10 HPF, high risk: tumor size > 10 cm and MI > 10 per HPF. P-values were estimated by the log-rank test. Original Article 10 Nuclear Texture Features in Uterine Sarcomas
+```
+
+### Chunk 2: page-9-chunk-1 / source page 9
+
+```text
+DISCUSSION In the field of cancer medicine, much current effort goes into the development of predictive genetic profiling tests for common cancers. The rationale here is that because all cancers are believed to originate in genomic alterations, it could be possible to identify clusters of genes whose activity is enhanced or depressed in patients having a good prognosis, or in patients whose cancer will fail to respond to a specific ther- apy regime. A similar rationale supports the use of quantita- tive image-based DNA ploidy measures because it appears that a tumor’s ability to metastasize is connected to the pres- ence within it of cell lines with aneuploidy DNA content. Such large-scale genomic instability must correlate with large-scale rearrangement of interphase nuclear chromatin. Nuclear tex- ture analysis reflects such large-scale chromatin rearrangement and is therefore interesting as a potential method of choice for the prediction of significant clinical outcomes (9,15,27). In general, the literature on nuclear texture analysis supports this idea, though there are methodological challenges related to the large number of possible features that can be measured, just as there are difficulties with approaches to the same prob- lem that are based on genomic profiling (9,28). In the current study, we computed a compact set of superior adaptive nuclear texture features based on local nuclear gray level entropy. The training set of 175 patients was used for design- ing classifiers based on single texture features. When evaluat- ing the classifiers on the validation set of 179 patients, we obtained similar classification results as obtained on the train- ing set (Table 1). The strength of using separate training and validation data sets is that an eventual overfitting during training will be showed by testing (9). The only true reliable estimate of the performance of a classifier is obtained from separate training and validation sets (12,28,29). When com- paring the adaptive nuclear texture feature extraction approach with the more conventional predefined features extracted from the same entropy matrices, we found that both single nonadaptive features and feature combinations were outperformed by our low dimensional AF extraction approach. When comparing crude survival for diploid ( n 5 28) and nondiploid ( n 5 194) LMS tumors, Kildal et al. (11) found that the difference did not reach statistical significance (P 5 0.051), whereas texture gave significantly better 5-year crude survival ( P < 0.001) for LMS with tumors with high fea- ture values (65% survival, n 5 75) compared to low feature values (34%, n 5 147, Figs. 3c and 3d). Kildal et al. (11) found that 5-year crude survival for diploid ESS cases was 83% and nondiploid ESS cases was 40% ( P < 0.001). T exture gave simi- lar results for these tumors, 82% 5-year crude survival for the 60 cases with high feature values and 50% survival for the 18 cases with low feature values ( P 50.003, Figs. 3e and 3f). Abeler et al. (2) performed a histopathological review of all cases (uterine sarcomas in Norway between 1970 and 2000) and examined the possibility of overdiagnosis of leio- myomatous tumors. The diagnosis of uterine sarcomas was confirmed in 419 (71%) cases, whereas most of the 168 excluded cases got a revised diagnosis (28 benign leiomyoma, 29 cellular leiomyoma, 15 atypical leiomyoma, 20 leiomyoma- tous tumor of uncertain malignant potential, two inflamma- tory myofibroblastic tumor, three LMS outside uterus 1 benign leiomyoma in the uterus, 14 carcinoma, 16 carcino- ma 1 leiomyomatous tumor, one lymphoma). Because of this diagnostic uncertainty, we have chosen to develop our Table 2. Five-year crude survival related to nuclear texture, tumor extent, MI, tumor size, tumor necrosis, cellular atypia, hya- line necrosis, vascular invasion, tumor margins, and tumor type. UNIV ARIATE ANALYSIS: MUL TIV ARIATE ANALYSIS FEATURE: P HR (95% CI) P T exture: High value <0.001 1.0 0.001 Low value 2.1 (1.4–3.2) Tumor extent: Confined to the uterus <0.001 1.0 <0.001 Spread outside the uterus 2.7 (1.8–4.0) MI: 0–10 high-power field <0.001 1.0 <0.001 >10 high-power field 2.3 (1.6–3.4) Tumor size: 0–10 cm <0.001 1.0 0.003 >10 cm 1.8 (1.2–2.6) Tumor necrosis: Present <0.001 1.0 0.122 Absent 1.5 (0.9–2.6) Cellular atypia: Mild <0.001 1.0 0.478 Moderate 1.4 (0.7–2.6) Severe 1.2 (0.6–2.3) Hyaline necrosis:
+```
+
+### Chunk 3: page-9-chunk-2 / source page 9
+
+```text
+size, tumor necrosis, cellular atypia, hya- line necrosis, vascular invasion, tumor margins, and tumor type. UNIV ARIATE ANALYSIS: MUL TIV ARIATE ANALYSIS FEATURE: P HR (95% CI) P T exture: High value <0.001 1.0 0.001 Low value 2.1 (1.4–3.2) Tumor extent: Confined to the uterus <0.001 1.0 <0.001 Spread outside the uterus 2.7 (1.8–4.0) MI: 0–10 high-power field <0.001 1.0 <0.001 >10 high-power field 2.3 (1.6–3.4) Tumor size: 0–10 cm <0.001 1.0 0.003 >10 cm 1.8 (1.2–2.6) Tumor necrosis: Present <0.001 1.0 0.122 Absent 1.5 (0.9–2.6) Cellular atypia: Mild <0.001 1.0 0.478 Moderate 1.4 (0.7–2.6) Severe 1.2 (0.6–2.3) Hyaline necrosis: Present 0.045 1.0 0.770 Absent 1.1 (0.7–1.5) V ascular invasion: Present 0.023 1.0 0.116 Absent 1.3 (0.9–1.9) Tumor margins: Pushing 0.040 1.0 0.300 Infiltrating 1.3 (0.8–2.0) Tumor type: LMS <0.001 1.0 0.066 ESS 0.7 (0.3–1.5) AS 1.4 (0.5–3.7) UUS 0.6 (0.3–1.5) Other sarcomas 2.3 (1.2–4.4) P value: Univariate analysis; crude survival analysis (log- rank), Multivariate analysis; Cox proportional regression model; HR, hazard ratio; CI, confidence interval. Missing values; tumor size 19, cellular atypia 6, MI 4, tumor necrosis 4, hyaline necrosis 12, vascular invasion 21 and tumor margins 16. LMS, leiomyosarcoma; ESS, endometrial stromal sarcoma; AS, adenosarcoma; USS, undifferentiated uterine sarcoma. Other sarcomas include 10 sarcoma not otherwise speci- fied, four rhabdomyosarcoma, two giant cell tumors with/without LMS and one PEComa. Original Article Cytometry Part A /C15 00A: 00/C0 00, 2014 9
+```
+
+## E6 Answer
+
+```text
+The survival chances among the LMS Stage I risk categories defined by tumor size and MI over a five-year period are as follows:
+
+- **Low risk group**: Tumor size ≤10 cm and MI ≤10 per high power field (HPF). The 5-year crude survival for this group is 77%.
+- **Medium risk group**: Either tumor size >10 cm or MI >10 per 10 HPF. The 5-year crude survival for this group is 57%.
+- **High risk group**: Tumor size >10 cm and MI >10 per 10 HPF. The 5-year crude survival for this group is 34%.
+```
+
+## E9 Added Evidence
+
+Added ordered IDs: ["page-2-chunk-2", "page-3-chunk-1", "page-1-chunk-1"]
+
+### Chunk 1: page-2-chunk-2 / source page 2
+
+```text
+endometrial stromal sarcoma (ESS) at Stage I was related to MI and tumor cell necrosis. Kildal et al. (11) analyzed DNA ploidy as a prognostic marker in the same series, and found that DNA ploidy was useful as a prog- nostic marker in patients with LMS and adenosarcoma (AS). In the current study, we evaluated the prognostic value of adaptive entropy-based features in the population based series of 354 cases of uterine sarcomas, and studied the relation between nuclear texture, DNA ploidy, b-catenin expression (22), and clinicopathological features of the sarcomas. MATERIALS AND METHODS Patients This retrospective study was performed on tissue samples from 354 uterine sarcomas (11). A total of 587 uterine sarco- mas were registered from 1970 to 2000 at the Norwegian Can- cer Registry, which gathers information on all cancer events in Norway (2,11). Survival dates were provided by the Cancer Registry on 31st October 2007 for all patients. The tumors were reclassified by an experienced gynecological pathologist (VMA) according to the W orld Health Organization (WHO) recommendations (23), and the diagnosis of uterine sarcoma was confirmed in 419 of the 587 patients (2). The observation time for patients still alive was a minimum of 82 months (2). Of the 419 patients, 354 cases could be included in this study, 29 cases were not admitted to surgery, tissue blocks with tumor material could not be obtained in 15 cases, and DNA ploidy classification could not be obtained in 21 cases because of poor quality of the tumor material) (11). A more detailed description of the material has been given previously (2). The study was approved by the Regional Ethics Committee. Cell Nuclei and Imaging Paraffin-embedded tissue fixed in 4% buffered formalin was used for preparation of nuclei suspension. At histologic review, representative areas with (the most aggressive) tumor tissue and without necrosis, hemorrhage, or inflammation were selected for analysis. Monolayers (isolated nuclei) were prepared from one or more 50 mm sections using a modifica- tion of Hedley’s method (24). The nuclei were stained with Feulgen-Schiff according to an established protocol (25). A DNA ploidy system, which consisted of a Zeiss axio- plan microscope equipped with a 40/0.75 objective lens (Zeiss), a 546 nm green filter and a high-resolution digital camera (C4742-95, Hamamatsu Photonics, Japan) with 1,024 3 1,024 pixels/image and a gray level resolution of 10 bits/ pixel, was used to capture each image field. Shading correction was performed for each such image field. The pixel resolution was 166 nm/pixel on the cell specimen. Each nucleus was Original Article 2 Nuclear Texture Features in Uterine Sarcomas
+```
+
+### Chunk 2: page-3-chunk-1 / source page 3
+
+```text
+segmented from the background using a global threshold and the segmented nuclei were stored in galleries in each case. T rained personnel performed a screening of the nuclei and selected tumor nuclei for the analysis. Stromal nuclei, necrotic nuclei, doublets, and cut nuclei were discarded. The mean number of measured tumor nuclei per case was 1,229 (278-3,972), and the median number of nuclei was 1,295. Training and Validation Data Sets The data set was randomly divided into a training set (n 5 175) and a validation set ( n 5 179), and then balanced for histology type by moving seven LMS cases from the vali- dation set to the training set and five ESS and two AS cases from the training to the validation set. The training set cases were grouped into two different prognostic classes. The patients who survived for at least 5 years ( n 5 92, 52.6%) were defined as members of the good prognosis class, whereas the patients that died within 5 years ( n 5 83, 47.4%) were defined as members of the poor prognosis class. The training set, where the prognosis of each case was known, was used for designing classifiers based on single texture features, whereas the independent validation set was used for evaluation of the classifiers. The validation set included 92 (51.4%) good and 87 (48.6%) poor prognosis cases. The training set was also used in a search for useful combinations of texture with DNA ploidy (11), b-catenin expression (22), and relevant clinicopa- thological parameters (2), and only parameters that were sig- nificant for 5-year crude survival were applied on the complete data set. Nuclear Texture Analysis 2D GLEM. 2D GLEMs (9,10,19) were computed from all nuclear images (Fig. 1a). The GLEM element P(i,j) contains the normalized frequency of a local first order gray level entropy value j within a window of size w3w centered around a pixel with gray level value i (19). The gray level entropy is defined as j52 XG i51 PðiÞ3log PðiÞ; 0 < PðiÞ/C20 1 where PðiÞ is the normalized frequency of occurrence of gray level i within the window and G is the number of gray level re-quantization levels in the image. The entropy measures the gray level non-uniformity within the window. Homogeneous structures will give low entropy values whereas inhomogene- ous structures will give high entropy values. The number of gray levels in the nuclear images was reduced by re- quantization to 64 before computation of the GLEMs (10). In the current study, we extracted seven predefined, non- adaptive texture features (19) from GLEM matrices computed for w515. Each of these features is defined as a weighted sum of the GLEM element values, where the weighting is based on either the value of the matrix element [entropy homogeneity (EH), entropy non-normality (ENN)] or the position in the matrix [average entropy (AE), low-entropy emphasis (LEE), high-entropy emphasis (HEE), low gray-level entropy empha- sis (LGEE), high gray-level entropy emphasis (HGEE)]. Each case (patient) was represented by the median feature value computed from all nuclei/case. AF from 2D GLEM. As an alternative to the nine prede- fined, nonadaptive features defined in Ref. 19, we extract only Figure 1. (a) The computation of a gray level entropy matrix (GLEM). 1: A moving window of size w3w pixels is centered around each pixel in a nuclear image, 2: For each position in the image, the gray value ðiÞ of the center pixel and the gray level entropy value ðjÞ of the pixels within the window are extracted, 3: i and (the scaled) j are used as indexes in the GLEM, and the fre- quency of obtaining different i; jðÞ -patterns (entropy patterns) is accumulated, and 4: The final GLEM is normalized by dividing each element in the matrix by the total number of pixels in the nuclear image. ( b) Computation of a 3D patient matrix. 1,2: For each nucleus representing a given patient, a 2D GLEM is com- puted, and 3: a 3D patient matrix using the nuclear area group (a51210) as a third axis is accumulated. The 3D patient matrix is normalized by dividing each element by the number of nuclei rep- resenting the patient. ( c) Entropy
+```
+
+### Chunk 3: page-1-chunk-1 / source page 1
+
+```text
+Entropy-Based Adaptive Nuclear Texture Features are Independent Prognostic Markers in a Total Population of Uterine Sarcomas Birgitte Nielsen,1,2 T arjei Sveinsgjerd Hveem,1,2,5 Wanja Kildal,1,2 V era M. Abeler,3 Gunnar B. Kristensen,1,4 Fritz Albregtsen,1,5 Ha˚vard E. Danielsen 1,2,5,6* /C15 Abstract Nuclear texture analysis measures the spatial arrangement of the pixel gray levels in a digitized microscopic nuclear image and is a promising quantitative tool for prognosis of cancer. The aim of this study was to evaluate the prognostic value of entropy-based adaptive nuclear texture features in a total population of 354 uterine sarcomas. Isolated nuclei (monolayers) were prepared from 50 mm tissue sections and stained with Feulgen-Schiff. Local gray level entropy was measured within small windows of each nuclear image and stored in gray level entropy matrices, and two superior adaptive tex- ture features were calculated from each matrix. The 5-year crude survival was signifi- cantly higher ( P < 0.001) for patients with high texture feature values (72%) than for patients with low feature values (36%). When combining DNA ploidy classification (diploid/nondiploid) and texture (high/low feature value), the patients could be strati- fied into three risk groups with 5-year crude survival of 77, 57, and 34% (Hazard Ratios (HR) of 1, 2.3, and 4.1, P < 0.001). Entropy-based adaptive nuclear texture was an independent prognostic marker for crude survival in multivariate analysis including relevant clinicopathological features (HR 5 2.1, P 5 0.001), and should therefore be considered as a potential prognostic marker in uterine sarcomas. VC 2014 International Society for Advancement of Cytometry /C15 Key terms uterine sarcomas; nuclear texture analysis; entropy; adaptive features; prognostic markers; leiomyosarcoma; endometrial stromal sarcoma; nucleotyping UTERINE sarcomas are rare tumors, comprising about 3% of uterine cancers (1–4) and 7% of all soft tissue sarcomas reported (5). Most uterine sarcomas are aggressive tumors, but there are marked differences in survival between the histological types (1,2). However, the histological diagnosis of uterine sarcomas is challenging (2) and because of the rarity of the disease, the experience in diagnosing these tumors is lim- ited for most pathologists. Most studies on prognostic factors in uterine sarcomas include a small number of cases and results are conflicting. There is currently no con- sensus on the significance of various prognostic factors (1,6) and optimal treatment (6). Tumor stage and mitotic index (MI) are reported to be important prognostic factors in uterine sarcomas (1,2). However, information on the use of preoperative imaging for staging purposes is lacking, and therefore uterine sarcomas are still surgi- cally staged (1). Calculation of MI is a labor-intensive method based on subjective manual classification of nuclei into cell cycle stages and has been shown to have a low reproducibility (7,8). Therefore, there is a need for new reliable prognostic fac- tors in uterine sarcomas (1). In digital pathology, the field of nuclear texture analysis (nucleotyping) gives information about the spatial arrangement of the pixel gray levels in a digitized 1Institute for Cancer Genetics and Infor- matics, Oslo University Hospital, Oslo, Norway 2Centre for Cancer Biomedicine, Univer- sity of Oslo, Oslo, Norway 3Department of Pathology, Oslo University Hospital, Oslo, Norway 4Department of Gynecologic Oncology, Oslo University Hospital, Oslo, Norway 5Department of Informatics, University of Oslo, Oslo, Norway 6Nuffield Division of Clinical Laboratory Sciences, University of Oxford, England Received 9 May 2014; Revised 16 October 2014; Accepted 18 November 2014 Correspondence to: H.E. Danielsen; Insti- tute for Cancer Genetics and Informatics, Oslo University Hospital, P.O. Box 4953 Nydalen, 0424 Oslo, Norway. E-mail: hed@ous-hf.no Published online 00 Month 2014 in Wiley Online Library (wileyonlinelibrary.com) DOI: 10.1002/cyto.a.22601 VC 2014 International Society for Advancement of Cytometry Cytometry Part A /C15 00A: 00/C0 00, 2014 Original Article
+```
+
+## E9 Answer
+
+Canonical judgment source: E9; E6/E9 input identical: False
+
+```text
+The survival chances among the LMS Stage I risk categories defined by tumor size and MI over a five-year period are as follows:
+
+- **Low risk group**: Tumor size ≤10 cm and MI ≤10 per high power field (HPF). The 5-year crude survival for this group is 69%.
+- **Medium risk group**: Either tumor size >10 cm or MI >10 per 10 HPF. The 5-year crude survival for this group is 42%.
+- **High risk group**: Tumor size >10 cm and MI >10 per 10 HPF. The 5-year crude survival for this group is 34%.
+
+These survival rates are based on the study by Abeler et al. and are further stratified in the current study by nuclear texture features.
+```
+
+## Automatic Labels
+
+- E3: False; OK
+- E6: True; OK
+- E9: True; OK
+
+Raw incomplete states: []
+
+- E3_to_E6_wrong_to_correct: True
+- E3_to_E6_correct_to_wrong: False
+- E6_to_E9_wrong_to_correct: False
+- E6_to_E9_correct_to_wrong: False
+
+```text
+{"E3": "The candidate answer correctly identifies that survival chances vary based on tumor size and MI and mentions the existence of three risk groups. However, it fails to provide the correct survival probabilities for each risk group as stated in the reference. Instead, it incorrectly references texture feature values, which are not part of the LMS Stage I risk categories defined by tumor size and MI. This leads to a substantial contradiction with the reference and a failure to answer the question directly.", "E6": "The candidate answer is mostly correct and covers all essential points, including the three risk groups, their definitions, and their 5-year survival rates. The only minor inaccuracy is the phrase 'MI >10 per 10 HPF,' which is likely a typographical error and should be 'MI >10 per HPF.' The survival probabilities are consistent with the reference, and the answer directly addresses the question.", "E9": "The candidate answer correctly identifies the three risk groups and their corresponding survival rates, aligning with the reference in terms of the general trend (low, medium, high risk with decreasing survival). However, there is a minor factual imprecision in the description of the medium risk group, which is stated as 'MI >10 per 10 HPF' instead of 'MI >10 per HPF'. Additionally, the candidate introduces a reference to a study by Abeler et al. and nuclear texture features, which are not mentioned in the reference answer and are thus unsupported."}
+```
+
+## Human Annotation
+
+| Field | Value |
+|---|---|
+| human_e3_correct |  |
+| human_e6_correct |  |
+| human_e9_correct |  |
+| human_reference_valid |  |
+| human_e3_evidence_sufficient |  |
+| human_e6_added_evidence_useful |  |
+| human_e9_added_evidence_useful |  |
+| human_confidence |  |
+| human_notes |  |
+
+
+
+---
+
+# P2A_HR_040 / unidoc_healthcare_0074
+
+Priority: 1 / Cohort: MISS_AT_3_HIT_AT_6 / Selection: AUTOMATIC_TRANSITION
+
+## Question
+
+```text
+How does Egr3 influence the proportion of cells remaining in the G0 phase as described in the BMC Systems Biology 2017 study?
+```
+
+## Gold / Reference
+
+```text
+Egr3 increases the ratio of cells in the G0 phase compared to the control. The image shows that the ratio of cells remaining in the G0 phase is significantly higher when Egr3 is overexpressed, as indicated by the bar graph in panel e.
+```
+
+## GT Pages
+
+[4]
+
+## Document Verification
+
+- Document: 1893899
+- Dataset identifier: healthcare/healthcare/1893899.pdf
+- Local PDF: C:\Users\sp\Desktop\adaptive-multimodal-rag\datasets\unidoc\healthcare\healthcare\1893899.pdf
+- Unique E3/E6/E9 pages: [1, 3, 4, 6, 7, 8, 9, 11]
+- E3 pages: [3, 6, 11]
+- E6 pages: [1, 3, 4, 6, 11]
+- E9 pages: [1, 3, 4, 6, 7, 8, 9, 11]
+- PDF direct verification flag: False
+
+### GT page extracted text
+
+### GT page 4 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+Validation of the molecular actions by analyses of gene
+sequences
+To further confirm the fidelity of the study and minify
+the possibility of overfitting in modeling, for each dis-
+covered molecular action (molecule X genetically acting
+on Y), we validated it by examining if the gene sequence
+of Y harbored any regulatory element on which the gene
+product of X could act, or if there existed an (or more)
+intermediate(s) Z, who could act on Y and harbored tar-
+get regulatory elements of X at the same time.
+As it was known that Maff possessed a conserved basic
+region flanked by a heptad repeat motif (bZip), through
+which the protein recognized a specific palindromic se-
+quence TGCTGAC(G)TCAGCA (maf recognition elem-
+ent, MARE) to mediate DNA binding and potentiate
+gene transcription [18]. Since the p18 gene did not con-
+tain MARE, we surveyed all known genes that contained
+MARE in the promoter region (i.e. in a range of ~2kbp
+upstream TSS, by convention). We identified that
+Blimp1/Prdm1 contained MARE at the location of
+156 bp upstream its TSS (Fig. 7a); meanwhile, Blimp1
+was shown to repress p18 expression by various studies
+[19, 20]. Furthermore, Blimp1 was also a transcription
+factor of hematopoiesis functioning in differentiation of
+blood cells, thus coherently relevant to cell cycle regula-
+tion. In all, Maff could act as transcription factor on (i.e.
+activate) Blimp1, and Blimp1 subsequently down-
+regulated p18. Therefore, the acting relationship
+“Maff −⊣ p18” had been confirmed.
+For Egr3, we carried out the similar gene sequence
+survey to detect if it was functionally related with the
+cell cycle regulators (Cdk2/4/6, Cyclin D/E). We identi-
+fied that gene Anapc11 linked to a cis element
+(CGCCCCCGC) which Egr3 could recognize and acti-
+vate transcription (Fig. 7b). The product of Anapc11,
+APC11, was a core catalytic subunit of the anaphase-
+promoting complex/cyclosome (APC/C), which could
+act on mitotic cyclins and greatly suppress the transition
+of G0/G1 phase to S phase [21]. Since it was
+CyclinD:Cdk4/6 and CyclinE:Cdk2 that governed the
+phase transition G0/G1 → S and Egr3 could transcrip-
+tionally activate APC11, it was a support for our infer-
+ences that the acting relationships “Egr3−⊣
+CyclinD:Cdk4/6” and “Egr3−⊣ CyclinE:Cdk2” might
+Fig. 3 Simulations of system dynamics with respect toEgr3 expression.a-c Stable equilibriums (steady states) of Cyc D*, Cyc E* and E2F with respect to
+the expression level ofEgr3 are shown in (a), (b)a n d(c) respectively. Similar to Fig. 2a–c, data are steady state concentrations under various genetic
+synthesis rates (ks_egr3,i . e .e x p r e s s i o nl e v e l )o fEgr3. Stable equilibriums of all the three cell cycle checkpoint-determining molecules have shifted downward
+as ks_egr3 increases, especially for Cyc E*b and E2F c as their steady states decline sharply in the manner of bistability (i.e. low-level stable equilibriums
+occur due to dynamical bifurcation;red lines). The steady states of Cyc D* exhibit veryslight upward fluctuations at certainEgr3 expression levels because
+the decreases in E2F at thoseks_egr3 values result in less amounts of p18 and p19 (inhibitors of Cyc D*), thus causing the transient elevation. However, the
+Cyc D* level rapidly declines asks_egr3 further increases. Noteworthy, whenks_egr3 exceeds certain values, the three molecules are all suppressed to very
+low levels, indicating that highEgr3 expression potently suppresses cell cycle.d Proliferation of HSCs over-expressing (i.e. transducted with)Egr3; similar to
+Fig. 2d, “Vector” stands for control data. As shown, the proliferation capability of HSCs highly expressingEgr3 is significantly lowered (p-value <0.005).e Ratio
+of HSCs staying in G0 phase before (control) and afterEgr3 over-expression. Data show that the ratio of G0 HSCs is significently heightened whenEgr3 is
+highly expressed (p-value <0.05), indicating that highEgr3 expression arrests HSCs in the G0 phase, reducing the number of HSCs entering the later
+phase(s) of cell cycle
+The Author(s) BMC Systems Biology 2017, 11(Suppl 5):91 Page 78 of 102
+```
+
+## E3 Evidence
+
+Ordered IDs: ["page-3-chunk-1", "page-6-chunk-2", "page-11-chunk-1"]
+
+### Chunk 1: page-3-chunk-1 / source page 3
+
+```text
+which ways of actions formed a system structure that gave rise to the particu lar kinetic phenomena observed in experiments. We used the experimental data of in vitro liquid cultu re, cell cycle flow cytome- try and gene expressions of HSC cell cycle as references [7]. From the in silico tests, we proved that at least three molecular actions that “Maff −⊣ p18”, “Egr3 −⊣ Cdk2(:CyclinE) ”,a n d “Egr3 −⊣ Cdk4/ 6(:CyclinD) ” were necessary for the experimental phenomena that (individual) transductions (i.e. over- expressions) of Maff and Egr3 greatly accelerated and suppressed HSC cell cycle (Figs. 2 and 3), as well as the real expression levels of cell cycle regulators in HSCs which both Maff and Egr3 were highly expressed (Fig. 4). The three molecular actions formed a minimum inference of the mechanisms that Maff and Egr3 functionally influenced the HSC cell c y c l e( F i g .5 ,A d d i t i o n a lf i l e s1 ,2 ,3 :F i g u r eS 1 ,S 2 , S3, Additional file 7: Table S1). For other ways of ac- tions, in clear contrast to Figs. 2, 3, 4, the system structures they dictated could not generate the ob- served kinetics; thus they were discarded as false hypotheses in model selection (Additional file 4: Figure S4). For details of methods, refer to Materials and Methods and Additional file 6. Model-based computational analyses of the dynamics of Maff/Egr3- mediated alterations of HSC cell cycle under leukemia Based on the model structure endowed by the three mo- lecular actions “Maff −⊣ p18”, “Egr3 −⊣ Cdk2(:CyclinE)”, and “Egr3 −⊣ Cdk4/6(:CyclinD)”, we can further explore the regulatory mechanisms of Maff and Egr3 computa- tionally. By dynamical analyses, we observed that the ex- pression of Maff generated a bistable system state to accelerate cell cycle only when Egr3 expression was low or medium (Figs. 6a-c). On the other hand, when Egr3 was highly expressed, no matter Maff expression was high or low, cell cycle was not accelerated as the system could not yield a bistability that increased the levels of the cell cycle checkpoint-determinants (Figs. 6a-i). The results indicated that although Maff and Egr3 had opposite regulatory ef- fects on cell cycle, the inhibitory power of Egr3 was more potent than the activatory ability of Maff. Fig. 2 Simulations of system dynamics with respect to Maff expression. a-c Stable equilibriums (steady states) of Cyc D*, Cyc E* and E2F with respect to the expression level of Maff are shown in (a), (b) and (c) respectively. As known, the three molecules are benchmarks for the transitions of G0 - > G1/G1 - > S in cell cycle and their levels directly correspond to the speeds that cells proceed through the transition checkpoints. The data curves consist of the steady state concentrations of the molecules under various genetic synthesis rates (ks_maff, i.e. expression level) of Maff.A ss h o w n herein, steady states of Cyc D* a and E2F c have increased as ks_maff rises, indicating that G0 - > G1 is accelerated upon high expression of Maff.I n addition, Cyc E* b is maintained at a level that is capable of driving G1 - > S. Cyc D/E* means the activated forms of Cyclin D/E (i.e. being bound with their corresponding Cdks). Metric units of x- and y- axes are “moles/cell/min” and “moles/cell”. d Proliferation of HSCs over-expressing (i.e. transducted with) Maff is shown herein; “Vector” means cell transducted with an empty vector (i.e. control data). As shown, the proliferation capability of HSCs with high expression of Maff is significantly larger (p-value <0.005 compared with control). e Ratio of HSCs staying in G0 phase before (control) and after Maff transduction (over-expression). Cells in different cycling status are sorted using flow cytometry according to Ki67 and Hoechst 33,342 staining. Data show that the ratio of G0 HSCs is significently lowered when Maff is highly expressed (p-value <0.05), indicating that high Maff expression mobilizes HSCs to escape the G0 phase, thus more HSCs enter the later cycling phase(s) The Author(s) BMC Systems Biology 2017, 11(Suppl 5):91 Page 77 of 102
+```
+
+### Chunk 2: page-6-chunk-2 / source page 6
+
+```text
+research, we found that in leukemic BM, the HPC count increased and the rate that HSCs Fig. 5 Molecular regulatory system of cell cycle (G0→ G1/G1 → S). Since the HSCs in whichMaff and Egr3 are highly expressed (i.e. functional) are mainly G0-phase cells (over 90%), it implicates that if Maff and Egr3 have influence(s) on cell cycle, they must exert influence(s) in G0 → G1/G1 → S in the first place. Therefore, as a preliminary at- tempt, we summarized all key regulators in G0→ G1/G1 → S( i n c l u d i n g two cyclins, five CKIs, Rb, E2F and Akt) and examined all possible ways that Maff and Egr3 (highlighted in red) act on the molecular network that result in consistent phenomena with experimental observations. Symbols:“−⊣” - inhibition;“―→” - activation;solid lines - transcriptional regulations;dashed lines- biochemical interactions;red lines: computionally inferred molecular regulatory relationships mediated by Maff and Egr3 The Author(s) BMC Systems Biology 2017, 11(Suppl 5):91 Page 80 of 102
+```
+
+### Chunk 3: page-11-chunk-1 / source page 11
+
+```text
+Abbreviations BM: Bone marrow; CDK: Cyclin-dependent kinase; CKI: cyclin-Dependent kinase inhibitor; HSC: Hematopoietic stem cell; MARE: Maf recognition element Acknowledgments We thank all members of our collaborative research groups for their assistances with the experiments and data analysis. Funding This work was supported by grants from the National Nature Science Foundation of China (81090411) and Ministry of Science and Technology of China (2012AA02A602, 2015AA020104). Publication of this article was funded by the grants listed here. Availability of data and materials All data supporting the results and conclusion of this work were presented in the supplemental files (refer to section “Additional files” ). Raw experimental data were provided in Ref [7, 8]. About this supplement This article has been published as part of BMC Systems Biology Volume 11 Supplement 5, 2017: Selected articles from the International Conference on Intelligent Biology and Medicine (ICIBM) 2016: systems biology. The full contents of the supplement are available online at <https:// bmcsystbiol.biomedcentral.com/articles/supplements/volume-11-supplement-5>. Authors’ contributions Conceiving the study: RL, YW and LL. Data acquisition: HC and TC. Modeling and analysis: RL, YW, GL, and YL. Manuscript drafting: RL, YW, HC, GL, TC, YL and LL. All authors read and approved the final manuscript. Ethics approval Experimental data were documented from the mouse model established in Ref [7]; the protocol was approved by the Institutional Animal Care and Use Committees of Institute of Hematology, Chinese Academy of Medical Sciences and Peking Union Medical College [7, 8]. Consent for publication Not applicable. Competing interests The authors declare that they have no competing interests. Publisher’sN o t e Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations. Author details 1Center for Computational Biology and Bioinformatics, Department of Medical and Molecular Genetics, Indiana University School of Medicine, Indianapolis, IN 46202, USA. 2Shanghai Public Health Clinical Center and Institutes of Biomedical Sciences, Fudan University, Shanghai 200031, China. 3Institute of Hematology, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin 300020, China. 4Shanghai Center for Bioinformatics Technology, Shanghai 201203, China. Published: 3 October 2017 References 1. Shivdasani RA, Rosenblatt MF, Zucker-Franklin D, Jackson CW, Hunt P, Saris CJM, Orkin SH. Transcription factor NF-E2 is required for platelet formation independent of the actions of thrombopoeitin/MGDF in megakaryocyte development. Cell. 1995;81(5):695– 704. 2. Motohashi H, Katsuoka F, Shavit JA, Engel JD, Yamamoto M. Positive or negative MARE-dependent transcriptional regulation is determined by the abundance of small Maf proteins. Cell. 2000;103(6):865 –76. 3. Shivdasani RA. Molecular and transcriptional regulation of megakaryocyte differentiation. Stem Cells. 2001;19(5):397– 407. 4. Blok LJ, Grossmann ME, Perry JE, Tindall DJ. Characterization of an early growth response gene, which encodes a zinc finger transcription factor, potentially involved in cell cycle regulation. Mol Endocrinol. 1995;9(11): 1610–20. 5. Ogawa K, Sun J, Taketani S, Nakajima O, Nishitani C, Sassa S, Hayashi N, Yamamoto M, Shibahara S, Fujita H, et al. Heme mediates derepression of Maf recognition element through direct binding to transcription repressor Bach1. EMBO J. 2001;20(11):2835 –43. 6. O'Donovan KJ, Tourtellotte WG, Millbrandt J, Baraban JM. The EGR family of transcription-regulatory factors: progress at the interface of molecular and systems neuroscience. Trends Neurosci. 1999;22(4):167 –73. 7. Cheng H, Hao S, Liu Y, Pang Y, Ma S, Dong F, Xu J, Zheng G, Li S, Yuan W, et al. Leukemic marrow infiltration reveals a novel role for Egr3 as a potent inhibitor of normal hematopoietic stem cell proliferation. Blood. 2015; 126(11):1302–13. 8. Cheng H, Liu Y, Jia Q, Ma S, Yuan W, Jia H, Cheng T. Novel regulators in hematopoietic stem cells can be revealed by a functional approach under leukemic condition. Leukemia. 2016;30(10):2074 –7. 9. Li R, Cheng H, Cheng T, Liu L. Digitalization of a non-irradiated acute myeloid leukemia model. BMC Syst Biol. 2016;10(Suppl 3):64. 10. Sible JC, Tyson JJ. Mathematical modeling as a tool for investigating cell cycle control networks. Methods. 2007;41(2):238 –47. 11. Csikász-Nagy A, Battogtokh D, Chen KC, Novák B, Tyson JJ. Analysis of a generic model of eukaryotic cell-cycle regulation. Biophys J. 2006;90:4361–79. 12. Qu Z, Weiss JN, MacLellan WR. Regulation of the mammalian cell cycle: a model of the G1-to-S transition. Am J Physiol Cell Physiol. 2003;284(2):C349–64. 13. Haberichter T, Mädge B, Christopher RA, Yoshioka N, Dhiman A,
+```
+
+## E3 Answer
+
+```text
+The study described in the BMC Systems Biology 2017 paper indicates that Egr3 influences the proportion of cells remaining in the G0 phase by suppressing the HSC (hematopoietic stem cell) cell cycle. Specifically, the overexpression of Egr3 significantly suppresses the cell cycle, as demonstrated by the observed decrease in the ratio of HSCs staying in the G0 phase after Egr3 transduction. This suggests that high Egr3 expression inhibits the transition of HSCs from the G0 phase to later cycling phases.
+```
+
+## E6 Added Evidence
+
+Added ordered IDs: ["page-4-chunk-1", "page-1-chunk-1", "page-6-chunk-1"]
+
+### Chunk 1: page-4-chunk-1 / source page 4
+
+```text
+Validation of the molecular actions by analyses of gene sequences To further confirm the fidelity of the study and minify the possibility of overfitting in modeling, for each dis- covered molecular action (molecule X genetically acting on Y), we validated it by examining if the gene sequence of Y harbored any regulatory element on which the gene product of X could act, or if there existed an (or more) intermediate(s) Z, who could act on Y and harbored tar- get regulatory elements of X at the same time. As it was known that Maff possessed a conserved basic region flanked by a heptad repeat motif (bZip), through which the protein recognized a specific palindromic se- quence TGCTGAC(G)TCAGCA (maf recognition elem- ent, MARE) to mediate DNA binding and potentiate gene transcription [18]. Since the p18 gene did not con- tain MARE, we surveyed all known genes that contained MARE in the promoter region (i.e. in a range of ~2kbp upstream TSS, by convention). We identified that Blimp1/Prdm1 contained MARE at the location of 156 bp upstream its TSS (Fig. 7a); meanwhile, Blimp1 was shown to repress p18 expression by various studies [19, 20]. Furthermore, Blimp1 was also a transcription factor of hematopoiesis functioning in differentiation of blood cells, thus coherently relevant to cell cycle regula- tion. In all, Maff could act as transcription factor on (i.e. activate) Blimp1, and Blimp1 subsequently down- regulated p18. Therefore, the acting relationship “Maff −⊣ p18” had been confirmed. For Egr3, we carried out the similar gene sequence survey to detect if it was functionally related with the cell cycle regulators (Cdk2/4/6, Cyclin D/E). We identi- fied that gene Anapc11 linked to a cis element (CGCCCCCGC) which Egr3 could recognize and acti- vate transcription (Fig. 7b). The product of Anapc11, APC11, was a core catalytic subunit of the anaphase- promoting complex/cyclosome (APC/C), which could act on mitotic cyclins and greatly suppress the transition of G0/G1 phase to S phase [21]. Since it was CyclinD:Cdk4/6 and CyclinE:Cdk2 that governed the phase transition G0/G1 → S and Egr3 could transcrip- tionally activate APC11, it was a support for our infer- ences that the acting relationships “Egr3−⊣ CyclinD:Cdk4/6” and “Egr3−⊣ CyclinE:Cdk2” might Fig. 3 Simulations of system dynamics with respect toEgr3 expression.a-c Stable equilibriums (steady states) of Cyc D*, Cyc E* and E2F with respect to the expression level ofEgr3 are shown in (a), (b)a n d(c) respectively. Similar to Fig. 2a–c, data are steady state concentrations under various genetic synthesis rates (ks_egr3,i . e .e x p r e s s i o nl e v e l )o fEgr3. Stable equilibriums of all the three cell cycle checkpoint-determining molecules have shifted downward as ks_egr3 increases, especially for Cyc E*b and E2F c as their steady states decline sharply in the manner of bistability (i.e. low-level stable equilibriums occur due to dynamical bifurcation;red lines). The steady states of Cyc D* exhibit veryslight upward fluctuations at certainEgr3 expression levels because the decreases in E2F at thoseks_egr3 values result in less amounts of p18 and p19 (inhibitors of Cyc D*), thus causing the transient elevation. However, the Cyc D* level rapidly declines asks_egr3 further increases. Noteworthy, whenks_egr3 exceeds certain values, the three molecules are all suppressed to very low levels, indicating that highEgr3 expression potently suppresses cell cycle.d Proliferation of HSCs over-expressing (i.e. transducted with)Egr3; similar to Fig. 2d, “Vector” stands for control data. As shown, the proliferation capability of HSCs highly expressingEgr3 is significantly lowered (p-value <0.005).e Ratio of HSCs staying in G0 phase before (control) and afterEgr3 over-expression. Data show that the ratio of G0 HSCs is significently heightened whenEgr3 is highly expressed (p-value <0.05), indicating that highEgr3 expression arrests HSCs in the G0 phase, reducing the number of HSCs entering the later phase(s) of cell cycle The Author(s) BMC Systems Biology 2017, 11(Suppl 5):91 Page 78 of 102
+```
+
+### Chunk 2: page-1-chunk-1 / source page 1
+
+```text
+R E S E A R C H Open Access System modeling reveals the molecular mechanisms of HSC cell cycle alteration mediated by Maff and Egr3 under leukemia Rudong Li 1†, Yin Wang 2,4†, Hui Cheng 3, Gang Liu 4, Tao Cheng 3, Yunlong Liu 1 and Lei Liu 2,4* From The International Conference on Intelligent Biology and Medicine (ICIBM) 2016 Houston, TX, USA. 08-10 December 2016 Abstract Background: Molecular mechanisms of the functional alteration of hematopoietic stem cells (HSCs) in leukemic environment attract intensive research interests. As known in previous researches, Maff and Egr3 are two important genes having opposite functions on cell cycle; however, they are both highly expressed in HSCs under leukemia. Hence, exploring the molecular mechanisms of how the genes act on cell cycle will help revealing the functional alteration of HSCs. Results: We herein utilize the bioinformatic resources to computationally model the acting mechanisms of Maff and Egr3 on cell cycle. Using the data of functional experiments as reference, molecular acting mechanisms are optimally enumerated through model selection. The results are consolidated by evidences from gene sequence analysis, thus having enhanced the confidence of our pilot findings, which suggest that HSCs possibly undergo a “adaptation - suppression ” process in response to the malignant environment of leukemia. Conclusion: As a pilot research, our results may provide valuable insights for further experimental studies. Meanwhile, our research method combining computational modeling and data from functional experiments can be worthwhile for knowledge discovery; and it can be generalized and extended to other biological/biomedical studies. Keywords: System modeling, Hematopoietic stem cells, Maff and Egr3, Leukemia, Model selection Background Maff and Egr3 are two important regulatory factors in hematopoiesis development. Previous studies showed that Maff was mainly responsible for the transcription regulation of megakaryote differentiation (towards plate- let) [1 – 3]; and less was known for the functions of Egr3 in cell cycle [4]. Both Maff and Egr3 are able to recognize certain DNA elements, thus enhancing the transcriptions of their target genes [5, 6]. We had dem- onstrated via gene over-expression and in vitro cell cul- ture in our previous study that Maff stimulated cell cycle (i.e. pro-proliferation); and Egr3 potently suppressed cell cycle (i.e. counter-proliferation) [7, 8]. In addition, we found via molecular profiling that Egr3 up-regulated p18 and p19, two cyclin-dependent kinase inhibitors (CKIs), which might be how Egr3 suppressed cell cycle [7]. However, we also discovered that both Maff and Egr3 were highly expressed in hematopoietic stem cells (HSCs) under leukemia (especially at the late stage, i.e. ≥ day 14), in which the cell cycles of most HSCs were heavily suppressed [7 – 9]. Therefore, the molecular mechanisms of how Maff and Egr3 act on cell cycle and why the two functionally-opposite genes are both highly expressed under leukemia, remain to be revealed. Nonetheless, forthcoming experiments with respect to molecular regulations are preceded by a major concern that there are usually too many molecular interactions, outnumbering the experimental capacity. Hence direct * Correspondence: liulei@fudan.edu.cn †Equal contributors 2Shanghai Public Health Clinical Center and Institutes of Biomedical Sciences, Fudan University, Shanghai 200031, China 4Shanghai Center for Bioinformatics Technology, Shanghai 201203, China Full list of author information is available at the end of the article © The Author(s). 2017 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated. The Author(s) BMC Systems Biology 2017, 11(Suppl 5):91 DOI 10.1186/s12918-017-0467-4
+```
+
+### Chunk 3: page-6-chunk-1 / source page 6
+
+```text
+initiating regulator of cell cycle, thus high expression of Maff accelerates the overall cell cycle. Therefore, for sake of sufficiently accelerating cell proliferation, high expres- sion of Maff became necessary for both transcriptionally repressing the CKI and potentiating the downstream regu- lators, as a means of adapting to the malignant environment. The functional role of Egr3 was more clear. It had already been experimentally revealed that Egr3 up- regulated p18 and p19 expressions [7]. However, al- though the two CKIs biochemically inhibited the activity of Cyclin D(:Cdk4/6), we computationally discovered the inhibitions alone were not sufficient for potent suppres- sion of cell cycle (Additional file 4: Figure S4A-C). To realize the largely-increased G0 ratio of HSCs as experi- mentally observed (Fig. 3e), it was necessary that Egr3 genetically suppressed CyclinD:Cdk4/6 and Cycli- nE:Cdk2. Therefore, it could be fairly supposed that Egr3 was highly expressed to suppress cell cycle to fullfil the cellularity controlling principles when proliferations or demands for resources exceeded certain limits. Based on the above, we preliminarily explained why the two func- tionally opposite genes Maff and Egr3 were both highly expressed in the leukemic environment (especially at the late stage, i.e. ≥ day 14). Discussion In our previous study, we identified that Maff and Egr3 were two highly-expressed genes which were important to hematopoiesis and had opposite functional influences on (BM) HSC cell cycle. However, the molecular mecha- nisms of how they mediate the cell cycle alterations remain unrevealed. By utilizing bioinformatics resources and systems biology approaches, we summarized all database-registered molecular relationships and identi- fied the (minimal set of ) molecular actions that lead to the very experimentally-observed cell cycle kinetics and gene expressions, via testing all possible hypothese of molecular actions (i.e. model selection) in a curated mammalian cell cycle kinetic model [11– 13]. We have in silico demonstrated that the three regulatory relation- ships we identified are at least required, the experimen- tal observation cannot be reproduced without any one of them (Additional file 4: Figure S4). It is interesting to ponder why the two functionally opposite genes are both highly expressed in leukemia. Since Maff stimulates cell cycle by down-regulating p18, its high expression is possibly resulted from adaptation to the malignant environment (i.e. cancerization), in which leukemic cells rapidly proliferate. However, we sample the normal HSCs from a non-irradiated animal model, thus their normal physiological/biophysical prop- erties (i.e. controlling mechanisms of cellularity) are kept [7]. Therefore, although they have the ability of adapta- tion, these HSCs cannot become completely cancerous after all. Hence, it is fairly assumed that when prolifera- tions or demands for resources exceed certain limits, cells forcibly shut down functionalities to fullfil the cellularity controlling principles. Since overexpression of Egr3 potently suppresses cell cycle (Fig. 6), it is possibly a “harsh control ” measure that HSCs employ in leukemic environment. Furthermore, the relativity of Maff/Egr3 functions for HSC cell cycle can only be screened with a non- irradiated (i.e. un-manipulated) leukemia model, as intact HSCs without overt damages (e.g. immune system destruction) can be measured during leukemia progres- sion. On the contrary, given the typical pre-conditioned leukemia models utilized in most of previous studies, the physiology of native leukemogenesis is destroyed, i.e. non-leukemic cells in the leukemic host are no longer the “normal” cells because they are heavily damaged by the myeloablative manipulations and thus deviant far from the normal cellularity [7, 9, 27– 30]. Gene expres- sions in those study designs (other than ours) cannot represent in vivo functions; hence if in those cases, Maff/Egr3 regulations on HSC cell cycle could not have been inferred. In our previous research, we found that in leukemic BM, the HPC count increased and the rate that HSCs Fig. 5 Molecular regulatory system of cell cycle (G0→ G1/G1 → S). Since the HSCs in whichMaff and Egr3 are highly expressed (i.e. functional) are mainly G0-phase cells (over 90%), it implicates that if Maff and Egr3 have influence(s) on cell cycle, they must exert influence(s) in G0 → G1/G1 → S in the first place. Therefore, as a preliminary at- tempt, we summarized all key regulators in G0→ G1/G1 → S( i n c l u d i n g two cyclins, five
+```
+
+## E6 Answer
+
+```text
+Egr3 influences the proportion of cells remaining in the G0 phase by potently suppressing cell cycle progression. According to the study, high Egr3 expression arrests hematopoietic stem cells (HSCs) in the G0 phase, as evidenced by a significant increase in the ratio of HSCs staying in G0 phase after Egr3 over-expression. This suppression is achieved through Egr3's inhibitory actions on key cell cycle regulators, specifically "Egr3 −⊣ Cdk2(:CyclinE)" and "Egr3 −⊣ Cdk4/6(:CyclinD)", which are necessary for the observed experimental phenomena. The study also indicates that Egr3's inhibitory power on the cell cycle is more potent than the activatory ability of Maff.
+```
+
+## E9 Added Evidence
+
+Added ordered IDs: ["page-8-chunk-1", "page-7-chunk-1", "page-9-chunk-1"]
+
+### Chunk 1: page-8-chunk-1 / source page 8
+
+```text
+herein sets a preliminary model for the combined efforts. Such a practice is worthwhile to be generalized and extended for further utilities. Conclusion Previous studies have shown that functions of normal HSCs are altered in leukemic environment. Unexpect- edly, two genes Maff and Egr3 that are originally regarded as functioning mainly in somewhere else rather than HSCs, are important for the functional alteration. Moreover, the two genes oppositely function on cell cycle but they are both highly expressed under leukemia. Due to the interest to study the functional alteration of HSCs as well as the difficulty for in vivo experiments, we combine computational and experimental approaches to investigate the genes ’acting mechanisms on cell cycle. We have identified three potential molecu- lar regulations and the results indicate that HSCs tend Fig. 7 Validation of the molecular interactions by sequence analysis.a According to our survey of gene sequences, p18 does not harbor the direct recognition element (i.e. binding motif) of Maff in its transcription promoter region; therefore, we check if there is any intermediate that both contains that motif (in the promoter region) and can negatively regulate p18.W eh a v ef o u n dt h a tBlimp1/Prdm1, which is also a transcription factor in the regulation of hematopoietic differentiation, harbors the Maff binding motif in its promoter region; and the motif is 156 bp upstream the transcription start site (TSS). Meanwhile, Blimp1/Prdm1 can transcriptionally repressp18 in regulation of the cycling of hematopoietic cells. Thus the transcription regulatory relation “Maff ― → Blimp1 −⊣ p18” is indicated, and our computational inference “Maff −⊣ p18” is well supported. b Our survey has also identified that Anapc11, which is a core coding gene of the anaphase-promoting complex/cyclosome (APC/C) that inhibits mitotic cyclins and greatly suppresses G0 → G1/G1 → S, links to the cis element that Egr3 recognizes and exerts transcription activation (523 bp upstream the TSS). Therefore, it implies that “Egr3 ― → Anapc11” and “Anapc11 −⊣ Cyclin D/Cdk4/6, Cyclin E/Cdk2”; thus our computational inference that “Egr3 −⊣ CyclinD:Cdk4/6, CyclinE:Cdk2” is supported Fig. 8 Molecular regulations of cell cycle and hematopoiesis. GATA-1 (Gata-1) activates the cell cycle components as well as p45 NF-E2, the heterodimer partner of Maff. The Maff:p45 NF-E2 functional complex is self-regulated and it activates the transcriptions of various downstream regulators, e.g. Blimp-1 (Blimp1), β1-tubulin (Tubb1), and PF-4 (Pf4). Altogether with our prediction that“Maff −⊣ p18”, it can be concluded that high expression ofMaff eliminates the feedback inhibtion of p18 to Cyclin D:Cdk4/6, as well as up-regulating the downstream TFs. Hence, cell cycle will be accelerated and proliferation/ differentiation of hematopoietic cells are enhanced. This is why we hypothesize that high expression ofMaff adapts cells to a rapidly proliferative status, i.e. cancerization. On the other side,Egr3 suppresses the checkpoint controllers of G0→ G1/G1 → S and activates CKIs, thus its high expression greatly inhibits cell cycle. Thus it is fairly assumed that it may be a “harsh control” via which HSCs forcibly shut down functionalities when their behaviors exceed the limits of cellularity controlling principles, i.e. self-protection The Author(s) BMC Systems Biology 2017, 11(Suppl 5):91 Page 82 of 102
+```
+
+### Chunk 2: page-7-chunk-1 / source page 7
+
+```text
+differentiate into HPCs was high at the beginning; mean- while, the differentiation of HSCs towards HPCs was almost shut off later and the HPC count decreased acutely after day 14 [9]. Furthermore, significantly increased quiescence of HSCs was observed at the late stage of leukemia [7]. These cellular-level results render a hint that HSCs respond to leukemia with a process of cancerization/self-protection. When leukemia emerges, HSCs accelerate their cell cycles to proliferate into more functional blood cells to compensate cell loss; on the other hand, as leukemic cells become dominant and out- grow normal cells, most HSCs stay in the quiescent state, which is far less sensitive to environmental affects [7, 9, 31, 32]. Here in this study, by revealing how Maff and Egr3 act on cell cycle, we find the trait of “canceriza- tion/self-protection” on the molecular level. Thus this pilot finding may enhance the suggested mechanism and provide a further explanation for the response of HSCs to leukemic environment. In methodology, we assembled bioinformatic resources of molecular interactions and refined them by kinetic modeling to acquire pilot knowledge. As bioinformatics generates likelihoods and kinetic modeling provides ex- planations for mechanisms, our approach presented Fig. 6 Dynamic simulations of Maff and Egr3-mediated alterations of cell cycle. a-c Steady states of Cyc D* ( a), Cyc E* ( b) and E2F ( c) with respect to ks_maff under medium Egr3 expression level (low < ks_egr3 < high) are shown herein. In this circumstance, higher Maff expression is able to uplift the levels of Cyc D*, Cyc E* and E2F, resulting in bistability in their steady states ( red lines). Dynamics of the three molecules under low Egr3 expression level (with respect to ks_maff) are equivalent to Fig. 2a-c, in which high expression of Egr3 is not presumed ( ks_egr3 = low). d-f Steady states of Cyc D* ( d), Cyc E* ( e) and E2F ( f) with respect to ks_maff under high Egr3 expression level ( ks_egr3 = high). In this circumstance, increase in Maff expression (ks_maff) is unable to effectively uplift the steady states of Cyc D*, Cyc E* and E2F any more. g-i Steady states of Cyc D* ( g), Cyc E* ( h) and E2F ( i) with respect to ks_egr3 when Maff expression level is high ( ks_maff = high). The situation is similar to those of Fig. 3a - c (ks_maff = low), in which high Egr3 expression potently suppresses the steady-state levels of all three molecules. The results indicate that no matter Maff expression is high or low, cell cycle is suppressed when Egr3 is highly expressed The Author(s) BMC Systems Biology 2017, 11(Suppl 5):91 Page 81 of 102
+```
+
+### Chunk 3: page-9-chunk-1 / source page 9
+
+```text
+to adapt to the malignant environment but eventually shut down the functionality to stay in the dormant state. These results may provide insights for future studies; and moreover, our combined use of experimental/com- putational efforts is also applicable to other studies and inspires interdisciplinary research methods. Methods Experimental animal model of AML The non-irradiated mice models of leukemia and control were established according to the protocols described in the previous work [7]. All mice were maintained in the animal facility and samples of BM HSCs (CD45.1 +LKS+) were extracted from both leukemia and control mice at different time points (days: 0, 7, 10 and 14) for further measurements. Microarray analysis Microarray of gene expressions in the CD45.1 +LKS+ cells was performed at CapitalBio in Beijing. Procedures for total RNA extraction, cRNA amplification, labeling, and hybridization, as well as RNA quality confirmation, were implemented according to protocols that we de- scribed previously [7, 8]. Raw data normalization and analysis of differentially-expressed genes were done using Microarray Analysis Software v5.0 (Affymetrix). Quantitative reverse-transcription PCR (qRT-PCR) Total RNA was isolated using Qiagen RNeasy mini kit. cDNA was synthesized using Improm-II ™ reverse tran- scriptase (Promega) or SuperScrip ™ III (Invitrogen). qRT-PCR was carried out with primers/probes that were previously specified [7, 8]. qRT-PCR was performed on 7500 or StepOne real-time PCR system (Applied Biosystems). Flow cytometry HSCs were flow sorted by gating on Lin − Sca-1+ c-Kit+ (LKS+) of the CD45.1 + cells from the BM sample of our mouse model. Cell cycle states of HSCs (LKS +) were rec- ognized by the marker of cytoplastic protein Ki67 and addition of DNA dye Hoechst33342. Cells in G0 phase were gated on Ki67 − Hoechst−; cells in G1 phase were gated on Ki67 + Hoechst−; and cells in S/G2/M phase were gated on Ki67 + Hoechst+. All antibodies (Abs) used herein were from BD Biosciences or e-Bioscience; and all experimental procedures were implemented accord- ing to the protocols that we specified previously [7]. Transduction of HSCs The Maff and Egr3 cDNAs were purchased from Origene and HSCs (CD45.1 +LKS+) were transfected with retroviruses containing plasmids constructed with the Maff and Egr3 cDNAs or an empty segment (control). Plasmid construction and retroviruse production were ac- cording to protocols previously described [7, 8]. Cells were pre-cultured for 1 day, then transfected with retroviruses (Maff, Egr3 or control) and incubated for another 2 days. The culture was maintained in StemSpan SFEM medium. After transduction, GFP+ cells were sorted for assays. In vitro liquid culture 1000 transduced cells (with Maff, Egr3 or control; GFP +) were sorted into 16 wells of a 96-well plate per group, cultured in SFEM medium. Cell numbers were counted every 2 days after day 6 using flow cytometry. Bioinformatic resources of molecular interactions Data of molecular interactions and functional pathways were referenced from public databases of NCBI, REAC- TOME, and KEGG. Genes/proteins associating with Egr3 and Maff as well as collocating with them in spe- cific functional pathways of hematopoietic cell cycle reg- ulations were surveyed as potential targets that Maff and Egr3 acted on cell cycle. So far as G0 → G1/G1 → S were considered, there were three molecules, namely, Cdk2/CyclinE, Cdk4/6/CyclinD, and p18. Respectively, Maff was potentially associated with Cdk2/CyclinE and p18; and Egr3 was suggested to be associated with Cdk2/ CyclinE and Cdk4/6/CyclinD. Kinetic modeling of cell cycle (G0 → G1/G1 → S) Ordinary differential equations (ODEs) were used to model all the genes ’ dynamics in terms of expression levels. First-order Hill function was utilized to describe both regulations of gene transcription and protein activity. We considered the expression levels of Cdk2(:CyclinE), Cdk4/6(:CyclinD) and E2F to be the controlling benchmarks, because their expression levels were nearly invariant in cell cycle [13]. We also considered the coupling of cell cycle with cell apop- tosis and survival (mediated by p53 and AKT, respect- ively). Parameters from various references were collected [12, 13, 33 – 38], in which transcription rates were scaled to the benchmarks. For all ODEs, their for- mulas were shown in Additional file 6 and values of parameters were listed in Additional file 8: Table S2. Model selection We assumed that Maff and Egr3 might have positive, negative
+```
+
+## E9 Answer
+
+Canonical judgment source: E9; E6/E9 input identical: False
+
+```text
+In the BMC Systems Biology 2017 study, Egr3 influences the proportion of cells remaining in the G0 phase by suppressing the cell cycle. Specifically, high expression of Egr3 potently suppresses the transition from G0 to G1 and G1 to S phases. This is achieved through Egr3's inhibitory actions on key cell cycle regulators, including "Egr3 −⊣ Cdk2(:CyclinE)" and "Egr3 −⊣ Cdk4/6(:CyclinD)". These molecular actions reduce the levels of cell cycle checkpoint-determining molecules such as Cyc D*, Cyc E*, and E2F. As a result, the ratio of HSCs staying in the G0 phase is significantly heightened when Egr3 is highly expressed, indicating that Egr3 arrests HSCs in the G0 phase and reduces the number of HSCs entering the later phases of the cell cycle.
+```
+
+## Automatic Labels
+
+- E3: False; OK
+- E6: True; OK
+- E9: True; OK
+
+Raw incomplete states: []
+
+- E3_to_E6_wrong_to_correct: True
+- E3_to_E6_correct_to_wrong: False
+- E6_to_E9_wrong_to_correct: False
+- E6_to_E9_correct_to_wrong: False
+
+```text
+{"E3": "The candidate answer incorrectly states that Egr3 overexpression decreases the ratio of cells in G0, while the reference clearly states the opposite. This is a major factual error. The answer also introduces unsupported claims about HSCs and the mechanism of action. It fails to align with the reference and does not correctly address the question.", "E6": "The candidate answer is mostly correct in stating that Egr3 increases the proportion of cells in G0 and correctly references the study's findings. It adds mechanistic details (e.g., suppression of Cdk2 and Cdk4/6) not in the reference, which is a minor unsupported claim. It also introduces a comparison with Maff, which is not in the reference. The main idea is captured, but some details are speculative or not grounded.", "E9": "The candidate answer is mostly correct in stating that Egr3 increases the proportion of cells in G0, and it provides a plausible mechanistic explanation. However, the reference answer does not mention suppression of the cell cycle or specific regulators like Cdk2, Cdk4/6, Cyc D*, Cyc E*, or E2F, so these details are not grounded in the reference. The main idea is captured, but the additional mechanistic details are unsupported."}
+```
+
+## Human Annotation
+
+| Field | Value |
+|---|---|
+| human_e3_correct |  |
+| human_e6_correct |  |
+| human_e9_correct |  |
+| human_reference_valid |  |
+| human_e3_evidence_sufficient |  |
+| human_e6_added_evidence_useful |  |
+| human_e9_added_evidence_useful |  |
+| human_confidence |  |
+| human_notes |  |
+
+
+
+---
+
+# P2A_HR_041 / unidoc_healthcare_0075
+
+Priority: 1 / Cohort: MISS_AT_3_HIT_AT_6 / Selection: AUTOMATIC_TRANSITION
+
+## Question
+
+```text
+How does CARBENOXOLONE interact with NAAA and HSD11B1 based on CRISPR screening results?
+```
+
+## Gold / Reference
+
+```text
+CARBENOXOLONE acts as an inhibitor on both NAAA and HSD11B1. For NAAA, the gene effect is protective, and the drug effect does not match the gene effect. For HSD11B1, the gene effect is susceptible, and the drug effect matches the gene effect.
+```
+
+## GT Pages
+
+[13]
+
+## Document Verification
+
+- Document: 0537718
+- Dataset identifier: healthcare/healthcare/0537718.pdf
+- Local PDF: C:\Users\sp\Desktop\adaptive-multimodal-rag\datasets\unidoc\healthcare\healthcare\0537718.pdf
+- Unique E3/E6/E9 pages: [8, 10, 11, 12, 13, 14, 19, 21]
+- E3 pages: [11, 12, 19]
+- E6 pages: [8, 10, 11, 12, 13, 19]
+- E9 pages: [8, 10, 11, 12, 13, 14, 19, 21]
+- PDF direct verification flag: False
+
+### GT page extracted text
+
+### GT page 13 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+www.nature.com/scientificreports/
+11Scientific  RepoRts  |          (2019) 9:1396  | https://doi.org/10.1038/s41598-018-37940-6
+for an extended time. These data reflect a more chronic drug exposure, and response to the drug is measured by 
+ALT. GSE74000 consisted of liver biopsies from Livers being replaced after APAP-induced ALF and liver biop-
+sies obtained from non-ALF donors. This dataset, although it contains few samples, represents differential gene 
+expression in humans at the 4d-point of the disease. The mouse RNA-seq data GSE110787 provided an extremely 
+controlled population with controlled APAP dosage, avoiding issues of inter-population variabilities that may 
+affect studies in human populations.
+The local inflammatory response and accumulation of neutrophils, which is not considered necessary to 
+the initiation of progression of ALF contribute a major role in clearing necrotic cells and alter the liver injury 
+micro-environment. In addition the inflammasome contributes greatly to the late stage of injury with activation 
+of caspase-1 and IL1β  with further cytokines and chemokines contributing to the recruitment of neutrophils 
+and monocytes44. This late-stage of injury would be better captured by the mouse RNA-seq (ALF , GSE110787) 
+and human microarray (ALF , GSE74000) datasets, since they represent a late-stage disease in a whole organism, 
+which includes inflammatory and immune interactions not present in hepatocytes alone. It is therefore unsur -
+prising that we observed the best overlap of the CRISPR screen data with the human liver injury microarray data 
+(GSE70784).
+This approach addresses APAP-induced liver injury in 2 distinct ways. First, we identified genes with a role in 
+APAP metabolism by assessing the effect of gene knockouts on cell proliferation and survival. Next, we identified 
+genes that were differentially expressed in response to APAP . The combination helps us to build hypotheses about 
+the role of these genes in the disease process. This cross-validation with other APAP datasets is targeted at iden-
+tifying genes that are important to APAP metabolism and may be novel diagnostic or therapeutic biomarkers. 
+Genes that are highly ranked in the CRISPR screen (p < 0.05) and whose RNA are expressed differentially at high 
+enough levels that a blood sample (preferable) or liver biopsy (less preferable) could be used to detect changes 
+in expression levels resultant from APAP overdose rapidly in clinic. Novel genes identified by this method that 
+were highly ranked in the CRIPSR-Cas9 screen and in the gene expression data are the strongest candidates for 
+further study.
+We tested the effect of siRNA knockdown of Lztr1, Nampt, Pgm5, and Naaa in primary mouse hepatocytes to 
+validate our screen findings. We demonstrate that Leucine Zipper Like Transcription Regulator 1 (LZTR1) knock-
+out in HuH7 and knockdown in mouse cells increase cellular survival of APAP-induced injury. LZTR1 has a pos-
+itive LFC in the APAP-exposed human microarray data GSE70784, suggesting that the while the gene knockout 
+Gene Gene Effect on ALF Known Drug Drug Effect
+Drug Effect matches 
+Gene Effect?
+BMPR1A susceptible (CRISPR screen) CHEMBL3186227 inhibitor yes
+FCGR3A protective (CRISPR screen) GLOBULIN, IMMUNE antagonist no
+NAAA protective (CRISPR screen) CARBENOXOLONE inhibitor no
+NAAA protective (CRISPR screen) FLUFENAMIC ACID inhibitor no
+NR1I3 susceptible (PMID: 12376703, and CRISPR screen) PRASTERONE activator no
+NR1I3 susceptible (PMID: 12376703, and CRISPR screen) CHEMBL458603 agonist no
+NR1I3 susceptible (PMID: 12376703, and CRISPR screen) CLOTRIMAZOLE antagonist yes
+NR1I3 susceptible (PMID: 12376703, and CRISPR screen) MECLIZINE antagonist modulator yes
+PROZ protective (CRIPSR screen) MENADIONE activator yes
+HSD11B1 susceptible (CRISPR screen) CARBENOXOLONE inhibitor yes
+HSD11B1 susceptible (CRISPR screen) CHEMBL222670 inhibitor yes
+HSD11B1 susceptible (CRISPR screen) CHEMBL2153191 inhibitor yes
+HSD11B1 susceptible (CRISPR screen) CHEMBL2177609 inhibitor yes
+HSD11B1 susceptible (CRISPR screen) PHENYLARSINE OXIDE inhibitor yes
+HSD11B1 susceptible (CRISPR screen) PREDNISONE ligand unknown
+SIRT1 protective (PMID 29084443), susceptible (CRISPR screen) CHEMBL257991 activator unknown
+SIRT1 protective (PMID 29084443), susceptible (CRISPR screen) SODIUM LAURYL SULFATE inhibitor unknown
+SIRT1 protective (PMID 29084443), susceptible (CRISPR screen) CHEMBL420311 inhibitor unknown
+SIRT1 protective (PMID 29084443), susceptible (CRISPR screen) SPLITOMICIN inhibitor unknown
+SIRT3 susceptible (PMID 21720390, CRISPR screen) SODIUM LAURYL SULFATE inhibitor yes
+GPX2 protective (CRISPR screen) GLUTATHIONE cofactor unknown
+GPX4 protective (PMID 25962350), susceptible (CRISPR screen) GLUTATHIONE cofactor unknown
+GSS protective (PMID 11287661), susceptible (CRISPR screen) ACETYLCYSTEINE stimulator no
+GSTP1 susceptible (PMID 11058152; CRIPSR screen) EZATIOSTAT HYDROCHLORIDE inhibitor yes
+KCNJ3 protective (CRISPR 4d), susceptible (CRISPR all APAP samples) CHEMBL2409106 activator unknown
+KCNJ3 protective (CRISPR 4d), susceptible (CRISPR all APAP samples) CHEMBL116590 channel blocker unknown
+KCNJ3 protective (CRISPR 4d), susceptible (CRISPR all APAP samples) HALOTHANE inhibitor unknown
+NAMPT protective (PMID 29684358) TEGLARINAD CHLORIDE inhibitor no
+Table 2. Top candidate genes with known drug effects annotated by the DRUG Gene Interaction Database 
+(www.dgidb.org).
+```
+
+## E3 Evidence
+
+Ordered IDs: ["page-12-chunk-1", "page-11-chunk-1", "page-19-chunk-1"]
+
+### Chunk 1: page-12-chunk-1 / source page 12
+
+```text
+www.nature.com/scientificreports/ 10Scientific RepoRts | (2019) 9:1396 | https://doi.org/10.1038/s41598-018-37940-6 Drug-gene interactions of top candidate genes. Further analysis of top candidate genes described in this study (Supplementary Data 11, Tables 5–6) identified a number of candidate genes that may be suitable for re-purposing to treat APAP-induced hepatotoxicity. Of the 54 unique candidate genes that were analyzed, 153 drug-gene interactions were identified for 19 genes (Supplementary Data 12). Of these, 14 genes were anno- tated with drug-gene interactions of known effects (Table 2). Notably, 3 novel genes are targets of existing drugs, which may be suitable re-purposed therapeutics against APAP-induced hepatotoxicity. BMPR1A, identified as a susceptible gene by the CRISPR-Cas9 screen, is inhibited by CHEMBL3186227. PROZ, identified as a protec- tive gene by the CRISPR-Cas9 screen, is activated by Menadione. HSD11B1, a gene that was susceptible in the CRISPR-Cas9 screen, is inhibited by Carbenoloxone, CHEMBL222670, CHEMBL2153191, CHEMBL2177609, and Phenylarsine Oxide. An additional 3 genes, NR1I3, SIRT3, and GSTP1, have known roles in APAP hepato- toxicity that were correctly predicted by our CRIPSR-Cas9 screen and are targets of existing drugs that may be suitable for re-purposing 37–39. These 6 genes are excellent candidate targets for re-purposing existing drugs to treat APAP-induced ALI and ALF . An additional 3 genes, SIRT1, GPX4, and GSS, were identified as targets of drugs with known gene interactions, however the CRISPR-Cas9 screen did not agree with the published gene role (protective or susceptible) in APAP-induced hepatotoxicity40–42. Functional validations of candidate genes. Mouse Lztr1, Nampt, and Pgm5 were selected for further in vitro validations of their functional effect of survival of APAP injury in primary mouse hepatocytes. Nampt knockdown by siRNA was significantly pathogenic when compared with a scramble control after 3 h APAP treat- ment (Fig. 7A,B, Supplementary Fig. 6a). Lztr1 knockdown by siRNA was significantly protective when compared with a scramble control after 3 h APAP treatment (Fig. 7C,D, Supplementary Fig. 6b). Pgm5 knockdown by siRNA resulted in a significant increase in cellular survival after 3 h of APAP treatment when compared with the scram- bled control (Fig. 7E,F, Supplementary Fig. 6c). Discussion This study has identified a number of novel and previously unrevealed regulators of APAP-induced hepatotoxicity by employing state of the art genome-wide CRISPR-Cas9 screen in a hepatocyte cell line. Selected targets have been validated in primary hepatocytes and cross-referenced in other available data sets of human and mouse involvement. Our study has illustrated the power of a genome-wide CRISPR-Cas9 screen to systematically iden- tify novel genes involved in APAP induced hepatocyte toxicity and most importantly, it provide a rich resources for further experimentation to identify potential new diagnostic targets or to develop novel therapeutic modali- ties to APAP induced hepatocyte toxicity. Validation of the screen findings was sought at multiple steps in the analysis and by siRNA in primary hepat- ocytes. Inspection of the significant genes revealed overlap with human microarray and mouse RNA-seq studies of APAP overdose. Additionally, several top genes identified from the screen for further study already had known associations with APAP in the literature. Lastly, some of the genes identified from the screen for further study have been previously identified as essential. While these genes were not essential in our study, their relationship with APAP treatment would support their roles in critical cellular functions that, when disrupted, result in cell death. Although few genes were completely removed from the pooled mutant cell population prior to APAP treat- ment, thousands were missing after 4 days of APAP treatment. Based on the kill curve 4 days of APAP treatment results in about 1% surviving cells, indicating a majority of the cells being killed. The survival of cells with low numbers of sgRNAs is only statistically important if the proportion within the surviving population is signifi- cantly different than the starting population consistently across multiple sgRNAs per gene. The early time points (30 min to 24 h) in this screen are base off of traditional gene expression screening techniques. By considering the impact of drug selection at early time points we can better assess the early and late response genes involved in drug toxicity. We propose that a Wilcoxon Rank-Sum value of p < 10−10 may be too stringent for addressing finer scale effects
+```
+
+### Chunk 2: page-11-chunk-1 / source page 11
+
+```text
+www.nature.com/scientificreports/ 9Scientific RepoRts | (2019) 9:1396 | https://doi.org/10.1038/s41598-018-37940-6 Figure 6. Validation of significant CRISPR/Cas9 screen hits by comparison with human gene expression data (GSE70784). (A) Overlap of pos. CRISPR/Cas9 screen (p < 0.05, 24 h) with APAP overdose microarray dataset GSE70784 responders vs. Non-responders (1 day, p < 0.05). Heat map of differential log2 fold change of the most pos. selected sgRNAs (left to right). (B) Overlap of neg. CRISPR/Cas9 screen (p < 0.05, 24 h) with APAP overdose microarray dataset GSE70784 responders vs. Non-responders (1 day, p < 0.05). Heat map of differential log2 fold change of the most neg. selected sgRNAs (left to right). (C) Overlap of pos. CRISPR/Cas9 screen (p < 0.05, 24 h) with APAP overdose microarray dataset GSE70784 responders vs. Non-responders (8 days, p < 0.05). Heat map of differential log2 fold change of the most pos. selected sgRNAs (left to right). (D) Overlap of neg. CRISPR/Cas9 screen (p < 0.05, 24 h) with APAP overdose microarray dataset GSE70784 responders vs. Non-responders (8 days, p < 0.05). Heat map of differential log2 fold change of the most neg. selected sgRNAs (left to right). (E) Overlap of pos. CRISPR/Cas9 screen (p < 0.05, 24 h) with APAP overdose microarray dataset GSE70784 responders vs. Placebo (1 day, p < 0.05). Heatmap of differential log2 fold change
+```
+
+### Chunk 3: page-19-chunk-1 / source page 19
+
+```text
+www.nature.com/scientificreports/ 17Scientific RepoRts | (2019) 9:1396 | https://doi.org/10.1038/s41598-018-37940-6 12. Fukushima, T., Hamada, Y ., Y amada, H. & Horii, I. Changes of micro-RNA expression in rat liver treated by acetaminophen or carbon tetrachloride–regulating role of micro-RNA for RNA expression. The Journal of toxicological sciences 32, 401–409 (2007). 13. Fannin, R. D. et al . Acetaminophen dosing of humans results in blood transcriptome and metabolome changes consistent with impaired oxidative phosphorylation. Hepatology (Baltimore, Md.) 51, 227–236, https://doi.org/10.1002/hep.23330 (2010). 14. Paddison, P . J. et al. A resource for large-scale RNA-interference-based screens in mammals. Nature 428, 427–431, https://doi. org/10.1038/nature02370 (2004). 15. Deans, R. M. et al. Parallel shRNA and CRISPR-Cas9 screens enable antiviral drug target identification. Nature chemical biology 12, 361–366, https://doi.org/10.1038/nchembio.2050 (2016). 16. Morgens, D. W ., Deans, R. M., Li, A. & Bassik, M. C. Systematic comparison of CRISPR/Cas9 and RNAi screens for essential genes. Nature biotechnology 34, 634–636, https://doi.org/10.1038/nbt.3567 (2016). 17. Bibikova, M. et al. Stimulation of homologous recombination through targeted cleavage by chimeric nucleases. Molecular and cellular biology 21, 289–297, https://doi.org/10.1128/mcb.21.1.289-297.2001 (2001). 18. Urnov, F. D. et al. Highly efficient endogenous human gene correction using designed zinc-finger nucleases. Nature 435, 646–651, https://doi.org/10.1038/nature03556 (2005). 19. Boch, J. et al. Breaking the code of DNA binding specificity of TAL-type III effectors. Science (New York, N.Y.) 326, 1509–1512, https://doi.org/10.1126/science.1178811 (2009). 20. Christian, M. et al . Targeting DNA double-strand breaks with TAL effector nucleases. Genetics 186, 757–761, https://doi. org/10.1534/genetics.110.120717 (2010). 21. Riordan, S. M., Heruth, D. P ., Zhang, L. Q. & Y e, S. Q. Application of CRISPR/Cas9 for biomedical discoveries. Cell & bioscience 5, 33, https://doi.org/10.1186/s13578-015-0027-9 (2015). 22. Xue, H. Y . et al. CRISPR-Cas9 for medical genetic screens: applications and future perspectives. Journal of medical genetics 53, 91–97, https://doi.org/10.1136/jmedgenet-2015-103409 (2016). 23. Shalem, O. et al. Genome-scale CRISPR-Cas9 knockout screening in human cells. Science (New York, N.Y.) 343, 84–87, https://doi. org/10.1126/science.1247005 (2014). 24. Gilbert, L. A. et al. Genome-Scale CRISPR-Mediated Control of Gene Repression and Activation. Cell 159, 647–661, https://doi. org/10.1016/j.cell.2014.09.029 (2014). 25. Konermann, S. et al. Genome-scale transcriptional activation by an engineered CRISPR-Cas9 complex. Nature 517, 583–588, https://doi.org/10.1038/nature14136 (2015). 26. Chen, S. et al. Genome-wide CRISPR screen in a mouse model of tumor growth and metastasis. Cell 160, 1246–1260, https://doi. org/10.1016/j.cell.2015.02.038 (2015). 27. Wang, T., Wei, J. J., Sabatini, D. M. & Lander, E. S. Genetic screens in human cells using the CRISPR-Cas9 system. Science (New York, N.Y.) 343, 80–84, https://doi.org/10.1126/science.1246981 (2014). 28. Du, D. et al. Genetic interaction mapping in mammalian cells using CRISPR interference. Nature methods 14, 577–580, https://doi. org/10.1038/nmeth.4286 (2017). 29. Wang, T. et al. Identification and characterization of essential genes in the human genome. Science (New York, N.Y.) 350, 1096–1101, https://doi.org/10.1126/science.aac7041 (2015). 30. Banerjee, S. et al. Trifluoperazine inhibits acetaminophen-induced hepatotoxicity and hepatic reactive nitrogen formation in mice and in freshly isolated hepatocytes. Toxicology reports 4, 134–142, https://doi.org/10.1016/j.toxrep.2017.02.005 (2017). 31. Holownia, A., Menez, J. F . & Braszko, J. J. The role of calcium in paracetamol (acetaminophen) cytotoxicity in PC12 cells transfected with CYP4502E1. Inflammopharmacology 6, 133–142, https://doi.org/10.1007/s10787-998-0030-4 (1998). 32. Li, W . et al. MAGeCK enables robust identification of essential genes from genome-scale CRISPR/Cas9 knockout screens. Genome biology 15, 554, https://doi.org/10.1186/s13059-014-0554-4 (2014). 33. Li, W . et al. Quality control, modeling, and visualization of CRISPR screens with MAGeCK-VISPR. Genome biology 16, 281, https:// doi.org/10.1186/s13059-015-0843-6 (2015). 34. Nikiforov, A., Kulikova, V . & Ziegler, M. The human NAD metabolome: Functions, metabolism and compartmentalization. Critical reviews in biochemistry and molecular biology 50, 284–297, https://doi.org/10.3109/10409238.2015.1028612 (2015). 35. Zhang, L. et al. Novel Protective Role of Nicotinamide Phosphoribosyltransferase in Acetaminophen-induced Acute Liver Injury in Mice. Am J Pathol 188, 1640–1652, https://doi.org/10.1016/j.ajpath.2018.04.004 (2018). 36. Heruth, D. P . et al. Genetic Association of Single Nucleotide Polymorphisms with Acetaminophen-Induced Hepatotoxicity. The Journal of pharmacology and experimental therapeutics 367, 95–100, https://doi.org/10.1124/jpet.118.248583 (2018). 37. Zhang, J., Huang, W ., Chua, S. S., Wei, P . & Moore, D. D. Modulation of acetaminophen-induced hepatotoxicity by the xenobiotic receptor CAR. Science (New York, N.Y.) 298, 422–424, https://doi.org/10.1126/science.1073502 (2002). 38. Lu, Z. et al. SIRT3-dependent deacetylation exacerbates acetaminophen hepatotoxicity. EMBO reports 12, 840–846, https://doi. org/10.1038/embor.2011.121 (2011). 39. Henderson, C. J. et al. Increased resistance to acetaminophen hepatotoxicity in mice lacking glutathione S-transferase Pi. Proceedings
+```
+
+## E3 Answer
+
+```text
+Based on the CRISPR screening results, CARBENOXOLONE interacts with HSD11B1 by inhibiting it. The document states that HSD11B1, identified as a susceptible gene by the CRISPR-Cas9 screen, is inhibited by Carbenoxolone. However, there is no mention of CARBENOXOLONE interacting with NAAA in the provided text.
+```
+
+## E6 Added Evidence
+
+Added ordered IDs: ["page-13-chunk-1", "page-10-chunk-1", "page-8-chunk-1"]
+
+### Chunk 1: page-13-chunk-1 / source page 13
+
+```text
+www.nature.com/scientificreports/ 11Scientific RepoRts | (2019) 9:1396 | https://doi.org/10.1038/s41598-018-37940-6 for an extended time. These data reflect a more chronic drug exposure, and response to the drug is measured by ALT. GSE74000 consisted of liver biopsies from Livers being replaced after APAP-induced ALF and liver biop- sies obtained from non-ALF donors. This dataset, although it contains few samples, represents differential gene expression in humans at the 4d-point of the disease. The mouse RNA-seq data GSE110787 provided an extremely controlled population with controlled APAP dosage, avoiding issues of inter-population variabilities that may affect studies in human populations. The local inflammatory response and accumulation of neutrophils, which is not considered necessary to the initiation of progression of ALF contribute a major role in clearing necrotic cells and alter the liver injury micro-environment. In addition the inflammasome contributes greatly to the late stage of injury with activation of caspase-1 and IL1β with further cytokines and chemokines contributing to the recruitment of neutrophils and monocytes44. This late-stage of injury would be better captured by the mouse RNA-seq (ALF , GSE110787) and human microarray (ALF , GSE74000) datasets, since they represent a late-stage disease in a whole organism, which includes inflammatory and immune interactions not present in hepatocytes alone. It is therefore unsur - prising that we observed the best overlap of the CRISPR screen data with the human liver injury microarray data (GSE70784). This approach addresses APAP-induced liver injury in 2 distinct ways. First, we identified genes with a role in APAP metabolism by assessing the effect of gene knockouts on cell proliferation and survival. Next, we identified genes that were differentially expressed in response to APAP . The combination helps us to build hypotheses about the role of these genes in the disease process. This cross-validation with other APAP datasets is targeted at iden- tifying genes that are important to APAP metabolism and may be novel diagnostic or therapeutic biomarkers. Genes that are highly ranked in the CRISPR screen (p < 0.05) and whose RNA are expressed differentially at high enough levels that a blood sample (preferable) or liver biopsy (less preferable) could be used to detect changes in expression levels resultant from APAP overdose rapidly in clinic. Novel genes identified by this method that were highly ranked in the CRIPSR-Cas9 screen and in the gene expression data are the strongest candidates for further study. We tested the effect of siRNA knockdown of Lztr1, Nampt, Pgm5, and Naaa in primary mouse hepatocytes to validate our screen findings. We demonstrate that Leucine Zipper Like Transcription Regulator 1 (LZTR1) knock- out in HuH7 and knockdown in mouse cells increase cellular survival of APAP-induced injury. LZTR1 has a pos- itive LFC in the APAP-exposed human microarray data GSE70784, suggesting that the while the gene knockout Gene Gene Effect on ALF Known Drug Drug Effect Drug Effect matches Gene Effect? BMPR1A susceptible (CRISPR screen) CHEMBL3186227 inhibitor yes FCGR3A protective (CRISPR screen) GLOBULIN, IMMUNE antagonist no NAAA protective (CRISPR screen) CARBENOXOLONE inhibitor no NAAA protective (CRISPR screen) FLUFENAMIC ACID inhibitor no NR1I3 susceptible (PMID: 12376703, and CRISPR screen) PRASTERONE activator no NR1I3 susceptible (PMID: 12376703, and CRISPR screen) CHEMBL458603 agonist no NR1I3 susceptible (PMID: 12376703, and CRISPR screen) CLOTRIMAZOLE antagonist yes NR1I3 susceptible (PMID: 12376703, and CRISPR screen) MECLIZINE antagonist modulator yes PROZ protective (CRIPSR screen) MENADIONE activator yes HSD11B1 susceptible (CRISPR screen) CARBENOXOLONE inhibitor yes HSD11B1 susceptible (CRISPR screen) CHEMBL222670 inhibitor yes HSD11B1 susceptible (CRISPR screen) CHEMBL2153191 inhibitor yes HSD11B1 susceptible (CRISPR screen) CHEMBL2177609 inhibitor yes HSD11B1 susceptible (CRISPR screen) PHENYLARSINE OXIDE inhibitor yes HSD11B1 susceptible (CRISPR screen) PREDNISONE ligand unknown SIRT1 protective (PMID 29084443), susceptible (CRISPR screen) CHEMBL257991 activator unknown SIRT1 protective (PMID 29084443), susceptible (CRISPR screen) SODIUM LAURYL SULFATE inhibitor unknown SIRT1 protective (PMID 29084443), susceptible (CRISPR screen) CHEMBL420311 inhibitor unknown SIRT1 protective (PMID 29084443), susceptible (CRISPR screen) SPLITOMICIN inhibitor unknown SIRT3 susceptible (PMID 21720390, CRISPR screen) SODIUM LAURYL SULFATE inhibitor yes GPX2 protective (CRISPR screen) GLUTATHIONE cofactor unknown GPX4 protective (PMID 25962350), susceptible (CRISPR screen) GLUTATHIONE cofactor unknown GSS protective (PMID 11287661), susceptible (CRISPR screen) ACETYLCYSTEINE stimulator no GSTP1 susceptible (PMID 11058152; CRIPSR screen) EZATIOSTAT HYDROCHLORIDE inhibitor yes KCNJ3 protective (CRISPR 4d), susceptible (CRISPR all APAP samples) CHEMBL2409106 activator unknown KCNJ3 protective (CRISPR 4d), susceptible (CRISPR
+```
+
+### Chunk 2: page-10-chunk-1 / source page 10
+
+```text
+www.nature.com/scientificreports/ 8Scientific RepoRts | (2019) 9:1396 | https://doi.org/10.1038/s41598-018-37940-6 We suspect that NAD metabolism may play an important role in survival of acetaminophen injury and to this end we identified a number of genes involved in NAD metabolism which are also highly ranked in the CRISPR screen time points. A list of 48 genes identified based on Nikiforov et al., 2015 was compared with statistically sig- nificant CRISPR hits (p < 0.05)34. We identified 9 NAD metabolism in our screen data (Supplementary Table 5). Additionally, data from our lab suggest overexpression of NAMPT, a gene involved in NAD salvage, is protective against APAP-induced hepatotoxicity in vivo35. We considered genes for functional validation which were in the top 10 of a CRISPR list and were also sig- nificantly differentially expressed in the GEO or mouse RNA-seq datasets (p < 0.05), with a preference for genes with a p < 0.05 in multiple positive or negative ranked lists. Novelty was assessed by literature search and essen- tiality was determined from essentialgene.org. A number of genes that were highly ranked in the CRISPR screen (positive or negative), and overlapped with other gene sets (human and mouse gene expression with and without APAP , p < 0.05), are identified as essential genes (essentialgene.org). These genes include PGM5, KIF23, C19orf60, BMPR1A, PDSS2, CXADR, SSR2, TMCC2, RDH13, and EGR1 (Supplementary Data 11). Additional genes that were highly ranked in the CRISPR screen, and overlapped with the other gene sets (human and mouse gene expression with and without APAP), have previously published relationships with APAP metabolism (pubmatrix. irp.nia.nih.gov). These genes include EGR1, VNN1, NR1I3. Genes ranked highly in both our screen and previous publications support the selection method used to filter candidate genes. Novel, non-essential genes identified by this study for further study include LZTR1, NAAA, ATG2B, MYOZ3, EFNB3, OR5M11, FCGR3A, PROZ, EEF1D, ACAD11, and TMCC2 (Supplementary Data 11). These genes are pathogenic (positively ranked) or protective (negatively ranked) and have potential for utility in development of diagnostic, risk-assessment, or therapeutic biomarkers. Genes containing significant APAP SNPs. 133 gene names were identified from the literature as nearest-neighbors or containing 147 APAP injury-associated single nucleotide polymorphisms (SNPs) 36. 22 of the genes were significantly enriched or depleted in the screen time points (Supplementary Table 6). Figure 5. Validation of significant CRISPR/Cas9 screen hits by comparison with mouse ALI (GSE110787) and human ALF gene expression data (GSE74000). (A) Overlap of pos. CRISPR/Cas9 screen (p < 0.05, 24 h) with mouse RNA-Seq (p < 0.05, 24 h). Heat map of the log2 fold change of the most pos. selected sgRNAs (left to right). (B) Overlap of neg. CRISPR/Cas9 screen (p < 0.05, 24 h) with mouse RNA-Seq (p < 0.05, 24 h). Heat map of the differential log2 fold change of the most neg. selected sgRNAs (left to right). (C) Overlap of pos. CRISPR/ Cas9 (p < 0.05, 24 h) with ALF microarray dataset GSE74000 (p < 0.05). Heat map of the differential log2 fold change of the most pos. selected sgRNAs (left to right). (D) Overlap of neg. CRISPR/Cas9 screen (p < 0.05, 24 h) with ALF microarray dataset GSE74000 (p < 0.05). Heat map of the differential log2 fold change of the most neg. selected sgRNAs (left to right).
+```
+
+### Chunk 3: page-8-chunk-1 / source page 8
+
+```text
+www.nature.com/scientificreports/ 6Scientific RepoRts | (2019) 9:1396 | https://doi.org/10.1038/s41598-018-37940-6 2,131 probes have + log2 fold change with P < 0.05 (Supplementary Fig. 5b). We compared genes with p < 0.05 to genes that were significantly enriched and depleted in our CRISPR screen (p < 0.05) to identify overlap and ascertain the relationship between sgRNA depletion or enrichment and gene expression at 24 h APAP treatment (Fig. 6A–D). Overall, 11 enriched gene knockouts and 15 depleted gene knockouts (24 h, p < 0.05) overlap with the significantly differentially expressed genes in non-acute overdose (drug responders vs. non-responders) after 1d of exposure. 101 enriched CRISPR gene knockouts and 117 depleted gene knockouts (24 h, p < 0.05 overlap with the significantly differentially expressed genes between drug responders and non-responders after 8d of exposure. Using the same GSE70784 dataset in GEO2R, microarray data from 12 APAP responder blood samples were compared to 10 placebo controls using days 1 and 8 independently. After 1 day of APAP dosing 697 of 20,173 probes had an unadjusted p-val < 0.05. Of these, 244 probes have − log2 fold change with p < 0.05 and 453 probes have +log2 fold change with P < 0.05 (Supplementary Fig. 5c). After 8 days of APAP dosing 1,801 of 20,173 probes had an unadjusted p-val < 0.05, of which 1248 probes have − log2 fold change with p < 0.05 and 553 probes have +log2 fold change with P < 0.05 (Supplementary Fig. 5d). We compared genes with p < 0.05 to genes that were significantly enriched and depleted in our CRISPR screen (p < 0.05) to identify overlap and ascertain the rela- tionship between sgRNA depletion or enrichment and gene expression at 24 h APAP treatment (Fig. 6E–H). 30 enriched gene knockouts and 34 depleted gene knockouts (24 h, p < 0.05) overlap with the significantly dif- ferentially expressed genes in non-acute overdose (responders vs. placebo) after 1d of exposure. 89 enriched CRISPR gene knockouts and 86 depleted gene knockouts (24 h, p < 0.05 overlap with the significantly differen- tially expressed genes in non-acute overdose after 8d of exposure. Of the genes overlapping the CRISPR screen at 24 h APAP exposure (p < 0.05) and 1d APAP exposure vs. placebo in GSE70784, 7 up regulated genes and 8 downregulated genes remain significantly up or down regu- lated after 8d APAP treatment (GSE70784, p < 0.05). These overlaps rise to 10 and 20 genes, respectively, when the CRISPR gene knockout list is expanded to include all significant gene knockouts across all treatment times. Similarly, 6 downregulated genes remain significantly down regulated after 8d APAP treatment when the CRISPR overlapping APAP responders are compared with non-responders (GSE70784, p < 0.05). 13 genes are down- regulated when the CRISPR gene knockout list is expanded to include all significant gene knockouts across all treatment times. Overall, our CRISPR screen data best overlaps the long-term exposure (8d). We additionally observe that there is little overlap between the differentially expressed genes in the early (1d) and late (8d) chronic exposure data of GSE70784 when filtered by gene knockouts that are significantly enriched or depleted in the CRIPSR screen. This suggests a dramatic shift in gene expression between early and longer-term exposure. We also observe better overlap when we include significant gene knockouts from other time points observed from the CRISPR screen. We then isolated only genes (or gene knockouts in the case of the CRISPR screen) that were significantly dif- ferentially expressed across the CRISPR, mouse, and human studies. 523 genes (369 unique, 6% of CRISPR-Cas9 screen genes with p < 0.05) overlap the mouse RNA-seq and CRISPR “top lists” (4d, 24 h, Int, and All, p < 0.05, representing 5,791 unique genes with significant enrichment or depletion in the CRISPR screen). 57 of the 67 unique genes overlapping CRISPR, mouse, and GSE74000 p < 0.05 lists (0.1% of CRISPR-Cas9 screen genes with p < 0.05) are not previously reported to have a role in APAP metabolism, and 51/67 have consistent expression in mouse and GSE74000 and within CRISPR lists. When we compare the GSE70784 1 day responder vs. placebo to the CRISPR and mouse RNA-seq datasets, 12 of the 16 overlapping unique genes are
+```
+
+## E6 Answer
+
+```text
+Based on the CRISPR screening results, CARBENOXOLONE interacts with NAAA and HSD11B1 as an inhibitor. Specifically, CARBENOXOLONE is noted as an inhibitor of HSD11B1, which was identified as a susceptible gene in the CRISPR-Cas9 screen. However, for NAAA, which was identified as a protective gene in the CRISPR screen, CARBENOXOLONE is also listed as an inhibitor, indicating that its inhibitory effect does not align with the protective role of NAAA as per the CRISPR screening results.
+```
+
+## E9 Added Evidence
+
+Added ordered IDs: ["page-21-chunk-1", "page-13-chunk-2", "page-14-chunk-1"]
+
+### Chunk 1: page-21-chunk-1 / source page 21
+
+```text
+www.nature.com/scientificreports/ 19Scientific RepoRts | (2019) 9:1396 | https://doi.org/10.1038/s41598-018-37940-6 Competing Interests: The authors declare no competing interests. Publisher’s note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Cre- ative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not per- mitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/. © The Author(s) 2019
+```
+
+### Chunk 2: page-13-chunk-2 / source page 13
+
+```text
+activator unknown SIRT1 protective (PMID 29084443), susceptible (CRISPR screen) SODIUM LAURYL SULFATE inhibitor unknown SIRT1 protective (PMID 29084443), susceptible (CRISPR screen) CHEMBL420311 inhibitor unknown SIRT1 protective (PMID 29084443), susceptible (CRISPR screen) SPLITOMICIN inhibitor unknown SIRT3 susceptible (PMID 21720390, CRISPR screen) SODIUM LAURYL SULFATE inhibitor yes GPX2 protective (CRISPR screen) GLUTATHIONE cofactor unknown GPX4 protective (PMID 25962350), susceptible (CRISPR screen) GLUTATHIONE cofactor unknown GSS protective (PMID 11287661), susceptible (CRISPR screen) ACETYLCYSTEINE stimulator no GSTP1 susceptible (PMID 11058152; CRIPSR screen) EZATIOSTAT HYDROCHLORIDE inhibitor yes KCNJ3 protective (CRISPR 4d), susceptible (CRISPR all APAP samples) CHEMBL2409106 activator unknown KCNJ3 protective (CRISPR 4d), susceptible (CRISPR all APAP samples) CHEMBL116590 channel blocker unknown KCNJ3 protective (CRISPR 4d), susceptible (CRISPR all APAP samples) HALOTHANE inhibitor unknown NAMPT protective (PMID 29684358) TEGLARINAD CHLORIDE inhibitor no Table 2. Top candidate genes with known drug effects annotated by the DRUG Gene Interaction Database (www.dgidb.org).
+```
+
+### Chunk 3: page-14-chunk-1 / source page 14
+
+```text
+www.nature.com/scientificreports/ 12Scientific RepoRts | (2019) 9:1396 | https://doi.org/10.1038/s41598-018-37940-6 increases survival of APAP , it is also elevated in APAP-treated subjects (Supplementary Data 11). LZTR1 muta- tions are associated with Noonan Syndrome 10, Schwannomatosis-2, gastric cancer, ventricular septal defects, and deletion of the gene may be associated with DiGeorge syndrome45–49. The GO annotations for LZTR1 include transcription factor activity and sequence-specific DNA binding. The protein localizes to the golgi, where it is thought to have a stabilizing effect. Nicotinamide Phosphoribosyltransferase (NAMPT, PDBID 4LVF .A) was selected for further study because although it is not significant in this screen, other lab data demonstrates a protective effect of overex- pression against APAP-induced hepatotoxicity. In mice, Nampt has reduced expression after APAP treatment (LFC = −0.476, p < 0.05). This in combination with the number of other NAD metabolism genes that are signifi- cantly ranked in this screen led us to validate the observed effect of NAMPT knockout in HuH7 with knockdown in mouse hepatocytes, which we found to increase susceptibility to APAP-induced injury. NAMPT protein is involved in the catalysis of the biosynthesis of the nicatinomide adenine dinucleotide. NAMPT’s role in NAD sal- vage is thought to be important to a number of metabolism and aging-related conditions50–57. It is involved in the NAD metabolism and Common Cytokine Receptor Gamma-Chain Family Signaling pathways. GO annotations include protein homodimerization activity and drug binding. NAMPT’s role in APAP-induced hepatotoxicity does however need further study in whole organisms to evaluate its role during the different stages of liver injury. The secreted form of Nampt functions as both a cytokine and adipokine and functions to inhibit neutrophil apop- tosis which is implicated in the second phase of acetaminophen-induced injury58. Phosphoglucomutase 5 (PGM5) knockdown increased cellular survival of APAP treatment, validating our CRISPR/Cas9 screen finding that knockout of the gene is protective (Supplementary Data 11). PGM5 has a neg- ative LFC in the APAP-exposed human microarray data GSE70784, suggesting that the gene knockout increases survival of APAP exposure and gene expression is decreased after APAP exposure. PGM5 does not exhibit phos- phoglucomutase activity and is a component of cell-cell and cell-matrix junctions. It is expressed at high levels in smooth muscle and is essential in the metabolism of galactose and glycogen and is involved in the Porphyrin and chlorophyll metabolism pathway. GO annotations include structural molecule activity, intramolecular transferase activity, and phosphotransferase activity. Abnormal expression and mutation of PGM5 are associated with a num- ber of diseases, including Duchenne’s Muscular Dystrophy and colorectal tumorigenesis59,60. Although we were able to confirm knockdown of mouse Naaa in vitro , we were not able to validate the increase in susceptibility observed in the CRISPR-CAS9 screen. It is possible that the effect was too small in the conditions used for the validation experiments, or that a true knockout is needed to observe the effect. It is widely accepted that the cytochrome P450 isoform play an important role in APAP metabolism. While we expected to see the cytochrome P450 isoforms higher in the gene rankings of the negative screen, it is unsurpris- ing that they are not highly ranked. It is suspected that multiple isoforms can regulate the metabolism of APAP , so it is possible that others are compensating for the knocked out isoform. The low, though not totally absent, expres- sion of some CYPs in HuH7 arguably increases the potential for this system to reveal non-canonical mechanisms of survival and susceptibility61. HuH7 additionally metabolized NAPQI by glucuronidation and sulfation at low levels7,61. Although there are always concerns when using a cell line to study a biological mechanism, HuH7 has been used successfully for studies of drug metabolism61,62. To carry out the CRISPR-Cas9 screen it was necessary to use a cell line that could be transduced and didn’t require differentiation. Whenever possible, we validated our findings in primary mouse hepatocytes. To better control for potential differences in drug metabolism across systems and to identify the most prom- ising candidate genes, the CRIPSR-Cas9 gene knockout rankings were cross-referenced with multiple human and mouse datasets to select the most promising candidate genes. We also identified genes with likely and known associations with APAP-induced hepatotoxicity (NAD metabolism and genes containing polymorphisms). Further study of the polymorphisms
+```
+
+## E9 Answer
+
+Canonical judgment source: E9; E6/E9 input identical: False
+
+```text
+Based on the CRISPR screening results, CARBENOXOLONE interacts with HSD11B1 as an inhibitor. However, there is no direct information provided about the interaction of CARBENOXOLONE with NAAA in the context of the CRISPR screening results.
+```
+
+## Automatic Labels
+
+- E3: False; OK
+- E6: True; OK
+- E9: False; OK
+
+Raw incomplete states: []
+
+- E3_to_E6_wrong_to_correct: True
+- E3_to_E6_correct_to_wrong: False
+- E6_to_E9_wrong_to_correct: False
+- E6_to_E9_correct_to_wrong: True
+
+```text
+{"E3": "The candidate correctly identifies that CARBENOXOLONE inhibits HSD11B1 and that HSD11B1 is a susceptible gene. However, it incorrectly claims there is no mention of NAAA in the text, while the reference clearly states that CARBENOXOLONE also interacts with NAAA. The candidate misses the gene-drug effect relationship for both targets and includes a minor unsupported claim about the absence of NAAA information.", "E6": "The candidate answer is fully correct, covering all essential points about CARBENOXOLONE's inhibitory effect on both NAAA and HSD11B1, and accurately describing the alignment (or lack thereof) between drug effects and gene effects as per the CRISPR screening. It is consistent with the reference and directly answers the question.", "E9": "The candidate answer correctly identifies CARBENOXOLONE as an inhibitor of HSD11B1, which is accurate. However, it incorrectly claims there is no information about NAAA, when the reference clearly states that CARBENOXOLONE inhibits NAAA and provides gene-drug effect details. The answer is incomplete and contradicts the reference on a key point."}
+```
+
+## Human Annotation
+
+| Field | Value |
+|---|---|
+| human_e3_correct |  |
+| human_e6_correct |  |
+| human_e9_correct |  |
+| human_reference_valid |  |
+| human_e3_evidence_sufficient |  |
+| human_e6_added_evidence_useful |  |
+| human_e9_added_evidence_useful |  |
+| human_confidence |  |
+| human_notes |  |
+
+
+
+---
+
+# P2A_HR_042 / unidoc_healthcare_0078
+
+Priority: 1 / Cohort: MISS_AT_3_HIT_AT_6 / Selection: AUTOMATIC_TRANSITION
+
+## Question
+
+```text
+How did the phenotypic distribution of functional movement disorders shift after an average follow-up of 3.2 years?
+```
+
+## Gold / Reference
+
+```text
+After an average follow-up of 3.2 years, 52 patients (68.2% of dystonia, 37.5% of tremor, and 50% of gait disorder) remained unchanged with their initial FMD phenotype. In contrast, 48 patients developed additional symptoms, shifting to FMD plus phenotypes. These changes included 31.7% developing dystonia plus, 62.5% developing tremor plus, 50% developing gait plus, and all patients with an initial parkinsonism or mixed phenotype developing additional symptoms, resulting in mixed plus or parkinsonism plus phenotypes.
+```
+
+## GT Pages
+
+[5]
+
+## Document Verification
+
+- Document: 5823826
+- Dataset identifier: healthcare/healthcare/5823826.pdf
+- Local PDF: C:\Users\sp\Desktop\adaptive-multimodal-rag\datasets\unidoc\healthcare\healthcare\5823826.pdf
+- Unique E3/E6/E9 pages: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+- E3 pages: [2, 3, 9]
+- E6 pages: [1, 2, 3, 5, 7, 9]
+- E9 pages: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+- PDF direct verification flag: False
+
+### GT page extracted text
+
+### GT page 5 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+T omi´c et al. Phenotypic Pattern in Functional Movement Disorders
+FIGURE 2 | Changes in phenotypic pattern of functional movement disor der from baseline to ﬁnal examination, after mean follow up of 3.2 ± 2.5 years. Central panel
+represent phenotype distribution at initial examination i n 100 patients diagnosed with FMD, either as a single phenoty pe (dystonia, tremor, gait disorder, or
+parkinsonism) or as a mixed phenotype, including combinati on of any FMD symptoms, or combination of FMD with other FND sy mptoms (like palsy, speech disorder,
+sensory loss, vision loss, PNES, etc). Lateral parts depict patients at ﬁnal examination, after mean follow-up of 3.2 ± 2.5 years. Fifty-two patients that remained
+unchanged, with single FMD phenotype (dystonia, tremor, ga it disorder) are present in the left panel. The right panel, r epresent the FMD phenotypes that have been
+changed and become FMD plus phenotype at the ﬁnal examination , i.e., besides initial FMD phenotype, these patients devel oped additional FMD or FND symptoms
+(for instance: dystonia plus). All patients with Mixed phen otype at initial examination become Mixed plus because they developed additional FMD or FND symptoms at
+ﬁnal examination. FMD, functional movement disorders; FND, functional neurological disorders; Park, parkinsonism; p ts, patients.
+prevalence at initial and ﬁnal examination were as follows:
+weakness (palsy) in 2 and 9 patients, sensory loss in 2 and 14
+patients, speech disorder in 1 and 5 patients, PNES in 3 and 8
+patients, vision loss in 1 and 3 patients, respectively. Autonom ic
+symptoms were only present at ﬁnal examination and reported
+by 6 patients.
+The Evolution of FMD Phenotypes and
+Disease Course Over the Follow-Up Period
+At study entry, there was a predominance of Dystonia phenotype
+(63%), followed by Tremor in 16%, Gait disorder in 6%, and
+Parkinsonism in 3%, while Mixed phenotype was identiﬁed
+in 12% of investigated cohort. Myoclonus/jerks occurred onl y
+in the presence of other FMD symptoms, therefore hiding
+under the group of Mixed phenotype. We did not ﬁnd
+signiﬁcant diﬀerences between these groups in any baseline
+demographic and clinical characteristics, except that patien ts
+with parkinsonism have shown signiﬁcantly higher score on
+PHQ-9, in contrast to dystonia, tremor and mixed baseline FMD
+phenotype (p < 0.05, ANOV A,post hoc Games Hallms).
+The classiﬁcation of phenotype at ﬁnal examination was
+performed according to criteria deﬁned in methodology. The
+distribution of FMD phenotypes at initial and ﬁnal examination
+is presented at Figure 2. After follow-up period of 3.2 ± 2.5
+years, 48% of patients enriched clinical presentation with
+additional functional neurological symptoms (FMD plus),
+while 52% of patients remained unchanged (Unchanged FMD).
+At ﬁnal examination, dystonia predominantly remained in
+the form of single, unchanged FMD phenotype (68.2%),
+while 31.7% progressed into Dystonia plus. Half of the
+patients with initial Gait disorder progressed into Gait
+plus phenotype. Almost two thirds of patients (62.5%)
+who initially presented with Tremor, eventually developed
+additional functional neurological symptoms over the
+follow up period, while all patients who initially had
+Parkinsonism and Mixed phenotype, have evolved into
+FMD plus.
+We have also evaluated disease course in terms of progression
+of FMD and identiﬁed stationary disease course in 20%, RR
+in 46%, and progressive in 34% of patients, over the follow-up
+period. Patients with Unchanged FMD, exhibit stationary cours e
+Frontiers in Neurology | www.frontiersin.org 5 November 2020 | Volume 11 | Article 582215
+```
+
+## E3 Evidence
+
+Ordered IDs: ["page-3-chunk-1", "page-2-chunk-1", "page-9-chunk-1"]
+
+### Chunk 1: page-3-chunk-1 / source page 3
+
+```text
+T omi´c et al. Phenotypic Pattern in Functional Movement Disorders TABLE 1 | Demographic and clinical characteristics of 100 patients w ith functional movement disorders at initial examination. Variables Female, N (%) 80 (80.0) Education (years) 11.8 ± 2.0 [6–18] Age (years) 50.7 ± 13.6 [19–75] Age at onset (years) 44.5 ± 13.5 [13–72] Disease duration (years) 6.1 ± 5.8 [1–28] Mode of onset Gradual, N (%) 20 (20.0) Sudden, N (%) 80 (80.0) Trauma preceding the disease onset Physical trauma, N (%) 24 (24.0) Psychical trauma, N (%) 65 (65.0) Presence of pain Affected body part, N (%) 67 (67.0) Unaffected body part, N (%) 50 (50.0) Global cognitive assessment MMSE 28.1 ± 1.7 [25–30] Motor status PMDRS total phenomenology score 11.0 ± 5.0 [0–33] PMDRS total functional score 6.6 ± 4.0 [0–12] PMDRS total score 17.7 ± 6.9 [4–42] Psychiatric tretament Prior psychiatric treatment, N (%) 50 (50.0) Current psychiatric treatment, N (%) 71 (71.0) Psychiatric scales HDRS 15.8 ± 9.6 [0–42] BDI 16.8 ± 11.6 [0–54] HARS 15.0 ± 10.9 [0–46] PHQ-9 10.5 ± 7.3 [0–24] AES 17.6 ± 10.3 [0–42] DES-II 3.3 ± 6.2 [0–25] SDQ 20 27.8 ± 9.5 [20–58] NMSQ 9.1 ± 5.6 [0–24] LEC 2.4 ± 2.1 [0–12] Diagnosis according to DSM-5 criteria MDD single episode, N (%) 23 (23.0) Dysthimia, N (%) 10 (10.0) MDD reccurent, N (%) 22 (22.0) MDD psychotic, N (%) 1 (1.0) Bipolar affective disorder, N (%) 1 (1.0) Speciﬁc phobia, N (%) 2 (2.0) Panic attacks, N (%) 1 (1.0) Generalized anxiety disorder, N (%) 1 (1.0) Anxious-depressive disorder, N (%) 4 (4.0) Sedative-related disorder, N (%) 1 (1.0) Adjustment disorder, N (%) 2 (2.0) Somatisation, N (%) 4 (4.0) Schizophrenia, N (%) 2 (2.0) (Continued) TABLE 1 | Continued Delusional disorder, N (%) 1 (1.0) Borderline personality disorder, N (%) 3 (3.0) Undifferentiated personality disorder, N (%) 5 (5.0) Values are presented as means ± standard deviations [range], unless noted otherwise. MMSE, Mini-Mental State Examination; PMDRS, Psychogenic Movement Disorders Rating Scale; HDRS, Hamilton Depression Rating Scale; BDI, Beck De pression Inventory; HARS, Hamilton Anxiety Rating Scale; PHQ-9, Patient Health Questionn aire-9; AES, Apathy scale; DES-II, Dissociative Experience Scale II; SDQ-20, Somatof orm Disorders Questionnaire; NMSQ, Non-Motor Symptom Questionnaire; ns, non-signiﬁcant; LEC, Life events checklist; MDD, major depressive disorder. Scale (AES) ( 16), the Non-motor Symptoms Questionnaire (NMSQ) (17), Life-events Checklist (LEC) ( 18), the Somatoform Dissociation Questionnaire (SDQ-20) ( 19), and the Dissociative Experiences Scale II (DES-II) ( 20). Additionally, in order to established the existence of psychiatric diagnosis at baseli ne, all FMD patients underwent psychiatric interview and diagnosis was assigned based on DSM-5 criteria ( 2). Follow-Up Assessment, Change of Phenotypic Pattern Over the Time and Clinical Course All of 100 patients were regularly followed-up in 4- to 6- month intervals. At ﬁnal follow-up examination, after 3.2 ± 2.5 years at average (range 1–8 years), the detailed neurolo gical examination and semi-structured interview were performed by same experienced neurologists, to comprise evolution of symptoms and clinical course. Based on the presence of “core” functional symptoms at ﬁnal examination, the evolution of phenotype was categorized as follows: (1) Unchanged FMD, where the same symptoms were present on both initial and ﬁnal examination; and (2) Changed , FMD plus phenotype (FMD plus), where patients developed additional FMD and/or FND symptoms at ﬁnal examination, named as “Dystonia plus, ” “Tremor plus, ” “Parkinsonism plus, ” “Gait disorder plus, ” and “Mixed plus.” Furthermore, to examine the clinical course of the disease, irrespective of the phenomenology changes on each follow- up visit, we scored patients as follows: (1) better or without symptoms; (2) unchanged; or (3) worse. Based on these criteri a, at ﬁnal examination disease course (ﬁnal outcome) was deﬁne d. “Final outcome” was marked as: (1) progressive (continuous worsening of the same or other symptoms of FMD/FND, without periods of improvement); (2) ﬂuctuating or relapse-remitting (RR) (with improvements or remissions of previous symptoms, but with subsequent relapses consisted of the same or other FMD or FND); (3) stationary (patients were without improvement or worsening of initial symptoms of FMD or FND, as well as with no additional symptoms). Statistical Analysis The IBM SPSS 23.0 statistical software
+```
+
+### Chunk 2: page-2-chunk-1 / source page 2
+
+```text
+T omi´c et al. Phenotypic Pattern in Functional Movement Disorders INTRODUCTION Functional movement disorders (FMD) refer to a group of disorders that includes tremor, dystonia, myoclonus, parkinsonism, speech, and gait disturbances, and other movement disorders that are incongruent with established clinical patterns due to diﬀerent pathophysiologic processes, a s for example in the case of lesions ( 1). FMD belong to a larger entity called functional neurological disorders (FND), fo rmerly known as psychogenic or conversion disorders, comprising neurological symptoms that cannot be explained by classical neurological disease (2). The clinical features of FMD, including paroxysmal onset, waxing, and waning course, migration of symptoms to diﬀerent body parts, together with possible symptom replacement (the resolution of one symptom can be followed by the appearance of another) ( 3), speak in favor of the unpredictable and often elusive nature of such disorders, leaving both patients and t heir physicians in the ﬁeld of uncertainty. Furthermore, additio nal physical features (such as pain, fatigue, bladder, or bowel problems, etc), as well as psychiatric comorbidities, are usu ally associated with FND/FMD and can have signiﬁcant impact on outcome (4). The unpredictability of such disorders is further reﬂected through the highly variable prognosis of diﬀerent FND ( 5). Limited data from heterogeneous and mostly retrospective studies reported persistent or worse state in more than a third of FND patients, with functional dystonia having the worst outcome ( 6, 7). A combination of wide variety of neurological and psychiatric symptoms are likely to contribute to disabili ty and reduced quality of life in patients with FMD/FND ( 4), even being comparable to those of patients with Parkinson’s disease (5). However, little is known about the course of individual FMD subtypes and possible changes of phenotype over time. Therefore, we performed a longitudinal study, aimed to asses s the phenotypic heterogeneity and disease course in patients with FMD, as well as to identify baseline prognostic factors which might be related to the changes of FMD pattern and the overall outcome. PATIENTS AND METHODS Inclusion Criteria and Inform Consent One hundred and eight in- and out-patients, who were referred to our Movement Disorder Department, Clinic for Neurology (University of Belgrade), between December 2011 and December 2019, fulﬁlled the criteria for diagnosis of FMD, in accordan ce with the Diagnostic and Statistical Manual of Mental Disorde rs 5th Edition criteria (DSM-5) (2). The clinical characteristic of 100 out of 108 patients were able to comply with longitudinal desig n of the study and were subsequently included in this study. Ei ght patients were lost at follow-up (7 patients with dystonia and 1 with mixed FMD phenotype) and their baseline characteristics (age, age at onset, sex, education, disease duration, as wel l as in the severity of illness measured through the PMDS), did not diﬀer from those who were ﬁnally included in the study. Brieﬂy, diagnosis is based on the requirement that the neurological symptoms are associated with “clinical evidenc e of incompatibility between symptoms and recognized neurologic al or medical conditions” ( 8), by using clinical examination signs (9) that allow FMD to be positively diﬀerentiated from other disorders, rather than deﬁned by the absence of another condition. In addition, all patients had normal brain imagin g (CT or MRI scan). DaT-SPECT was normal in all patients with parkinsonism presentation. Genetic tests for mutations in th e DYT1 and DYT6 gene were negative in dystonia patients, as well as mutations in DYT11 and Parkin gene in cases resemblin g dystonia-myoclonus phenotype and with late onset foot/hand dystonia, respectively. Written informed consent was obtained from all patients and the study was approved by the Ethical Committee of the Faculty of Medicine, University of Belgrade. Conceptual Approach Our investigation contained several steps: Baseline Assessment and Deﬁnition of Initial FMD Phenotype At the study entry (baseline), detailed demographic and clini cal interviews were performed. The age at onset was deﬁned as the age of the ﬁrst appearance of symptom(s) attributable to FMD according to history, supported by an interview with the caregivers, and by medical charts. During the semi-structur ed interview, the data on precipitating events (physical and/or psychical trauma), mode of onset, disease evolution, and curre nt and/or previous treatment
+```
+
+### Chunk 3: page-9-chunk-1 / source page 9
+
+```text
+T omi´c et al. Phenotypic Pattern in Functional Movement Disorders of previous research. Still, dystonia and tremor are the most prevalent FMD in our cohort, and the distribution of other FMD, reﬂects the proportion seen in other studies. Another limitation is related to the lack of systematized treatment information that patients received during the follow-up perio d, which could aﬀect the outcome. Treatment was not limited to one institution, patients received individualized treatm ents indicated by physicians of diﬀerent specialties, often with poo r compliance to the suggested treatment options. In the absence of structured and uniform tretament protocol, it can be argue d that this cohort would rather reﬂect a study of the natural co urse of the disease, than be inﬂuenced by treatment bias. Taking into account the evolving recommendations for FND care, as well as diﬀerences in the health care system, more research is needed to comprehensively investigate the link between dise ase outcome and “standardized treatments.” The main strength o f this study is primarily its prospective nature, together with a long follow-up period, large sample size, mixed cohort, and the use of a wide range of motor and psychometric scales, making us more conﬁdent in interpreting these results, despit e obvious limitations. In conclusion, results from our prospective study suggest that signiﬁcant number of FMD patients are prone to phenotypic changes over time. We believe that this ﬂuidity of phenotype further supports the recognized diagnostic criteria of inconsistency and incongruence. The greater severity of mo tor symptoms at the onset of the disease is not the only predictor of phenotypic changes in FMD over the time, but attention must be focused on subtle signs of somatoform experiences. These data imply and argue a careful and comprehensive approach, as well as early recognition and targeted therapeutic approach in FMD. DATA AVAILABILITY STATEMENT The raw data supporting the conclusions of this article will be made available by the authors, without undue reservation. ETHICS STATEMENT The studies involving human participants were reviewed and approved by Ethical Committee of the Faculty of Medicine, University of Belgrade. The patients/participants provided thei r written informed consent to participate in this study. AUTHOR CONTRIBUTIONS AT , IP , VK, and MJ contributed to conception and design of the study. AT wrote the ﬁrst draft of the manuscript. MJ performed the statistical analysis. ND, MS, NK, and VM contributed to organization and data collection. All authors contributed to manuscript revision, read, and approved the submitted version . FUNDING This study was supported by the Ministry of Education and Science of the Republic of Serbia (Grant No. 175090). REFERENCES 1. Thenganatt MA, Jankovic J. Psychogenic (functional) moveme nt disorders. Continuum. (2019) 25:1121–40. doi: 10.1212/CON.0000000000000755 2. American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders (DSM-5). 5th ed. Washington, DC (2013). p. 280. 3. Galli S, Béreau M, Magnin E, Moulin T , Aybek S. Functional movemen t disorders. Rev Neurol. (2020) 176:244–51. doi: 10.1016/j.neurol.2019.08.007 4. Nicholson TR, Carson A, Edwards MJ, Goldstein LH, Hallett M, Mildo n B, et al. Outcome measures for functional neurological disorder: a revi ew of the theoretical complexities. J Neuropsychiatry Clin Neurosci. (2020) 32:33– 42. doi: 10.1176/appi.neuropsych.19060128 5. Gelauﬀ J, Stone J, Edwards M, Carson A. The prognosis of functio nal (psychogenic) motor symptoms: a systematic review. J Neurol Neurosurg Psychiatry. (2014) 85:220–6. doi: 10.1136/jnnp-2013-305321 6. Schrag A, Trimble M, Quinn N, Bhatia K. The syndrome of ﬁxed dystonia: an evaluation of 103 patients. Brain. (2004) 127:2360–72. doi: 10.1093/brain/awh262 7. Ibrahim NM, Martino D, van de Warrenburg BPC, Quinn NP , Bhatia K P , Brown RJ, et al. The prognosis of ﬁxed dystonia: a follow-up study. Park Relat Disord. (2009) 15:592–7. doi: 10.1016/j.parkreldis.2009.02.010 8. Stone J, LaFrance WC, Brown R, Spiegel D, Levenson JL, Sharpe M. Conversion disorder: current problems and potential solutions for DS M-5. J Psychosom Res. (2011) 71:369–76. doi: 10.1016/j.jpsychores.2011.07.005 9. Daum C, Hubschmid M, Aybek S. The value of “positive” clinical signs for weakness, sensory and gait disorders in conversion d isorder: a systematic and narrative review. J Neurol Neurosurg Psychiatry.(2014) 85:180– 90. doi: 10.1136/jnnp-2012-304607 10. Hinson VK, Cubo E, Comella CL, Goetz CG, Leurgans S. Rating sca le for psychogenic movement disorders:
+```
+
+## E3 Answer
+
+```text
+After an average follow-up of 3.2 years, the phenotypic distribution of functional movement disorders (FMD) shifted in some patients. The study categorized the evolution of the phenotype into two groups: (1) "Unchanged FMD," where the same symptoms were present at both initial and final examination, and (2) "Changed FMD plus phenotype (FMD plus)," where patients developed additional FMD and/or functional neurological disorder (FND) symptoms at the final examination. These additional symptoms were categorized as "Dystonia plus," "Tremor plus," "Parkinsonism plus," "Gait disorder plus," and "Mixed plus." The study found that a significant number of FMD patients experienced phenotypic changes over time.
+```
+
+## E6 Added Evidence
+
+Added ordered IDs: ["page-5-chunk-1", "page-1-chunk-1", "page-7-chunk-1"]
+
+### Chunk 1: page-5-chunk-1 / source page 5
+
+```text
+T omi´c et al. Phenotypic Pattern in Functional Movement Disorders FIGURE 2 | Changes in phenotypic pattern of functional movement disor der from baseline to ﬁnal examination, after mean follow up of 3.2 ± 2.5 years. Central panel represent phenotype distribution at initial examination i n 100 patients diagnosed with FMD, either as a single phenoty pe (dystonia, tremor, gait disorder, or parkinsonism) or as a mixed phenotype, including combinati on of any FMD symptoms, or combination of FMD with other FND sy mptoms (like palsy, speech disorder, sensory loss, vision loss, PNES, etc). Lateral parts depict patients at ﬁnal examination, after mean follow-up of 3.2 ± 2.5 years. Fifty-two patients that remained unchanged, with single FMD phenotype (dystonia, tremor, ga it disorder) are present in the left panel. The right panel, r epresent the FMD phenotypes that have been changed and become FMD plus phenotype at the ﬁnal examination , i.e., besides initial FMD phenotype, these patients devel oped additional FMD or FND symptoms (for instance: dystonia plus). All patients with Mixed phen otype at initial examination become Mixed plus because they developed additional FMD or FND symptoms at ﬁnal examination. FMD, functional movement disorders; FND, functional neurological disorders; Park, parkinsonism; p ts, patients. prevalence at initial and ﬁnal examination were as follows: weakness (palsy) in 2 and 9 patients, sensory loss in 2 and 14 patients, speech disorder in 1 and 5 patients, PNES in 3 and 8 patients, vision loss in 1 and 3 patients, respectively. Autonom ic symptoms were only present at ﬁnal examination and reported by 6 patients. The Evolution of FMD Phenotypes and Disease Course Over the Follow-Up Period At study entry, there was a predominance of Dystonia phenotype (63%), followed by Tremor in 16%, Gait disorder in 6%, and Parkinsonism in 3%, while Mixed phenotype was identiﬁed in 12% of investigated cohort. Myoclonus/jerks occurred onl y in the presence of other FMD symptoms, therefore hiding under the group of Mixed phenotype. We did not ﬁnd signiﬁcant diﬀerences between these groups in any baseline demographic and clinical characteristics, except that patien ts with parkinsonism have shown signiﬁcantly higher score on PHQ-9, in contrast to dystonia, tremor and mixed baseline FMD phenotype (p < 0.05, ANOV A,post hoc Games Hallms). The classiﬁcation of phenotype at ﬁnal examination was performed according to criteria deﬁned in methodology. The distribution of FMD phenotypes at initial and ﬁnal examination is presented at Figure 2. After follow-up period of 3.2 ± 2.5 years, 48% of patients enriched clinical presentation with additional functional neurological symptoms (FMD plus), while 52% of patients remained unchanged (Unchanged FMD). At ﬁnal examination, dystonia predominantly remained in the form of single, unchanged FMD phenotype (68.2%), while 31.7% progressed into Dystonia plus. Half of the patients with initial Gait disorder progressed into Gait plus phenotype. Almost two thirds of patients (62.5%) who initially presented with Tremor, eventually developed additional functional neurological symptoms over the follow up period, while all patients who initially had Parkinsonism and Mixed phenotype, have evolved into FMD plus. We have also evaluated disease course in terms of progression of FMD and identiﬁed stationary disease course in 20%, RR in 46%, and progressive in 34% of patients, over the follow-up period. Patients with Unchanged FMD, exhibit stationary cours e Frontiers in Neurology | www.frontiersin.org 5 November 2020 | Volume 11 | Article 582215
+```
+
+### Chunk 2: page-1-chunk-1 / source page 1
+
+```text
+ORIGINAL RESEARCH published: 05 November 2020 doi: 10.3389/fneur.2020.582215 Frontiers in Neurology | www.frontiersin.org 1 November 2020 | Volume 11 | Article 582215 Edited by: Steven Frucht, Mount Sinai Hospital, United States Reviewed by: Christos Ganos, Charité – Universitätsmedizin Berlin, Germany Jong-Min Kim, Seoul National University Bundang Hospital, South Korea *Correspondence: Vladimir S. Kosti ´c vladimir.s.kostic@gmail.com Specialty section: This article was submitted to Movement Disorders, a section of the journal Frontiers in Neurology Received: 10 July 2020 Accepted: 13 October 2020 Published: 05 November 2020 Citation: Tomi´c A, Je ˇcmenica Luki ´c M, Petrovi ´c I, Svetel M, Dragaševi´c Miškovi ´c N, Kresojevi ´c N, Markovi ´c V and Kosti ´c VS (2020) Changes of Phenotypic Pattern in Functional Movement Disorders: A Prospective Cohort Study. Front. Neurol. 11:582215. doi: 10.3389/fneur.2020.582215 Changes of Phenotypic Pattern in Functional Movement Disorders: A Prospective Cohort Study Aleksandra Tomi ´c, Milica Je ˇcmenica Luki ´c, Igor Petrovi ´c, Marina Svetel, Nataša Dragaševi´c Miškovi ´c, Nikola Kresojevi ´c, Vladana Markovi ´c and Vladimir S. Kosti ´c* Clinical Centre of Serbia, Faculty of Medicine, Clinic for N eurology, University of Belgrade, Belgrade, Serbia Introduction: Functional movement disorders (FMD) refer to a group of move ment disorders that present with clinical characteristics incongruent to those due to established pathophysiologic processes, as for example in the case of ne urodegeneration or lesions. The aim of this study was to assess clinical features that con tribute to the speciﬁc phenotypic presentations and disease course of FMD. Methods: The study consisted of 100 patients with FMD treated at Clini c for Neurology, Clinical Center of Serbia, who were longitudinally observe d. Comprehensive clinical and psychiatric assessment was performed at the baseline, when initial FMD phenotype was deﬁned. Follow-up assessment of phenotypic pattern over th e time and clinical course was done after 3.2 ± 2.5 years at average. Results: We showed that 48% of FMD patients were prone to changes of phe notypic pattern during the disease course. Dystonia had tendency to remains as single and unchanged phenotype over the time (68.2%), while patients i nitially presented with Tremor, Gait disorder, Parkinsonism and Mixed phenotype we re more susceptible to developing additional symptoms (62.5, 50, and 100%, respec tively). Higher levels of somatoform experiences ( p = 0.033, Exp(B) = 1.082) and higher motor severity (p = 0.040, Exp(B) = 1.082) at baseline assessment were associated with an increased likelihood of further enriching of FMD phenotype with additional functional symptoms. Also, these patients more frequently reported pa in, and had higher scores on majority of applied psychiatric scales, together with mo re frequent presence of major depressive disorder. Conclusion: Results from this prospective study suggested tendency for progression and enrichment of functional symptoms in FMD patients over t ime. Besides functional core symptoms, other key psychological and physical featur es (like pain or multiple somatisations) were quite relevant for chronicity and signiﬁcant dysability of FMD patients. Keywords: functional movement disorders, phenotypic progres sion, disease course, psychiatric disorders, psychosomatic disorders
+```
+
+### Chunk 3: page-7-chunk-1 / source page 7
+
+```text
+T omi´c et al. Phenotypic Pattern in Functional Movement Disorders TABLE 2 | Comparison of initial demographic and clinical characteri stics of patients that developed Unchanged FMD or FMD plus phenotype at ﬁnal examination. Variable at initial examination Phenotype at ﬁnal examination Unchanged FMD phenotype N = 52 FMD plus phenotype N = 48 p-value Female, N (%) 41 (78.8) 39 (81.2) ns Education (years) 11.9 ± 2.1 [8–18] 11.7 ± 1.9 [6–16] ns Age (years) 49.5 ± 15.1 [19–75] 52.0 ± 11.7 [22–74] ns Age at onset (years) 43.2 ± 14.9 [13–72] 46.0 ± 11.7 [14–70] ns Disease duration (years) 6.0 ± 5.8 [1–28] 6.2 ± 5.9 [1–26] ns Mode of onset Gradual, N (%) 11 (21.1) 9 (18.7) ns Sudden, N (%) 41 (78.8) 39 (81.2) ns Trauma preceding the disease onset Physical trauma, N (%) 11 (21.1) 13 (28.3) ns Psychical trauma, N (%) 30 (57.7) 34 (73.9) ns Presence of pain Affected body part, N (%) 34 (66.7) 33 (71.7) ns Unaffected body part, N (%) 20 (39.2) 30 (65.2) 0.009 Global cognitive assessment MMSE 28.3 ± 1.6 [25–30] 27.8 ± 1.7 [25–30] ns Motor status PMDRS total phenomenology score 9.9 ± 3.5 [0–18] 12.2 ± 6.1 [0–33] 0.020 PMDRS total functional score 5.7 ± 4.6 [0–12] 7.6 ± 3.0 [0–12] 0.018 PMDRS total score 15.8 ± 6.3 [4–30] 19.9 ± 7.0 [7–42] 0.003 Psychiatric treatment Prior psychiatric treatment, N (%) 27 (55.1) 23 (51.1) ns Current psychiatric treatment, N (%) 34 (69.4) 37 (82.2) ns Psyhiatric scales HDRS 14.0 ± 9.3 [0–36] 17.7 ± 9.7 [2–42] ns BDI 15.2 ± 10.6 [0–47] 18.5 ± 12.4 [0–54] ns HARS 12.4 ± 8.1 [0–31] 17.9 ± 12.8 [1–46] 0.018 PHQ-9 9.0 ± 6.5 [0–22] 12.1 ± 7.7 [1–24] 0.033 AES 14.7 ± 8.7 [0–36] 20.8 ± 11.0 [0–42] 0.003 DES-II 1.5 ± 4.1 [0–25] 5.2 ± 7.7 [0–24] 0.003 SDQ 20 25.2 ± 7.1 [20–50] 30.7 ± 11.0 [20–58] 0.004 NMSQ 7.3 ± 5.0 [0–24] 11.0 ± 5.7 [2–22] 0.001 LEC 2.3 ± 2.3 [0.12] 2.6 ± 1.9 [0–7] ns Diagnosis according to DSM-5 criteria MDD single episode, N (%) 12 (23.0) 11 (22.9) ns Dysthimia, N (%) 6 (11.5) 4 (8.3) ns MDD reccurent, N (%) 7 (13.5) 15 (31.2) 0.034 (Continued) TABLE 2 | Continued Variable at initial examination Phenotype at ﬁnal examination Unchanged FMD phenotype N = 52 FMD plus phenotype N = 48 p-value MDD psychotic, N (%) 1 (1.9) 0 (0) ns Bipolar affective disorder, N (%) 1 (1.9) 0 (0) ns Speciﬁc phobia, N (%) 2 (3.8) 0 (0) ns Panic attacks, N (%) 0 (0) 1 (2.1) ns Generalized anxiety disorder, N (%) 1 (1.9) 0 (0) ns Anxious-depressive disorder, N (%) 3 (5.8) 1 (2.1) ns Sedative-related disorder, N (%) 1 (1.9) 0 (0) ns Adjustment disorder, N (%) 1 (1.9) 1 (2.1) ns Somatisation, N (%) 1 (1.9) 3 (6.2) ns Schizophrenia, N (%) 2 (3.8) 0 (0) ns Delusional disorder, N (%) 1 (1.9) 0 (0) ns Borderline personality disorder, N (%) 1 (1.9) 2 (4.2) ns Undifferentiated personality disorder, N (%) 2 (3.8) 3 (6.2) ns Values are presented as means ± standard deviations [range], unless noted otherwise. MMSE, Mini-Mental State Examination; PMDRS, Psychogenic Movement Disorders Rating Scale; HDRS, Hamilton Depression Rating Scale; BDI, Beck De pression Inventory; HARS, Hamilton Anxiety Rating Scale; PHQ-9, Patient Health Questionn aire-9; AES, Apathy scale; DES-II, Dissociative Experience Scale II; SDQ-20, Somatof orm Disorders Questionnaire; NMSQ, Non-Motor Symptom Questionnaire; ns, non-signiﬁcant; LEC, Life events checklist; MDD, major depressive disorder. while after follow-up it was almost 3 times more frequent. However, gait disorder was predominantly combined with othe r FMD/FND. As isolated initial FMD phenotype it was reported in only 6 patients, with half of them evolving to Gait disorder plus after developing additional FMD/FND symptoms. Thus, we conﬁrmed that functional gait disturbances usually take part in more complex FMD/FND clinical presentations ( 25). Since functional gait manifestations were often diﬃcult to classi fy (26), we suggested that the presence of other positively identiﬁable functional symptoms in the same patient might be a useful, although not certain, diagnostic clue. As expected, parkinsonism was rare in our sample, initially, and during natural
+```
+
+## E6 Answer
+
+```text
+After an average follow-up of 3.2 years, the phenotypic distribution of functional movement disorders (FMD) shifted as follows:
+
+- **48% of patients** developed additional functional neurological symptoms, resulting in an "FMD plus" phenotype. This means their initial FMD phenotype was enriched with new symptoms.
+- **52% of patients** remained unchanged, maintaining their initial FMD phenotype.
+
+Specifically:
+- **Dystonia** predominantly remained as a single, unchanged phenotype in 68.2% of patients, while 31.7% progressed to "Dystonia plus."
+- **Tremor** patients had 62.5% progressing to "Tremor plus."
+- **Gait disorder** patients had half (50%) progressing to "Gait plus."
+- **Parkinsonism** patients all (100%) evolved into "Parkinsonism plus."
+- **Mixed phenotype** patients all (100%) developed into "Mixed plus."
+
+This shift indicates a tendency for progression and enrichment of functional symptoms in FMD patients over time.
+```
+
+## E9 Added Evidence
+
+Added ordered IDs: ["page-4-chunk-1", "page-6-chunk-1", "page-8-chunk-1"]
+
+### Chunk 1: page-4-chunk-1 / source page 4
+
+```text
+T omi´c et al. Phenotypic Pattern in Functional Movement Disorders U-test with Bonferroni correction (depending whether were da ta distributed normally or not) and ANOV A corrected for multiple testing (Games–Howell post-hoc test) were used, respectively. A binominal logistic regression (forward stepwise variable selection method) was performed to ascertain the eﬀects of baseline demographic, motor, and psychiatric variables on th e likelihood that patient develop one or more FMD over the time (Unchanged FMD or FMD plus phenotype). After fulﬁlling all necessary assumptions for such analysis, following independe nt variables were entered in the model: gender, education, age at onset, disease duration, the presence of physical trauma preceding the onset, the presence of psychical trauma preceding the onset, PMDRS, LEC, HDRS, HARS, AES, NMSQ, SDQ 20, DES II). Statistical signiﬁcance was deﬁned as a p < 0.05. RESUL TS Baseline Demographic and Clinical Characteristics of the FMD Cohort Our study comprised 100 patients with FMD, with clear female predominance in gender distribution of our cohort (80 female s; 80.0%). The mean age at onset was 44.5 ± 13.5 years, with disease duration of 6.1 ± 5.8 years. Acute, sudden onset of FMD symptoms was identiﬁed in 80 patients (80.0%). Psychological stressor (interpersonal conﬂicts, complex family, and partnership dynamics) preceding FMD onset was present in 66% of patients, while almost one quarter of patients (24%) reported physical trauma as precipitating event. More than two thirds of patients had pain in the body part aﬀected with functional symptoms (67.0%), while half of them reported the presence of pain in unaﬀected region ( Table 1). The baseline motor and psychiatric characteristics of our cohort are presented in Table 1. Half of patients underwent psychiatric treatment prior to the diagnosis of FMD, while 71% of patients were under psychiatric treatment at baseline examination ( Table 1). According to DSM-5 criteria, the most commonly established psychiatric diagnoses were major depressive disorder (MDD), both in the form of single (23%) or recurrent episodes (22%), followed by dysthymia diagnosed in 10% of patients. The Prevalence of Functional Neurological Symptoms at First and Final Examination The prevalence of functional neurological symptoms at ﬁrst an d ﬁnal examination is presented in Figure 1. The most prevalent symptom was dystonia, initially present in 67 and lastly in 71 patients, followed by tremor, with rising prevalence from 26 to 36 percentages over time. Gait disorder was observed in only 12% at initial examination, while at the ﬁnal examination one third of patients developed such symptoms. Parkinsonism and myoclonus/jerks were observed in <5% of patients, both at initial and ﬁnal examination. Other functional neurological sympto ms were observed only in the presence of FMD symptoms, which FIGURE 1 | The prevalence of functional neurological symptoms at ﬁrst a nd ﬁnal examination in 100 patients diagnosed with functiona l movement disorder. PNES, psychogenic non-epileptic seizures. Frontiers in Neurology | www.frontiersin.org 4 November 2020 | Volume 11 | Article 582215
+```
+
+### Chunk 2: page-6-chunk-1 / source page 6
+
+```text
+T omi´c et al. Phenotypic Pattern in Functional Movement Disorders FIGURE 3 | Disease course in terms of progression, within Unchanged FM D and FMD plus phenotype. RR, relapse-remitting; FMD, funct ional movement disorder. in 38.5% of cases, while the majority of patients have shown changes in the course of the disease, either as ﬂuctuating, RR (36.5%) or progressive course (25%) ( Figure 3). On the other hand, all patients with FMD plus, have shown overall changes in the course of the disease, in the form of RR (55.1%) or progressive course (44.9%). Associations Between Baseline Characteristics and, Respectively, Unchanged FMD and FMD Plus Phenotype Comparison of baseline demographic and clinical characteris tics of FMD patients that eventually developed Unchanged FMD or FMD plus phenotypes, is presented in Table 2. Patients that evolved into FMD plus more frequently reported pain in unaﬀected body parts. Furthermore, these patients had more severe motor impairment (higher scores of PMDRS), as well as higher AES, PHQ-9, HAMA, DES-II, SDQ 20, NMSQ scores. In addition, patients who developed FMD plus relative to group of Unchanged FMD, were diagnosed more frequently with recurrent major depressive disorder at baseline, according to DMS-5 criteria (Table 2). In order to examine the eﬀects of baseline demographic, motor, and psychiatric variables on the likelihood that patie nt develop one or more additional FND over the time, the binary logistic regression model was performed. The model wa s statistically signiﬁcant (χ 2 = 19.626, p < 0.001), explained 25.6% (Nagelkerke R2) of the variance in phenotype and correctly classiﬁed 71.7% of cases. Increasing in SDQ-20 and PMDRD scores were associated with an increased likelihood of exhib iting FMD plus phenotype (Table 3). DISCUSSION The main ﬁnding of our prospective study of 100 FMD patients is that 48% of patients are prone to changes of phenotypic pattern during the disease course. Patients initial ly presented with Tremor, Gait disorder, Parkinsonism, and Mixed phenotype are more susceptible to developing additional symptoms, while dystonia has tendency to remains as single and unchanged phenotype over the time. Higher levels of somatoform experiences and higher motor severity, expressed through the higher scores on SDQ-20 and PMDRD scales at baseline assessment, were associated with an increased likelihood of further enriching of FMD phenotype with additional functional symptoms. V arious studies reported that the most common presentations of FMD were tremor (40.6–50% of FMD patients) and dystonia (17.2–18%), with parkinsonism, tics, myoclonus and chorea being less common ( 3, 21–24). Our results conﬁrmed functional dystonia and tremor as the most frequent symptoms, both initially (67 and 26%, respectively), and at ﬁnal examination (71 and 36% patients, respectively). The inverse order observ ed in our study (dystonia more frequent than tremor in our cohort) in contrast to previous ﬁndings, was probably due to th e primary research orientation of our Department toward dystonic disorders. Functional gait disorder was the third most commo n symptom in our sample. It was present in 12% of patients initially, Frontiers in Neurology | www.frontiersin.org 6 November 2020 | Volume 11 | Article 582215
+```
+
+### Chunk 3: page-8-chunk-1 / source page 8
+
+```text
+T omi´c et al. Phenotypic Pattern in Functional Movement Disorders TABLE 3 | Associations between baseline characteristics and respec tively unchanged FMD and FMD plus phenotype (binominal logi stic regression). Model summary Chi2 = 19.626; p < 0.001; Cox & Snell R2 = 0.192; Nagelkerke R2 = 0.256, Correct classiﬁcation 71.7% Parameters of regression B S.E. Wald p Exp(B) 95% C.I. for Exp(B) PMDRS total 0.079 0.038 4.234 0.040 1.082 1.004–1.166 SDQ-20 0.055 0.026 4.523 0.033 1.057 1.004–1.112 The signiﬁcant results (p < 0.05), from binomial logistic regression models. A logistic regression w as performed to ascertain the effects of different demographic, clinical , and psychiatric variables, on the likelihood that patient develop one or more functi onal movement disorder over the time (Unchanged FMD or FMD plus phenotype). diﬀerences in baseline clinical assessment between diﬀerent FMD phenotypes, were found in PHQ-9 scale, where patients with parkinsonism phenotype have reported more depressive symptoms in contrast to other FMD phenotypes. Previous study has shown that 56% of patients with functional parkinsonism had a psychiatric disorder, mostly depression (28), suggesting the complex interplay between these symptoms. On the other hand, depressive symptoms related to psychomotor retardation might mimic bradykinesia (1). Even though paroxysmal jerks or myoclonus were presented as additional movements combined with more prominent dystonia or tremor, both initially and through time, recent ly described phenotype of paroxysmal movement disorders ( 29) was not identiﬁed in our cohort. During the follow-up period, we found almost equal proportion of patients who were prone to phenotypic changes and those with preserved phenotype. Patients initially present ing with Tremor, Gait disorder, Parkinsonism, and Mixed phenotype are most susceptible to developing plus symptoms, while patients with Dystonia phenotype predominantly has tendency to remain as single FMD symptom over the time. This is speciﬁcally signiﬁcant for patients with ﬁxed dystonia who are character ized by severe and spreading isolated dystonia in majority of case s, as we showed in our previous study ( 30). It is important to emphasize here, that stable and unchanged phenotype, does not necessary imply stationary disease course and favorable prognosis. Remarkably, majority of patients which were not prone to phenotypic changes, presented with RR and progressive disease course (for example, patients with isolated focal dystonia that progresses to segmental or hemidystonia). Therefore, phenomenology and phenotype of involuntary movements are important, but not the only factor that determines the severity of clinical presentations. In o ther words, the severity and progression of the disease should not be equated with the appearance of new functional symptoms. One more interesting point is that none of our patients had complete change in phenotype, despite development of numerous new symptoms over the time. Another question that we addressed in our study refer to identiﬁcation of possible cluemarks from initial clinica l examination, which could help us in further prognosis of FMD. Indeed, patients that are prone to develop additional functio nal symptoms during disease course, have speciﬁc sensory, motor, and psychological characteristics at disease onset, in cont rast to unchanged FMD group. Initially, these patients more frequently reported pain in unaﬀected body parts, presence of psychosomatic disorders, had more severe motor impairment and higher scores on majority of applied psychiatric scales. These data indicate that motor symptoms, along with psychiatric and non-motor symptoms, are initially far more severe in patients who tend to develop multiple functional features over time. Previously, it was shown that patients with FMD in general, had a high frequency of lifetime anxiety disorders (61.9%), major depression (42.9%) and personality disorders (45%) ( 31). However, more recent evidence suggested that these patients rather scored high in depression and anxiety in validated clin ical scale than they had diagnosis of psychiatric or personality disorders (32, 33). In line with this, we should stress here that our FMD plus patients with complex phenotype, had not just higher depressive, anxiety and apathy scores on clinical scales, but were also diagnosed more frequently with MDD and dysthymia, according to DSM-5 diagnostic criteria, in contrast to patient s with Unchanged FMD. However, the only independent predictors of phenotypic changes over the disease course, are related to the presence o f somatoform experience and higher motor severity, at baselin
+```
+
+## E9 Answer
+
+Canonical judgment source: E9; E6/E9 input identical: False
+
+```text
+After an average follow-up of 3.2 years, the phenotypic distribution of functional movement disorders (FMD) shifted as follows:
+
+- **Dystonia** remained the most prevalent phenotype, increasing slightly from 67% at initial examination to 71% at final examination. However, 31.7% of patients with initial dystonia developed additional FMD or functional neurological disorder (FND) symptoms, evolving into a "Dystonia plus" phenotype.
+- **Tremor** increased in prevalence from 26% at initial examination to 36% at final examination.
+- **Gait disorder** was observed in 12% of patients initially, but one-third of patients developed such symptoms by the final examination.
+- **Parkinsonism** and **myoclonus/jerks** were observed in less than 5% of patients both at initial and final examination.
+- **Mixed phenotype** (combination of FMD symptoms or with other FND symptoms) evolved into "Mixed plus" at final examination, as all patients with Mixed phenotype developed additional FMD or FND symptoms.
+
+Overall, 48% of patients experienced changes in their phenotypic pattern, developing additional FMD or FND symptoms (FMD plus phenotype), while 52% remained with an unchanged FMD phenotype.
+```
+
+## Automatic Labels
+
+- E3: False; OK
+- E6: True; OK
+- E9: True; OK
+
+Raw incomplete states: []
+
+- E3_to_E6_wrong_to_correct: True
+- E3_to_E6_correct_to_wrong: False
+- E6_to_E9_wrong_to_correct: False
+- E6_to_E9_correct_to_wrong: False
+
+```text
+{"E3": "The candidate answer correctly identifies the two main groups (unchanged and FMD plus) and mentions the types of additional symptoms. However, it lacks specific percentages and exact numbers from the reference, which are essential for a full answer. The mention of 'functional neurological disorder (FND)' is not in the reference and is an unsupported addition. The answer is partially correct and incomplete but captures the main idea.", "E6": "The candidate answer is fully correct in terms of factual accuracy, covering all the key percentages and phenotypic shifts described in the reference. It is semantically rephrased but consistent with the reference. It directly answers the question and includes all essential points.", "E9": "The candidate answer is mostly correct but omits specific percentages from the reference (e.g., 68.2% of dystonia, 37.5% of tremor, 50% of gait disorder remained unchanged). It also introduces unsupported details like 'functional neurological disorder (FND)' and 'myoclonus/jerks' which are not in the reference. The overall structure and main idea are captured, but some key data is missing or imprecise."}
+```
+
+## Human Annotation
+
+| Field | Value |
+|---|---|
+| human_e3_correct |  |
+| human_e6_correct |  |
+| human_e9_correct |  |
+| human_reference_valid |  |
+| human_e3_evidence_sufficient |  |
+| human_e6_added_evidence_useful |  |
+| human_e9_added_evidence_useful |  |
+| human_confidence |  |
+| human_notes |  |
+
+
+
+---
+
+# P2A_HR_043 / unidoc_healthcare_0100
+
+Priority: 1 / Cohort: MISS_AT_3_HIT_AT_6 / Selection: AUTOMATIC_TRANSITION
+
+## Question
+
+```text
+What effect does administering corticosterone have on the duration of exploration for both younger and older test subjects in the study?
+```
+
+## Gold / Reference
+
+```text
+Corticosterone treatment does not significantly alter the exploration time in young or old subjects. The images confirm that there is no substantial difference in exploration times between the vehicle and corticosterone-treated groups for both younger and older test subjects.
+```
+
+## GT Pages
+
+[7]
+
+## Document Verification
+
+- Document: 3590683
+- Dataset identifier: healthcare/healthcare/3590683.pdf
+- Local PDF: C:\Users\sp\Desktop\adaptive-multimodal-rag\datasets\unidoc\healthcare\healthcare\3590683.pdf
+- Unique E3/E6/E9 pages: [1, 2, 4, 5, 6, 7, 8, 9]
+- E3 pages: [2, 4, 5]
+- E6 pages: [2, 4, 5, 7, 9]
+- E9 pages: [1, 2, 4, 5, 6, 7, 8, 9]
+- PDF direct verification flag: False
+
+### GT page extracted text
+
+### GT page 7 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+out their potential biological in ﬂuence. Alternatively, some researchers
+have suggested that it is changes in the reactivity of the HPA-axis,
+rather than stable and chronic increases of cortisol, that lead to
+accelerated cellular aging [42].
+A meta-analysis on the relation between CORT administration and
+oxidative stress in various animal species in vivo concluded that CORT
+was associated with increased markers of oxidative stress and reduced
+antioxidant defenses [43]. This e ﬀect was most pronounced with
+chronic treatment (i.e. 21 days), which is similar to the period used
+in our study. Hence, it is unlikely that the duration of treatment in our
+study explains the ﬁnding of reduced nucleic acid damage from
+oxidation. Furthermore, the meta-analysis indicated that females are
+Fig. 4. E ﬀects of corticosterone treatment on performance in the object location
+test. A+B : Time spent at the two objects at T1 (before one object was moved) and T2
+(after one of the objects was moved) by young and old rats treated with vehicle (VHC) or
+corticosterone (CORT, 25 mg/kg/day), respectively. There were no di ﬀerences in total
+exploration time between the groups at neither T1 nor T2, indicating that neither age or
+CORT in ﬂuenced motor activity or overall exploration. C: Discrimination index (pre-
+ference for the object that was moved), showing that compared to young animals, old
+VHC treated animals showed no preference for the moved object, and that this e ﬀect was
+reversed by CORT to the levels observed in young animals. Data are presented as
+individual data points and were analyzed with analysis of variance with treatment and
+age as ﬁxed factors. Post-hoc comparisons of groups were done by independent samples t-
+test. * p < 0.05.
+Fig. 5. E ﬀects of corticosterone treatment on markers of systemic and CNS
+oxidative stress on DNA and RNA. A+B: 24 h urinary excretion of 8-oxodG and 8-
+oxoGuo after 3 weeks of CORT administration (25 mg/kg/day) in young and old animals,
+showing a signi ﬁcant reduction in 8-oxodG excretion, and a borderline signi ﬁcant
+reduction in 8-oxoGuo excretion, in young animals treated with CORT, as well as higher
+8-oxodG/8-oxoGuo excretion levels in older animals. C: Cerebrospinal ﬂuid concentration
+of 8-oxoGuo after CORT (log values on y-axis). There is a borderline signi ﬁcant reduction
+in 8-oxoGuo excretion in the old CORT-treated animals ( p=0.074). Data are presented as
+individual data points, and were analyzed with analysis of variance with treatment and
+age as ﬁxed factors. Post-hoc comparisons of groups were done by independent samples t-
+test. *** p < 0.001.
+A. Jorgensen et al. Free Radical Biology and Medicine 104 (2017) 64–74
+70
+```
+
+## E3 Evidence
+
+Ordered IDs: ["page-5-chunk-2", "page-4-chunk-2", "page-2-chunk-2"]
+
+### Chunk 1: page-5-chunk-2 / source page 5
+
+```text
+in CSF 8-oxoGuo concentration, which was most prominent in old animals. This e ﬀect was paralleled by a normalization of performance in an object location memory test in old animals towards the performance of their younger counterparts. 4.1. Validity of the CORT-treatment paradigm The non-invasive administration of the selected CORT dose by voluntary ingestion yielded a urinary CORT excretion comparable to Fig. 2. E ﬀects of corticosterone treatment on body weight and food intake. A: Day 1–22 body weights of young and old animals treated with vehicle (VHC) or corticosterone (CORT, 25 mg/kg/day), respectively. B: Body weight change from day 1 –22 in young and old animals treated with vehicle or CORT, respectively. C: Energy intake on day 22 of the study. Data are presented as individual data points and were analyzed with analysis of variance (ANOVA) or repeated measures ANOVA with treatment and age as ﬁxed factors. Post-hoc comparisons of groups were done by independent samples t-test. * p < 0.05, ** p < 0.01, *** p < 0.001. A. Jorgensen et al. Free Radical Biology and Medicine 104 (2017) 64–74 68
+```
+
+### Chunk 2: page-4-chunk-2 / source page 4
+
+```text
+signi ﬁcant eﬀect of age ( F(1,43)=5,039, p=0.03) and treatment ( F(1,43)=4,503, p=0.04), re ﬂecting reductions in GluR mRNA in CORT treated animals ( Fig. 3B). This e ﬀect was most pronounced in old animals (though only borderline signi ﬁcant in the Fig. 1. Validation of the corticosterone administration paradigm. A: Dose titration study. The observations for each dose indicate the 24 h fecal corticosterone (FCM, squares) and urinary corticosterone (CORT, circles) excretion for one animal treated with that dose for 5 days. The horizontal lines indicate the mean levels of 24 h urinary CORT excretion after experimental stress, as observed in a previous study [30]. The dose that yields the stress-physiological level is 10 mg/day, corresponding to 25 mg/kg animal weight/day. This dose was used in the subsequent experiments B: 24 h urinary excretion of CORT after 3 weeks of CORT administration (25 mg/kg/day) in young and old animals. C: 24 h FCM excretion after 3 weeks of CORT administration (25 mg/kg/day) in young and old animals. Data are presented as individual data points and analyzed (B and C) with one-way analysis of variance, with treatment and age as ﬁxed factors, after log- transformation. Post-hoc comparisons of groups were done by independent samples t- test. *** p < 0.001. A. Jorgensen et al. Free Radical Biology and Medicine 104 (2017) 64–74 67
+```
+
+### Chunk 3: page-2-chunk-2 / source page 2
+
+```text
+vehicle-treated rats (Y-VHC), young CORT- treated rats (Y-CORT), old vehicle-treated rats (O-VHC), and old CORT- treated rats (O-CORT) ( n=12 in each group). The animals were CORT treated for 22 days (days 1 –22). On day 21, the animals were habituated to the behavioral testing apparatus and then returned to their home cages. On day 22, the animals were tested for their spatial memory, and, immediately following the behavioral test, transferred to metabolism cages for collection of urine and feces. On day 23, after 24 h of metabolism cage housing, cerebrospinal ﬂuid (CSF) was collected, and the animals were euthanized while still in anesthesia. 2.3. Corticosterone dose titration To match the 24 h CORT excretion to the levels previously observed in rats subjected to severe psychological stress [30], a dose titration study was conducted. Six animals (body weight 300 –350 g) were administered corticosterone by voluntary ingestion of nut paste (Nutella®; Ferrero, Pino Torinese, Italy) dosed with corticosterone (Sigma-Aldrich, St. Louis, USA) dissolved in dimethyl sulfoxide (DMSO). The nut paste administration method has previously been validated for buprenorphine administration [31]. The animals were administered 0, 2, 4, 6, 8 or 10 mg/day for ﬁve consecutive days (one animal per dose), divided into two doses per day at 8 AM and 4 PM, respectively. Subsequently, 24 h urine and fecal samples were collected by placing the animals in metabolism cages, and the samples were assayed for CORT/corticosterone metabolite excretion (see below). We found that a dose of 10 mg/day, corresponding to a weight-adjusted dose of 25 mg/kg/day, resulted in 24 h urinary CORT and fecal corticosterone metabolites (FCM) levels observed in a previous study of rats subjected to severe psychological stress [30]. Accordingly, this dose was used in the subsequent experiments. 2.4. Corticosterone treatment The animals were dosed for the entirety of the study, including during the metabolism cage housing on day 22. All animals were weighed daily. CORT (25 mg/kg/day) was administered as two volun- tary ingestions – at 8 AM and 4 PM – of nut paste containing corticosterone (12.5 mg/kg) dissolved in sesame oil. The control groups received only nut paste with sesame oil. The amount of vehicle used per dose was 1 g of nut paste and 0.625 g/kg body weight of sesame oil. Throughout the experiment, the dose of CORT was continuously adjusted individually to the animal's weight. To avoid recording acute eﬀects of the last dose, behavioral tests began at a minimum of 3 h after the 8 AM CORT administration. 2.5. Behavioral test The animals were tested for spatial memory performance by an object location test [32], as previously described [33]. The test was chosen because of the dependence of spatial memory on hippocampal function [34], and because it does not involve training or reinforce- ment, which could act as a stressor in itself [32]. An open arena consisting of a black box measuring 77 (l)×56 (w)×41 cm (h) was used, allowing the animal spatial orientation using cues in the environment outside of the arena. The arena was constantly and evenly illuminated. Behavior was recorded by a video camera mounted vertically above the test arena and analyzed using the video tracking program EthoVision ® (Noldus Information Technology, Wageningen, The Netherlands). In all experiments the computer automatically initiated registration of the rat's position (in four animals, the tracking was not successful). During testing, the room was sealed to minimize disturbing noise. Two arenas were used simultaneously. The arena was A. Jorgensen et al. Free Radical Biology and Medicine 104 (2017) 64–74 65
+```
+
+## E3 Answer
+
+```text
+The provided text does not mention any specific effect of administering corticosterone on the duration of exploration for either younger or older test subjects. Therefore, the information is not supported by the currently retrieved evidence.
+```
+
+## E6 Added Evidence
+
+Added ordered IDs: ["page-7-chunk-1", "page-5-chunk-1", "page-9-chunk-1"]
+
+### Chunk 1: page-7-chunk-1 / source page 7
+
+```text
+out their potential biological in ﬂuence. Alternatively, some researchers have suggested that it is changes in the reactivity of the HPA-axis, rather than stable and chronic increases of cortisol, that lead to accelerated cellular aging [42]. A meta-analysis on the relation between CORT administration and oxidative stress in various animal species in vivo concluded that CORT was associated with increased markers of oxidative stress and reduced antioxidant defenses [43]. This e ﬀect was most pronounced with chronic treatment (i.e. 21 days), which is similar to the period used in our study. Hence, it is unlikely that the duration of treatment in our study explains the ﬁnding of reduced nucleic acid damage from oxidation. Furthermore, the meta-analysis indicated that females are Fig. 4. E ﬀects of corticosterone treatment on performance in the object location test. A+B : Time spent at the two objects at T1 (before one object was moved) and T2 (after one of the objects was moved) by young and old rats treated with vehicle (VHC) or corticosterone (CORT, 25 mg/kg/day), respectively. There were no di ﬀerences in total exploration time between the groups at neither T1 nor T2, indicating that neither age or CORT in ﬂuenced motor activity or overall exploration. C: Discrimination index (pre- ference for the object that was moved), showing that compared to young animals, old VHC treated animals showed no preference for the moved object, and that this e ﬀect was reversed by CORT to the levels observed in young animals. Data are presented as individual data points and were analyzed with analysis of variance with treatment and age as ﬁxed factors. Post-hoc comparisons of groups were done by independent samples t- test. * p < 0.05. Fig. 5. E ﬀects of corticosterone treatment on markers of systemic and CNS oxidative stress on DNA and RNA. A+B: 24 h urinary excretion of 8-oxodG and 8- oxoGuo after 3 weeks of CORT administration (25 mg/kg/day) in young and old animals, showing a signi ﬁcant reduction in 8-oxodG excretion, and a borderline signi ﬁcant reduction in 8-oxoGuo excretion, in young animals treated with CORT, as well as higher 8-oxodG/8-oxoGuo excretion levels in older animals. C: Cerebrospinal ﬂuid concentration of 8-oxoGuo after CORT (log values on y-axis). There is a borderline signi ﬁcant reduction in 8-oxoGuo excretion in the old CORT-treated animals ( p=0.074). Data are presented as individual data points, and were analyzed with analysis of variance with treatment and age as ﬁxed factors. Post-hoc comparisons of groups were done by independent samples t- test. *** p < 0.001. A. Jorgensen et al. Free Radical Biology and Medicine 104 (2017) 64–74 70
+```
+
+### Chunk 2: page-5-chunk-1 / source page 5
+
+```text
+post hoc comparison ( p=0.07)). A similar but nonsigni ﬁcant pattern was observed in the other hippocampal areas of interest ( Fig. 3A and C). 3.4. Spatial memory In the object location test, there were no signi ﬁcant di ﬀerences in the total exploration time at T1 and T2 trials, demonstrating that CORT did not in ﬂuence overall mobility, exploratory behavior or other domains which might bias the results of the spatial memory test (Fig. 4A+B). The discrimination index was signi ﬁcantly in ﬂuenced by age ( F(1,40)=5.97, p=0.019) and treatment ( F(1,40)=4.06, p=0.05). As expected, young animals (Y-VHC+Y-CORT) showed a signi ﬁcant preference for the moved object (deviation from zero in one-sample t- test, p=0.01). Compared to Y-VHC, O-VHC animals showed a reduced preference for the moved object ( p=0.02), with a trend towards a preference for the familiar object (deviation from zero in one-sample t- test, p=0.07). This e ﬀect was reversed by CORT towards the behavior of the young animals ( p=0.02) ( Fig. 4C). 3.5. Markers of oxidatively generated DNA/RNA damage in urine and CSF 24 h urinary excretion of 8-oxodG was signi ﬁcantly higher in old animals ( F(1,44)=47.70, p < 0.001), and signi ﬁcantly decreased by the CORT treatment ( F(1,44)=18.31, p < 0.001). There was a signi ﬁcant interaction between age and treatment ( F(1,44)=4.15, p < 0.05), with post hoc comparisons showing signi ﬁcantly lower levels in Y-CORT vs. Y-VHC animals ( p < 0.001) and no di ﬀerences in old animals ( Fig. 5A). The 8-oxoGuo excretion showed a signi ﬁcant e ﬀect of age (F(1,44)=19.59, p < 0.001), but not CORT treatment ( F(1,44)=2.26, p=0.12), although there was a similar trend for reduced levels in Y- CORT animals ( Fig. 5B). There was a tendency of CORT treatment also decreasing CSF 8-oxoGuo concentrations, particularly in old animals; however, the e ﬀect was not statistically signi ﬁcant (F (1,40)=3.37, p=0.074) ( Fig. 5C). We found no signi ﬁcant correlations between urinary and CSF 8-oxoGuo, neither when analyzing individual groups or the population as a whole (results not presented). The concentrations of 8-oxodG in CSF were too low for reliable detection and are not reported. To further characterize the relationship between CORT treatment and oxidatively generated DNA/RNA damage, we performed an exploratory correlation analysis of the 24 h urinary corticosterone excretion levels vs. 8-oxodG/8-oxoGuo excretion in urine and 8-oxoGuo concentration in CSF. To conserve power, data from young and old animals were pooled in the CORT vs. the VHC group, respectively. In the VHC group, we found a highly signiﬁcant positive correlation between the 24 h urinary excretion of CORT and both the 8-oxodG (Spearman's ρ=0.52, p=0.009, n=24) and the 8-oxoGuo marker (Spearman's ρ=0.56, p=0.005, n=24) (Fig. 6 A+B). Both of these ﬁndings persisted after adjustment for age group in a linear regression model (8-oxodG: β=0.59, t=4.45, p < 0.001. 8-oxoGuo: β=0.46, t=2.54, p=0.019). In the CORT treated animals, the 24 h urinary excretion of CORT and 8-oxodG/8-oxoGuo were not correlated ( Fig. 6C+D). We found no correlations between the 24 h urinary excretion of CORT and CSF 8-oxoGuo in either treatment group (results not presented). 4. Discussion In this study, we found that stress-associated levels of systemic CORT, administered non-invasively for three weeks, signi ﬁcantly reduced systemic oxidatively generated damage to DNA, as measured by the 24 h urinary excretion of 8-oxodG. There was a trend towards reduced systemic oxidatively generated damage to RNA, as measured by 8-oxoGuo excretion. These e ﬀects were age-dependent, with young animals being more sensitive than old animals. CORT caused a border- line signi ﬁcant reduction in CSF 8-oxoGuo concentration, which was most prominent in old animals. This e ﬀect was paralleled by a normalization of performance in an object location memory test in old animals towards the performance of their younger counterparts. 4.1. Validity of the CORT-treatment paradigm The non-invasive administration of the selected CORT dose by voluntary ingestion yielded a urinary CORT excretion comparable to Fig. 2. E ﬀects of corticosterone treatment on body weight and food intake. A: Day 1–22 body weights of young and old animals treated with vehicle (VHC) or corticosterone (CORT, 25 mg/kg/day), respectively. B: Body weight change from day
+```
+
+### Chunk 3: page-9-chunk-1 / source page 9
+
+```text
+old animals, we found a borderline signi ﬁcant eﬀect of CORT on CSF 8- oxoGuo concentration. The oxidation of mRNA species can negatively inﬂuence protein synthesis and folding [22,23], and thus it could be speculated that lower levels of RNA oxidation in the brain would facilitate the synthesis of functional new synaptic proteins, thereby improving spatial memory. However, the T1-T2 interval was only one hour, thereby testing the strength of short-term spatial memory, which would not be expected to require the synthesis of new proteins. Hence, if there is a causal relationship between reduced RNA oxidation in the brain and improved spatial memory, this more likely involves longer- term neurobiological changes occurring before the test itself (e.g. protein synthesis involved in synapto- or neuroneogenesis), which in turn promotes short-term spatial memory retention in the test. As recently summarized by Spiers et al. [49], some studies have found localized hippocampal increases in hippocampal markers of oxidative stress. Our study did not include markers of cellular oxidative stress in the hippocampus, and it is therefore possible that although overall CNS oxidative stress on nucleic acid damage (as measured by CSF 8-oxoGuo concentration) tended to be unaltered or reduced, oxidative stress locally in the hippocampus speci ﬁcally could be increased. However, if this is the case, then it is has not lead to impaired hippocampal spatial memory function, because we did not ﬁnd negative e ﬀects of CORT in the object location test. Although total exploration time did not di ﬀer between groups at neither T1 nor T2, we found that the O-VHC animals had a discrimina- tion index below zero. While this did not reach statistical signi ﬁcance, it could be speculated that O-VHC animals did not simply have complete amnesia for the spatial environment in T1, but to a certain extent showed a preference for the familiar object, i.e. a neophobia related to older age. Thus, it is possible that some of the apparent restoration of spatial memory by CORT in old animals relies on an increase in novelty- seeking behavior and not on an improvement of spatial memory performance alone. 4.4. Mechanisms by which CORT could reduce systemic and CNS nucleic acid damage from oxidation What mediates the reduction of systemic and CNS nucleic acid damage after CORT treatment observed in our study? The CORT treated animals exhibited a stalling of weight gain or out-right weight loss in both age groups. This is in line with evidence that CORT released during experimental stress causes weight loss through activation of Corticotrophin Releasing Factor (CRF) receptors in the hypothalamus [50]. The weight changes observed were paralleled, and likely mediated, by a reduction in calorie intake. However, when adjusting for animal weight on day 22, the e ﬀect of CORT on calorie intake was no longer signi ﬁcant. Hence, CORT could cause body weight changes through a centrally mediated reduction of calorie intake; a peripheral catabolic state, or a combination of both. There is ample evidence that calorie restriction (CR) reduces mitochondrial ROS production and oxidatively generated damage to a range of macromolecules, including mitochondrial DNA, with a corre- sponding increase in life span in rodents [51]. Furthermore, both CR and exercise improve insulin sensitivity and hippocampus-dependent cognition, despite the fact that both interventions are associated with CORT increase [52]. Conversely, various measures of DNA damage are positively correlated with high-calorie diets in rodents and humans [53,54]. Collectively, these ﬁndings give us cause to speculate that in vivo, the potential negative e ﬀects of a chronic CORT increase are out- weighed by bene ﬁcial e ﬀects of a concomitant CORT-induced CR. This hypothesis would also account for the apparent discrepancy that a short-term in vitro exposure of murine 3T3 cells to physiological doses of CORT caused a substantial increase in DNA damage, as measured by the comet assay [29], because in vitro , possible bene ﬁcial e ﬀects of a reduction in calorie intake mediated by hypothalamic CRF signaling are not recorded. Overall, young animals were sensitive to the e ﬀects of CORT on the peripheral markers of oxidative DNA and RNA damage only, whereas they showed no signi ﬁcant changes in CNS 8-oxoGuo concentration or memory upon CORT treatment. The opposite was
+```
+
+## E6 Answer
+
+```text
+Administering corticosterone (CORT) did not influence the duration of exploration for either younger or older test subjects. The total exploration time at both T1 and T2 trials in the object location test was not significantly different between the groups, indicating that neither age nor CORT treatment affected overall exploratory behavior or mobility.
+```
+
+## E9 Added Evidence
+
+Added ordered IDs: ["page-1-chunk-1", "page-8-chunk-1", "page-6-chunk-1"]
+
+### Chunk 1: page-1-chunk-1 / source page 1
+
+```text
+Contents lists available at ScienceDirect Free Radical Biology and Medicine journal homepage: www.elsevier.com/locate/freeradbiomed A chronic increase of corticosterone age-dependently reduces systemic DNA damage from oxidation in rats Anders Jorgensen a,b,⁎ , Otto Kalliokoski c, Kristin Forsberg b, Katrine Breitenstein b, Allan Weimann d,e, Trine Henriksen d,e, Jann Hau c, Gitta Wörtwein b, Henrik Enghusen Poulsen d,e, Martin Balslev Jorgensen a,b a Psychiatric Center Copenhagen (Rigshospitalet), Mental Health Services of the Capital Region of Denmark, Denmark b Laboratory of Neuropsychiatry, Psychiatric Center Copenhagen and Institute of Neuroscience and Pharmacology, Faculty of Health Sciences, University of Copenhagen, Denmark c Department of Experimental Medicine, Faculty of Health Sciences, University of Copenhagen, Denmark d Laboratory of Clinical Pharmacology, Copenhagen University Hospital Rigshospitalet, Denmark e Department of Clinical Pharmacology, Copenhagen University Hospital Bispebjerg and Frederiksberg, Denmark ARTICLE INFO Keywords: Stress Depression Glucocorticoids Oxidatively generated nucleic acid damage Aging ABSTRACT Stress and depression are associated with an acceleration of brain and bodily aging; eﬀ ects which have been attributed to chronic elevations of glucocorticoids. We tested the hypothesis that a three week administration of stress-associated levels of corticosterone (CORT, the principal rodent glucocorticoid) would increase systemic and CNS DNA and RNA damage from oxidation; a phenomenon known to be centrally involved in the aging process. We also hypothesized that older individuals would be more sensitive to this eﬀ ect and that the chronic CORT administration would exacerbate age-related memory decline. Young and old male Sprague-Dawley rats were non-invasively administered CORT by voluntary ingestion of nut paste containing either CORT (25 mg/kg) or vehicle for a total of 22 days. CORT increased the 24 h urinary excretion of the hormone to the levels previously observed after experimental psychological stress and caused a downregulation of the glucocorticoid receptor in the CA1 area of the hippocampus. Contrary to our hypothesis, 24 h excretion of 8-oxodG/8-oxoGuo (markers of DNA/RNA damage from oxidation) was reduced in CORT-treated young animals, whereas old animals showed no signi ﬁcant di ﬀerences. In old animals, CORT caused a borderline signi ﬁcant reduction of RNA oxidation in CNS, which was paralleled by a normalization of performance in an object location memory test. To our knowledge, this is the ﬁrst demonstration that chronic stress-associated levels of CORT can reduce nucleic acid damage from oxidation. These ﬁndings contradict the notion of elevated CORT as a mediator of the accelerated aging observed in stress and depression. 1. Introduction An accumulating body of evidence suggests that prolonged psycho- logical stress and stress-associated mental illnesses such as depression accelerate various aspects of aging. Both stress and depression are associated with an increased occurrence of age-related medical condi- tions, such as the metabolic syndrome, type 2 diabetes and cardiovas- cular disease [1–3]. Furthermore, stress and depression have been linked to accelerated cognitive decline [4], an increased risk of dementia [5,6], and age-related changes in the brain, including hippocampal atrophy and neuronal dendritic retractions [7,8]. Consistent with these observations, both perceived psychological stress, as well as su ﬀering from depression or other mental disorders, have been shown to be associated with increased non-suicide mortality [9,10]. Biochemically, prolonged stress and depression have been associated with increased oxidative stress and telomere attrition; key mechanisms in the cellular aging process [11–13]. However, the biological mechanisms that mediate the connections between psycho- http://dx.doi.org/10.1016/j.freeradbiomed.2017.01.013 Received 26 September 2016; Received in revised form 4 January 2017; Accepted 6 January 2017 ⁎ Correspondence to: Psychiatric Centre Copenhagen (Rigshospitalet), Edel Sauntes Allé10, DK-2100 Copenhagen, Denmark. E-mail address: anders.01.joergensen@regionh.dk (A. Jorgensen). List of abbreviations: CORT, Corticosterone; CNS, Central Nervous System; DNA, Deoxyribonucleic Acid; RNA, Ribonucleic Acid; HPA-axis, Hypothalamic-Pituitary-Adrenal axis; ROS, Reactive Oxygen Species; 8-oxodG, 8-oxo-7,8-dihydro-2-deoxyguanosine; 8-oxoGuo, 8-oxo-7,8-dihydroguanosine; Y-VHC, Young vehicle-treated rats; Y-CORT, Young CORT-treated rats; O-VHC, Old vehicle-treated rats; O-CORT, Old CORT-treated rats; CSF, Cerebrospinal Fluid; FCM, Fecal Corticosterone Metabolites; GluR, Glucorticoid Receptor; CA1, Cornu Ammonis of the hippocampus, area 1; CA3, Cornu Ammonis of the hippocampus, area 3; ELISA, Enzyme-linked Immonusorbent Assay; UPLC-MS/MS, Ultra-Performance Liquid Chromatography with Tandem Mass Spectrometry; ANOVA, Analysis of Variance Free Radical Biology and Medicine 104 (2017) 64–74 Available online 07 January 2017 0891-5849/ © 2017 Elsevier Inc. All rights reserved. MARK
+```
+
+### Chunk 2: page-8-chunk-1 / source page 8
+
+```text
+more susceptible to pro-oxidant e ﬀects of CORT, and hence we cannot rule out that the use of male animals in our study have inﬂ uenced the ﬁnding, although it is seems unlike that a signi ﬁcantly di ﬀerent (i.e. opposite) ﬁnding would have been obtained with female animals. The studies included in the meta-analysis where almost exclusively on markers of lipid peroxidation (rather than other target molecules of oxidative stress), raising the intriguing possibility that CORT has opposite e ﬀects on lipid vs. nucleic acid oxidation. This could be speculated to be due to the subcellular localization of these molecules. For example, the increase of plasma glucose induced by CORT could increase extracellular oxidative stress on cell membranes (leading to increased lipid peroxidation), while concomitantly reduce nuclear oxidative stress levels. Because we did not include markers of lipid peroxidation, this question cannot be answered within the framework of the present study. Interestingly, in contrast to the CORT treated animals, we observed a strong positive correlation between the 8-oxodG/8-oxoGuo markers and urinary CORT in the VHC-treated animals. This is in line with our two previous ﬁndings, where the two were positively correlated in healthy humans, but not in patients with schizophrenia [15,39]. Although the results were obtained in exploratory correlation analyses and therefore should be interpreted with caution, they do suggest that under healthy, unstressed conditions, there is a positive association between systemic levels of oxidative stress on DNA/RNA and circulat- ing CORT in both rats and humans. 4.3. E ﬀects of CORT on spatial memory and CNS RNA damage from oxidation In line with recent evidence [44], we found that aging negatively inﬂuenced short-term spatial memory, as measured by a signi ﬁcantly reduced preference for the moved object in an object location test. However, in contrast to our hypothesis, this eﬀect was reversed by CORT. There is ample evidence that chronic (21 days) experimental stress impairs spatial memory in young animals, and that shorter periods of stress are not su ﬃcient to induce these de ﬁcits [45]. With CORT treatment in physiological doses without psychological stress exposure, even longer periods of treatment may be necessary for spatial memory deﬁcits to occur [46]. In contrast, supraphysiological doses of glucocor- ticoids, such as those used in glucocorticoid treatment for human medical disorders, are associated with substantial adverse e ﬀects on mood and cognitive function, including memory [47].S o m ee v i d e n c es u g g e s t st h a t predictable, chronic mild stress improves spatial and object recognition memory and increases hippocampal neuroneogenesis [48].C o l l e c t i v e l y , these data illustrate that diﬀering durations and intensities of stress and/ or CORT-treatment may yield opposite e ﬀects on hippocampus-depen- dent memory. They also illustrate the importance of di ﬀerentiating between simple CORT administration and the neuroendocrinological complexity of psychological stress, which involves many other hormones and cerebral receptor systems. In parallel with the improvement of spatial memory performance in Fig. 6. Correlations between the 24 h urinary CORT vs. the 8-oxodG/8-oxoGuo excretion in VHC (A+B) and CORT treated (C+D) animals . Data from young and old animals are pooled in both groups. The signi ﬁcant positive correlations between the 24 h urinary excretion of CORT and 8-oxodG/8-oxoGuo (A+B) persist after adjustment for age group in a linear regression model (8-oxodG: β=0.31, t=2.12, p=0.046. 8-oxoGuo: β=0.47, t=2.57, p=0.018). There are no signi ﬁcant correlations in the CORT treated animals (C+D). Data are presented as individual values and regression lines with 95% con ﬁdence intervals (using log-transformed CORT values). A. Jorgensen et al. Free Radical Biology and Medicine 104 (2017) 64–74 71
+```
+
+### Chunk 3: page-6-chunk-1 / source page 6
+
+```text
+that previously observed in rats subjected to severe psychological stress [30]. Using this methodology and dosing strategy for chronic admin- istration, we have demonstrated a signi ﬁcant increase in FCM excretion in the CORT-treated vs. the vehicle group, showing that the animals have reliably ingested the CORT-containing nut paste. Correspondingly, we found an increase in the 24 h urinary excretion of CORT in the young CORT-treated animals comparable to the level observed in animals subjected to severe psychological stress [30]. In the old animals, while the FCM was clearly increased by CORT-administration, there was a substantial overlap in the 24 h CORT excretion between the CORT vs. the vehicle-treated animals on day 22, suggesting a larger variation in the metabolism of CORT in old animals. Considering the fact that the groups exhibited clear di ﬀerences with respect to weight change and behavior, it is likely that the CORT-treated old animals have in fact su ﬃciently absorbed CORT during the three-week administra- tion period. In support of this, GluR mRNA levels in the CA1 area of the hippocampus was reduced by the intervention, likely mediated by negative feedback inhibition of the receptor expression by CORT. 4.2. E ﬀects of CORT on systemic levels of DNA/RNA damage from oxidation Using this paradigm for CORT administration and a highly sensitive and precise method for mass spectrometric detection of oxidized nucleosides, we found that young rats treated with CORT had a reduced level of systemic oxidatively generated DNA damage (and borderline signiﬁcantly reduced RNA damage) compared to VHC treated animals, as measured by urinary 8-oxodG/8-oxoGuo excretion, respectively. The reduction in 8-oxodG excretion was substantial ( ≈45%). Old animals had higher excretion levels of both markers, and this is in line with evidence that the levels of DNA damage from oxidation increases in various tissues with age [20], but could also be related to the larger body weight of the old animals. Surprisingly, old animals showed no signiﬁcant changes with CORT treatment. These ﬁndings are in contrast to our hypothesis, in which we predicted that CORT would increase 8- oxodG/8-oxoGuo excretion, particularly in old animals. This prediction was based on 1) the evidence that human stress and depression are associated with increased systemic oxidative stress and telomere attrition [11–13] (however, for a recent negative report see also [41]); 2) our previous study in aged humans, in which we found a strong positive correlation between the 24 h excretion of cortisol and the 8-oxodg/8-oxoGuo markers (even after adjusting for other potential sources of oxidative stress such as obesity, diabetes, inﬂ ammation and smoking) [15], and 3) an experimental study of young rats subjected to chronic restraint stress, in which we did not identify any changes in systemic or brain levels of oxidatively generated nucleic acid damage, in spite of a substantial and sustained increase in urinary glucocorticoid levels [30]. Hence, our present ﬁndings challenge the hypothesis that psychological stress exerts its e ﬀects on cellular and organismal aging directly through CORT-induced oxidative stress on nucleic acids. The reasons for these discrepancies are unclear. It could be speculated that the positive correlation between cortisol, stress, and markers of cellular aging observed in humans [11,12,15,16] are mediated by intermediate metabolic factors, which are also associated with stress and HPA-axis activity (e.g. obesity, in ﬂammation, medica- tion use, other stress hormones etc.), rather than cortisol per se. Although attempts are usually made to correct for such factors in human studies by statistical methods, it is di ﬃcult to completely rule Fig. 3. In situ hybridization of the glucocorticoid receptor in hippocampus . Data show the GluR mRNA expression levels (as measured by Bq/g) in the dentate gyrus (A), CA1 (B) and CA3 (C) areas. In CA1, there is a signi ﬁcant eﬀect of age and treatment. A representative micrograph of the investigated hippocampal areas is depicted (top right panel). Insert: Unlabelled probe competitive control, showing minimal hippocampal binding. Data are presented as individual data points and were analyzed with analysis of variance with treatment and age as ﬁxed factors. * Signi ﬁcant e ﬀect of age group and CORT, respectively ( p < 0.05). A. Jorgensen et al. Free Radical Biology and Medicine 104 (2017) 64–74 69
+```
+
+## E9 Answer
+
+Canonical judgment source: E9; E6/E9 input identical: False
+
+```text
+Administering corticosterone (CORT) did not affect the duration of exploration for either younger or older test subjects in the study. The total exploration time at T1 and T2 trials in the object location test was not significantly different between the groups, indicating that CORT did not influence overall mobility or exploratory behavior.
+```
+
+## Automatic Labels
+
+- E3: False; OK
+- E6: True; OK
+- E9: True; OK
+
+Raw incomplete states: []
+
+- E3_to_E6_wrong_to_correct: True
+- E3_to_E6_correct_to_wrong: False
+- E6_to_E9_wrong_to_correct: False
+- E6_to_E9_correct_to_wrong: False
+
+```text
+{"E3": "The candidate answer incorrectly states that the text does not mention any effect, when the reference clearly states that corticosterone has no significant effect. The answer fails to address the actual effect and is unsupported by the reference.", "E6": "The candidate answer is fully correct, covering the main finding that corticosterone does not affect exploration duration in either age group. It is consistent with the reference and directly addresses the question without introducing unsupported claims.", "E9": "The candidate answer is fully correct, covering the key finding that corticosterone had no significant effect on exploration duration for both younger and older subjects. It is consistent with the reference and directly addresses the question."}
+```
+
+## Human Annotation
+
+| Field | Value |
+|---|---|
+| human_e3_correct |  |
+| human_e6_correct |  |
+| human_e9_correct |  |
+| human_reference_valid |  |
+| human_e3_evidence_sufficient |  |
+| human_e6_added_evidence_useful |  |
+| human_e9_added_evidence_useful |  |
+| human_confidence |  |
+| human_notes |  |
+
+
+
+---
+
+# P2A_HR_044 / unidoc_healthcare_0178
+
+Priority: 1 / Cohort: MISS_AT_3_HIT_AT_6 / Selection: AUTOMATIC_TRANSITION
+
+## Question
+
+```text
+In the rat study concerning intratympanic Mesna use, what is the range of tympanic membrane thicknesses observed in the experimental cohort?
+```
+
+## Gold / Reference
+
+```text
+In the experimental cohort, the tympanic membrane thicknesses ranged from 0.3927 μμ to 1.1409 μμ.
+```
+
+## GT Pages
+
+[5, 6]
+
+## Document Verification
+
+- Document: 2008937
+- Dataset identifier: healthcare/healthcare/2008937.pdf
+- Local PDF: C:\Users\sp\Desktop\adaptive-multimodal-rag\datasets\unidoc\healthcare\healthcare\2008937.pdf
+- Unique E3/E6/E9 pages: [1, 2, 3, 4, 5, 6, 7]
+- E3 pages: [1, 3, 4]
+- E6 pages: [1, 2, 3, 4, 5]
+- E9 pages: [1, 2, 3, 4, 5, 6, 7]
+- PDF direct verification flag: False
+
+### GT page extracted text
+
+### GT page 5 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+Posted on Authorea 16 Jan 2021 | The copyright holder is the author/funder. All rights reserved. No reuse without permission. | https://doi.org/10.22541/au.161079114.40631977/v1 | This a preprint and has not been peer reviewed. Data may be preliminary.
+was investigated, it was emphasized that single dose intratympanic Mesna prevented the formation of
+cholestatoma.22 In our study, despite the intratympanic Mesna application applied for 4 times, no statistical
+signiﬁcance was found, indicating that the formation of cholestatoma was completely prevented. However, in
+microscopic examination, it was determined that Mesna reduced the occurrence prevalence of cholesteatoma
+and ﬁbrosis.
+Conclusion
+According to the histopahtological results of our study on the experimental cholesteatoma model created on
+rats, the intratympanic administration of Mesna had a decreasing eﬀect on the prevalence of cholesteatoma.
+Acknowledgments: We thank Dr. Pınar Ergen for performing histopathological examination.
+Conﬂicts of Interest:The authors declare no conﬂict of interest
+Funding: This research did not receive any speciﬁc grant from funding agencies in the public, commercial,
+or not-for-proﬁt sectors.
+Table 1.Statistical analysis of groups according to the thickness of the tympanic membrane
+ears(n) tympanic membrane thicknesses (μμ) tympanic membrane thicknesses(μμ) tympanic membrane thicknesses(μμ)
+minimum maximum mean
+Exp 11 0.3927 1.1409 0.7482
+Ctrl 11 0.5045 3.1791 2.6745
+Table 2. Statistical analysis of groups according to the tympanic bulla mucosal thickness
+ears (n) τψμπανις βυλλα
+μυςοσα
+τηιςκνεσσες
+(μμ)
+τψμπανις βυλλα
+μυςοσα
+τηιςκνεσσες
+(μμ)
+τψμπανις βυλλα
+μυςοσα
+τηιςκνεσσες
+(μμ)
+minimum maximum mean
+Exp 12 2.2333 14.8733 12.6400
+Ctrl 12 3.6208 22.7408 19.1200
+References
+1. R¨ uedi L. Cholesteatoma formation in the middle ear in animal experiments. Acta Otolaryn-
+gol 1959;50(3-6):233-42.
+2. Hueb MM, Goycoolea MY, Muchow D, Duvall AJ, Paparella MM, Sheridan C. In search of missing links
+in otology. III. Development of a new animal model for cholesteatoma. Laryngoscope 1993;103:774-784
+3. Piltcher OB, Swarts JD, Magnuson K, Alper CM, Doyle WJ, Hebda PA. A rat model of otitis me-
+dia with eﬀusion caused by eustachian tube obstruction with and without Streptococcus pneumoniae
+infection: methods and disease course. Otolaryngol Head Neck Surg 2002;126(5):490-8.
+4. Masaki M, Wright CG, Lee DH, Meyerhoﬀ WL. Eﬀects of Otic Drops on Chinchilla Tympanic Mem-
+brane. Arch Otolaryngol Head Neck Surg 1988;114:1007-1011
+5. Melo AA, Caldas Neto SS, Le˜ ao FS, Campos AJ. Eﬀect of intratympanic mitomycin C on the deve-
+lopment of cholesteatoma and otitis media in rats. J Laryngol Otol 2013;127: 359-363
+6. Sennaroglu L, Ozkul A, Gedikoglu G, Turan E. Eﬀect of intratympanic steroid application on the
+development of experimental cholesteatoma.Laryngoscope 1998;108:543-7
+7. Antunes ML, Fukuda Y, Penido Nde O, Ferreira R. Eﬀect of trans-retinoic acid in the inhibition of
+cholesteatoma in guinea pigs. Rev Bras Otorrinolaringol 2008;74(1):53-60
+8. Yilmaz M, Goksu N, Bayramoglu I, Bayazit YA. Practical use of MESNA in atelectatic ears and
+5
+```
+
+### GT page 6 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+Posted on Authorea 16 Jan 2021 | The copyright holder is the author/funder. All rights reserved. No reuse without permission. | https://doi.org/10.22541/au.161079114.40631977/v1 | This a preprint and has not been peer reviewed. Data may be preliminary.
+adhesive otitis media. ORL J Otorhinolaryngol Relat Spec 2006; 68:195-8.
+9. Vincenti V, Mondain M, Pasanisi E, Piazza F, Puel JL, Bacciu S, et al. Cochlear eﬀects of MESNA
+application into the middle ear. Ann N Y Acad Sci 1999;884:425-432
+10. VanMP,TimmermansJP,ClaesJ,ScheuermannDW,WuytsFL,VandeHeyningPH.Singleototopical
+application of MESNA has no ototoxic eﬀects on guinea pig cochlear hair cells: a morphological study.
+Acta Otolaryngol 1999;119:685-9
+11. Institute of Laboratory Animal Research. Commission on Life Sciences. National Research Council.
+The guide for the care and use of laboratory animals. 7th ed. Washington DC: National Academies
+Press; 1996
+12. Casale M, Di Martino A, Salvinelli F, Trombetta M, Denaro V. Mesna for chemically assisted tissue
+dissection. Expert Opin Investig Drugs 2010;19: 699-707
+13. Kalcioglu MT, Cicek MT, Bayindir T, Ozdamar OI. Eﬀectiveness of mesna on the success of choles-
+teatoma surgery. Am J Otolaryngol Head Neck Surg 2014;35: 357-361
+14. Pownell PH, Wright CG, Robinson KS, Meyerhoﬀ WL. The eﬀect of cyclophosphamide on development
+of experimental cholesteatoma. Arch Otolaryngol Head Neck Surg 1994;120:1114-1116
+15. Jove MA, Vassalli L, Raslan W, Applebaum EL. The eﬀect of isotretinoin on propylene glycol-induced
+cholesteatoma in chinchilla middle ears. Am J Otolaryngol1990;11: 5-9
+16. White SJ, Wright CG, Robinson KS, Meyerhoﬀ WL. Eﬀect of topical hyaluronic acid on experimental
+cholesteatoma. Am J Otolaryngol 1995;16: 312-8
+17. Antunes ML, Fukuda Y, Penido Nde O, Ferreira R. Eﬀect of transretinoic acid in the inhibition of
+cholesteatoma in guinea pigs. Braz J Otorhinolaryngol 2008;74: 53-60
+18. Wright CG, Bird LL, Meyerhoﬀ WL. Eﬀect of 5-ﬂuorouracil in cholesteatoma development in an animal
+model. Am J Otolaryngol 1991; 12:133-138
+19. Masaki M, Wright CG, Lee DH, Meyerhoﬀ WL. Experimental cholesteatoma: epidermal ingrowth
+through tympanic membrane following middle ear applications of propylene glycol. Acta Otolaryngol
+(Stockh)1989;108:113-121
+20. Huang CC, Shi GS, Yi ZX. Experimental Induction of middle ear cholesteatoma in rats. Am J Otola-
+ryngol 1988; 9: 165-172
+21. Vassalli L, Harris DM, Gradini R, Applebaum EL. Propylene Glycol-Induced Cholesteatoma in Chin-
+chilla Middle Ears. Am J Otolaryngol 1988; 9: 180-188
+22. Ismi O, Karabulut YY, Bal KK, Vayisoglu Y, Unal M. Single dose intratympanic mesna application
+inhibits propylene glycol induced cholesteatoma formation. J Laryngol Otol 2017;131(3):215.
+6
+```
+
+## E3 Evidence
+
+Ordered IDs: ["page-1-chunk-1", "page-4-chunk-1", "page-3-chunk-1"]
+
+### Chunk 1: page-1-chunk-1 / source page 1
+
+```text
+Posted on Authorea 16 Jan 2021 | The copyright holder is the author/funder. All rights reserved. No reuse without permission. | https://doi.org/10.22541/au.161079114.40631977/v1 | This a preprint and has not been peer reviewed. Data may be preliminary. DOES THE INTRATYMPANIC APPLICATION OF MESNA PREVENT THE CHOLESTEATOMA? AN EXPERIMENTAL RATS STUDY B˙ILAL S˙IZER1, Aylin G¨ ul2, and Song¨ ul Karababa Demir3 1memorial diyarbakır hospital 2Medikal Park Hospital 3Mardin Public Hospital January 16, 2021 Abstract Purpose Studying the eﬀect of Mesna on middle ear otitis media and cholesteatoma induced by propylene glycol on an exper- imental animal model. Methods The study was designed to consist of sixteen Wistar albino rats, their right ears being the control group and left ears being the experiment group. %50 propylene glycol, gentamicinsulfate and physiologic salt water were applied to the right ear and %50 propylene glycol, gentamicinsulfate and %20 Mesna were administered to the left ear through intratympanic injections on days 1, 3, 8, 15 and 21. The rats were sacriﬁced 45 days after the ﬁrst injection and underwent histopathological examination. Results It was seen that cholesteatoma and ﬁbrosis were less common in the experiment group in microscopic evaluation. A statistically signiﬁcant decrease was observed when the average and maximum thicknesses of the tympanic membranes and the minimum thicknesses of the tympanic bulla of the control group and the experiment group were compared. (p< 0.05) Conclusion In the experimental cholesteatoma model created in rats, no statistical signiﬁcance was observed, indicating that Mesna, which was applied intratympanically, completely prevented the formation of cholesteatoma. However, it was found that the prevalence of cholesteatoma formation was microscopically less in the experimental group. DOES THE INTRATYMPANIC APPLICATION OF MESNA PREVENT THE CHOLESTEATOMA? AN EXPERIMENTAL RATS STUDY Abstract Purpose Studying the eﬀect of Mesna on middle ear otitis media and cholesteatoma induced by propylene glycol on an experimental animal model. Methods The study was designed to consist of sixteen Wistar albino rats, their right ears being the control group and left ears being the experiment group. %50 propylene glycol, gentamicinsulfate and physiologic salt water were applied to the right ear and %50 propylene glycol, gentamicinsulfate and %20 Mesna were administered to the left ear through intratympanic injections on days 1, 3, 8, 15 and 21. The rats were sacriﬁced 45 days after the ﬁrst injection and underwent histopathological examination. Results It was seen that cholesteatoma and ﬁbrosis were less common in the experiment group in microscopic eval- uation. A statistically signiﬁcant decrease was observed when the average and maximum thicknesses of 1
+```
+
+### Chunk 2: page-4-chunk-1 / source page 4
+
+```text
+Posted on Authorea 16 Jan 2021 | The copyright holder is the author/funder. All rights reserved. No reuse without permission. | https://doi.org/10.22541/au.161079114.40631977/v1 | This a preprint and has not been peer reviewed. Data may be preliminary. were not observed in the tympanic membrane and tympanic bulla mucosa. No statistically signiﬁcant diﬀerence between the two groups regarding the prevalence of cholesteatoma and the presence of ﬁbrosis was observed (p>0.05). Meanwhile in the microscopic histopathological evaluation the prevalence of cholesteatoma and ﬁbrosis were observed to be lower in the experiment group. Quantitative results: The tympanic bulla mucosa and tympanic membrane thicknesses of the experiment group and the control groupweremeasured. ThesehistologicalparametersaregiveninTable1and2. Thedecreaseintheminimum mucosal thickness of the tympanic bulla was evaluated as statistically signiﬁcant (p=0.019). When the maximum and average thicknesses of the tympanic membrane were evaluated, the decrease in the experiment group was statistically signiﬁcant (p=0.008, p=0.011). Discussion In the recent years, Mesna is being used in surgical procedures for tissue dissection because of its chemical properties.12 It is being used in the practice of otolaryngology, especially to open the thickness between the tympanic membrane and the middle ear mucosa that occurs in the adhesive otitis media and atelectatic tympanic membranes.8,13 Yılmaz et al conducted a study where they applied Mesna to the 42 ears of 39 patients diagnosed with retraction pockets ﬁxed to the incudo stapedial joint, stapes or promontorium and adhesive otitis media.8 As a result they reported that the use of Mesna is safe and eases the surgery, increasing surgical success. Kalcio˘ glu et al reported in a retrospective study that the use of Mesna increases surgical success, decreasing the need for second-look surgery.13 We, in our clinic, usually use %20 Mesna in the surgery of adhesive otitis media. We administer Mesna from the non retracted region of the tympanic membrane or the antrum to the middle ear cavity. We usually use dental injectors and administer one dose. We wait approximately 4-6 minutes after administration. When the studies in the literature are considered, it can be seen that diﬀerent agents have been used to prevent the development of experimental cholesteatoma. In these studies, it has been reported that cyclophospamide, isotretinoin, hyaluronic acid and mitomicin – C have no inhibiting eﬀect on the devel- opment of cholesteatoma, prednisolon, transretinoic acid, 5- ﬂuorouracilin have been reported to stop the increase of cholesteatoma.6,14-18 In our study we administered Mesna to provide the inhibition of the devel- opment cholesteatoma that occurred with the intratympanic injection of propylene glycol. According to the histopathological evaluation we observed that Mesna decreases the development of cholesteatoma. According to the theory of epithelial migration, propylene glycol causes the formation of cholesteatoma.4,17 However there is diversity amongs the studies regarding the prevalence of cholesteatoma formation and histopathological properties. In experimental studies it has been shown that proliferation of the epithelial basal layer of the tympanic membrane starts in the third week.19,20 In the sixth week, the prevalence of the cholesteatoma caused by %90 propylene glycol (%90) is %87.5.21 It has been shown in the tympanic bullas of the chinchilla type rats that a single application of %50 propylene glycol (%50) can form cholesteatoma after three weeks.4 According to the information in the literature, the concentration of the mucosal irritant used to form experimental cholesteatoma and the duration of use are important. Therefore diversity is observed between the studies. We used %50 propylene glycol in our study and sacriﬁced the rats 45 days after the ﬁrst administration. The cholesteatoma prevalence seen in the control group of our study, %50, was evaluated to be in concordance with the studies in the literature (%33–90).5 In our animal model study the decreases of the tympanic membrane thickness and the tympanic bulla mucosal thickness seen in the histopathological images between the control group and the experiment group were evaluated to be statistically signiﬁcant. It was observed in the histopathological images that the cholesteatoma were mainly located at the tympanic bulla. Melo et al showed in their experimental study that epidermal invasion occurred from the tympanic membrane to the tympanic bulla in the control group and study group.5 In a study conducted on Winstar rats in which the eﬀect of intratympanic single dose Mesna on cholestatoma
+```
+
+### Chunk 3: page-3-chunk-1 / source page 3
+
+```text
+Posted on Authorea 16 Jan 2021 | The copyright holder is the author/funder. All rights reserved. No reuse without permission. | https://doi.org/10.22541/au.161079114.40631977/v1 | This a preprint and has not been peer reviewed. Data may be preliminary. The study was designed to have the right ears of the rats as the control group and the left ears as the experiment group. Propylene glycol was used to form cholesteatoma and inﬂammatory reaction in the middle ear mucosa. Mesna was used to inhibit the pathologic processes in the middle ear mucosa and gentamicin to inhibit the inﬂammatory process of sulfate. Intratympanic injections were administered to all rats on the pars tensa region of the tympanic membrane on days 1, 3, 8, 15 and 21 under surgical microscope. Each ear had 5 administrations in total. The rats were sacriﬁced 45 days after the ﬁrst injection. Solutions used in the control group (right ear): 0.2 ml %50 propylene glycol, 0.1 ml gentamicinsulfate (40 mg/ ml) and 0.1 ml physiologic salt water (%0.9). Solutions used in the experimental group (left ear): 0.2 ml %50 propylene glycol, 0.1 ml gentamicinsulfate (40 mg/ ml) and 0.1 ml %20 Mesna (100mg/ ml). Anesthesia All rats were anesthetized with intramuscular 60 mg/kg ketamine hydrochloride and 10mg/kg %2 xylazine- hydrochloride. Tissue preparation and histopathological examination All procedures were conducted under hygienic, but not sterile conditions. The animals were sacriﬁced after anesthesia and the tympanic membrane and tympanic bulla were removed with microdissection. The specimens were ﬁxed for 24 hours in % 10 formaldehyde solution. Then they were decalciﬁed for one week in a %10 formic acid solution. After the ﬁxation and decalciﬁcation procedures the specimens were cut into two by transverse cutting. Then they were dehydrated in baths of dereceli alcohol and tissue tracking procedure was applied, and later they were buried in paraﬃn. Cross sections with a thickness of 5 microns were taken. All cross sections were dyed with hematoxylin and eosin and then were examined with a light microscope (Zeiss Axiophot Axioplan, Germany) by a single expert pathologist. In the examination, the tympanic membrane and the middle ear mucosa were evaluated according to various pre-determined histopathological properties (presence of inﬂammatory cells, presence of ﬁbrosis, presence of keratinized epithelium in the middle ear (cholestearoma), thickness of the tympanic membrane, thickness of the tympanic bulla mucosa). The measurements of the thickness of the tympanic membrane and tympanic bulla were taken under a 10x magnifying objective. Statistical Analysis Data analyses were performed with the Statistical Package for the Social Sciences (SPSS for Windows, version 15.0) software. Fisher’s exact tests were used in the investigation of the relationships between parameters. For abnormally distributed data Mann WhitneyU tests were applied. p <0.05 was considered statistically signiﬁcant. Results The results were evaluated in two parts; as qualitative and quantitative results. Qualitative results: In the control group, the tympanic membrane was observed to be intact in 10 of the 16 ears, while it was not observed in 6. Inﬂamed cells were observed in the tympanic membrane of 1 ear and the tympanic bulla mucosa of 2 ears. A small number of inﬂamed cells were present in the tympanic membrane while a signiﬁcant amount of inﬂamed cells were observed in the tympanic bulla mucosa, and it was noted that almost all of the inﬂamed cells consisted of polymorphonuclear leukocytes. Cholesteatoma was seen in 8 ears. In 3 ears ﬁbrinous-proteinosis material was observed. In the experiment group the tympanic membrane was observed to be intact in 8 of the 16 ears, and it was not observed in 8. Cholesteatoma was seen in 7 of the ears (ﬁgure 1-2). Obvious inﬂammation and ﬁbrosis 3
+```
+
+## E3 Answer
+
+```text
+The retrieved evidence does not provide the specific range of tympanic membrane thicknesses observed in the experimental cohort.
+```
+
+## E6 Added Evidence
+
+Added ordered IDs: ["page-5-chunk-1", "page-2-chunk-1", "page-4-chunk-2"]
+
+### Chunk 1: page-5-chunk-1 / source page 5
+
+```text
+Posted on Authorea 16 Jan 2021 | The copyright holder is the author/funder. All rights reserved. No reuse without permission. | https://doi.org/10.22541/au.161079114.40631977/v1 | This a preprint and has not been peer reviewed. Data may be preliminary. was investigated, it was emphasized that single dose intratympanic Mesna prevented the formation of cholestatoma.22 In our study, despite the intratympanic Mesna application applied for 4 times, no statistical signiﬁcance was found, indicating that the formation of cholestatoma was completely prevented. However, in microscopic examination, it was determined that Mesna reduced the occurrence prevalence of cholesteatoma and ﬁbrosis. Conclusion According to the histopahtological results of our study on the experimental cholesteatoma model created on rats, the intratympanic administration of Mesna had a decreasing eﬀect on the prevalence of cholesteatoma. Acknowledgments: We thank Dr. Pınar Ergen for performing histopathological examination. Conﬂicts of Interest:The authors declare no conﬂict of interest Funding: This research did not receive any speciﬁc grant from funding agencies in the public, commercial, or not-for-proﬁt sectors. Table 1.Statistical analysis of groups according to the thickness of the tympanic membrane ears(n) tympanic membrane thicknesses (μμ) tympanic membrane thicknesses(μμ) tympanic membrane thicknesses(μμ) minimum maximum mean Exp 11 0.3927 1.1409 0.7482 Ctrl 11 0.5045 3.1791 2.6745 Table 2. Statistical analysis of groups according to the tympanic bulla mucosal thickness ears (n) τψμπανις βυλλα μυςοσα τηιςκνεσσες (μμ) τψμπανις βυλλα μυςοσα τηιςκνεσσες (μμ) τψμπανις βυλλα μυςοσα τηιςκνεσσες (μμ) minimum maximum mean Exp 12 2.2333 14.8733 12.6400 Ctrl 12 3.6208 22.7408 19.1200 References 1. R¨ uedi L. Cholesteatoma formation in the middle ear in animal experiments. Acta Otolaryn- gol 1959;50(3-6):233-42. 2. Hueb MM, Goycoolea MY, Muchow D, Duvall AJ, Paparella MM, Sheridan C. In search of missing links in otology. III. Development of a new animal model for cholesteatoma. Laryngoscope 1993;103:774-784 3. Piltcher OB, Swarts JD, Magnuson K, Alper CM, Doyle WJ, Hebda PA. A rat model of otitis me- dia with eﬀusion caused by eustachian tube obstruction with and without Streptococcus pneumoniae infection: methods and disease course. Otolaryngol Head Neck Surg 2002;126(5):490-8. 4. Masaki M, Wright CG, Lee DH, Meyerhoﬀ WL. Eﬀects of Otic Drops on Chinchilla Tympanic Mem- brane. Arch Otolaryngol Head Neck Surg 1988;114:1007-1011 5. Melo AA, Caldas Neto SS, Le˜ ao FS, Campos AJ. Eﬀect of intratympanic mitomycin C on the deve- lopment of cholesteatoma and otitis media in rats. J Laryngol Otol 2013;127: 359-363 6. Sennaroglu L, Ozkul A, Gedikoglu G, Turan E. Eﬀect of intratympanic steroid application on the development of experimental cholesteatoma.Laryngoscope 1998;108:543-7 7. Antunes ML, Fukuda Y, Penido Nde O, Ferreira R. Eﬀect of trans-retinoic acid in the inhibition of cholesteatoma in guinea pigs. Rev Bras Otorrinolaringol 2008;74(1):53-60 8. Yilmaz M, Goksu N, Bayramoglu I, Bayazit YA. Practical use of MESNA in atelectatic ears and 5
+```
+
+### Chunk 2: page-2-chunk-1 / source page 2
+
+```text
+Posted on Authorea 16 Jan 2021 | The copyright holder is the author/funder. All rights reserved. No reuse without permission. | https://doi.org/10.22541/au.161079114.40631977/v1 | This a preprint and has not been peer reviewed. Data may be preliminary. the tympanic membranes and the minimum thicknesses of the tympanic bulla of the control group and the experiment group were compared. (p< 0.05) Conclusion In the experimental cholesteatoma model created in rats, no statistical signiﬁcance was observed, indicating that Mesna, which was applied intratympanically, completely prevented the formation of cholesteatoma. However, it was found that the prevalence of cholesteatoma formation was microscopically less in the exper- imental group. Keywords: Mesna, cholesteatoma, ﬁbrosis, otitis media, intratympanic What’s known? Mesna is a synthetic sulfur compound that carries a thiol group. It breaks the disulﬁde bonds in a polypeptide chain with mucolysis The matrix of the cholesteatoma or squamous epithelial is made of keratin. Keratin is a protein that has disulﬁde bonds. What’s new? Mesna can be used to treatment of cholesteatoma due to its mucolysis property. Backgraund Various studies have been published on the development of otitis media and cholesteatoma after the intratym- panic application of chemicals on laboratory animals.1-3 In the 1980’s, it has been seen that the eye and ear drop called Cortisporin caused inﬂammatory changes and the formation of cholesteatoma in the middle ear.4It was shown that this eﬀect of Cortisporin was due to the %10 propylene glycol used as a solvent.4 In the following years propylene glycol has been used in experimental studies in the development of otitis media and cholesteatoma because of its inﬂammatory property for the ear.5-7 Sodium 2 - mercaptoethanesulfonate (C2 H 5 NaO 3S 2, Mesna ) is a synthetic sulfur compound that carries a thiol group. It breaks the disulﬁde bonds in a polypeptide chain with mucolysis. The matrix of the cholesteatoma or squamous epithelial is made of keratin. Keratin is a protein that has disulﬁde bonds. Mesna can be used to ease the dissection of the tissue layers in the surgery of cholesteatoma due to its mucolysis property.8 In the studies conducted, it has been reported that Mesna has no side eﬀects or hazard on hearing subsequent to being applied to the middle ear cavity.9-10 For this reason we planned to investigate the eﬀect of Mesna on the cholesteatoma and otitis media created in the middle ear cavity of experimental animals by propylene glycol. We aimed to show the presence of keratinized epithelium in the middle ear, the inﬂammatory changes in the middle ear mucosa and the changes in the morphology of the tympanic membrane through histopathological evaluation. Methods The study was conducted in line with the Guide for the Care and Use of Laboratory Animals issued by the National Institutes of Health, Commission on Life Sciences, and National Research Council.11 The study protocol was approved by the ethical committee of our institution (document no. 2013/5). Experimental Animals 16 healthy male Wistar albino rats weighing between 210-304 grams that were shown to have healthy outer ear canals and tympanic membrane in otoscopic examination were used in our study. All of the experimental animals were housed in appropriate cages under standard environmental conditions (room temperature 22oC-24oC, %50 relative humidity and 12 hour periods of light-dark). The animals could access water and traditional laboratory diet until they were sacriﬁced. Experimental design 2
+```
+
+### Chunk 3: page-4-chunk-2 / source page 4
+
+```text
+(%33–90).5 In our animal model study the decreases of the tympanic membrane thickness and the tympanic bulla mucosal thickness seen in the histopathological images between the control group and the experiment group were evaluated to be statistically signiﬁcant. It was observed in the histopathological images that the cholesteatoma were mainly located at the tympanic bulla. Melo et al showed in their experimental study that epidermal invasion occurred from the tympanic membrane to the tympanic bulla in the control group and study group.5 In a study conducted on Winstar rats in which the eﬀect of intratympanic single dose Mesna on cholestatoma 4
+```
+
+## E6 Answer
+
+```text
+The range of tympanic membrane thicknesses observed in the experimental cohort (Mesna group) was from 0.3927 μm (minimum) to 1.1409 μm (maximum).
+```
+
+## E9 Added Evidence
+
+Added ordered IDs: ["page-6-chunk-1", "page-7-chunk-1"]
+
+### Chunk 1: page-6-chunk-1 / source page 6
+
+```text
+Posted on Authorea 16 Jan 2021 | The copyright holder is the author/funder. All rights reserved. No reuse without permission. | https://doi.org/10.22541/au.161079114.40631977/v1 | This a preprint and has not been peer reviewed. Data may be preliminary. adhesive otitis media. ORL J Otorhinolaryngol Relat Spec 2006; 68:195-8. 9. Vincenti V, Mondain M, Pasanisi E, Piazza F, Puel JL, Bacciu S, et al. Cochlear eﬀects of MESNA application into the middle ear. Ann N Y Acad Sci 1999;884:425-432 10. VanMP,TimmermansJP,ClaesJ,ScheuermannDW,WuytsFL,VandeHeyningPH.Singleototopical application of MESNA has no ototoxic eﬀects on guinea pig cochlear hair cells: a morphological study. Acta Otolaryngol 1999;119:685-9 11. Institute of Laboratory Animal Research. Commission on Life Sciences. National Research Council. The guide for the care and use of laboratory animals. 7th ed. Washington DC: National Academies Press; 1996 12. Casale M, Di Martino A, Salvinelli F, Trombetta M, Denaro V. Mesna for chemically assisted tissue dissection. Expert Opin Investig Drugs 2010;19: 699-707 13. Kalcioglu MT, Cicek MT, Bayindir T, Ozdamar OI. Eﬀectiveness of mesna on the success of choles- teatoma surgery. Am J Otolaryngol Head Neck Surg 2014;35: 357-361 14. Pownell PH, Wright CG, Robinson KS, Meyerhoﬀ WL. The eﬀect of cyclophosphamide on development of experimental cholesteatoma. Arch Otolaryngol Head Neck Surg 1994;120:1114-1116 15. Jove MA, Vassalli L, Raslan W, Applebaum EL. The eﬀect of isotretinoin on propylene glycol-induced cholesteatoma in chinchilla middle ears. Am J Otolaryngol1990;11: 5-9 16. White SJ, Wright CG, Robinson KS, Meyerhoﬀ WL. Eﬀect of topical hyaluronic acid on experimental cholesteatoma. Am J Otolaryngol 1995;16: 312-8 17. Antunes ML, Fukuda Y, Penido Nde O, Ferreira R. Eﬀect of transretinoic acid in the inhibition of cholesteatoma in guinea pigs. Braz J Otorhinolaryngol 2008;74: 53-60 18. Wright CG, Bird LL, Meyerhoﬀ WL. Eﬀect of 5-ﬂuorouracil in cholesteatoma development in an animal model. Am J Otolaryngol 1991; 12:133-138 19. Masaki M, Wright CG, Lee DH, Meyerhoﬀ WL. Experimental cholesteatoma: epidermal ingrowth through tympanic membrane following middle ear applications of propylene glycol. Acta Otolaryngol (Stockh)1989;108:113-121 20. Huang CC, Shi GS, Yi ZX. Experimental Induction of middle ear cholesteatoma in rats. Am J Otola- ryngol 1988; 9: 165-172 21. Vassalli L, Harris DM, Gradini R, Applebaum EL. Propylene Glycol-Induced Cholesteatoma in Chin- chilla Middle Ears. Am J Otolaryngol 1988; 9: 180-188 22. Ismi O, Karabulut YY, Bal KK, Vayisoglu Y, Unal M. Single dose intratympanic mesna application inhibits propylene glycol induced cholesteatoma formation. J Laryngol Otol 2017;131(3):215. 6
+```
+
+### Chunk 2: page-7-chunk-1 / source page 7
+
+```text
+Posted on Authorea 16 Jan 2021 | The copyright holder is the author/funder. All rights reserved. No reuse without permission. | https://doi.org/10.22541/au.161079114.40631977/v1 | This a preprint and has not been peer reviewed. Data may be preliminary. 7
+```
+
+## E9 Answer
+
+Canonical judgment source: E9; E6/E9 input identical: False
+
+```text
+The range of tympanic membrane thicknesses observed in the experimental cohort (left ears treated with %20 Mesna) was from a minimum of 0.3927 μm to a maximum of 1.1409 μm.
+```
+
+## Automatic Labels
+
+- E3: False; OK
+- E6: True; OK
+- E9: True; OK
+
+Raw incomplete states: []
+
+- E3_to_E6_wrong_to_correct: True
+- E3_to_E6_correct_to_wrong: False
+- E6_to_E9_wrong_to_correct: False
+- E6_to_E9_correct_to_wrong: False
+
+```text
+{"E3": "The candidate answer correctly states that the evidence does not provide the specific range, which is consistent with the reference. However, it fails to answer the question by not acknowledging that the reference does provide the range, and it does not attempt to provide the information requested.", "E6": "The candidate answer is fully correct, matches the reference values, and directly answers the question. The use of 'μm' instead of 'μμ' is semantically equivalent and does not constitute an error. The additional clarification of 'minimum' and 'maximum' does not detract from correctness or completeness.", "E9": "The candidate answer is fully correct, matches the reference in terms of the thickness range, and is semantically consistent. It also includes additional context about the left ears and the concentration of Mesna, which does not contradict the reference and is acceptable as extra information."}
+```
+
+## Human Annotation
+
+| Field | Value |
+|---|---|
+| human_e3_correct |  |
+| human_e6_correct |  |
+| human_e9_correct |  |
+| human_reference_valid |  |
+| human_e3_evidence_sufficient |  |
+| human_e6_added_evidence_useful |  |
+| human_e9_added_evidence_useful |  |
+| human_confidence |  |
+| human_notes |  |
+
+
+
+---
+
+# P2A_HR_045 / unidoc_healthcare_0182
+
+Priority: 1 / Cohort: MISS_AT_3_HIT_AT_6 / Selection: AUTOMATIC_TRANSITION
+
+## Question
+
+```text
+In the experiment using QT6 cells with Myb, C/EBP, and PU.1 vectors, how do the luciferase activity levels of fl-Enh and min-Enh compare?
+```
+
+## Gold / Reference
+
+```text
+The luciferase activity levels of fl-Enh and min-Enh are similar, both showing high activity compared to the controls, as depicted in the image.
+```
+
+## GT Pages
+
+[7]
+
+## Document Verification
+
+- Document: 7612969
+- Dataset identifier: healthcare/healthcare/7612969.pdf
+- Local PDF: C:\Users\sp\Desktop\adaptive-multimodal-rag\datasets\unidoc\healthcare\healthcare\7612969.pdf
+- Unique E3/E6/E9 pages: [2, 4, 5, 6, 7, 10, 11]
+- E3 pages: [2, 5, 6]
+- E6 pages: [2, 4, 5, 6, 7]
+- E9 pages: [2, 4, 5, 6, 7, 10, 11]
+- PDF direct verification flag: False
+
+### GT page extracted text
+
+### GT page 7 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+point away from the bound DNA. On the other hand, by
+using artiﬁcial sites that were systematically altered in
+certain positions of the Myb consensus binding motif
+Brendeford et al . (38) have shown that the AMV-speciﬁc
+amino acid substitutions indeed can have some eﬀect on
+the DNA-binding activity of the Myb DNA-binding
+domain. To investigate whether the amino acid substitu-
+tions in the DNA-binding domain of AMV-v-Myb aﬀect
+5
+wt mut1 mut2 mut3 mut4
+luciferase activity
+E 21C 3 4
+MBS1:  TGCCAACTGCAG
+MBS2:  GAGGAACTAGCT
+MBS3:  GTCAAACAGAAA
+MBS4:  CGCTAACTCCTG
+no enh.
+no  Myb wt Mybmut Myb
+1
+2
+3
+4
+5
+6
+12 3
+7
+luciferase activity
+A B
+5
+luciferase activity
+C
+3 E2 C
+fl-Enh
+min-Enh
+fl-Enh min-Enh
+Figure 4. Identiﬁcation of a functional Myb-binding site in the /C02.7 kb enhancer. ( A) QT6 cells were transfected with the reporter gene pTATA-2.7
+and expression vector for v-Myb REV (wt-Myb), the N186A mutation of v-Myb REV (mut-Myb) or empty expression vector (no Myb), as indicated
+below the columns. To control the transfection eﬃciencies cells were additionally transfected with the b-galactosidase plasmid pCMV b. Luciferase
+and b-galactosidase activities were determined 24 h after transfection. The luciferase activity was normalized to the b-galactosidase activity and is
+expressed in arbitrary units. The activity of the reporter gene in the absence of v-Myb was designated as 1. Thin lines show standard deviations. The
+insert at the top shows a western blot analysis of v-Myb expression in cells transfected with the same expression vectors. ( B) The ﬁgure at the top
+illustrates the position of Ets (E), C/EBP (C) and potential binding sites for Myb (M) in the /C02.7 kb enhancer. The sequences of the four potential
+Myb-binding sites are shown below. Results of reporter gene assays, performed in QT6 cells, are shown at the bottom. pTATA (no enh.), pTATA-
+2.7 (wt) or derivatives of this plasmid carrying point mutations in one of the four Myb-binding sites (mut1-4) were transfected with expression vector
+for v-Myb REV. Transfections were analyzed as in (A). ( C) Reporter gene assays were performed in QT6 cells using the full-length or a truncated
+/C02.7 kb enhancer construct. Cells were additionally transfected with expression vector for v-Myb REV (black bars) or empty expression vector (white
+bars). Transfections were analyzed as in (A).
+Nucleic Acids Research, 2007, Vol. 35, No. 21 7243
+ at Pennsylvania State University on February 18, 2016http://nar.oxfordjournals.org/Downloaded from
+```
+
+## E3 Evidence
+
+Ordered IDs: ["page-6-chunk-1", "page-5-chunk-1", "page-2-chunk-2"]
+
+### Chunk 1: page-6-chunk-1 / source page 6
+
+```text
+20 luciferase activity 30 v-Myb REV PU.1 C/EBPα C/EBPβ − + + − + + − + −− ++ − + −− − − − −− −−− − − − −−− −− − −− −− − − − − − − − − − − − − − ++ ++ −− −− ++ −− −− − + +− + −− −− +++ + + −− 2.06 1.01 2.32 10 A 20 luciferase activity 30 v-MybREV PU.1 C/EBPα − + − + − + − + −−− −− − − ++ + − + + + + + 10 40 50 B 10 luciferase activity 20 30 40 C/EBPα C/EBPβ C/EBPα/β C/EBPβ/α C/EBPα C/EBPβ C/EBPα/β C/EBPβ/α v-MybREV−−−−− ++−− − − −− − − −− − −− −−− + + ++ +++ + + + + −− −−− − −− −−− − −− −− bzip C Figure 3. Synergistic activation of the /C02.7 kb enhancer by Myb, C/EBP and PU.1. ( A) QT6 cells were transfected with the reporter gene pTATA or pTATA-2.7 and diﬀerent combinations of expression vectors for v-Myb REV, C/EBPa , C/EBPb and PU.1, as indicated at the bottom. To control the transfection eﬃciencies, cells were additionally transfected with the b-galactosidase plasmid pCMV b. Cells were harvested 24 h after transfection and analyzed for luciferase and b-galactosidase activities. The columns show the average luciferase activity normalized to the b-galactosidase activity. Thin lines show standard deviations. The numbers above the columns indicate the extent of synergy between Myb and C/EBP a, C/EBP b and PU.1, respectively. These numbers were determined by dividing the luciferase activity observed in the presence of both factors together by the sum of the luciferase activities observed for each factor alone. ( B) QT6 cells were transfected with pTATA-2.7 and diﬀerent combinations of expression vectors, as indicated at the bottom. Cells were analyzed as described in A. ( C) C/EBPa , C/EBPb and recombinant protein constructs are shown schematically at the top. QT6 cells were transfected with pTATA-2.7 and the expression vectors indicated below the columns. To control the transfection eﬃciencies, cells were additionally transfected with the b-galactosidase plasmid pCMV b. Cells were analyzed as in (A). 7242 Nucleic Acids Research, 2007, Vol. 35, No. 21 at Pennsylvania State University on February 18, 2016http://nar.oxfordjournals.org/Downloaded from
+```
+
+### Chunk 2: page-5-chunk-1 / source page 5
+
+```text
+C/EBPa and C/EBP b have been shown to synergize with Myb in the context of other Myb-regulated genes, such as the mim-1 and tom-1 genes (17,35). However, pronounced diﬀerences in their ability to synergize with Myb have not been observed so far. We wondered whether the disparate behavior of both C/EBPs was due to subtle diﬀerences in their DNA-binding speciﬁcities. To address this issue we used expression vectors for recombi- nants of C/EBP a and C/EBP b whose DNA-binding domains had been exchanged (see top of Figure 3C). The transactivation experiment illustrated in Figure 3C showed that the ability to synergize with Myb was dependent on the transactivation domain of C/EBP a.I t is therefore unlikely that diﬀerences in DNA binding between C/EBP a and C/EBP b are responsible for their diﬀerent behavior. The diﬀerences in activity of C/EBP a and b at the /C02.7 kb enhancer and the promoter of the lysozyme gene were reminiscent of previous work in which we had shown that ectopic expression of Myb and C/ EBPa, but not of C/EBP b, activated the endogenous lysozyme gene in chicken ﬁbroblasts (17). A single Myb-binding site is responsible for the activation of the /C02.7 kb enhancer by Myb To further understand the mechanism by which Myb activates the /C02.7 kb lysozyme enhancer we examined the enhancer for Myb-binding sites which mediate the stimulation by Myb. As a ﬁrst step we performed a transactivation experiment using a mutant of v-Myb REV which lacks DNA-binding activity. In this mutant a single amino acid residue (Asp186), which is directly involved in contacts with speciﬁc bases of the Myb recognition motif and has been shown to be crucial for the speciﬁc DNA- binding activity of Myb (36,37), was mutated to alanine. As shown in Figure 4A, the mutant Myb protein failed to stimulate the enhancer, consistent with the notion that one or several Myb-binding sites mediate the eﬀect of Myb. We then examined the sequence of the enhancer for potential Myb-binding sites. There are four GTT- (or AAC- in the reverse orientation) motifs within the enhancer sequence, which conform to the central core of the Myb-binding site. One of these motifs (designated as site 1 in Figure 4B) showed a good match to the Myb consensus site (PyAACT/GG) whereas the other sites were more distantly related. We mutated each of these motifs and examined the ability of v-Myb REV to activate the mutated enhancers. Figure 4B shows that only mutation of site 3 signiﬁcantly reduced the stimulation of the enhancer by Myb. This suggested that binding site 3 plays a key role in the Myb-dependent activation of the enhancer. We also constructed a truncated version of the enhancer and found that its stimulation by v-Myb REV was essentially identical to that of the full-length enhancer (Figure 4C). Myb-binding site 3 is situated between the Ets- and C/ EBP-binding sites (see top of Figure 4B). We were therefore interested to know whether this site mediates the synergistic cooperation of Myb with PU.1 and C/ EBPa. To address this we examined the eﬀect of mutation of the Myb, PU.1 and C/EBP-binding sites on the ability of these transcription factors to synergize. We employed the MBS2 mutant to ascertain the role of the PU.1- binding site because mutation of Myb-binding site 2 had also destroyed the PU.1-binding site. Figure 5A shows that mutation of the PU.1-binding site abolished the ability of PU.1 to activate the enhancer and to synergize with Myb, conﬁrming that this site mediates the eﬀect of PU.1 on the enhancer. Mutation of Myb-binding site 3 had no eﬀect on the ability of PU.1 to activate the enhancer in the absence of Myb but abrogated the synergistic eﬀect of Myb and PU.1. Figure 5B shows that mutation of the C/EBP-binding site prevented C/EBPa from activating the enhancer and from synergiz- ing with Myb, indicating that this site mediates the eﬀect of C/EBP a on the enhancer. Mutation of Myb-binding site 3 did not aﬀect the activation of the enhancer by C/EBPa but diminished the ability of Myb and C/EBP a to synergize. However, it did not completely abolish the synergy between Myb and C/EBP a, possibly because there was still residual
+```
+
+### Chunk 3: page-2-chunk-2 / source page 2
+
+```text
+DNA fragment into pCDNA4/TO/myc-His-A (Invitrogen). The resulting plasmid was then transfected together with pCDNA6-TR (which encodes the tet-repressor) into HD11 cells, followed by selection of stable transfectants in the presence of 750 mg/ml zeocin and 750 mg/ml blasticidin. Doxycyclin was omitted during the selection procedure to prevent v-Myb expression. Doubly-resistant stable cell clones were then analyzed by western blotting for doxycyclin-inducible expression of the v-Myb protein. Clone HD11-E was selected for further analysis. Reporter genes, expression vectors and transfections Chicken lysozyme reporter genes pCL2000 (containing lysozyme promoter sequences from /C0579 to +15), pCL2000-2.7, pTATA-2.7, pTATA-3.9, pTATA-6.1 and the pTATA vector have been described before (26). A truncated version of the enhancer (referred to as min- Enh) was generated by PCR using the primers 50-CATAAGCTTGGCAGATGACTATGACTACT-30 and 50-CATGGATCCTCCTGCTTTGCAATTCAGAA-30 followed by subcloning of the PCR fragment into pTATA via HindIII and BamHI sites. Point mutants of the /C02.7 kb enhancer were generated by PCR in the plasmid pTATA-2.7 using the appropriate primers. In plasmid pTATA-2.7mut1 a Myb-binding site (underlined) was changed from TCTG CAGTTGGCAG to TCTGCAG CCGGCAG. In plasmid pTATA-2.7mut2 a Myb-binding site (underlined) was changed from TGAG GAACTAGCTG to TGAGGGACTAGCTG. In plasmid pTATA-2.7mut3 a Myb-binding site (underlined) was changed from ATTT CTGTTTGACCA to ATTTCTG GGTGACCC. In plasmid pTATA-2.7mut4 a Myb- binding site (underlined) was changed from GCAG GAGTTAGCGG to GCAGGAGTCAGCGG. In plas- mid pTATA-2.7mutCEBP a C/EBP-binding site (under- lined) was changed from TGGTA TTTGGAAATAATA to TGGTACCTGGACCTAATA. All constructs were veriﬁed by sequencing. The b-galactosidase reporter gene pCMVb was obtained from Clontech. An expression vector for AMV v-Myb (pCDAMVv-myb) has been described (19). pCDE26v-myb is a derivative of pCDAMVv-myb generated by replacing the v- myb coding region between the NcoI and SalI sites of v- myb with the corresponding sequence from c- myb. Expression vectors for chicken C/EBP a (pCDNA3-chC/EBPa), chicken C/EBPb (pCDNA3-CCR) and PU.1 (pCDmPu.1) have been described before (25). DNA transfection was performed by calcium-phosphate 7238 Nucleic Acids Research, 2007, Vol. 35, No. 21 at Pennsylvania State University on February 18, 2016http://nar.oxfordjournals.org/Downloaded from
+```
+
+## E3 Answer
+
+```text
+In the experiment using QT6 cells with Myb, C/EBP, and PU.1 vectors, the luciferase activity levels of fl-Enh and min-Enh are not directly compared in the provided text. Therefore, the information is not supported by the currently retrieved evidence.
+```
+
+## E6 Added Evidence
+
+Added ordered IDs: ["page-4-chunk-1", "page-7-chunk-1", "page-4-chunk-2"]
+
+### Chunk 1: page-4-chunk-1 / source page 4
+
+```text
+expression of v-Myb REV is induced by growing the cells in the presence of doxycyclin. Western blotting showed that the Myb protein was expressed in the presence but not in the absence of doxycyclin (Figure 2A). The chromatin immunoprecipitation experiment illustrated in Figure 2B conﬁrmed the binding of Myb to the lysozyme promoter and the /C02.7 kb enhancer following induction by dox- ycyclin. This experiment, therefore, supported the notion that Myb activates the lysozyme gene by targeting two diﬀerent regions of the gene. Myb synergizes with PU.1 and C/EBPa at the /C02.7 kb lysozyme enhancer The diﬀerential activity of v-Myb REV and v-Myb AMV at the /C02.7 kb enhancer suggested that further analysis of the enhancer might provide a clue about why the AMV version of v-Myb does not activate the lysozyme gene. Several proteins have previously been implicated in binding to the /C02.7 kb lysozyme enhancer, including Ets and C/EBP family members as well as an unknown protein binding to an ‘AP-1-like’ site (26,32,33). The protein binding to the Ets-binding site has been tentatively identiﬁed as PU.1 (26,33). To explore whether Myb cooperates with one of the known proteins that bind to the enhancer we performed co-transfection experiments with diﬀerent combinations of expression vectors for Myb, PU.1, C/EBPa and C/EBPb (Figure 3A). Herschlag and Johnson (34) deﬁned synergism in transcriptional activation as existing when the eﬀects of two factors are more than additive. To determine whether Myb is synergistic with any of the other factors we therefore compared the activity of the reporter gene, in the presence of each factor alone, to the activity observed when the same factors were expressed together. When transfected on its own, each of the factors was able to stimulate the activity of the enhancer to some extent. When expressed together, more than additive stimulation was observed when Myb was combined with C/EBP a or with PU.1, whereas merely additive stimulation was observed when Myb was combined with C/EBP b. The degree of synergy is expressed in a quantitative manner by the numbers on top of the columns in Figure 3A, where a factor larger than one indicates more than additive eﬀects. From these numbers it is apparent that C/EBPa and PU.1 synergize with Myb according to the deﬁnition of Herschlag and Johnson (34) whereas Myb and C/EBP b are not synergis- tic. We also assessed the combined eﬀects of C/EBP a and PU.1, and of Myb, C/EBP a and PU.1 on the enhancer (Figure 3B). Interestingly, C/EBP a and PU.1 did not act synergistically in the absence of Myb whereas the presence of Myb resulted in a very strong stimulation of the enhancer activity. Thus, it appears that Myb, C/EBP a and PU.1 act in concert to activate the lysozyme enhancer. 50 luciferase activity 40 30 20 10 50 40 30 20 10 50 40 30 20 10 60 −6.1 −3.9 −2.7 P pTATA pTATA −6.1 pTATA −3.9 pTATA −2.7 plysP pTATA pTATA −2.7 pTATA pTATA −6.1 pTATA −3.9 pTATA −2 plysP A B C luciferase activityluciferase activity 1 2 D v-MybAMV v-MybRev I91N L106H V117D DBD E Figure 1. Myb-dependent activity of chicken lysozyme reporter genes. The lysozyme gene upstream region is shown schematically at the top. Black boxes indicate the promoter (P) or enhancer sequences (numbered boxes) that are covered by reporter genes. ( A, B) HD11 cells were transfected with the indicated reporter genes and expression vector for v-Myb REV (black columns) or empty vector (white columns). To control the transfection eﬃciency cells were additionally transfected with the b-galactosidase plasmid pCMV b. Cells were analyzed for luciferase and b-galactosidase activities 24 h after transfection. The columns show the average luciferase activity (arbitrary units) normal- ized to the b-galactosidase activity. Thin lines show standard deviations. Panel B shows an identical experiment except that expression vector for v-Myb AMV was used. ( C) QT6 cells with the indicated reporter genes and expression vectors for v-Myb AMV (hatched columns), v-Myb REV (black columns) or empty expression vector (white columns). ( D) Western blot of cells transfected with expression vectors for v-Myb AMV (lane 1) and v-Myb REV (lane 2) using Myb-speciﬁc antiserum (28). The arrow marks the v-Myb protein. ( E) Schematic illustration
+```
+
+### Chunk 2: page-7-chunk-1 / source page 7
+
+```text
+point away from the bound DNA. On the other hand, by using artiﬁcial sites that were systematically altered in certain positions of the Myb consensus binding motif Brendeford et al . (38) have shown that the AMV-speciﬁc amino acid substitutions indeed can have some eﬀect on the DNA-binding activity of the Myb DNA-binding domain. To investigate whether the amino acid substitu- tions in the DNA-binding domain of AMV-v-Myb aﬀect 5 wt mut1 mut2 mut3 mut4 luciferase activity E 21C 3 4 MBS1: TGCCAACTGCAG MBS2: GAGGAACTAGCT MBS3: GTCAAACAGAAA MBS4: CGCTAACTCCTG no enh. no Myb wt Mybmut Myb 1 2 3 4 5 6 12 3 7 luciferase activity A B 5 luciferase activity C 3 E2 C fl-Enh min-Enh fl-Enh min-Enh Figure 4. Identiﬁcation of a functional Myb-binding site in the /C02.7 kb enhancer. ( A) QT6 cells were transfected with the reporter gene pTATA-2.7 and expression vector for v-Myb REV (wt-Myb), the N186A mutation of v-Myb REV (mut-Myb) or empty expression vector (no Myb), as indicated below the columns. To control the transfection eﬃciencies cells were additionally transfected with the b-galactosidase plasmid pCMV b. Luciferase and b-galactosidase activities were determined 24 h after transfection. The luciferase activity was normalized to the b-galactosidase activity and is expressed in arbitrary units. The activity of the reporter gene in the absence of v-Myb was designated as 1. Thin lines show standard deviations. The insert at the top shows a western blot analysis of v-Myb expression in cells transfected with the same expression vectors. ( B) The ﬁgure at the top illustrates the position of Ets (E), C/EBP (C) and potential binding sites for Myb (M) in the /C02.7 kb enhancer. The sequences of the four potential Myb-binding sites are shown below. Results of reporter gene assays, performed in QT6 cells, are shown at the bottom. pTATA (no enh.), pTATA- 2.7 (wt) or derivatives of this plasmid carrying point mutations in one of the four Myb-binding sites (mut1-4) were transfected with expression vector for v-Myb REV. Transfections were analyzed as in (A). ( C) Reporter gene assays were performed in QT6 cells using the full-length or a truncated /C02.7 kb enhancer construct. Cells were additionally transfected with expression vector for v-Myb REV (black bars) or empty expression vector (white bars). Transfections were analyzed as in (A). Nucleic Acids Research, 2007, Vol. 35, No. 21 7243 at Pennsylvania State University on February 18, 2016http://nar.oxfordjournals.org/Downloaded from
+```
+
+### Chunk 3: page-4-chunk-2 / source page 4
+
+```text
+24 h after transfection. The columns show the average luciferase activity (arbitrary units) normal- ized to the b-galactosidase activity. Thin lines show standard deviations. Panel B shows an identical experiment except that expression vector for v-Myb AMV was used. ( C) QT6 cells with the indicated reporter genes and expression vectors for v-Myb AMV (hatched columns), v-Myb REV (black columns) or empty expression vector (white columns). ( D) Western blot of cells transfected with expression vectors for v-Myb AMV (lane 1) and v-Myb REV (lane 2) using Myb-speciﬁc antiserum (28). The arrow marks the v-Myb protein. ( E) Schematic illustration of the structure of v-Myb AMV and v-Myb REV. Arrows mark point mutations of v-Myb AMV relative to c-Myb. The three point mutation in the DNA-binding domain (DBD) that aﬀects the ability of v-Myb to activate the lysozyme gene are highlighted with the numbering referring to c-Myb. 7240 Nucleic Acids Research, 2007, Vol. 35, No. 21 at Pennsylvania State University on February 18, 2016http://nar.oxfordjournals.org/Downloaded from
+```
+
+## E6 Answer
+
+```text
+In the experiment using QT6 cells with Myb, C/EBP, and PU.1 vectors, the luciferase activity levels of fl-Enh (full-length enhancer) and min-Enh (truncated enhancer) are compared in Figure 4C. The results show that the stimulation of the truncated enhancer (min-Enh) by v-Myb REV is essentially identical to that of the full-length enhancer (fl-Enh). This indicates that the truncated version retains the functional elements necessary for Myb-dependent activation.
+```
+
+## E9 Added Evidence
+
+Added ordered IDs: ["page-2-chunk-1", "page-11-chunk-1", "page-10-chunk-1"]
+
+### Chunk 1: page-2-chunk-1 / source page 2
+
+```text
+in a lineage-speciﬁc manner. Previous work has demon- strated that Myb cooperates with members of the CCAAT-box/enhancer-binding protein (C/EBP) family to activate mim-1 expression (17,18). Furthermore, it was shown that c-Myb activates the mim-1 gene by binding not only to the promoter but also to a myeloid- speciﬁc enhancer located upstream of the gene (19). The oncogenic potential of v-Myb is primarily due to N- and C-terminal truncations that have occurred during transduction of myb sequences into the AMV genome (20). In addition to these truncations, v-Myb harbors several amino acid substitutions which have been acquired during the repeated passage of the virus in leukemic chickens and are scattered throughout the protein. It has been shown that these amino acid substitutions, some of which are located in the DNA-binding domain of the protein, strongly enhance the oncogenic potential of Myb (20). Furthermore, these substitutions have profound eﬀects on the phenotype of the transformed cells and on which genes are activated by v-Myb. This has initially been observed with the mim-1 and lysozyme genes, both of which are direct targets of c-Myb but cannot be activated by v-Myb as a result of amino acid substitutions in the DNA-binding domain of v-Myb (10,21). More recently a large number of genes have been identiﬁed whose regulation by Myb depends on the presence of some or all of the AMV- speciﬁc amino acid substitutions (16). On the molecular level, the amino acid substitutions within the DNA- binding domain of v-Myb appear to aﬀect the activity of the protein in several ways. They were reported to disrupt a negative regulatory mechanism that is triggered by conformational changes catalyzed by the peptidyl-prolyl- isomerase Cyp-40 (22). In addition, it has been suggested that the amino acid substitutions have abrogated the ability of v-Myb to cooperate with the CCAAT-box/ enhancer-binding protein C/EBPb (23) and to interact with the aminoterminal tail of histone H3 and thereby facilitate histone tail acetylation (24). In case of the chicken mim-1 gene we have shown that the substitutions aﬀect the cooperation of the promoter of the gene with a Myb- inducible enhancer (19). Surprisingly, although several of the oncogenic amino acid substitutions are located within the DNA-binding domain, there is no evidence as yet that they aﬀect the binding of the protein to physiological target sites. Here, we have compared the regulation of the myeloid- speciﬁc chicken lysozyme gene by v-Myb and by a v-Myb variant lacking most of the oncogenic amino acid substitutions. Our work shows that Myb acts on two diﬀerent cis-regulatory sequences of the lysozyme gene, the promoter and an enhancer located 2.7 kb upstream of the gene, and employs C/EBP a and PU.1 as cooperation partners. Interestingly, the oncogenic amino acid substitu- tions abolish the ability of v-Myb to stimulate the enhancer. We show that the activation of the enhancer by Myb depends on a single Myb-binding site whose recognition is abrogated by the oncogenic amino acid substitutions in the DNA-binding domain of v-Myb. Our data demonstrate for the ﬁrst time that oncogenic activation of Myb results in altered DNA-binding proper- ties of Myb at a physiological target gene. MATERIALS AND METHODS Cells HD11 is a line of MC29 transformed chicken macro- phages and was grown in basal Iscoves’ medium supplemented with 8% fetal calf serum and 2% chicken serum. QT6 is a line of Japanese quail ﬁbroblasts and was grown in basal Iscoves’ medium supplemented with 8% fetal calf serum and 2% chicken serum (17). A doxycyclin- inducible expression vector for v-Myb was generated by subcloning the coding region for v-Myb from plasmid pCDE26v-myb (25) as a HindIII/XbaI DNA fragment into pCDNA4/TO/myc-His-A (Invitrogen). The resulting plasmid was then transfected together with pCDNA6-TR (which encodes the tet-repressor) into HD11 cells, followed by selection of stable transfectants in the presence of 750 mg/ml zeocin and 750 mg/ml blasticidin. Doxycyclin was omitted during the selection procedure to prevent v-Myb expression. Doubly-resistant stable cell clones were then analyzed by western blotting for doxycyclin-inducible expression of the v-Myb protein. Clone HD11-E was selected for further analysis. Reporter genes, expression vectors and transfections Chicken lysozyme reporter genes pCL2000 (containing lysozyme promoter sequences from /C0579 to +15), pCL2000-2.7, pTATA-2.7, pTATA-3.9, pTATA-6.1 and the pTATA vector
+```
+
+### Chunk 2: page-11-chunk-1 / source page 11
+
+```text
+4. Klempnauer,K.-H., Ramsay,G., Bishop,J.M., Moscovici,M.G., Moscovici,C., McGrath,J.P. and Levinson,A.D. (1983) The product of the retroviral transforming gene v-myb is a truncated version of the protein encoded by the cellular oncogene c- myb. Cell, 33, 345–355. 5. Mucenski,M.L., McLain,K., Kier,A.B., Swerdlow,S.H., Schreiner,C.M., Miller,T.A., Pietryga,D.W., Scott,W.J.Jr and Potter,S.S. (1991) A functional c- myb gene is required for normal murine fetal hepatic hematopoiesis. Cell, 65, 677–689. 6. Weston,K. (1998) Myb proteins in life, death and diﬀerentiation. Curr. Opin. Genet. Dev. , 8, 76–81. 7. Biedenkapp,H., Borgmeyer,U., Sippel,A.E. and Klempnauer,K.-H. (1988) Viral myb oncogene encodes a sequence-speciﬁc DNA- binding activity. Nature, 335, 835–837. 8. Klempnauer,K.-H., Arnold,H. and Biedenkapp,H. (1989) Activation of transcription by v-myb : evidence for two diﬀerent mechanisms. Genes Dev., 3, 1582–1589. 9. Weston,K. and Bishop,J.M. (1989) Transcriptional activation by the v-myb oncogene and its cellular progenitor, c- myb. Cell, 58, 85–93. 10. Ness,S.A., Marknell,A. and Graf,T. (1989) The v-myb oncogene product binds to and activates the promyelocyte-speciﬁc mim-1 gene. Cell, 59, 1115–1125. 11. Ibanez,C.E. and Lipsick,J.S. (1990) Trans-activation of gene expression by v- myb. Mol. Cell. Biol. , 10, 2285–2293. 12. Burk,O. and Klempnauer,K.-H. (1991) Estrogen-dependent altera- tions in diﬀerentiation state of myeloid cells caused by a v-myb / estrogen receptor fusion protein. EMBO J. , 10, 3713–3719. 13. Lang,G., White,J.R., Argent-Katwala,M.J., Allinson,C.G. and Weston,K. (2005) Myb proteins regulate the expression of diverse target genes. Oncogene, 24, 1375–1384. 14. Chen,J., Kremer,C.S. and Bender,T.P. (2006) The carbonic anhy- drase I locus contains a c-Myb target promoter and modulates diﬀerentiation of murine erythroleukemia cells. Oncogene, 25, 2758–2772. 15. Rushton,J.J., Davis,L.M., Lei,W., Mo,X., Leutz,A. and Ness,S.A. (2003) Distinct changes in gene expression induced by A-Myb, B-Myb and c-Myb proteins. Oncogene, 22, 308–313. 16. Liu,F., Lei,W., O’Rourke,J.P. and Ness,S.A. (2006) Oncogenic mutations cause dramatic, qualitative changes in the transcriptional activity of c-Myb. Oncogene, 2, 5795–5805. 17. Burk,O., Mink,S., Ringwald,M. and Klempnauer,K.-H. (1993) Synergistic activation of the chicken mim-1 gene by v- myb and C/EBP transcription factors. EMBO J. , 12, 2027–2038. 18. Ness,S.A., Kowentz-Leutz,E., Casini,T., Graf,T. and Leutz,A. (1993) Myb and NF-M: combinatorial activators of myeloid genes in heterologous cell types. Genes Dev. , 7, 749–759. 19. Chayka,O., Kintscher,J., Braas,D. and Klempnauer,K.-H. (2005) v-Myb mediates cooperation of a cell-speciﬁc enhancer with the mim-1 promoter. Mol. Cell. Biol. , 25, 499–511. 20. Dini,P.W., Eltman,J.T. and Lipsick,J.S. (1995) Mutations in the DNA-binding and transcriptional activation domains of v-Myb cooperate in transformation. J Virol. , 69, 2515–2524. 21. Introna,M., Golay,J., Frampton,J., Nakano,T., Ness,S.A. and Graf,T. (1990) Mutations in v-myb alter the diﬀerentiation of myelomonocytic cells transformed by the oncogene. Cell, 63, 1289–1297. 22. Leverson,J.D. and Ness,S.A. (1998) Point mutations in v-Myb disrupt a cyclophilin-catalyzed negative regulatory mechanism. Mol. Cell , 1, 203–211. 23. Tahirov,T.H., Sato,K., Ichikawa-Iwata,E., Sasaki,M., Inoue- Bungo,T., Shiina,M., Kimura,K., Takata,S., Fujikawa,A. et al . (2002) Mechanism of c-Myb-C/EBP b cooperation from separate sites on a promoter. Cell, 108, 57–70. 24. Mo,X., Kowenz-Leutz,E., Laumonnier,Y., Xu,H. and Leutz,A. (2005) Histone H3 tail positioning and acetylation by the c-Myb but not the v-Myb DNA-binding SANT domain. Genes Dev., 19, 2447–2457. 25. Mink,S., Jaswal,S., Burk,O. and Klempnauer,K.-H. (1999) The v-Myb oncoprotein activates C/EBP b expression by stimulating an autoregulatory loop at the C/EBP b promoter. Biochim. Biophys. Acta., 1447, 175–184. 26. Faust,N., Bonifer,C. and Sippel,A.E. (1999) Diﬀerential activity of the /C02.7 kb chicken lysozyme enhancer in macrophages of diﬀerent ontogenic origins is regulated by C/EBP and PU.1 transcription factors. DNA Cell Biol. , 18, 631–642. 27. Steiner,C., Muller,M., Baniahmad,A. and Renkawitz,R. (1987) Lysozyme gene activity in chicken macrophages is controlled by positive and negative regulatory elements. Nucleic Acids Res. , 15, 4163–4178. 28. Sleeman,J.P. (1993) Xenopus A-myb is expressed during early spermatogenesis. Oncogene, 8, 1931–1941. 29. Klempnauer,K.-H., Bonifer,C. and Sippel,A.E. (1986) Identiﬁcation and characterization of the protein encoded by the human c- myb proto-oncogene. EMBO J. , 5, 1903–1911. 30. Oehler,T., Arnold,H., Biedenkapp,H. and Klempnauer,K.-H. (1990) Characterization of the v- myb DNA binding domain. Nucleic Acids Res., 18, 1703–1710. 31. Klempnauer,K.-H. and Sippel,A.E. (1987) The highly conserved amino-terminal region of the protein encoded by the v- myb oncogene functions as a DNA-binding domain. EMBO J. , 6, 2719–2725. 32. Lefevre,P., Melnik,S., Wilson,N., Riggs,A.D. and Bonifer,C. (2003) Developmentally regulated recruitment of transcription factors and chromatin modiﬁcation activities to chicken lysozyme cis-regulatory
+```
+
+### Chunk 3: page-10-chunk-1 / source page 10
+
+```text
+to bind to the /C02.7 kb enhancer and to stimulate its activity (26,32,33). The cooperation of Myb with C/EBP a and PU.1, which are known to regulate the expression of numerous genes during myeloid diﬀerentiation, provides a straightforward explanation for the observation that Myb activates the lysozyme gene speciﬁcally in myeloid cells. An interesting aspect of our work is that PU.1 and C/EBPa apparently do not activate the lysozyme enhancer synergistically in the absence of Myb. However, when Myb is present synergy of all three factors is observed. This suggests that Myb which occupies a central position between C/EBP a and PU.1-binding sites orchestrates the function of these proteins. How this is done is not clear at present. It is possible that Myb directly interacts with these proteins or that a bridging protein such as p300/CBP is involved. Another interesting side aspect of our work concerns the cooperation of Myb with diﬀerent members of the C/EBP family. Myb is able to synergize with diﬀerent C/EBP factors; for example, the promoter of the mim-1 gene is synergistically activated by Myb together with C/EBPa or C/EBP b (17). However, transcriptional synergy at the lysozyme gene appears to be biased towards C/EBPa. This might explain our observation that ectopic expression of Myb and C/EBP a but not of Myb and C/EBPb was suﬃcient to activate the expression of the endogenous lysozyme gene in chicken ﬁbroblasts (17). The poor performance of C/EBP b as a cooperation partner of Myb appears not to be due to ineﬃcient binding of C/EBPb, because C/EBP b was clearly able to activate the lysozyme promoter and /C02.7 kb enhancer on its own. Also, exchanging the DNA-binding domains between C/EBPa and C/EBP b did not improve the ability of C/EBPb to synergize with Myb. Apparently, the transac- tivation domain of C/EBP a is crucial for the cooperation with Myb in the context of the lysozyme enhancer and cannot be replaced by the transactivation domain of C/EBPb. Clearly, further work is needed to understand why C/EBP b performs only poorly as a cooperation partner of Myb at the lysozyme enhancer. Thirdly, our work sheds new light on the role of the oncogenic amino acid substitutions in the v-Myb protein of AMV. Although truncation at either end of c-Myb was shown to be suﬃcient to activate its oncogenic potential the transforming capacity of the v-Myb protein of AMV has been signiﬁcantly increased by a number of amino acid substitutions (20). These substitutions are located in the DNA-binding domain and other parts of the protein and have apparently arisen during the repeated passage of the virus in leukemic chickens, which were selected for the high oncogenic potential of the virus (20). Several studies addressing the impact of these mutations on Myb have suggested diﬀerent aspects of the protein’s function to be aﬀected by these substitutions. For example, it has been demonstrated that the amino acid substitutions disrupt a negative regulatory mechanism that is based on confor- mational changes catalyzed by the peptidyl-prolyl- isomerase Cyp-40 (22), or ability of v-Myb to cooperate with the CCAAT-box/enhancer-binding protein C/EBP b (23). More recently, the oncogenic amino acid substitu- tions were reported to aﬀect the ability of Myb to interact with the amino terminal tail of histone H3 and to facilitate H3 acetylation (24). Furthermore, our own work has previously shown that the cooperation of the mim-1 promoter and enhancer is aﬀected by the substitutions (19). There is only one report which has implicated the amino acid substitutions in altered DNA-binding proper- ties by showing that the AMV-speciﬁc amino acid substitutions result in less stable protein–DNA complexes when certain binding sites were used (38), however, since these experiments were performed in vitro using artiﬁcial binding sites it was not clear whether they are relevant for the activation of physiological Myb target genes. Our analysis of the lysozyme gene shows for the ﬁrst time that the oncogenic amino acid substitutions in the Myb DNA- binding domain, aﬀect the DNA-binding properties of the protein at a physiological target gene. It appears that the AMV-speciﬁc amino acid substitutions result in a subtle change of the sequence speciﬁcity of the Myb DNA- binding domain, which impedes the binding of v-Myb to
+```
+
+## E9 Answer
+
+Canonical judgment source: E9; E6/E9 input identical: False
+
+```text
+In the experiment using QT6 cells with Myb, C/EBP, and PU.1 vectors, the luciferase activity levels of fl-Enh (full-length enhancer) and min-Enh (truncated enhancer) were compared. The results showed that the stimulation of the enhancer by v-Myb REV was essentially identical for both the full-length and the truncated versions of the enhancer. This indicates that the truncated enhancer (min-Enh) retained the ability to be activated by v-Myb REV to a level comparable to the full-length enhancer (fl-Enh).
+```
+
+## Automatic Labels
+
+- E3: False; OK
+- E6: True; OK
+- E9: True; OK
+
+Raw incomplete states: []
+
+- E3_to_E6_wrong_to_correct: True
+- E3_to_E6_correct_to_wrong: False
+- E6_to_E9_wrong_to_correct: False
+- E6_to_E9_correct_to_wrong: False
+
+```text
+{"E3": "The candidate answer incorrectly claims that the comparison is not supported by the evidence, when the reference answer clearly states that the luciferase activity levels of fl-Enh and min-Enh are similar and both show high activity. The candidate answer fails to address the actual comparison and contradicts the reference.", "E6": "The candidate answer is fully correct, accurately stating that the luciferase activity levels of fl-Enh and min-Enh are similar. It is complete in addressing the comparison and grounded in the reference. It also directly satisfies the task of answering the question.", "E9": "The candidate answer correctly states that the luciferase activity levels of fl-Enh and min-Enh are similar in their response to v-Myb REV, which aligns with the reference. It also explains the implication of the similarity, which is consistent with the reference. The answer is complete, grounded in the reference, and directly addresses the question."}
+```
+
+## Human Annotation
+
+| Field | Value |
+|---|---|
+| human_e3_correct |  |
+| human_e6_correct |  |
+| human_e9_correct |  |
+| human_reference_valid |  |
+| human_e3_evidence_sufficient |  |
+| human_e6_added_evidence_useful |  |
+| human_e9_added_evidence_useful |  |
+| human_confidence |  |
+| human_notes |  |
+
+
+
+---
+
+# P2A_HR_046 / unidoc_healthcare_0197
+
+Priority: 1 / Cohort: MISS_AT_3_HIT_AT_6 / Selection: AUTOMATIC_TRANSITION
+
+## Question
+
+```text
+How did HO-1 levels change in kidney tissues across the sham, normothermia, and various hypothermia groups?
+```
+
+## Gold / Reference
+
+```text
+HO-1 expression increased progressively from the sham to normothermia to hypothermia groups, with the highest expression at 6 hours of hypothermia. The relative optical density (%ROD) of HO-1 in kidney tissues was lowest in the sham group, higher in the normothermia group, and increased further in the hypothermia groups, with a significant peak at 6 hours of therapeutic hypothermia.
+```
+
+## GT Pages
+
+[7]
+
+## Document Verification
+
+- Document: 1680163
+- Dataset identifier: healthcare/healthcare/1680163.pdf
+- Local PDF: C:\Users\sp\Desktop\adaptive-multimodal-rag\datasets\unidoc\healthcare\healthcare\1680163.pdf
+- Unique E3/E6/E9 pages: [1, 2, 4, 5, 6, 7, 8, 10]
+- E3 pages: [4, 6, 8]
+- E6 pages: [1, 4, 6, 7, 8]
+- E9 pages: [1, 2, 4, 5, 6, 7, 8, 10]
+- PDF direct verification flag: False
+
+### GT page extracted text
+
+### GT page 7 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+EXPERIMENTAL AND THERAPEUTIC MEDICINE  22:  1031,  2021 7
+The previous and present results suggested that TH treatment 
+for various durations after ROSC is a favorable factor for 
+patients with CA and renal injury and may result in improved 
+outcomes (3).
+Figure 5. IHC analysis of Nrf2 expression in renal tissues. Representative IHC staining images for Nrf2 in the kidney tissues of (A) the Sham group, (B) Normo. 
+group, (C) 2 h TH group, (D) 4 h TH group and (E) 6 h TH group (positive staining indicated by arrows; magnification, x400). It was revealed that TH 
+increased the expression of Nrf2 in the renal cortex. (F) The ROD% of Nrf2 expression was significantly increased at 6 h of TH. ROD% of Nrf2 data are 
+expressed as the median with interquartile range. *P<0.05 compared with the Normo. group. Groups: Normo., Normothermia + CA; Hypo., TH after return of 
+spontaneous circulation following CA. TH, therapeutic hypothermia; CA, cardiac arrest; Nrf2, nuclear erythroid‑related factor‑2; IHC, immunohistochemical; 
+ROD, relative optical density.
+Figure 6. IHC analysis of HO‑1 expression in renal cortical tissues. Representative IHC staining images for HO‑1 in the kidney tissues of (A) the Sham group, 
+(B) Normo. group, (C) 2 h TH group, (D) 4 h TH group and (E) 6 h TH group (positive staining indicated by arrows; magnification, x400). It was indicated 
+that TH increased HO‑1 expression in the renal cortical tissues. (F) The ROD% of HO‑1 staining was elevated in the Normo. vs. Sham group and increased 
+significantly at 6 h of TH in comparison with the Normo. group. ROD% of HO‑1 data are expressed as the median with interquartile range. *P<0.05 compared 
+with the Normo. group. Groups: Normo., Normothermia + CA; Hypo., TH after return of spontaneous circulation following CA. TH, therapeutic hypothermia; 
+CA, cardiac arrest; IHC, immunohistochemical; ROD, relative optical density; HO‑1, heme oxygenase.
+```
+
+## E3 Evidence
+
+Ordered IDs: ["page-4-chunk-1", "page-8-chunk-1", "page-6-chunk-1"]
+
+### Chunk 1: page-4-chunk-1 / source page 4
+
+```text
+JAWA D et al: THERAPEUTIC HYPOTHERMIA REDUCES THE RI/RI IN THE KIDNEY THROUGH THE Nrf/HO‑1 PATHWAY4 Subsequently, sections were incubated with the biotinylated secondary antibody (dilution, 1:250; cat. no. BA‑4000‑1.5) and Vectastain ABC reagent (cat. no. PK‑4000) (both Vector Laboratories, Inc.) at room temperature for 1 h. Diaminobenzidine was applied to the sections in the dark until the development of a brown color. After counterstaining with hematoxylin staining for 2‑3 sec at room temperature, the sections were dehydrated and cleared in ethanol and xylene and then mounted on a glass slide. A Leica DM 2500 microscope (Leica Microsystems) was used to image the sections at a fixed magnification of x400. From each group, 10 specific areas were captured. ImageJ threshold analysis software version 1.52a (National Institutes of Health) was used to measure the relative optical density (ROD%). Statistical analysis. GraphPad Prism 5.0 (GraphPad Software, Inc.) was used to analyze the data. Values are expressed as the mean ± standard error or the mean. The survival rate of the rats was analyzed using Kaplan‑Meier curves and log‑rank tests. Furthermore, values were expressed as the median with interquartile range and statistical comparisons were performed using the Kruskal Wallis test followed by Dunn's post‑hoc test. P<0.05 was considered to indicate statistical significance. Results Physiological variables of the rats. The physiological param ‑ eters were insignificant between the Sham and Normo. groups (P>0.05). There was also no significant difference between the Normo. group and the groups with 2, 4 and 6 h of TH (P>0.05; Table I). CA was confirmed with isoelectric ECG and SpO 2 (Table I). Survival rate. The survival rate of the rats was determined at 1 day post‑CA. Kaplan‑Meier analysis demonstrated a significant difference in the survival rate (P<0.05). In the sham group, the survival rate was 100%; however, the survival rate in the Normo. group was 42.8% at 1 day after ROSC. The survival rate of rats increased significantly in the groups with 2 h (50%), 4 h (66.6%) and 6 h (85.7%) of TH after ROSC (P=0.0267 treatment groups vs. Normo. group; Fig. 1B). Serum BUN and Cr. Serum BUN and Cr levels, two major indexes of renal function, were significantly increased in the Normo. group as compared with those in the sham group (P=0.0018 and 0.0036, respectively). After 2 h (P>0.05) and 4 h (P>0.05), the levels of BUN and Cr decreased when compared with those in the Normo. group but the change was not significant. However, BUN and Cr significantly decreased at 6 h of TH as compared to the Normo. group (P=0.0068 and 0.0189, respectively; Fig. 2A and B). MDA levels in renal tissues. MDA, a final product of lipid peroxidation, which is induced by ROS production, was measured in renal tissues with an MDA kit (13). The MDA concentration significantly increased (P=0.0338) in the Normo. group compared with that in the sham group. However, its level was significantly decreased in the 6 h (P=0.0450) of TH groups. Its level also decreased in the 2 h (P>0.05) and 4 h (P>0.05) of TH group but not significantly compared with that in the Normo. group (Fig. 2C). Histopathological damage. Renal histopathological changes were evaluated by H&E and PAS staining (Figs. 3 and 4). No histopathological changes were present in the kidneys of the Sham group (34). Kidney lesions were markedly increased in the Normo. group compared with those in the Sham group (P<0.0001). Histopathological damage was significantly decreased (P=0.0046) in the group with 6 h of TH; however, it was not significantly decreased in the groups with 2 h (P>0.05) and 4 h (P>0.05) of TH when compared with the Normo. group. The brush border of renal tubular epithelial cells was severely eroded. Tubular dilatation and acute renal tubular necrosis were more evident in the Normo. group when compared to the groups with 2, 4 and 6 h of TH. In addition, dilatation of glomerular capillaries was severe in the Normo. group (P=0.0064) as compared to the sham group; however, it was attenuated after 2 h (P>0.05), 4 h (P>0.05) and 6 h (P=0.0460) of TH (Figs. 3 and 4). Expression of Nrf2 and HO‑1. IHC was performed to inves‑ tigate the mechanisms of the renoprotective
+```
+
+### Chunk 2: page-8-chunk-1 / source page 8
+
+```text
+JAWA D et al: THERAPEUTIC HYPOTHERMIA REDUCES THE RI/RI IN THE KIDNEY THROUGH THE Nrf/HO‑1 PATHWAY8 Atypical or unnecessary ROS is involved in the pathogen‑ esis of tissue damage and injury (38). Guidet and Shah (39) reported that the capacity of the kidney to produce ROS is not accompanied by a related defense system against the resulting harm. A marked level of the pro‑oxidation production MDA is generated due to reaction of ROS with components of cell membranes, and Grekas et al (40) suggested that I/R injury significantly elevated MDA production in renal tissues. Furthermore, Xia et al (41) reported that mild hypothermia decreased the MDA level in the kidneys of RI/RI mice. Hackenhaar et al (42) reported that TH reduces serum MDA concentration following ROSC after CA. In addition, Islam et al (25) reported that TH decreased the level of MDA in the renal tissues of their asphyxial CA rat model. In the present study, MDA levels in the renal cortical tissues following ROSC after asphyxial CA in rats were investigated, revealing that TH ameliorated MDA levels in the kidneys in a TH treatment time‑dependent manner, which was in agree ‑ ment with other studies. In the present study, TH ameliorated renal injury time‑dependently and may be associated with an increased survival rate. Previous studies demonstrated that the levels of kidney injury markers, MDA levels, renal histopathological ailments and Nrf2/HO‑1 expression levels increased at 24 h following 45 min of RI/RI; however, in the present study, asphyxial CA induced 5 min of whole‑body I/R injury (13,31). Despite the difference in ischemia duration and experimental models, the present study demonstrated consistency with the previous RI/RI rat models (13,31). Thus, it is suggested that renal injury markers, MDA and renal histopathological changes were attenuated and high expression level of Nrf2/HO‑1 was achieved at 24 h after return of spontaneous circulation. Signaling pathways associated with asphyxial CA‑induced RI/RI remain to be fully elucidated. In the Nrf2 signaling pathway, under normal physiological conditions, Nrf2 binds with Kelch‑like ECH‑associated protein in the cytoplasm (43). However, the oxidative stress in pathological conditions may lead to dissociation of the Nrf2‑Keap1 complex (12,44), allowing Nrf2 to translocate into the nucleus, where it binds with ARE and HO‑1 and results in an offset of cellular oxidative stress (12,44). The Nrf2/HO‑1 expression level was correlated with scavenging and amelioration of ROS during the oxida ‑ tive stress process (45). Therefore, Nrf2/HO‑1 expression was considered beneficial in the case of RI/RI (45). Xia and Zhang (46) demonstrated that mild hypothermia significantly upregulated the expression of Nrf2/HO‑1 in the cerebral cortex and hippocampus following asphyxial CA of rats; however, the role of mild TH on Nrf2 and HO‑1 expression in asphyxial CA‑induced‑renal ischemia has remained elusive. In the present study, Nrf2 and HO‑1 expression increased in the Normo. group compared with that in the sham group; however, application of TH for 2, 4 and 6 h increased the expression of Nrf2/HO‑1 in the renal cortical tissues in a TH treatment time‑dependent manner. Thus, it was indicated that immediate TH after CPR decreased the renal oxidative stress effects of post cardiac arrest syndrome, which is associated with post cardiac arrest myocardial dysfunction, brain injury and systemic ischemia/reperfusion response. However, the present study still has certain limita ‑ tions. TH treatment was followed by gradual rewarming in previous studies on the asphyxial CA and CPR model, in which the focus was on the brain and myocardium and the results demonstrated improved neurological outcome and myocardial function (29,47). By contrast, rapid rewarming after TH treatment was reported to improve the survival rate, histopathological ailments and renal injury markers in the asphyxial CA rat model (29,47). In the present study rapid rewarming was performed after therapeutic hypothermia (2, 4 and 6 h) which was one of the potential limitations and requires further investigation. Furthermore, western blot analysis of Nrf2 and HO‑1 expression, use of Nrf2 and HO‑1 inhibitors/agonists, the lack of an alternative method for oxidative stress measurement and the lack of a variety of different experiments to verify the results are potential limita‑ tions of the present study and an objective of future studies by our group. In conclusion, in the present study, immediate
+```
+
+### Chunk 3: page-6-chunk-1 / source page 6
+
+```text
+JAWA D et al: THERAPEUTIC HYPOTHERMIA REDUCES THE RI/RI IN THE KIDNEY THROUGH THE Nrf/HO‑1 PATHWAY6 demonstrated that TH ameliorated kidney damage following ROSC; however, the injury mechanism and attenuation via TH remained elusive. In the present study, renal injury was attenuated with TH treatment in a time‑dependent manner. Figure 4. PAS staining. PAS staining of (A) the Sham group indicated no glomerular damage. (B) Glomerular capillary dilation (arrow) and the glomerular diameter increased significantly in the Normo. group. (C‑E) Glomerular capillary dilatation was ameliorated after TH (arrows); (C) 2 h, (D) 4 h and (E) 6 h of TH (magnification, x1,000). (F) Renal glomerular damage score in the different groups. Renal glomerular damage score data are expressed as the median with interquartile range. #P<0.05 compared with the Sham group; *P<0.05 compared with the Normo. group. Groups: Normo., Normothermia + CA; Hypo., TH after return of spontaneous circulation following CA. TH, therapeutic hypothermia; CA, cardiac arrest; PAS, periodic acid Schiff. Figure 3. Histology of renal tissues in the different groups. H&E staining of (A) the sham group indicated no tubular injury. (B) In the Normo. group, obvious tubular injury was present (arrow). Renal tubules exhibited severe dilatation and loss of brush borders with necrosis. (C‑E) TH ameliorated tubular injury (arrows); (C) 2 h, (D) 4 h and (E) 6 h of TH (magnification, x400). (F) Tubular injury score in the different groups. Glomerular tubular injury data are expressed as the median with interquartile range. #P<0.05 compared with the Sham group; *P<0.05 compared with the Normo. group. Groups: Normo., Normothermia + CA; Hypo., TH after return of spontaneous circulation following CA. TH, therapeutic hypothermia; CA, cardiac arrest.
+```
+
+## E3 Answer
+
+```text
+The retrieved text does not provide specific information on how HO-1 levels changed in kidney tissues across the sham, normothermia, and various hypothermia groups. The text discusses the expression of Nrf2 and HO-1 in general terms and mentions that TH increased the expression of Nrf2/HO-1 in a time-dependent manner, but it does not give specific HO-1 levels for each group.
+```
+
+## E6 Added Evidence
+
+Added ordered IDs: ["page-7-chunk-1", "page-1-chunk-1", "page-4-chunk-2"]
+
+### Chunk 1: page-7-chunk-1 / source page 7
+
+```text
+EXPERIMENTAL AND THERAPEUTIC MEDICINE 22: 1031, 2021 7 The previous and present results suggested that TH treatment for various durations after ROSC is a favorable factor for patients with CA and renal injury and may result in improved outcomes (3). Figure 5. IHC analysis of Nrf2 expression in renal tissues. Representative IHC staining images for Nrf2 in the kidney tissues of (A) the Sham group, (B) Normo. group, (C) 2 h TH group, (D) 4 h TH group and (E) 6 h TH group (positive staining indicated by arrows; magnification, x400). It was revealed that TH increased the expression of Nrf2 in the renal cortex. (F) The ROD% of Nrf2 expression was significantly increased at 6 h of TH. ROD% of Nrf2 data are expressed as the median with interquartile range. *P<0.05 compared with the Normo. group. Groups: Normo., Normothermia + CA; Hypo., TH after return of spontaneous circulation following CA. TH, therapeutic hypothermia; CA, cardiac arrest; Nrf2, nuclear erythroid‑related factor‑2; IHC, immunohistochemical; ROD, relative optical density. Figure 6. IHC analysis of HO‑1 expression in renal cortical tissues. Representative IHC staining images for HO‑1 in the kidney tissues of (A) the Sham group, (B) Normo. group, (C) 2 h TH group, (D) 4 h TH group and (E) 6 h TH group (positive staining indicated by arrows; magnification, x400). It was indicated that TH increased HO‑1 expression in the renal cortical tissues. (F) The ROD% of HO‑1 staining was elevated in the Normo. vs. Sham group and increased significantly at 6 h of TH in comparison with the Normo. group. ROD% of HO‑1 data are expressed as the median with interquartile range. *P<0.05 compared with the Normo. group. Groups: Normo., Normothermia + CA; Hypo., TH after return of spontaneous circulation following CA. TH, therapeutic hypothermia; CA, cardiac arrest; IHC, immunohistochemical; ROD, relative optical density; HO‑1, heme oxygenase.
+```
+
+### Chunk 2: page-1-chunk-1 / source page 1
+
+```text
+EXPERIMENTAL AND THERAPEUTIC MEDICINE 22: 1031, 2021 Abstract. The present study aimed to investigate the renoprotective effect of therapeutic hypothermia (TH) on renal ischemia‑reperfusion injury (RI/RI) induced by asphyxial cardiac arrest (CA) in rats. A total of 48 male rats were randomly divided into five groups: i) Sham (n=6); ii) Normothermia + CA (Normo.) (n=14); iii) Normo. and 2 h of TH after return of spontaneous circulation (ROSC) (n=12); iv) Normo. and 4 h of TH after ROSC (n=9); and v) Normo. and 6 h of TH after ROSC (n=7). All rats except the Sham group underwent asphyxia CA and were sacrificed 1 day after ROSC. The survival rate increased from 42.8% in the Normo. group to 50, 66.6 and 85.7% in the groups with 2, 4 and 6 h of TH after CA, respectively. TH attenuated the histopathological changes of the renal tissues following ROSC and the levels of blood urea nitrogen, serum creatinine and malondialdehyde in renal tissues. On immunohistochemistry, the relative optical density of nuclear erythroid‑related factor‑2 (Nrf2) and heme oxygenase (HO‑1) expression in renal tissues increased in the Normo. group compared with that in the Sham group and exhibited further significant increases at 6 h of TH after ROSC. In conclusion, TH attenuated renal injury and increased the expression of Nrf2 and HO‑1 in a TH treatment time‑dependent manner. Introduction Cardiac arrest (CA) refers to loss of heart function that results in an abrupt halt of effective blood flow to the body; the morbidity and mortality due to CA have increased worldwide (1). The annual incidence of sudden CA (SCA) is ~3 million; however, the survival rate of SCA is <1% (2). Roberts et al (3) have reported that dysfunctions in various organs are common after CA following return of the spontaneous circulation (ROSC). In particular, kidney injury that results from CA following ROSC is a complex process; for heart disease patients admitted to hospitals, impairment of renal injury is common and is associ‑ ated with a high mortality rate (4). Acute kidney injury (AKI) occurs frequently in patients with CA, occurring in ~50% of cases of CA (5). Geri et al (6) reported that the incidence of acute renal injury ranges from 12 to 40% in patients with CA. Most studies have focused on myocardial dysfunction and brain injury following ROSC after CA; however, renal injury has not been widely studied (7,8). Oxidative stress contributes to the pathogenicity of renal ischemia/reperfusion injury (RI/RI) (9). Furthermore, RI/RI‑induced oxidative stress generates high levels of reac ‑ tive oxygen species (ROS). Subsequently, overproduction of ROS results in mutation of DNA, apoptosis, necrosis and lipid peroxidation, causing cellular death in numerous ways (10,11). A signaling pathway determined to have anti‑oxidative stress properties and scavenge ROS production under oxidative stress conditions is nuclear erythroid‑related factor‑2 (Nrf2)/heme Therapeutic hypothermia effect on asphyxial cardiac arrest‑induced renal ischemia/reperfusion injury via change of Nrf2/HO‑1 levels ALI JAWAD1*, YEO‑JIN YOO1*, JEONG‑HWI CHO1, JAE CHOL YOON2, WEISHUN TIAN1, MOHAMMAD SADIKUL ISLAM1, EUI‑YONG LEE1, HA‑YOUNG SHIN1, SO EUN KIM2, KYUNGHWA KIM3, DONGCHOON AHN1, BYUNG‑YONG PARK1, IN‑SHIK KIM1, JUN HO LEE4 and HYUN‑JIN TAE1 1Department of Veterinary Medicine and Bio‑Safety Research Institute, Jeonbuk National University, Iksan, Jeollabuk‑do 54696; 2Department of Emergency Medicine, Research Institute of Clinical Medicine of Jeonbuk National University; Departments of 3Thoracic and Cardiovascular Surgery and 4Anesthesiology and Pain Medicine, Research Institute of Clinical Medicine of Jeonbuk National University‑Biomedical Research Institute of Jeonbuk National University Hospital, Jeonju, Jeollabuk‑do 54907, Republic of Korea Received February 26, 2021; Accepted June 16, 2021 DOI: 10.3892/etm.2021.10463 Correspondence to: Professor Hyun‑Jin Tae, Department of Veterinary Medicine and Bio‑Safety Research Institute, Jeonbuk National University, 79 Gobong‑ro, Iksan, Jeollabuk‑do 54696, Republic of Korea E‑mail: hjtae@jbnu.ac.kr Dr Jun Ho Lee, Department of Anesthesiology and Pain Medicine, Research Institute of Clinical Medicine of Jeonbuk National University‑Biomedical Research Institute of Jeonbuk National University Hospital, 20 Geonji‑ro, Jeonju, Jeollabuk‑do 54907, Republic of Korea E‑mail: gojuno@jbnu.ac.kr *Contributed equally Key words: cardiac arrest, cardiopulmonary resuscitation, therapeutic hypothermia, nuclear erythroid‑2‑related factor 2, heme oxygenase 1
+```
+
+### Chunk 3: page-4-chunk-2 / source page 4
+
+```text
+when compared with the Normo. group. The brush border of renal tubular epithelial cells was severely eroded. Tubular dilatation and acute renal tubular necrosis were more evident in the Normo. group when compared to the groups with 2, 4 and 6 h of TH. In addition, dilatation of glomerular capillaries was severe in the Normo. group (P=0.0064) as compared to the sham group; however, it was attenuated after 2 h (P>0.05), 4 h (P>0.05) and 6 h (P=0.0460) of TH (Figs. 3 and 4). Expression of Nrf2 and HO‑1. IHC was performed to inves‑ tigate the mechanisms of the renoprotective effects of TH in each group. The expression of Nrf2 and HO‑1 increased in the Normo. group compared to the sham group but without any statistical significance (P>0.05). The ROD% of Nrf2 expres‑ sion increased insignificantly at 2 h (P>0.05) and 4 h (P>0.05), and was significantly increased at 6 h of TH (P=0.0002; Fig. 5). Furthermore, HO‑1 expression was significantly increased after 6 h (P=0.007) of TH but not significantly after Table I. Physiological variables of rats after asphyxial CA. Physiological variable Baseline Normo. Hypo. 2 h Hypo. 4 h Hypo. 6 h Body weight, g 281±14.21 286±14.51 283±9.91 275±20.39 279±15.01 Asphyxial time to CA, sec N. A. 139±34.68 145±23.71 156±31.41 149±24.84 CPR time, sec N. A. 68±10.89 63±15.67 75±7.85 73±11.12 Heart rate, beats/min 331±10.91 339±19.54 335±18.74 338±10.31 333±8.79 Room temperature, ˚C N. A. 24±0.70 25±0.49 25±0.57 24±0.81 Groups: Normo., Normothermia + CA; Hypo, TH after return of spontaneous circulation following CA. TH, therapeutic hypothermia; CA, cardiac arrest; CPR, cardiopulmonary resuscitation.
+```
+
+## E6 Answer
+
+```text
+In the study, the expression levels of HO-1 in kidney tissues were analyzed across the Sham, Normothermia (Normo.), and various Therapeutic Hypothermia (TH) groups. The HO-1 expression was significantly increased in the Normo. group compared to the Sham group. However, the most significant increase in HO-1 expression was observed at 6 hours of TH, where it was significantly higher compared to the Normo. group. The relative optical density (ROD%) of HO-1 staining was elevated in the Normo. group versus the Sham group and increased significantly at 6 hours of TH in comparison with the Normo. group. The HO-1 expression did not show significant changes in the 2-hour and 4-hour TH groups compared to the Normo. group.
+```
+
+## E9 Added Evidence
+
+Added ordered IDs: ["page-5-chunk-1", "page-2-chunk-1", "page-10-chunk-1"]
+
+### Chunk 1: page-5-chunk-1 / source page 5
+
+```text
+EXPERIMENTAL AND THERAPEUTIC MEDICINE 22: 1031, 2021 5 2 h (P=0.079) and 4 h (P=0.1089) of TH when compared with the Normo. group (Fig. 6). Discussion The present study demonstrated that TH decreased the levels of BUN, serum Cr and MDA in renal tissues and increased the expression of Nrf2 and HO‑1 in a TH time‑dependent manner. The results suggested that TH ameliorated asphyxial CA‑induced ischemia/reperfusion (I/R) renal dysfunction and oxidative stress. In the present asphyxial CA model, TH improved the survival rate and attenuated histopathological damage following ROSC after CA compared to those in the Normo. group. It is thus indicated that TH effectively mitigates oxidative stress markers in renal injury and increases the survival rate in a TH treatment time‑dependent manner. I/R injury is defined as paradoxical aggravation of cellular damage and death after the restoration of blood flow to previ ‑ ously viable ischemic tissue (35). CA is a case of whole‑body I/R injury following ROSC characterized by multi‑organ dysfunction (3) and acute kidney failure is an outcome of whole‑body I/R injury (24). In the present study, acute renal tubular necrosis, proximal convoluted tubule, brush border erosion and dilatation of renal glomerular capillaries were more severe in the Normo. group compared to those receiving 2, 4 and 6 h of TH after CA. Thus, it was indicated that TH treatment decreased renal injury and dysfunction in a TH treatment time‑dependent manner. The application of hypothermia treatment is a contro ‑ versial topic. In one study, it achieved no beneficial effects on the survival of patients with CA following ROSC (23). Previous studies demonstrated that the survival rate of rats reached up to 7‑8% at 2 days following ROSC after CPR in an asphyxial CA model (33,36). A study on ventricular fibril‑ lation CA also revealed a low survival rate at 72 h following ROSC in rats (37). In the present study, the survival rate of the rats in the Normo. group also decreased, which was similar to previous results obtained with the asphyxial CA model (33,36,37). However, the present study reported that TH treatment increased the survival rate of the rats in a TH treatment time‑dependent manner (23). Roberts et al (3) Figure 2. Serum BUN, Cr and MDA. Serum BUN, serum Cr and MDA content of the renal tissues increased significantly in the Normo. group compared to the sham group. The level of (A) BUN, (B) serum Cr and (C) MDA decreased insignificantly after 2 and 4 h of TH and increased significantly after 6 h of TH. The level of BUN, Cr and MDA data are presented as median and interquartile range. #P<0.05 compared with the Sham group; *P<0.05 compared with the Normo. group. Groups: Normo., Normothermia + CA; Hypo., TH after return of spontaneous circulation following CA. BUN, blood urea nitrogen; Cr, creatinine; MDA, malondialdehyde; TH, therapeutic hypothermia; CA, cardiac arrest; pro., protein.
+```
+
+### Chunk 2: page-2-chunk-1 / source page 2
+
+```text
+JAWA D et al: THERAPEUTIC HYPOTHERMIA REDUCES THE RI/RI IN THE KIDNEY THROUGH THE Nrf/HO‑1 PATHWAY2 oxygenase (HO‑1). Nrf2, an inducible transcription factor, binds with the antioxidant response element (ARE) located on the promoter regions of numerous antioxidant and detoxifying genes such as HO‑1 (12). Previous studies (13,14) mainly focused on histopathological and pathophysiological ailments and the expression levels of Nrf2 and HO‑1 in rats induced by RI/RI; however, this type of study in a rat model of asphyxial CA is rare. The first successful TH application in humans following ROSC after CA was reported near the end of the 1950s (15). Since then, TH has been the most successful treatment for CA (16). Mild TH (MTH) increases the survival rate and attenuates neurological outcomes in patients with CA who achieve ROSC (17). Furthermore, MTH protects the heart, liver and kidney from damage (18). Previous studies demonstrated that MTH provides damage protection against oxidative stress (18‑20). However, other studies reported that the neurological outcome and survival rate following ROSC after CA were not significantly different from those of patients who did not achieve ROSC (21‑23). As TH has a controversial effect in patients with CA, an experiment was performed in the present study to confirm such an effect following ROSC. Tujjar et al (24) demonstrated AKI in patients with CA following ROSC after CA, although the mechanism of kidney damage had remained elusive. Several studies reported increased expression of Nrf2 and HO‑1 in the RI/RI experimental animal model (13,14). Thus, these parameters were selected for the present study to assess the antioxidative effects of TH in asphyxial CA‑induced RI/RI following ROSC. The present study aimed to investigate the renoprotective effect of TH on asphyxial CA‑induced RI/RI in rats. Materials and methods Experimental animals. Male Sprague ‑Dawley (SD) rats (total n=48; bodyweight, 270‑300 g; 10‑weeks‑old) were supplied by the Experimental Animal Center Jeonbuk National University (Jeonju, South Korea). They were housed in a conventional manner with adequate temperature (23±2˚C) and humidity (60±10%) control under a 12‑h light/dark cycle. They were provided with food and water ad libitum. All of the experimental procedures were approved by the Institutional Animal Care and Use Committee of Jeonbuk National University (approval no. JBNU 2019‑005). Experimental animals were divided as into two major groups: Sham group (not subjected to CA surgery) (n=6) and rats subjected to CA surgery (total n=42). Rats that underwent CA surgery were further divided into the following groups: i) Normothermia + CA (Normo.) group (n=14); ii) Normo. with 2 h TH immediately after ROSC and gradual increase of the temperature to the normal temperature until sacrifice (Hypo 2 h) (n=12); iii) Normo. group with 4 h TH following cardiopulmonary resuscitation (CPR) and gradual rewarming to the normal temperature, which was maintained until the sacrifice of the rats (Hypo 4 h) (n=9); iv) Normo. group with 6 h TH immediately after ROSC and rewarming was performed to attain normal temperature, which was maintained until the rats were sacrificed (Hypo 6 h) (n=7). The number of rats in each group was selected according to the expected survival rate of each group with a target of having 6 animals per group at the end of the protocol; in contrast to the estimated high survival rate at 2 and 4 h of TH (25). Induction of CA and CPR. The induction of CA and CPR was performed according to the preferred protocol (26). In short, a rodent ventilator (Harvard Apparatus) was used to anesthetize the rats with 2‑3% isoflurane and for mechanical ventilation. Peripheral oxygen saturation (SpO 2) was checked by connecting the pulse oximetry with the right leg. For electrocardiographic (ECG) assessment, ECG probes were inserted in the limbs and data were monitored regularly. The cannulation of the left femoral artery was for monitoring the mean arterial pressure (MAP) and the right femoral vein was for intravenous administration. Vecuronium bromide (2 mg/kg; Gensia Sicor Pharmaceuticals) was injected intravenously after a stabilization period of 5 min (27,28). Furthermore, mechanical ventilation was also stopped for the induction of asphyxial CA. The MAP reaching below 20 mmHg resulting in pulseless electrical activity is defined as CA and it took 3‑4 min for CA induction. After 5 min of
+```
+
+### Chunk 3: page-10-chunk-1 / source page 10
+
+```text
+JAWA D et al: THERAPEUTIC HYPOTHERMIA REDUCES THE RI/RI IN THE KIDNEY THROUGH THE Nrf/HO‑1 PATHWAY10 36. Tae HJ, Kang IJ, Lee TK, Cho JH, Lee JC, Shin MC, Kim YS, Cho JH, Kim JD, Ahn JH, et al : Neuronal injury and tumor necrosis factor‑alpha immunoreactivity in the rat hippocampus in the early period of asphyxia‑induced cardiac arrest under normothermia. Neural Regen Res 12: 2007‑2013, 2017. 37. Janata A, Magnet IA, Schreiber KL, Wilson CD, Stezoski JP, Janesko‑Feldman K, Kochanek PM and Drabek T: Minocycline fails to improve neurologic and histologic outcome after ventric‑ ular fibrillation cardiac arrest in rats. World J Crit Care Med 8: 106‑119, 2019. 38. McCord JM: Oxygen‑derived free radicals in postischemic tissue injury. N Engl J Med 312: 159‑163, 1985. 39. Guidet BR and Shah SV: In vivo generation of hydrogen peroxide by rat kidney cortex and glomeruli. Am J Physiol 256: F158‑F164, 1989. 40. Grekas D, Dioudis C, Papageorgiou G, Iliadis S, Zilidis C, Alivanis P, Dimitriadou A and Tourkantonis A: Lipid peroxida ‑ tion after acute renal ischemia and reperfusion in rats: The effect of trimetazidine. Ren Fail 18: 545‑552, 1996. 41. Xia Z, Wang W, Xiao Q, Ye Q, Zhang X and Wang Y: Mild hypothermia protects renal function in ischemia‑reperfusion kidney: An experimental study in mice. Transplant Proc 50: 3816‑3821, 2018. 42. Hackenhaar FS, Medeiros TM, Heemann FM, Behling CS, Putti JS, Mahl CD, Verona C, da Silva ACA, Guerra MC, Gonçalves CAS, et al : Therapeutic hypothermia reduces oxidative damage and alters antioxidant defenses after cardiac arrest. Oxid Med Cell Longev 2017: 8704352, 2017. 43. Kim HJ and Vaziri ND: Contribution of impaired Nrf2‑Keap1 pathway to oxidative stress and inflammation in chronic renal failure. Am J Physiol Renal Physiol 298: F662‑F671, 2010. 44. Kobayashi M and Yamamoto M: Molecular mechanisms activating the Nrf2‑Keap1 pathway of antioxidant gene regulation. Antioxid Redox Signal 7: 385‑394, 2005. 45. Zhang L, Zhu Z, Liu J, Zhu Z and Hu Z: Protective effect of N‑acetylcysteine (NAC) on renal ischemia/reperfusion injury through Nrf2 signaling pathway. J Recept Signal Transduct Res 34: 396‑400, 2014. 46. Xia D and Zhang H: Effects of mild hypothermia on expression of NF‑E2‑related factor 2 and heme‑oxygenase‑1 in cerebral cortex and hippocampus after cardiopulmonary resuscitation in rats. Iran J Basic Med Sci 20: 1002‑1008, 2017. 47. Lu X, Ma L, Sun S, Xu J, Zhu C and Tang W: The effects of the rate of postresuscitation rewarming following hypothermia on outcomes of cardiopulmonary resuscitation in a rat model. Crit Care Med 42: e106‑113, 2014. This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License.
+```
+
+## E9 Answer
+
+Canonical judgment source: E9; E6/E9 input identical: False
+
+```text
+In the study, the expression of HO-1 in kidney tissues was analyzed across the Sham, Normothermia (Normo.), and various Therapeutic Hypothermia (TH) groups. The expression of HO-1 increased in the Normo. group compared to the Sham group, but this increase was not statistically significant. The relative optical density (ROD%) of HO-1 expression was significantly increased at 6 hours of TH compared to the Normo. group (P=0.007). However, the increase in HO-1 expression after 2 hours (P=0.079) and 4 hours (P=0.1089) of TH was not statistically significant when compared to the Normo. group.
+```
+
+## Automatic Labels
+
+- E3: False; OK
+- E6: True; OK
+- E9: False; OK
+
+Raw incomplete states: []
+
+- E3_to_E6_wrong_to_correct: True
+- E3_to_E6_correct_to_wrong: False
+- E6_to_E9_wrong_to_correct: False
+- E6_to_E9_correct_to_wrong: True
+
+```text
+{"E3": "The candidate answer incorrectly claims that the text does not provide specific information on HO-1 levels, when the reference answer clearly states that HO-1 levels increased progressively across the groups. The candidate answer fails to address the question and contradicts the reference.", "E6": "The candidate answer is fully correct, accurately describing the progressive increase in HO-1 expression from the sham to normothermia to hypothermia groups, with the peak at 6 hours of hypothermia. It also correctly notes that HO-1 levels did not significantly change in the 2-hour and 4-hour TH groups compared to normothermia. The answer is consistent with the reference and directly addresses the question.", "E9": "The candidate answer correctly notes that HO-1 expression increased in the normothermia group compared to the sham, and that HO-1 increased significantly at 6 hours of hypothermia. However, it incorrectly states the increase in the normothermia group was not statistically significant, which contradicts the reference. It also omits the progressive increase from sham to normothermia to hypothermia and the peak at 6 hours. The answer is partially correct and includes a minor unsupported claim about statistical significance."}
+```
+
+## Human Annotation
+
+| Field | Value |
+|---|---|
+| human_e3_correct |  |
+| human_e6_correct |  |
+| human_e9_correct |  |
+| human_reference_valid |  |
+| human_e3_evidence_sufficient |  |
+| human_e6_added_evidence_useful |  |
+| human_e9_added_evidence_useful |  |
+| human_confidence |  |
+| human_notes |  |
+
+
+
+---
+
+# P2A_HR_047 / unidoc_legal_0028
+
+Priority: 1 / Cohort: MISS_AT_6_HIT_AT_9 / Selection: AUTOMATIC_TRANSITION
+
+## Question
+
+```text
+In how many instances involving claims of domestic mistreatment is unrestricted interaction with the child determined?
+```
+
+## Gold / Reference
+
+```text
+In instances involving claims of domestic mistreatment, unrestricted interaction with the child is determined in 52 cases, which is 39% of the total cases where domestic abuse was alleged.
+```
+
+## GT Pages
+
+[21]
+
+## Document Verification
+
+- Document: 5437805
+- Dataset identifier: legal/legal/5437805.pdf
+- Local PDF: C:\Users\sp\Desktop\adaptive-multimodal-rag\datasets\unidoc\legal\legal\5437805.pdf
+- Unique E3/E6/E9 pages: [3, 6, 14, 16, 18, 19, 21, 24, 26]
+- E3 pages: [3, 19, 24]
+- E6 pages: [3, 14, 16, 19, 24, 26]
+- E9 pages: [3, 6, 14, 16, 18, 19, 21, 24, 26]
+- PDF direct verification flag: False
+
+### GT page extracted text
+
+### GT page 21 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+21 | P a g e  
+ 
+ 
+ 
+Contact ordered18 
+(216 cases) 
+Domestic 
+abuse alleged 
+No domestic 
+abuse alleged 
+Total 
+Unsupervised 
+contact  
+52 (39%) 40 (48%) 92 (43%) 
+Supervised contact
+  
+9 (7%) 5 (6%) 14 (6%) 
+Supported contact 5 (4%) 0  5 (2%) 
+Indirect contact 7 (5%) 1 (1%) 8 (4%) 
+No contact 3 (2%) 1 (1%) 4 (2%) 
+No order was made 
+about contact19 
+16 (12%) 7 (9%) 23 (11%) 
+Not known20 41 (31%) 29 (35%) 70 (32%) 
+Total 133 83  216 
+ 
+Use of Practice Direction 12J 
+ 
+The following findings are in relation to the 141 cases where Cafcass had a copy of the final 
+order or knew the outcome of the case. In the remaining 75 cases either the final order made 
+by the court was not known or the application had been withdrawn.  
+Practice Direction 12J (PD 12J) was first published in 2008, with revisions made in 2014 to 
+revise the definition of domestic abuse, set out expectations in relation to findings of fact, 
+and make tighter provisions around interim contact arrangements.  
+The President of the Family Division recently commissioned a review of the practice 
+direction by Mr Justice Cobb who made a number of recommendations. 2122 This included: 
+the presumption that contact with both parents is in the best interests of the child should not 
+apply if it would put the child or other parent at risk of suffering harm; courts to consider 
+waiting arrangements for victims of domestic abuse; and the court is to obtain a safety and 
+risk assessment conducted by a specialist domestic abuse practitioner where domestic 
+abuse is proved. These are now being considered as a matter of urgency by the Family 
+Procedure Rule Committee.  
+                                                           
+18 When recording this data, generally the final contact of the order was recorded by the team e.g. if the final 
+order directed for supported contact to take place for two sessions and then unsupervised contact, 
+unsupervised contact was recorded as the final order of the court.   
+19 ‘No order was made about contact’ included five cases that were withdrawn at the final hearing.  
+20 See Appendix B for a breakdown of the final court orders in the 41 cases where the final court order was not 
+known, but the case contained allegations of domestic abuse. These were obtaine d from the courts directly. 
+These outcomes are not recorded within the main findings as Cafcass was no longer involved in the case when 
+the order was made.  
+21 Mr Justice Cobb’s full report can be found here https://www.judiciary.gov.uk/wp-
+content/uploads/2017/01/PD12J-child-arrangement-domestic-violence-and-harm-report-and-revision.pdf 
+22 The view from the President’s Chambers which addresses Mr Justice Cobb’s proposed changes to PD 12J 
+(2014) can be found here: https://www.judiciary.gov.uk/wp-content/uploads/2014/08/view-from-the-
+president-of-family-division-16-jan-17.pdf
+```
+
+## E3 Evidence
+
+Ordered IDs: ["page-3-chunk-1", "page-19-chunk-1", "page-24-chunk-1"]
+
+### Chunk 1: page-3-chunk-1 / source page 3
+
+```text
+3 | P a g e Executive summary This report sets out the findings of a small-scale study undertaken by Cafcass, with Women’s Aid, looking at domestic abuse allegations in 216 child contact cases. The purpose of the study was to look at the types of allegations present in family law court proceedings, including safeguarding concerns other than domestic abuse, and what happened within the proceedings. It did not seek to make findings on the allegations. Quantitative and qualitative data was collected, with the qualitative data exploring the impact of domestic abuse on children. The main finding was that domestic abuse was alleged in almost two-thirds of cases (62%), with fathers more likely to be the subject of allegations than mothers. The sample cases provided a complex picture of domestic abuse within family proceedings and it was uncommon for domestic abuse allegations to feature in isolation from other safeguarding concerns. This demonstrates the substantial challenge for courts in determining which cases can safely proceed to contact with the child. Where the order at the final hearing was known, it was less common for unsupervised contact to be ordered in cases featuring allegations of abuse (39%) than cases without (48%). Cases featuring allegations of abuse were more likely to conclude with an order for no direct contact (19%) than cases without (11%), and this was the same for contact that was supervised or monitored in some way (11% and 6% respectively). In the cases where domestic abuse was alleged and unsupervised contact was ordered, unsupervised contact had been taking place between the applicant and the child either at the time of the application to court (67%) or within the six months prior to the application to court (33%). Where known, orders at the first and final hearings were made with the consent of the parties in 89% and 86% of cases respectively. Women’s Aid and Cafcass caution that contact taking place before proceedings and consent may not always equate to an ‘agreement’ about contact and may instead be indicative of a context of coercion or fear. The qualitative work highlighted the impact for children of experiencing domestic abuse and other harmful parental behaviours such as excessive drinking or violence. Younger children were receiving support at school to improve their attendance and help with socialisation, while older children were receiving more specialist support, such as counselling. In some cases featuring multiple risks, the local authority was working with the children either as ‘children in need’ or more formally under a child protection plan. Children who had experienced domestic abuse had strong views about contact, particularly older children who were less likely to want to have contact with a parent who had been physically violent towards them or a member of the family.
+```
+
+### Chunk 2: page-19-chunk-1 / source page 19
+
+```text
+19 | P a g e Case example: the parents met online and separated before the birth of the child, with both alleging that the other was abusive and controlling. The father sought supervised contact to establish a relationship with the child, which the mother opposed, citing a lack of commitment. The FCA recommended a child contact intervention but the case closed without an order as the father was in custody (not related to domestic abuse). What was the final court order? In this small sample, unsupervised contact was more likely to be ordered in cases without allegations of domestic abuse (48%) than it was in cases where abuse was alleged (39%). Contact with a ‘condition’ attached – that is, supported or supervised contact – was also more likely in cases where domestic abuse was alleged, as was an outcome of indirect or no contact. In some cases no advice was given and/or no final order was made because the application was withdrawn. Within the qualitative sample, applications were withdrawn because the father: was in custody; had not engaged with proceedings or the DVPP; was admitted to rehabilitation; and withdrew after the FCA recommended indirect contact only. In 85% of the 52 cases where domestic abuse was alleged and unsupervised contact was ordered by the court, unsupervised contact had taken place prior to the application being made to court. Where there had been no contact prior to the application, reasons for this included alcohol abuse; one parent relocating; and disagreements between parents about how to manage contact. Cafcass’ National Improvement Service (NIS)17 reviewed the 52 cases where domestic abuse was alleged and unsupervised contact was ordered by the court. NIS found four cases where they had concerns about contact related to the domestic abuse allegations, the recording not being detailed enough or a lack of robust assessment around substance abuse. These cases were referred back to the local area for learning. 17 NIS is a department of Cafcass responsible for auditing, training and commissioned improvement work. It consists of highly experienced social work managers that the organisation relies upon to drive forward practice improvements and monitor practice through the application of our quality assurance and impact framework.
+```
+
+### Chunk 3: page-24-chunk-1 / source page 24
+
+```text
+24 | P a g e a substantial challenge for courts in determining which of these cases can safely proceed to contact of the child with the alleged perpetrator, and which cannot.  It is interesting that domestic abuse data was raised in some cases from external sources (police, local authority) but not b y either party. From the qualitative work we know that arrangements that would not have been recommended by professionals were taking place prior to the application for contact. This could be attributed to neither party feeling there was any current risk to victim or chil d or, as Women’s Aid has identified, it could be demonstrative of a context of fear and controlling behaviour. Agreeing to unsupervised contact in this context does not therefore necessarily mean that both parties feel this contact is safe.  It was uncommo n for domestic abuse allegations to feature in isolation from other allegations. Of the 133 cases that featured domestic abuse allegations, 14 of these did not also contain other allegations.  Allegations other than domestic abuse were found in 73% of cases. Allegations of substance abuse and parental mental health problems featured, as did the maltreatment of children in a smaller number of cases. In some cases domestic abuse was not the main concern. The fact that domestic abuse is (rightly) a high-profile issue should not take away from the fact that family proceedings have to deal with a wide range of social/health factors, often as well as domestic abuse. Conclusions about legal outputs:  It was more common for u nsupervised contact to be ordered at the first hearing (55% of cases) where no domestic abuse was alleged than where such an allegation had been made (23%). This was also the case at the final hearing where unsupervised contact was ordered in 48% of cases that did not feature domestic abuse allegations and in 39% of cases that did. In the majority of cases that featured domestic abuse allegations, unsupervised contact had been taking place within the year before the application was made to court.  Supervised or supported contact was more likely to be ordered at the first and final hearing where a domestic abuse allegation was made, as was indirect or no contact.  Likewise, FCAs were more likely to recommend supervised contact in the domestic abuse cases than those that contained no such allegation. Further, FCAs recommended either indirect or no contact in nearly a quarter of the domestic abuse cases.  The terms of Practice Direction 12J relating to both parents being present in court; safeguarding checks being completed; and the FCA having spoken to both parents, were met in the majority of cases.
+```
+
+## E3 Answer
+
+```text
+In the 52 cases where domestic abuse was alleged and unsupervised contact was ordered by the court, unsupervised contact had taken place prior to the application being made to court in 85% of these cases.
+```
+
+## E6 Added Evidence
+
+Added ordered IDs: ["page-14-chunk-1", "page-26-chunk-1", "page-16-chunk-1"]
+
+### Chunk 1: page-14-chunk-1 / source page 14
+
+```text
+14 | P a g e Parental learning difficulties 1 1 2 Child exploitation 1 0 1 Domestic abuse 0 0 0 Total 39 39 78 Cases featuring allegations of domestic abuse, but no other allegations It is rare for cases to be concerned with a single issue. There were 14 cases in the sample that featured an allegation of domestic abuse, but no other allegations were recorded. In all 14 cases the applicant was the father. Domestic abuse was alleged by the father in three of the cases, and this was always an allegation of physical abuse. The mother alleged domestic abuse in 13 of the 14 cases. Case example: the case closed to Cafcass as neither parent attended hearings nor spoke to the FCA. The FCA raised concerns with the court about the welfare of the children as the parents had reconciled, following a charge of serious assault and a non-molestation order to protect the mother. What contact was ordered by the court at the first hearing? Unsupervised contact was most commonly ordered at the first hearing in cases where domestic abuse was not alleged (45/83 cases, 55%). Where domestic abuse was alleged, the court was most likely to make ‘no order’ about contact at the first hearing (42%, 56), with unsupervised contact ordered in 23% (31) of cases.13 In the cases where domestic abuse was alleged and unsupervised contact was ordered, unsupervised contact had been taking place between the applicant and the child either at the time of the application to court (67%) or within the six months prior to the application to court (33%). In discussions, Women’s Aid cautioned that this may not always equate to an ‘agreement’ about contact arrangements, and may be indicative of a context of coercion. In this small sample of cases, it was less likely for unsupervised contact to be ordered at the first hearing when domestic violence was alleged, than it was in cases without an allegation, and more likely for no contact, or contact with a condition, to be ordered. Contact ordered by the court at the first hearing Domestic abuse alleged No domestic abuse alleged Total Unsupervised contact 31 (23%) 45 (55%) 76 (35%) Supervised contact 18 (14%) 4 (5%) 22 (10%) Supported contact 9 (7%) 2 (2%) 11 (5%) Indirect contact 8 (6%) 2 (2%) 10 (5%) No contact 9 (7%) 3 (4%) 12 (6%) 13 An order of ‘no order’ generally means that the court requires further information, usually regarding risk, before it is possible to make an order concerning contact.
+```
+
+### Chunk 2: page-26-chunk-1 / source page 26
+
+```text
+26 | P a g e Appendix B: cases with an unknown legal output on the Cafcass case file In 41 of the 133 cases where domestic abuse was alleged, Cafcass did not have a copy of the final order on the case file. In the majority of cases, this is because Cafcass’ involvement ended prior to the final hearing. Copies of these outstanding court orders were requested directly from the courts , and 34 were provided. In six cases the applications were either withdrawn or dismissed (‘No order was made about contact’). Contact ordered (41 cases) Number and percentage of outputs Direct unsupervised 25 (62%) Direct supervised 0 Direct supported 1 (2%) Indirect 1 (2%) No contact 1 (2%) No order was made about contact 6 (15%) Not known 7 (17%) Total 41
+```
+
+### Chunk 3: page-16-chunk-1 / source page 16
+
+```text
+16 | P a g e recorded in the order (26), or the order was not available (85). Where data was available, the order was made by consent in 92% (97) of cases. In the 63 cases where domestic abuse was alleged, and where the consent of the parents was known, in 89% (56) of cases the order at the first hearing was made by consent. Was there any supported or supervised contact during the case? Supervised or supported contact was more likely to be ordered in cases where domestic abuse was alleged, with 78% (43/55) of all recorded supported or supervised contact taking place in such cases. Case example: during proceedings the father was having supervised contact, but the FCA applied for the court to dismiss the application due to his lack of commitment. Agencies reported concerns regarding abuse to the mother and non-subject children, and the mother cited father’s lack of commitment and “short fuse”. The subject children wanted contact. The case ended with no order. Case example: neither parent alleged domestic abuse, but local authority records showed referrals during the relationship, with both parents the alleged perpetrators. Professionals were concerned about the isolation of the child, leading to emotional abuse. The court ordered contact to be supported by the mother. What was the FCA’s advice to the court in the final report? The role of the FCA is to make a recommendation to the court as to what would be in the best interests of the child. In making this recommendation, FCAs consider information provided by safeguarding agencies and the parents, as well as any further enquiries they think are necessary. It is the court that determines the weight to be given to any evidence, and it can order a finding of fact hearing to look at matters disputed by the parties. In this sample, it was rare for a finding of fact hearing to be ordered and the qualitative work found that the information provided by other agencies did not always provide insight into Yes 92% No 8% Was the court order at the first hearing made by consent? (105 cases)
+```
+
+## E6 Answer
+
+```text
+In the cases where domestic abuse was alleged, unsupervised contact was ordered in 39% of the cases.
+```
+
+## E9 Added Evidence
+
+Added ordered IDs: ["page-18-chunk-1", "page-6-chunk-1", "page-21-chunk-1"]
+
+### Chunk 1: page-18-chunk-1 / source page 18
+
+```text
+18 | P a g e The types of contact recommended have been grouped in the charts above: ‘unsupervised’ contact includes any direct contact, including overnight, without a condition attached:16 ‘supervised or supported’ contact includes any direct contact with a formal condition attached; ‘no direct contact recommended’ includes recommendations for indirect contact, recommendations of ‘no order’ and recommendations for ‘no contact’. The table below provides these more detailed breakdowns for the 102 cases. FCA recommendations (102 cases) Domestic abuse alleged No domestic abuse alleged Total Unsupervised contact 28 (39%) 20 (67%) 48 (47%) Supervised contact 11 (15%) 4 (13%) 15 (15%) Supported contact 10 (14%) 0 10 (10%) Indirect contact 10 (14%) 3 (10%) 13 (12%) No contact 10 (14%) 2 (7%) 12 (12%) No order to be made about contact 3 (4%) 1 (3%) 4 (4%) Total 72 30 102 In the 72 cases featuring allegations of domestic abuse where the FCA made recommendations about contact, the court ordered unsupervised contact in 31 cases, no direct contact in 20 cases, and supervised or supported contact in eight. In 13 cases the final court order was not known. 16 The type of contact recommended by the FCA was recorded as ‘unsupervised’ if the contact took place without supervision or any other safety condition attached. The specifics of the unsupervised contact were not recorded. Unsupervised 67% Supervised or supported 13% No direct contact recommended 20% FCA recommendation where no domestic abuse alleged (30 cases)
+```
+
+### Chunk 2: page-6-chunk-1 / source page 6
+
+```text
+6 | P a g e Not answered (22 cases3) Total 20 20 Work after first hearing sample Cafcass’ involvement continued after the first hearing in 66 cases that featured allegations of domestic abuse. The criteria in the WAFH sample was Cafcass’ advice to the court in the final report. Five cases were removed from the sample, either because the Family Court Adviser’s (FCA’s) report did not feature recommendations about contact (three cases) or the application was withdrawn before a report was completed (two cases). What was the FCA’s advice to the court? Target number of cases to include Number of cases included Unsupervised (25 cases) Supported/supervised (16 cases) Indirect/no contact4 (17 cases) No order (3 cases) 7-9 4-6 4-6 1-3 8 5 5 2 Total 20 20 Findings The following section reports the findings from both the quantitative and qualitative studies. Quantitative data is provided in respect of all 216 cases in the sample. The qualitative data, which looked at 40 of the 133 cases where domestic abuse was alleged, is included to add context or further insight into particular findings from the quantitative work. General case information  Of the 216 cases included in the sample, the applicant was male in 195 cases and female in 21 cases.  Cafcass’ involvement ended at the first hearing in 58% (125) of cases, and continued after the first hearing in 42% (91). The impact on children of domestic abuse One of the primary areas of consideration within the qualitative study was the impact of domestic abuse, and court proceedings, on children. There was evidence in the qualitative sample of children having experienced domestic abuse and other harmful parental behaviour 3 In the 22 cases where the question was not answered, this was generally because Cafcass did not have a copy of the order on the case file, as there is no expectation for the court to provide a copy of the order to Cafcass if no further work has been ordered. These cases remained in the sample to provide data on the full range of case types. 4 An order for no contact is different to an order of ‘no order’ because an order for no contact is where the court has ordered that there will be no contact between a child and parent. An order of ‘no order’, or the no order principle, is where the court has decided to not make an order. To do this the court will consult s1(5) of the Children Act 1989 which states that the court should not make an order unless it considers that doing so would be better for the child than making no order at all.
+```
+
+### Chunk 3: page-21-chunk-1 / source page 21
+
+```text
+21 | P a g e Contact ordered18 (216 cases) Domestic abuse alleged No domestic abuse alleged Total Unsupervised contact 52 (39%) 40 (48%) 92 (43%) Supervised contact 9 (7%) 5 (6%) 14 (6%) Supported contact 5 (4%) 0 5 (2%) Indirect contact 7 (5%) 1 (1%) 8 (4%) No contact 3 (2%) 1 (1%) 4 (2%) No order was made about contact19 16 (12%) 7 (9%) 23 (11%) Not known20 41 (31%) 29 (35%) 70 (32%) Total 133 83 216 Use of Practice Direction 12J The following findings are in relation to the 141 cases where Cafcass had a copy of the final order or knew the outcome of the case. In the remaining 75 cases either the final order made by the court was not known or the application had been withdrawn. Practice Direction 12J (PD 12J) was first published in 2008, with revisions made in 2014 to revise the definition of domestic abuse, set out expectations in relation to findings of fact, and make tighter provisions around interim contact arrangements. The President of the Family Division recently commissioned a review of the practice direction by Mr Justice Cobb who made a number of recommendations. 2122 This included: the presumption that contact with both parents is in the best interests of the child should not apply if it would put the child or other parent at risk of suffering harm; courts to consider waiting arrangements for victims of domestic abuse; and the court is to obtain a safety and risk assessment conducted by a specialist domestic abuse practitioner where domestic abuse is proved. These are now being considered as a matter of urgency by the Family Procedure Rule Committee. 18 When recording this data, generally the final contact of the order was recorded by the team e.g. if the final order directed for supported contact to take place for two sessions and then unsupervised contact, unsupervised contact was recorded as the final order of the court. 19 ‘No order was made about contact’ included five cases that were withdrawn at the final hearing. 20 See Appendix B for a breakdown of the final court orders in the 41 cases where the final court order was not known, but the case contained allegations of domestic abuse. These were obtaine d from the courts directly. These outcomes are not recorded within the main findings as Cafcass was no longer involved in the case when the order was made. 21 Mr Justice Cobb’s full report can be found here https://www.judiciary.gov.uk/wp- content/uploads/2017/01/PD12J-child-arrangement-domestic-violence-and-harm-report-and-revision.pdf 22 The view from the President’s Chambers which addresses Mr Justice Cobb’s proposed changes to PD 12J (2014) can be found here: https://www.judiciary.gov.uk/wp-content/uploads/2014/08/view-from-the- president-of-family-division-16-jan-17.pdf
+```
+
+## E9 Answer
+
+Canonical judgment source: E9; E6/E9 input identical: False
+
+```text
+In the study, unrestricted (unsupervised) interaction with the child was determined in 52 cases where domestic abuse was alleged and unsupervised contact was ordered by the court.
+```
+
+## Automatic Labels
+
+- E3: False; OK
+- E6: True; OK
+- E9: True; OK
+
+Raw incomplete states: []
+
+- E3_to_E6_wrong_to_correct: True
+- E3_to_E6_correct_to_wrong: False
+- E6_to_E9_wrong_to_correct: False
+- E6_to_E9_correct_to_wrong: False
+
+```text
+{"E3": "The candidate answer provides a correct number (52 cases) but misinterprets the question by focusing on when unsupervised contact occurred rather than whether it was determined. It also introduces a new statistic (85%) not relevant to the question. The answer is only partially correct and fails to address the main task.", "E6": "The candidate answer correctly states the percentage (39%) of cases where unsupervised contact was ordered, which aligns with the reference. However, it omits the specific number of cases (52), making it slightly incomplete. The wording 'unsupervised contact' is semantically equivalent to 'unrestricted interaction' in this context, so it is grounded and task-satisfying, but lacks a minor detail.", "E9": "The candidate answer correctly states the number of cases (52) and that domestic abuse was alleged, and that unsupervised contact was ordered. However, it omits the percentage (39%) from the reference answer, which is a minor factual omission. The answer is grounded in the reference and directly addresses the question."}
+```
+
+## Human Annotation
+
+| Field | Value |
+|---|---|
+| human_e3_correct |  |
+| human_e6_correct |  |
+| human_e9_correct |  |
+| human_reference_valid |  |
+| human_e3_evidence_sufficient |  |
+| human_e6_added_evidence_useful |  |
+| human_e9_added_evidence_useful |  |
+| human_confidence |  |
+| human_notes |  |
+
+
+
+---
+
+# P2A_HR_048 / unidoc_legal_0133
+
+Priority: 1 / Cohort: MISS_AT_3_HIT_AT_6 / Selection: AUTOMATIC_TRANSITION
+
+## Question
+
+```text
+Based on the July 2021 report from the Australian Institute of Criminology, what factors and periods are linked to sexual reoffending in child sex offenders?
+```
+
+## Gold / Reference
+
+```text
+The significant predictors for sexual reoffending among child sex offenders include having more than one child sexual offence at first police proceeding and Indigenous status. The timelines show that the cumulative probability for sexual reoffending is highest within the first two years, with a peak risk during this short-term period. Additionally, non-sexual reoffending also has high probabilities early, with 11% reoffending within one year and 17% within two years. Factors such as prior non-sexual violent offending and living in regional or remote areas are also linked to reoffending.
+```
+
+## GT Pages
+
+[6, 7, 8, 12]
+
+## Document Verification
+
+- Document: 7894475
+- Dataset identifier: legal/legal/7894475.pdf
+- Local PDF: C:\Users\sp\Desktop\adaptive-multimodal-rag\datasets\unidoc\legal\legal\7894475.pdf
+- Unique E3/E6/E9 pages: [1, 3, 5, 6, 9, 10, 11, 13, 14]
+- E3 pages: [1, 3, 13]
+- E6 pages: [1, 3, 5, 6, 11, 13]
+- E9 pages: [1, 3, 5, 6, 9, 10, 11, 13, 14]
+- PDF direct verification flag: False
+
+### GT page extracted text
+
+### GT page 6 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+Trends & issues in crime and criminal justice
+Australian Institute of Criminology
+6
+No. 628 July 2021
+Results
+What proportion of child sexual offenders reoffend after their first police 
+proceeding for child sexual offences?
+Figure 1 plots the cumulative sexual and non-sexual reoffending probabilities (ie failure curves) for 
+child sexual offenders over the entire follow-up period. Cumulative probabilities at one year, two 
+years, five years and 10 years are reported in Table 1. Overall, 43 percent (95% CI=40%–46%) of 
+offenders reoffended either sexually or non-sexually within 10 years of their first police proceeding 
+for child sexual offences. Seven percent (95% CI=6%–9%) reoffended sexually in this period, and 42 
+percent (95% CI=39%–46%) reoffended non-sexually.
+Sexual and non-sexual reoffending rates were compared using Cox regression run on a duplicated 
+dataset with a single merged reoffending variable. A variable distinguishing reoffending types 
+(sexual or non-sexual) was entered into the model, and standard errors were adjusted to account for 
+clustering within offender ID. The difference observed was significant (HR=8.42, 95% CI=6.60–10.73, 
+p<0.001). At any given point in time during the follow-up period, child sexual offenders were over 
+eight times more likely to reoffend non-sexually than sexually.
+There was also some evidence of offence transition among child sexual offenders who reoffended. 
+More than half the offenders who sexually reoffended committed an offence type different to their 
+offence at the first police proceeding (56%, n=42). Transitions were most often to CSAM offending 
+or sexual offending against non-child victims. Of those who sexually reoffended, 25 percent went 
+on to commit either or both of these types of sexual offences (n=19 each). Fewer transitioned to 
+committing child sexual assault (11%, n=8) or child procurement/grooming offences (8%, n=6). 
+Figure 1: Cumulative reoffending probabilities for child sex offenders, by years from first police 
+proceeding
+General reoﬀending               Sexual reoﬀending               Non-sexual reoﬀending
+0 1 2 3 4 5 6 7 8 9 10
+Time to reoﬀending (years)
+Cumulative reoﬀending probability
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+Note: Vertical lines denote 1, 2, 5 and 10 year intervals
+Source: NSW BOCSAR 2020 [dataset]
+```
+
+### GT page 7 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+Trends & issues in crime and criminal justice
+Australian Institute of Criminology
+7
+No. 628 July 2021
+Table 1: Cumulative reoffending probabilities for child sex offenders, by principal offence type, 
+with confidence intervals
+1 year 
+(95% CI)
+2 years 
+(95% CI)
+5 years 
+(95% CI)
+10 years 
+(95% CI)
+Sexual reoffending
+Child sexual assault offenders 0.01 (0.01–0.02) 0.03 (0.02–0.05) 0.05 (0.04–0.07) 0.06 (0.05–0.08)
+Child procurement/grooming 
+offenders
+0.12 (0.05–0.30) 0.12 (0.05–0.30) 0.19 (0.09–0.37) 0.28 (0.13–0.54)
+CSAM offenders 0.01 (0.00–0.05) 0.04 (0.02–0.08) 0.08 (0.05–0.12) 0.09 (0.06–0.15)
+All child sex offenders 0.02 (0.01–0.03) 0.04 (0.03–0.05) 0.06 (0.05–0.07) 0.07 (0.06–0.09)
+Non-sexual reoffending
+Child sexual assault offenders 0.11 (0.09–0.13) 0.19 (0.16–0.22) 0.33 (0.30–0.37) 0.44 (0.40–0.48)
+Child procurement/grooming 
+offenders
+0.16 (0.07–0.33) 0.16 (0.07–0.33) 0.31 (0.18–0.50) 0.40 (0.22–0.64)
+CSAM offenders 0.09 (0.05–0.14) 0.12 (0.08–0.17) 0.28 (0.22–0.34) 0.36 (0.29–0.43)
+All child sex offenders 0.11 (0.09–0.13) 0.17 (0.15–0.20) 0.32 (0.30–0.35) 0.42 (0.39–0.46)
+Note: CI=confidence interval
+Source: NSW BOCSAR 2020 [dataset]
+How long after their first police proceeding for child sexual offences do 
+offenders commit further sexual and non-sexual offences?
+The failure curve in Figure 1 and cumulative probabilities in Table 1 reveal a number of important 
+findings about how long it takes child sexual offenders to reoffend. An estimated two percent of child 
+sex offenders sexually reoffended within one year of their first police proceeding, and four percent 
+within two years. The rate of failure (sexual reoffending) slowed after this period, with six percent 
+reoffending within five years and seven percent within 10 years.
+Similar results emerged in relation to non-sexual offences. An estimated 11 percent of child sexual 
+offenders reoffended non-sexually within one year of their first police proceeding for child sexual 
+offences, 17 percent within two years, 32 percent within five years and 42 percent within 10 years.
+Taken together, these results show that the highest risk period for reoffending, both sexually and 
+non-sexually, is the two-year period following their first police proceeding. This is further illustrated 
+by the hazard curve for sexual and non-sexual reoffending, presented in Figure 2. This shows the 
+hazard (risk) of reoffending at each time point, and clearly shows a peak in the relative short-term.
+```
+
+### GT page 8 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+Trends & issues in crime and criminal justice
+Australian Institute of Criminology
+8
+No. 628 July 2021
+Figure 2: Hazard of sexual and non-sexual reoffending for child sexual offenders, by years from 
+first police proceeding
+Sexual reoﬀending               Non-sexual reoﬀending
+0 1 2 3 4 5 6 7 8 9 10
+Time to reoﬀending (years)
+Hazard of reoﬀending
+0.00000
+0.00005
+0.00010
+0.00015
+0.00020
+0.00025
+0.00030
+Note: Vertical lines denote 1, 2, 5 and 10 year intervals
+Source: NSW BOCSAR 2020 [dataset]
+Differences in the likelihood and types of reoffending between child sexual 
+assault offenders, child procurement/grooming offenders, and CSAM 
+offenders
+Differences in reoffending between child sexual assault, child procurement/grooming offenders 
+and CSAM offenders were analysed next. Survival analysis revealed that more than one-quarter 
+(28%) of child procurement/grooming offenders sexually reoffended in the 10 years following their 
+first police proceeding for child sexual offences, compared with nine percent of CSAM offenders 
+and six percent of child sexual assault offenders (Table 1 and Figure 3). Cox regression, run as an 
+extension of this survival analysis, was used to further analyse differences in the risk of sexual 
+reoffending between these offender groups. Child procurement/grooming offenders were assigned 
+as the reference category. There was a significant difference between child procurement/grooming 
+offenders, and both child sexual assault offenders (HR=0.23, 95% CI=0.10–0.51, p<0.001) and CSAM 
+offenders (HR=0.34, 95% CI=0.14–0.83, p<0.05). At any given point in time during the follow-up 
+period, child procurement/grooming offenders were more than four times as likely as child sexual 
+assault offenders (1/0.23=4.34), and around three times as likely as CSAM offenders (1/0.34=2.94) to 
+sexually reoffend.
+```
+
+### GT page 12 — EXTRACTED_UNVERIFIED
+
+pypdf physical page text; reading order, tables, figures, and extraction completeness unverified.
+
+```text
+Trends & issues in crime and criminal justice
+Australian Institute of Criminology
+12
+No. 628 July 2021
+Table 2: Predictors of short-term sexual and non-sexual reoffending among child sex offenders
+All child sexual offenders Child sexual assault 
+offenders CSAM offenders
+Non-sexual 
+reoffending 
+OR (95% CI)
+Sexual 
+reoffending 
+OR (95% CI)
+Non-sexual 
+reoffending 
+OR (95% CI)
+Sexual 
+reoffending 
+OR (95% CI)
+Non-sexual 
+reoffending 
+OR (95% CI)
+Sexual 
+reoffending 
+OR (95% CI)a
+Prior adult sexual 
+offendingb
+ns ns ns ns – ns
+Prior non-sexual 
+violent offending
+1.70  
+(1.12–2.56)*
+ns 1.63  
+(1.04–2.53)*
+ns ns ns
+Prior non-violent 
+offending
+2.81  
+(1.89–4.18)***
+ns 3.27  
+(2.12–5.01)***
+ns ns ns
+More than one 
+child sexual 
+offence at first 
+police 
+proceedingc
+ns 5.19  
+(1.81–14.91)**
+ns 3.76  
+(1.11–12.71)*
+5.04  
+(1.35–18.84)*
+–
+Adult at first 
+police 
+proceeding
+0.65 (0.46–
+0.93)*
+ns 0.63  
+(0.42–0.93)*
+ns ns ns
+Indigenous 1.94  
+(1.23–3.06)**
+2.26  
+(1.05–4.84)*
+1.67  
+(1.01–2.75)*
+ns 5.93  
+(1.45–24.18)*
+10.87 
+(2.23–53.04)**
+Lived in low 
+socio-economic 
+area at first 
+police 
+proceeding
+ns ns ns ns ns ns
+Lived in regional/
+remote area at 
+first police 
+proceeding
+1.94  
+(1.36–2.75)***
+ns 2.18  
+(1.47–3.22)***
+ns ns ns
+***statistically significant at p<0.001, **statistically significant at p<0.01, *statistically significant at p<0.05
+a: Fisher’s exact test used instead of logistic regression due to low sex reoffending rate (n=8)
+b: Prior adult sex offending was excluded from the model predicting non-sex reoffending in CSAM offenders due to collinearity
+c: While statistically significant, having more than one child sexual offence at first police proceeding was a perfect predictor of sexual reoffending in CSAM 
+offenders, and it was not possible to calculate an OR
+Note: OR=odds ratio, CI=95% confidence interval, ns=not significant. Model statistics as follows: (1) All child sexual offenders; non-sexual reoffending Model 
+χ2(df, n)=74.95 (8, 932), p<0.001, Nagelkerke R2=0.13; sexual reoffending Model χ2(df, n)=31.50 (8, 932), p<0.001, Nagelkerke R2=0.10; (2) Child sexual assault 
+offenders non-sexual reoffending Model χ2(df, n)=66.72 (8, 732), p<0.001, Nagelkerke R2=0.15; sexual reoffending Model χ2(df, n)=18.76 (8, 732), p<0.05, 
+Nagelkerke R2=0.08; (3) CSAM offenders non-sexual reoffending Model χ2(df, n)=27.17 (7, 170), p<0.001, Nagelkerke R2=0.23; sexual reoffending more than one 
+child sexual offence p<0.001, Cramér’s V=0.36; Indigenous status p<0.001, Cramér’s V=0.22.
+Source: NSW BOCSAR 2020 [dataset]
+```
+
+## E3 Evidence
+
+Ordered IDs: ["page-13-chunk-1", "page-1-chunk-1", "page-3-chunk-1"]
+
+### Chunk 1: page-13-chunk-1 / source page 13
+
+```text
+Trends & issues in crime and criminal justice Australian Institute of Criminology 13 No. 628 July 2021 Discussion This study has examined reoffending in an Australian sample of child sexual offenders. Results are largely consistent with those of prior reoffending studies (Hanson & Bussiѐre 1998; McCann & Lussier 2008; Seto, Hanson & Babchishin 2011). Main findings are as follows: • Sexual reoffending among child sexual offenders was rare. In fact, the estimated rate of reoffending after 10 years (7%) is towards the lower end of the range reported in Dowling and colleagues’ (forthcoming) review. • Child sexual offenders were much more likely to reoffend non-sexually than sexually. After 10 years, two in five child sexual offenders had committed further non-sexual offences. • The likelihood of sexual and non-sexual reoffending is highest in the two years following the first police proceeding for child sexual offences, and steadily decreases over time. These findings lend further support to the now considerable body of research showing that, for many, child sexual offending is part of a broader pattern of criminal behaviour, underpinned by antisocial, impulsive and aggressive tendencies and a lack of empathy—characteristics that also drive their involvement in non-sexual offending (Hanson & Morton-Bourgon 2005; McCann & Lussier 2008; Seto & Lalumière 2010). Meanwhile, the heightened risk of reoffending in the shorter term could partially be due to a monitoring effect, with closer supervision of offenders in the period immediately following criminal justice system contact increasing the likelihood that further offences will be detected. This period may also see some offenders re-exposed to the stressors that underpinned their initial sexual offences, while others may experience new stressors as a result of their involvement with the criminal justice system. These findings highlight the importance of implementing more intensive treatment, incapacitation and monitoring responses in the first few years after criminal justice system contact, and targeting these interventions at those offenders most at risk of reoffending. They also support the utility of interventions addressing criminal and antisocial behaviour broadly, rather than sexual offending specifically. Child sexual assault offenders were the most likely to reoffend non-sexually, and the least likely to reoffend sexually. This broad category likely encompasses a variety of offenders, from those whose sexual offending is persistent and predatory, to opportunistic or impulsive offenders whose motivation to sexually abuse children is more ambivalent. Those whose principal child sexual offences were procurement or grooming-related, in contrast, may constitute a more homogeneous, sexually deviant group of child sexual offenders who were determined to procure a child for sexual contact. Alternatively, the higher rate of sexual reoffending in this group may reflect the ease with which they can continue to interact sexually with children (or access CSAM) in an online environment in which accessing victims and materials requires little effort and comes with little risk. The latter conclusion is supported by the fact that no procurement/grooming offenders who sexually reoffended did so with a contact sexual offence. Meanwhile, the low rates of sexual and non-sexual reoffending among CSAM offenders, and the very small number who escalated to contact offences, is consistent with prior research showing similarly low rates of sexual reoffending, and less criminal involvement, among these offenders.
+```
+
+### Chunk 2: page-1-chunk-1 / source page 1
+
+```text
+Trends & issues in crime and criminal justice ISSN 1836-2206 (Online) | ISBN 978 1 922478 08 5 (Online) No. 628 July 2021 Abstract | This study examines reoffending among 1,092 male offenders proceeded against for a child sexual offence in New South Wales between 2004 and 2013, including 863 child sexual assault offenders, 196 child abuse material offenders and 33 procurement/ grooming offenders. Seven percent of child sexual offenders sexually reoffended within 10 years of their first police proceeding for a child sexual offence, while 42 percent non- sexually reoffended. Risk of sexual and non-sexual reoffending was highest in the first two years. Child sexual assault offenders were the most likely to reoffend non-sexually, while procurement/grooming offenders were the most likely to reoffend sexually. There was evidence of transition to other sexual offence types, but this varied between groups. Indigenous status, history of offending and the number of child sexual offences emerged as important predictors of reoffending, although risk profiles varied between offender types. Reoffending among child sexual offenders Christopher Dowling, Anthony Morgan and Kamarah Pooley Given the significant harms caused by sexual offences against children, there is considerable academic, clinical and policy interest in the extent to which perpetrators reoffend after detection. An established body of research has examined rates of reoffending among child sexual offenders, along with the predictors and correlates of their offending (see Hanson & Bussiѐre 1998; Hanson & Morton-Bourgon 2005; McCann & Lussier 2008; Seto, Hanson & Babchishin 2011; Seto & Lalumière 2010 for reviews). A rapid evidence assessment of 33 studies published since 2010 on reoffending among child sexual offenders processed through the criminal justice system found that reported rates of general reoffending (generally 20% and higher, depending on follow-up period) were notably higher than reported rates of sexual reoffending (generally 15% or lower, depending on follow-up period; Dowling et al. forthcoming). These findings are consistent with those of other reviews (Lussier & Mathesius 2018; Seto & Lalumière 2010), showing that many child sexual offenders commit a wide range of other crimes.
+```
+
+### Chunk 3: page-3-chunk-1 / source page 3
+
+```text
+Trends & issues in crime and criminal justice Australian Institute of Criminology 3 No. 628 July 2021 Despite a large body of international evidence, Dowling and colleagues’ (forthcoming) review located only three Australian studies (Daly et al. 2013; Goodman-Delahunty & O’Brien 2014; Krone & Smith 2017). Goodman-Delahunty and O’Brien (2014), following offenders referred to a treatment program for an average of around 10 years (SD=4.5 years), found a general reoffending rate of 32 percent, and a non-sexual reoffending rate of 20 percent. Daly and colleagues (2013), following offenders for an average of around four years, found a notably higher general reoffending rate of 54 percent in their sample of juvenile sexual offenders. Consistent with the rest of the studies in Pooley and Dowling’s (forthcoming) review, fewer than 10 percent of offenders in both studies sexually reoffended. The only Australian study to date examining reoffending among CSAM offenders specifically (Krone and Smith 2017) reported findings similar to those of international research. Examining reoffending over an average of about 3.5 years, they found that seven percent sexually reoffended, most (5%) with another CSAM offence, although a smaller proportion escalated to contact or grooming sexual offences (1% each). There is a clear need for further rigorous Australian research examining baseline rates of reoffending among child sexual offenders, particularly CSAM offenders, along with its predictors. There is also a lack of research that compares CSAM offenders with contact and procurement/grooming offenders. This research is critical to informing the scale, implementation and targeting of treatment and criminal justice responses to child sexual offenders, particularly those that assume a high degree of persistence in sexual offending, such as sexual offender registers, indeterminate sentencing regimes, and sexual offender-specific treatment. This study examines reoffending in an Australian sample of child sexual offenders. It addresses the following questions: • What proportion of child sexual offenders commit further sexual and non-sexual offences after their first police proceeding for child sexual offences? • How long after their first police proceeding for child sexual offences do offenders commit further sexual and non-sexual offences? • What factors are associated with a higher likelihood of committing further sexual and non-sexual offences? • Are there differences in the likelihood, types and predictors of further sexual and non-sexual offences between child sexual assault, child procurement/grooming and CSAM offenders?
+```
+
+## E3 Answer
+
+```text
+Based on the July 2021 report from the Australian Institute of Criminology, the following factors and periods are linked to sexual reoffending in child sex offenders:
+
+1. **Periods of Reoffending**: The likelihood of both sexual and non-sexual reoffending is highest in the two years following the first police proceeding for child sexual offences, and it steadily decreases over time.
+
+2. **Offender Type**: Procurement/grooming offenders were the most likely to reoffend sexually, while child sexual assault offenders were more likely to reoffend non-sexually and less likely to reoffend sexually.
+
+3. **Predictors of Reoffending**: Important predictors of reoffending include Indigenous status, a history of offending, and the number of child sexual offences. However, risk profiles varied between different types of offenders.
+
+4. **Nature of Offending**: Offenders whose principal child sexual offences were procurement or grooming-related may constitute a more homogeneous, sexually deviant group, and their higher rate of sexual reoffending may reflect the ease of continuing to interact sexually with children or access child sexual abuse material (CSAM) in an online environment.
+
+5. **Monitoring Effect**: The heightened risk of reoffending in the shorter term could be partially due to a monitoring effect, with closer supervision of offenders in the period immediately following criminal justice system contact increasing the likelihood that further offences will be detected.
+
+6. **Criminal Justice System Contact**: The period immediately following criminal justice system contact may see some offenders re-exposed to the stressors that underpinned their initial sexual offences, while others may experience new stressors as a result of their involvement with the criminal justice system.
+```
+
+## E6 Added Evidence
+
+Added ordered IDs: ["page-11-chunk-1", "page-6-chunk-1", "page-5-chunk-1"]
+
+### Chunk 1: page-11-chunk-1 / source page 11
+
+```text
+Trends & issues in crime and criminal justice Australian Institute of Criminology 11 No. 628 July 2021 Child sexual offenders with prior non-sexual violent and non-violent offending, Indigenous offenders and those living in a regional or remote location at the first police proceeding for child sexual offences were more likely to reoffend non-sexually (Table 2). Prior violence was associated with a 47 percent increase in the predicted probability of reoffending (17% vs 25%), while the predicted probability of reoffending for those with prior non-violent offending was over twice that of those without (15% vs 33%). The predicted probability of reoffending was around 65 percent higher for Indigenous (28%) than for non-Indigenous offenders (17%), and around 71 percent higher for those living in regional or remote locations (24%) than for those in urban centres (14%). Offenders who committed their first child sexual offence as an adult (16%) were 37 percent less likely to reoffend than juvenile offenders (22%). The same factors emerged as important, and to a similar magnitude, in predicting short-term non- sexual reoffending among child sexual assault offenders. However, only Indigenous status and the number of child sexual offences committed were associated with non-sexual reoffending among CSAM offenders. The predicted probabilities of reoffending were over three times higher for Indigenous CSAM offenders (40%), and those with more than one child sexual offence (24%) than for non-Indigenous offenders (11%) and those with one child sexual offence (7%). These factors also emerged as important in predicting short-term sexual reoffending among child sexual offenders. The predicted probability of reoffending was six times higher for those with more than one child sexual offence, although both groups had low rates of reoffending (1% vs 6%). Additionally, the predicted probability of reoffending was around twice as high for Indigenous offenders as for non-Indigenous offenders (7% vs 4%), but again rates across both groups were low. Given the small number of CSAM offenders in this analysis who sexually reoffended (n=8), and the fact that results are not independent of the influence of other predictors, results need to be interpreted cautiously. Much like child sexual offenders generally, Indigenous status and the number of child sexual offences at first police proceeding significantly predicted sexual reoffending among CSAM offenders. Indigenous CSAM offenders (33%, 3 out of 9) were over 10 times as likely to reoffend as non-Indigenous CSAM offenders (3%, 5 out of 163). Additionally, all CSAM offenders who sexually reoffended had more than one child sexual offence at their first police proceeding (11%, 8 out of 75 vs 0%, none out of 113).
+```
+
+### Chunk 2: page-6-chunk-1 / source page 6
+
+```text
+Trends & issues in crime and criminal justice Australian Institute of Criminology 6 No. 628 July 2021 Results What proportion of child sexual offenders reoffend after their first police proceeding for child sexual offences? Figure 1 plots the cumulative sexual and non-sexual reoffending probabilities (ie failure curves) for child sexual offenders over the entire follow-up period. Cumulative probabilities at one year, two years, five years and 10 years are reported in Table 1. Overall, 43 percent (95% CI=40%–46%) of offenders reoffended either sexually or non-sexually within 10 years of their first police proceeding for child sexual offences. Seven percent (95% CI=6%–9%) reoffended sexually in this period, and 42 percent (95% CI=39%–46%) reoffended non-sexually. Sexual and non-sexual reoffending rates were compared using Cox regression run on a duplicated dataset with a single merged reoffending variable. A variable distinguishing reoffending types (sexual or non-sexual) was entered into the model, and standard errors were adjusted to account for clustering within offender ID. The difference observed was significant (HR=8.42, 95% CI=6.60–10.73, p<0.001). At any given point in time during the follow-up period, child sexual offenders were over eight times more likely to reoffend non-sexually than sexually. There was also some evidence of offence transition among child sexual offenders who reoffended. More than half the offenders who sexually reoffended committed an offence type different to their offence at the first police proceeding (56%, n=42). Transitions were most often to CSAM offending or sexual offending against non-child victims. Of those who sexually reoffended, 25 percent went on to commit either or both of these types of sexual offences (n=19 each). Fewer transitioned to committing child sexual assault (11%, n=8) or child procurement/grooming offences (8%, n=6). Figure 1: Cumulative reoffending probabilities for child sex offenders, by years from first police proceeding General reoﬀending Sexual reoﬀending Non-sexual reoﬀending 0 1 2 3 4 5 6 7 8 9 10 Time to reoﬀending (years) Cumulative reoﬀending probability 0.0 0.1 0.2 0.3 0.4 0.5 Note: Vertical lines denote 1, 2, 5 and 10 year intervals Source: NSW BOCSAR 2020 [dataset]
+```
+
+### Chunk 3: page-5-chunk-1 / source page 5
+
+```text
+Trends & issues in crime and criminal justice Australian Institute of Criminology 5 No. 628 July 2021 Analytic strategy The follow-up period used to measure reoffending constitutes the total amount of time an offender was able to offend between the date on which their first police proceeding for child sexual offending was finalised and 31 December 2018. Any time served in custody was subtracted from the total amount of time between these two dates. The average adjusted follow-up time was 8.9 years (SD=2.7; range=0–14.7). Reoffending was said to have occurred when offenders were proceeded against by NSW Police Force during this follow-up period. Minor traffic offences (ie speeding, parking fines) were excluded. Breaches of custodial or community orders were also excluded, as the study was interested in new episodes of offending. Sexual and non-sexual reoffending were examined separately. Sexual reoffending includes any sexual offences committed against children or adults, bestiality, and sexual offences against the public involving exposure and voyeurism during the follow- up period. Sexual offences not examined in this study include certain offences against public sexual standards (ie those involving prostitution and pornography), being an accessory after the fact to sexual offences, breaches of sex offender-specific community orders, and outdated sexual offences (eg those criminalising same-sex activity). Survival analysis was used to measure reoffending as a function of the time an individual was free to reoffend. The analysis accounts for the variable observation periods of offenders and any time spent in custody during the follow-up period. Cox regression, which is an extension of survival analysis, was used to determine whether there were differences in the hazard (or risk) of reoffending between groups of offenders. Cumulative reoffending probabilities and hazard ratios (HR) were used to examine reoffending patterns. Whether those who sexually reoffended transitioned to different sexual offences was examined descriptively. Logistic regression models were used to identify the predictors of sexual and non-sexual reoffending, both overall and for each type of child sexual offender, examining the criminal history, offence-specific and demographic variables discussed above. Predicted probabilities, adjusting for covariates using marginal standardisation (Muller & MacLehose 2014), were calculated for each significant predictor. Limitations The following results do not account for offences that do not come to the attention of police and meet the threshold for criminal justice intervention. The current data do not include information on certain offence characteristics (eg the relationship of the offender to the victim, the use of violence) or exposure to treatment, which have been shown to influence the likelihood of reoffending. While offence-switching between initial and further sexual offending episodes is examined, the omission of more detailed offence information also prohibits an examination of how and under what circumstances reoffending occurs. Sexual reoffending results combine further child and non-child sexual offences to account for, and allow examination of, offence-switching during the follow-up period. While this was of interest in the current study, it should be noted that not all who sexually reoffended did so against a child. Finally, the sample was restricted to male offenders, excluding 60 female offenders in the sample originally provided by BOCSAR. Over 95 percent of child sexual offenders are male—a higher proportion than for any other major form of crime (Australian Bureau of Statistics 2020). Additionally, female sexual offenders have been shown to differ significantly from male offenders in offending patterns and predictors of offending (eg Bourke et al. 2014).
+```
+
+## E6 Answer
+
+```text
+Based on the July 2021 report from the Australian Institute of Criminology, the following factors and periods are linked to sexual reoffending in child sex offenders:
+
+1. **Periods of Reoffending**: The likelihood of sexual reoffending is highest in the two years following the first police proceeding for child sexual offences, and it steadily decreases over time.
+
+2. **Offender Type**: Procurement/grooming offenders are the most likely to reoffend sexually. This may be due to their determination to procure a child for sexual contact or the ease of interacting with children or accessing child sexual abuse material (CSAM) online.
+
+3. **Prior Offending History**: Offenders who had committed more than one child sexual offence at their first police proceeding were more likely to sexually reoffend. The predicted probability of reoffending was six times higher for those with more than one child sexual offence.
+
+4. **Indigenous Status**: Indigenous offenders were more likely to reoffend sexually compared to non-Indigenous offenders. The predicted probability of reoffending was around twice as high for Indigenous offenders as for non-Indigenous offenders.
+
+5. **Offence Transition**: There was some evidence of transition to other sexual offence types, with more than half of the offenders who sexually reoffended committing an offence type different from their initial offence. Transitions were most often to CSAM offending or sexual offences against non-child victims.
+
+These findings highlight the importance of implementing more intensive treatment, monitoring, and interventions in the first few years after criminal justice system contact, particularly for those offenders most at risk of reoffending.
+```
+
+## E9 Added Evidence
+
+Added ordered IDs: ["page-14-chunk-1", "page-10-chunk-1", "page-9-chunk-1"]
+
+### Chunk 1: page-14-chunk-1 / source page 14
+
+```text
+Trends & issues in crime and criminal justice Australian Institute of Criminology 14 No. 628 July 2021 Those with a history of non-sexual offending were the most likely to reoffend non-sexually, while those with more than one child sexual offence at their first police proceeding were more likely to sexually reoffend. Juveniles were also more likely to reoffend non-sexually. Indigenous offenders and those living in regional and remote areas were more likely to reoffend both sexually and non-sexually. This may reflect the barriers those living outside urban centres can face in accessing effective support, justice and treatment services that address sexual offending in particular (Law Council of Australia 2018). While the risk profile of child sexual assault offenders for non-sexual and sexual reoffending was consistent with the profile of child sexual offenders generally (likely because they account for the majority of the sample), the only significant predictors of non-sexual and sexual reoffending among CSAM offenders were the extent of prior child sexual offending and Indigenous status. Other common predictors of non-sexual reoffending, such as age and prior offending, did not emerge as important. International studies have similarly struggled to identify reliable predictors of reoffending in CSAM offenders (eg Eke, Helmus & Seto 2018), highlighting the need for further research of this offender population. Additionally, this could reflect the highly opportunistic nature of CSAM offending. Importantly, identifying predictors of sexual reoffending in the current study was also made difficult by the small number of CSAM offenders who reoffended. The current study addresses an important gap in research on child sex offending, examining a large sample of offenders, including CSAM offenders, adding to the small number of Australian studies. The findings are critical to understanding the nature and patterns of their offending, and informing the scale and targeting of treatment and criminal justice responses. References URLs correct as at December 2020 Australian Bureau of Statistics (ABS) 2020. Recorded crime – offenders, 2018-19. ABS cat no. 4519.0. Canberra: ABS. https://www.abs.gov.au/statistics/people/crime-and-justice/recorded-crime- offenders/2018-19 Australian Bureau of Statistics 2018. Socio-economic indexes for areas. Canberra: ABS. https://www. abs.gov.au/websiTedbs/censushome.nsf/home/seifa Australian Bureau of Statistics 2011. Australian and New Zealand Standard Offence Classification (ANZSOC), 2011, 3rd edition. ABS cat. no. 1234.0. Canberra: ABS. https://www.abs.gov.au/ausstats/ abs@.nsf/ mf/1234.0 Babchishin KM, Hanson RK & VanZuylen H 2015. Online child pornography offenders are different: A meta-analysis of the characteristics of online and offline sex offenders against children. Archives of Sexual Behavior 44: 45–66 Babchishin KM, Merdian HL, Bartels RM & Perkins D 2018. Child exploitation materials offenders: A review. European Psychologist 23(2): 130–143 Bourke A, Doherty S, McBride O, Morgan K & McGee H 2014. Female perpetrators of child sexual abuse: Characteristics of the offender and victim. Psychology, Crime & Law 20(8): 769–780
+```
+
+### Chunk 2: page-10-chunk-1 / source page 10
+
+```text
+Trends & issues in crime and criminal justice Australian Institute of Criminology 10 No. 628 July 2021 Figure 4: Cumulative probabilities of non-sexual reoffending among child sexual offenders, by years from first police proceeding 0 1 2 3 4 5 6 7 8 9 10 Time to reoﬀending (years) 0.0 0.1 0.2 0.3 0.4 0.5 Child sexual assault oﬀenders Child procurement and grooming oﬀenders CSAM oﬀenders Cumulative reoﬀending probability Note: Hazards were proportional, assessed using Schoenfeld residuals. Vertical lines denote 1, 2, 5 and 10 year intervals Source: NSW BOCSAR 2020 [dataset] Predictors of reoffending, and differences between child sexual assault offenders, child procurement/grooming offenders, and CSAM offenders The final stage of the analysis examined predictors of sexual and non-sexual reoffending among child sexual offenders. Logistic regression models were run predicting sexual and non-sexual reoffending in the two years following the first police proceeding for child sexual offences. Predicting short- term reoffending was of interest here due to the heightened risk of offending in the first few years following criminal justice system contact, and also because many offenders continue to have contact with the criminal justice system throughout this period (eg probation and parole, community sentences, police registration). Due to the low number of child procurement/grooming offenders, analyses were not undertaken for these offenders. Additionally, the low number of CSAM offenders who sexually reoffended during this period (n=8) prohibited multivariate analysis of its predictors. Chi-square analyses with Fisher’s exact tests were used instead. The ages at which offenders committed their first offences correlated strongly with the ages of their first police proceeding for child sexual offending, and were excluded. Five offenders who were followed for less than two years were excluded, as were those with missing data on one or more of the predictors examined. This left a sample of 932 child sexual offenders, including 732 child sexual assault offenders, 170 CSAM offenders and 30 child procurement/grooming offenders.
+```
+
+### Chunk 3: page-9-chunk-1 / source page 9
+
+```text
+Trends & issues in crime and criminal justice Australian Institute of Criminology 9 No. 628 July 2021 Figure 3: Cumulative probabilities of sexual reoffending among child sexual offenders, by years from first police proceeding 0 1 2 3 4 5 6 7 8 9 10 Time to reoﬀending (years) 0.0 0.1 0.2 0.3 0.4 0.5 Child sexual assault oﬀenders Child procurement and grooming oﬀenders CSAM oﬀenders Cumulative reoﬀending probability Note: Hazards were proportional, assessed using Schoenfeld residuals. Vertical lines denote 1, 2, 5 and 10 year intervals Source: NSW BOCSAR 2020 [dataset] Almost half of child sexual assault offenders (44%) reoffended non-sexually in the 10 years following their first police proceeding for child sexual offences, compared with a third of CSAM offenders (36%) and 40 percent of child procurement/grooming offenders (Table 1; see also Figure 4). Cox regression, using child sexual assault offenders as the reference category, revealed significant differences in non-sexual reoffending between these and CSAM offenders (HR=0.76, 95% CI=0.59– 0.99, p<0.05; see Table 1 and Figure 3). At any given point in time during the follow-up period, child sexual assault offenders were 31 percent more likely than CSAM offenders to have reoffended non-sexually (1/0.76=1.31). There was no difference between child sexual assault offenders and child procurement/grooming offenders (HR=0.88, 95% CI=0.48–0.1.61, p=0.68). Almost two-thirds of child sexual assault offenders who sexually reoffended went on to commit a different sexual offence (62%, n=32). Over a quarter sexually reoffended against a non-child victim (31%, n=16) and/or with CSAM (29%, n=15), while only six percent went on to engage in child procurement/grooming offences. CSAM offenders who sexually reoffended (n=21) were the least likely to commit a different sexual offence (43%, n=9). These offenders most often went on to commit child sexual assault (n=5), while two committed a child procurement/grooming offence and one committed a sexual offence against a non-child victim. Most of those with child procurement/ grooming offences who sexually reoffended (n=7) did so with a different sexual offence (71%, n=5). This was most often a CSAM offence (n=3) or a sexual offence against a non-child victim (n=2). None went on to sexually assault a child.
+```
+
+## E9 Answer
+
+Canonical judgment source: E9; E6/E9 input identical: False
+
+```text
+Based on the July 2021 report from the Australian Institute of Criminology, the following factors and periods are linked to sexual reoffending in child sex offenders:
+
+1. **Periods of Reoffending**:
+   - The likelihood of both sexual and non-sexual reoffending is highest in the two years following the first police proceeding for child sexual offences.
+   - The risk of reoffending steadily decreases over time.
+
+2. **Factors Associated with Sexual Reoffending**:
+   - **Number of child sexual offences at first police proceeding**: Offenders who committed more than one child sexual offence at their first police proceeding were more likely to sexually reoffend.
+   - **Indigenous status**: Indigenous offenders were more likely to reoffend sexually compared to non-Indigenous offenders.
+   - **Offender type**: Procurement/grooming offenders were the most likely to reoffend sexually compared to other types of child sexual offenders.
+   - **Living in regional or remote areas**: Offenders living in regional or remote areas were more likely to reoffend sexually, potentially due to barriers in accessing support and treatment services.
+
+3. **General Observations**:
+   - Sexual reoffending among child sexual offenders was rare, with an estimated rate of 7% after 10 years.
+   - Child sexual offenders were more likely to reoffend non-sexually than sexually, with 42% reoffending non-sexually after 10 years.
+   - Juvenile offenders were more likely to reoffend non-sexually than sexually.
+   - A history of non-sexual offending was associated with a higher likelihood of non-sexual reoffending, but not specifically with sexual reoffending.
+
+These findings highlight the importance of implementing intensive treatment, monitoring, and criminal justice responses in the first few years after criminal justice system contact, particularly for those most at risk of reoffending.
+```
+
+## Automatic Labels
+
+- E3: False; OK
+- E6: True; OK
+- E9: True; OK
+
+Raw incomplete states: []
+
+- E3_to_E6_wrong_to_correct: True
+- E3_to_E6_correct_to_wrong: False
+- E6_to_E9_wrong_to_correct: False
+- E6_to_E9_correct_to_wrong: False
+
+```text
+{"E3": "The candidate answer includes some correct information, such as the high reoffending risk in the first two years and the role of Indigenous status and prior offending. However, it introduces unsupported claims (e.g., procurement/grooming offenders being more likely to reoffend sexually) and does not mention the specific reoffending rates (11% within one year, 17% within two years) or the exact predictor of having more than one child sexual offence at first police proceeding. The answer is partially correct and includes some minor unsupported claims.", "E6": "The candidate answer is mostly correct and directly addresses the question. It correctly identifies the high reoffending risk in the first two years, multiple initial offences, and Indigenous status as significant factors. However, it introduces unsupported claims about 'procurement/grooming offenders' and 'offence transition' not mentioned in the reference. It also omits the reference's mention of non-sexual reoffending rates and regional/remote area factors. The answer is grounded mostly in the reference but includes a minor unsupported claim.", "E9": "The candidate answer is mostly correct and aligns with the reference answer. It accurately identifies the key factors (number of offences at first proceeding, Indigenous status, living in regional/remote areas) and the time period (highest risk in the first two years). It also includes additional relevant information not in the reference, such as offender type (procurement/grooming) and reoffending rates after 10 years, which are not incorrect but not part of the reference. The only minor issue is the inclusion of 'offender type' as a factor, which is not mentioned in the reference, but it is not factually wrong. The answer is complete and directly addresses the question."}
+```
+
+## Human Annotation
+
+| Field | Value |
+|---|---|
+| human_e3_correct |  |
+| human_e6_correct |  |
+| human_e9_correct |  |
+| human_reference_valid |  |
+| human_e3_evidence_sufficient |  |
+| human_e6_added_evidence_useful |  |
+| human_e9_added_evidence_useful |  |
+| human_confidence |  |
+| human_notes |  |
+
