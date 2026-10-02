@@ -1,0 +1,15 @@
+{
+  "schema_version": "phase2a-annotation-change-log-v1",
+  "recorded_at_kst": "2026-10-02T17:47:47+09:00",
+  "changes": 0,
+  "changed_cells": [],
+  "changed_review_ids": [],
+  "scope": "All official Batch 01-07 human annotations are preserved exactly.",
+  "reference_unclear_preserved": [
+    "P2A_HR_052",
+    "P2A_HR_054",
+    "P2A_HR_056"
+  ],
+  "audit_provenance_only_update": "P2A_HR_077 direct Figure 7 visual verification completed; STRONG_EVIDENCE_ATTRIBUTABLE retained.",
+  "annotation_re_adjudication_performed": false
+}

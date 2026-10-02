@@ -1,0 +1,55 @@
+{
+  "schema_version": "phase2a-freeze-audit-v1",
+  "recorded_at_kst": "2026-10-02T17:47:47+09:00",
+  "annotation_changes": 0,
+  "new_review_performed": false,
+  "records": [
+    {
+      "review_id": "P2A_HR_077",
+      "query_id": "unidoc_legal_0033",
+      "event": "DIRECT_VISUAL_VERIFICATION_COMPLETED_AND_CLASSIFICATION_RETENTION_CONFIRMED",
+      "confirmation_source": "User instruction in this conversation, 2026-10-02 Asia/Seoul",
+      "pdf": "datasets/unidoc/legal/legal/2332258.pdf",
+      "pdf_sha256": "4b3878482a00cbade2c3bd16f9b77e52aa470682b1dadece7c692c975acdf07e",
+      "physical_source_page": 12,
+      "figure": "Figure 7: InteDFPM Use Case diagram",
+      "participants": [
+        "First Responder",
+        "Investigator",
+        "Other",
+        "Prosecution",
+        "Defense",
+        "Court"
+      ],
+      "use_cases": [
+        "Collect",
+        "Authenticate",
+        "Examine",
+        "Analyse",
+        "Report"
+      ],
+      "verification_status": "COMPLETED",
+      "classification": "STRONG_EVIDENCE_ATTRIBUTABLE",
+      "classification_action": "RETAIN_USER_CONFIRMED_CLASSIFICATION",
+      "confirmed_existing_annotation": {
+        "human_e3_correct": "NO",
+        "human_e6_correct": "YES",
+        "human_reference_valid": "YES",
+        "human_e3_evidence_sufficient": "NO",
+        "human_e6_added_evidence_useful": "YES"
+      },
+      "official_annotation_modified": false,
+      "supporting_prior_blind_artifacts": [
+        {
+          "path": "review_upload_batch07/codex_blind_cross_validation.csv",
+          "sha256": "e1c4c8391feb80af5771dc97831c32dcebdd6f6d32e8dca1cd1bd6f8507c1944"
+        },
+        {
+          "path": "review_upload_batch07/codex_blind_cross_validation.md",
+          "sha256": "c78ea5aaccd036074d0e7d7baf5828d14de805aa78883977d4b943a24c2b2eb4"
+        }
+      ],
+      "scope": "Provenance confirmation only; no re-adjudication, no automatic-label-driven change, no final statistics."
+    }
+  ]
+}
