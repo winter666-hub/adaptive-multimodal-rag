@@ -1,0 +1,2578 @@
+{
+  "E3_to_E6_causal_taxonomy": {
+    "GENERATION_REASONING_RECOVERY": {
+      "count": 1,
+      "review_ids": [
+        "P2A_HR_045"
+      ]
+    },
+    "MIXED_OR_AMBIGUOUS": {
+      "count": 3,
+      "review_ids": [
+        "P2A_HR_010",
+        "P2A_HR_027",
+        "P2A_HR_040"
+      ]
+    },
+    "REFERENCE_INVALID_OR_UNCLEAR_RECOVERY": {
+      "count": 3,
+      "review_ids": [
+        "P2A_HR_023",
+        "P2A_HR_060",
+        "P2A_HR_075"
+      ]
+    },
+    "STRONG_EVIDENCE_ATTRIBUTABLE": {
+      "count": 34,
+      "review_ids": [
+        "P2A_HR_001",
+        "P2A_HR_002",
+        "P2A_HR_003",
+        "P2A_HR_004",
+        "P2A_HR_005",
+        "P2A_HR_006",
+        "P2A_HR_007",
+        "P2A_HR_008",
+        "P2A_HR_011",
+        "P2A_HR_013",
+        "P2A_HR_014",
+        "P2A_HR_015",
+        "P2A_HR_018",
+        "P2A_HR_019",
+        "P2A_HR_021",
+        "P2A_HR_022",
+        "P2A_HR_024",
+        "P2A_HR_025",
+        "P2A_HR_026",
+        "P2A_HR_028",
+        "P2A_HR_029",
+        "P2A_HR_030",
+        "P2A_HR_033",
+        "P2A_HR_034",
+        "P2A_HR_036",
+        "P2A_HR_037",
+        "P2A_HR_038",
+        "P2A_HR_041",
+        "P2A_HR_042",
+        "P2A_HR_043",
+        "P2A_HR_044",
+        "P2A_HR_049",
+        "P2A_HR_066",
+        "P2A_HR_077"
+      ]
+    }
+  },
+  "E6_to_E9_diagnostics": {
+    "all_selected": {
+      "E9_added_evidence_useful_UNCLEAR": {
+        "count": 0,
+        "review_ids": []
+      },
+      "E9_added_evidence_useful_YES": {
+        "count": 1,
+        "review_ids": [
+          "P2A_HR_046"
+        ]
+      },
+      "NON_EVIDENCE_ATTRIBUTABLE_RECOVERY": {
+        "count": 3,
+        "review_ids": [
+          "P2A_HR_047",
+          "P2A_HR_061",
+          "P2A_HR_063"
+        ]
+      },
+      "raw_recovery": {
+        "count": 4,
+        "review_ids": [
+          "P2A_HR_046",
+          "P2A_HR_047",
+          "P2A_HR_061",
+          "P2A_HR_063"
+        ]
+      }
+    },
+    "cautious_interpretation": [
+      {
+        "E9_added_evidence_useful": "YES",
+        "reasons": [
+          "No official human_e6_evidence_sufficient field; no general strong E6-to-E9 attribution claim is supported.",
+          "Useful E9 additions alone do not establish that necessary evidence was missing at E6.",
+          "HR046 must NOT be described as a strong evidence-attributable E6-to-E9 recovery. The audit finding says E6 evidence was already sufficient, and is provenance rather than an official frozen field."
+        ],
+        "reference_valid": "YES",
+        "review_id": "P2A_HR_046"
+      },
+      {
+        "E9_added_evidence_useful": "NO",
+        "reasons": [
+          "No official human_e6_evidence_sufficient field; no general strong E6-to-E9 attribution claim is supported.",
+          "Use NON_EVIDENCE_ATTRIBUTABLE_RECOVERY; do not automatically label this pure generation/reasoning recovery."
+        ],
+        "reference_valid": "YES",
+        "review_id": "P2A_HR_047"
+      },
+      {
+        "E9_added_evidence_useful": "NO",
+        "reasons": [
+          "No official human_e6_evidence_sufficient field; no general strong E6-to-E9 attribution claim is supported.",
+          "Use NON_EVIDENCE_ATTRIBUTABLE_RECOVERY; do not automatically label this pure generation/reasoning recovery."
+        ],
+        "reference_valid": "YES",
+        "review_id": "P2A_HR_061"
+      },
+      {
+        "E9_added_evidence_useful": "NO",
+        "reasons": [
+          "No official human_e6_evidence_sufficient field; no general strong E6-to-E9 attribution claim is supported.",
+          "Use NON_EVIDENCE_ATTRIBUTABLE_RECOVERY; do not automatically label this pure generation/reasoning recovery."
+        ],
+        "reference_valid": "YES",
+        "review_id": "P2A_HR_063"
+      }
+    ],
+    "missing_official_field": "human_e6_evidence_sufficient",
+    "reference_NO": {
+      "E9_added_evidence_useful_UNCLEAR": {
+        "count": 0,
+        "review_ids": []
+      },
+      "E9_added_evidence_useful_YES": {
+        "count": 0,
+        "review_ids": []
+      },
+      "NON_EVIDENCE_ATTRIBUTABLE_RECOVERY": {
+        "count": 0,
+        "review_ids": []
+      },
+      "raw_recovery": {
+        "count": 0,
+        "review_ids": []
+      }
+    },
+    "reference_UNCLEAR": {
+      "E9_added_evidence_useful_UNCLEAR": {
+        "count": 0,
+        "review_ids": []
+      },
+      "E9_added_evidence_useful_YES": {
+        "count": 0,
+        "review_ids": []
+      },
+      "NON_EVIDENCE_ATTRIBUTABLE_RECOVERY": {
+        "count": 0,
+        "review_ids": []
+      },
+      "raw_recovery": {
+        "count": 0,
+        "review_ids": []
+      }
+    },
+    "reference_valid_primary": {
+      "E9_added_evidence_useful_UNCLEAR": {
+        "count": 0,
+        "review_ids": []
+      },
+      "E9_added_evidence_useful_YES": {
+        "count": 1,
+        "review_ids": [
+          "P2A_HR_046"
+        ]
+      },
+      "NON_EVIDENCE_ATTRIBUTABLE_RECOVERY": {
+        "count": 3,
+        "review_ids": [
+          "P2A_HR_047",
+          "P2A_HR_061",
+          "P2A_HR_063"
+        ]
+      },
+      "raw_recovery": {
+        "count": 4,
+        "review_ids": [
+          "P2A_HR_046",
+          "P2A_HR_047",
+          "P2A_HR_061",
+          "P2A_HR_063"
+        ]
+      }
+    },
+    "strong_evidence_attributable_rate_claim_supported": false
+  },
+  "audit_only_context_not_used_for_metrics": {
+    "P2A_HR_046": {
+      "affects_computed_metrics": false,
+      "audit_e6_evidence_sufficient": "YES",
+      "interpretation": "HR046 must NOT be described as a strong evidence-attributable E6-to-E9 recovery. The audit finding says E6 evidence was already sufficient, and is provenance rather than an official frozen field.",
+      "official_frozen_annotation_field": false,
+      "source": "User-provided audit-only finding in the statistics request"
+    }
+  },
+  "automatic_diagnostic_interpretation": "Judge-quality diagnostic only; agreement is not proof of annotation validity.",
+  "automatic_judge_diagnostics": {
+    "E3": {
+      "False_to_YES": {
+        "count": 11,
+        "review_ids": [
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_020",
+          "P2A_HR_032",
+          "P2A_HR_035",
+          "P2A_HR_047",
+          "P2A_HR_048",
+          "P2A_HR_062",
+          "P2A_HR_064",
+          "P2A_HR_067",
+          "P2A_HR_068"
+        ]
+      },
+      "True_to_NO": {
+        "count": 3,
+        "review_ids": [
+          "P2A_HR_052",
+          "P2A_HR_054",
+          "P2A_HR_056"
+        ]
+      },
+      "agreements": {
+        "count": 59,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_005",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_009",
+          "P2A_HR_010",
+          "P2A_HR_011",
+          "P2A_HR_012",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_023",
+          "P2A_HR_024",
+          "P2A_HR_025",
+          "P2A_HR_026",
+          "P2A_HR_027",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_031",
+          "P2A_HR_033",
+          "P2A_HR_034",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_039",
+          "P2A_HR_040",
+          "P2A_HR_041",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_045",
+          "P2A_HR_046",
+          "P2A_HR_049",
+          "P2A_HR_050",
+          "P2A_HR_051",
+          "P2A_HR_053",
+          "P2A_HR_055",
+          "P2A_HR_057",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_060",
+          "P2A_HR_061",
+          "P2A_HR_063",
+          "P2A_HR_065",
+          "P2A_HR_066",
+          "P2A_HR_069",
+          "P2A_HR_070",
+          "P2A_HR_072",
+          "P2A_HR_074",
+          "P2A_HR_075"
+        ]
+      },
+      "available_auto_but_human_UNCLEAR": {
+        "count": 0,
+        "review_ids": []
+      },
+      "comparable_cases": {
+        "count": 73,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_005",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_009",
+          "P2A_HR_010",
+          "P2A_HR_011",
+          "P2A_HR_012",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_020",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_023",
+          "P2A_HR_024",
+          "P2A_HR_025",
+          "P2A_HR_026",
+          "P2A_HR_027",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_031",
+          "P2A_HR_032",
+          "P2A_HR_033",
+          "P2A_HR_034",
+          "P2A_HR_035",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_039",
+          "P2A_HR_040",
+          "P2A_HR_041",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_045",
+          "P2A_HR_046",
+          "P2A_HR_047",
+          "P2A_HR_048",
+          "P2A_HR_049",
+          "P2A_HR_050",
+          "P2A_HR_051",
+          "P2A_HR_052",
+          "P2A_HR_053",
+          "P2A_HR_054",
+          "P2A_HR_055",
+          "P2A_HR_056",
+          "P2A_HR_057",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_060",
+          "P2A_HR_061",
+          "P2A_HR_062",
+          "P2A_HR_063",
+          "P2A_HR_064",
+          "P2A_HR_065",
+          "P2A_HR_066",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_069",
+          "P2A_HR_070",
+          "P2A_HR_072",
+          "P2A_HR_074",
+          "P2A_HR_075"
+        ]
+      },
+      "disagreements": {
+        "count": 14,
+        "review_ids": [
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_020",
+          "P2A_HR_032",
+          "P2A_HR_035",
+          "P2A_HR_047",
+          "P2A_HR_048",
+          "P2A_HR_052",
+          "P2A_HR_054",
+          "P2A_HR_056",
+          "P2A_HR_062",
+          "P2A_HR_064",
+          "P2A_HR_067",
+          "P2A_HR_068"
+        ]
+      },
+      "unavailable": {
+        "count": 4,
+        "review_ids": [
+          "P2A_HR_071",
+          "P2A_HR_073",
+          "P2A_HR_076",
+          "P2A_HR_077"
+        ]
+      },
+      "unavailable_final_human_labels": [
+        {
+          "human_correct": "NO",
+          "review_id": "P2A_HR_071"
+        },
+        {
+          "human_correct": "YES",
+          "review_id": "P2A_HR_073"
+        },
+        {
+          "human_correct": "YES",
+          "review_id": "P2A_HR_076"
+        },
+        {
+          "human_correct": "NO",
+          "review_id": "P2A_HR_077"
+        }
+      ]
+    },
+    "E6": {
+      "False_to_YES": {
+        "count": 13,
+        "review_ids": [
+          "P2A_HR_050",
+          "P2A_HR_055",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_060",
+          "P2A_HR_062",
+          "P2A_HR_064",
+          "P2A_HR_066",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_073",
+          "P2A_HR_075",
+          "P2A_HR_076"
+        ]
+      },
+      "True_to_NO": {
+        "count": 6,
+        "review_ids": [
+          "P2A_HR_009",
+          "P2A_HR_012",
+          "P2A_HR_031",
+          "P2A_HR_039",
+          "P2A_HR_046",
+          "P2A_HR_047"
+        ]
+      },
+      "agreements": {
+        "count": 55,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_005",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_010",
+          "P2A_HR_011",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_020",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_023",
+          "P2A_HR_024",
+          "P2A_HR_025",
+          "P2A_HR_026",
+          "P2A_HR_027",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_032",
+          "P2A_HR_033",
+          "P2A_HR_034",
+          "P2A_HR_035",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_040",
+          "P2A_HR_041",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_045",
+          "P2A_HR_048",
+          "P2A_HR_049",
+          "P2A_HR_051",
+          "P2A_HR_052",
+          "P2A_HR_053",
+          "P2A_HR_054",
+          "P2A_HR_056",
+          "P2A_HR_057",
+          "P2A_HR_061",
+          "P2A_HR_063",
+          "P2A_HR_065",
+          "P2A_HR_069",
+          "P2A_HR_071",
+          "P2A_HR_077"
+        ]
+      },
+      "available_auto_but_human_UNCLEAR": {
+        "count": 0,
+        "review_ids": []
+      },
+      "comparable_cases": {
+        "count": 74,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_005",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_009",
+          "P2A_HR_010",
+          "P2A_HR_011",
+          "P2A_HR_012",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_020",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_023",
+          "P2A_HR_024",
+          "P2A_HR_025",
+          "P2A_HR_026",
+          "P2A_HR_027",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_031",
+          "P2A_HR_032",
+          "P2A_HR_033",
+          "P2A_HR_034",
+          "P2A_HR_035",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_039",
+          "P2A_HR_040",
+          "P2A_HR_041",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_045",
+          "P2A_HR_046",
+          "P2A_HR_047",
+          "P2A_HR_048",
+          "P2A_HR_049",
+          "P2A_HR_050",
+          "P2A_HR_051",
+          "P2A_HR_052",
+          "P2A_HR_053",
+          "P2A_HR_054",
+          "P2A_HR_055",
+          "P2A_HR_056",
+          "P2A_HR_057",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_060",
+          "P2A_HR_061",
+          "P2A_HR_062",
+          "P2A_HR_063",
+          "P2A_HR_064",
+          "P2A_HR_065",
+          "P2A_HR_066",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_069",
+          "P2A_HR_071",
+          "P2A_HR_073",
+          "P2A_HR_075",
+          "P2A_HR_076",
+          "P2A_HR_077"
+        ]
+      },
+      "disagreements": {
+        "count": 19,
+        "review_ids": [
+          "P2A_HR_009",
+          "P2A_HR_012",
+          "P2A_HR_031",
+          "P2A_HR_039",
+          "P2A_HR_046",
+          "P2A_HR_047",
+          "P2A_HR_050",
+          "P2A_HR_055",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_060",
+          "P2A_HR_062",
+          "P2A_HR_064",
+          "P2A_HR_066",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_073",
+          "P2A_HR_075",
+          "P2A_HR_076"
+        ]
+      },
+      "unavailable": {
+        "count": 3,
+        "review_ids": [
+          "P2A_HR_070",
+          "P2A_HR_072",
+          "P2A_HR_074"
+        ]
+      },
+      "unavailable_final_human_labels": [
+        {
+          "human_correct": "NO",
+          "review_id": "P2A_HR_070"
+        },
+        {
+          "human_correct": "NO",
+          "review_id": "P2A_HR_072"
+        },
+        {
+          "human_correct": "NO",
+          "review_id": "P2A_HR_074"
+        }
+      ]
+    },
+    "E9": {
+      "False_to_YES": {
+        "count": 11,
+        "review_ids": [
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_020",
+          "P2A_HR_023",
+          "P2A_HR_025",
+          "P2A_HR_035",
+          "P2A_HR_046",
+          "P2A_HR_050",
+          "P2A_HR_055",
+          "P2A_HR_069",
+          "P2A_HR_073"
+        ]
+      },
+      "True_to_NO": {
+        "count": 9,
+        "review_ids": [
+          "P2A_HR_005",
+          "P2A_HR_009",
+          "P2A_HR_012",
+          "P2A_HR_034",
+          "P2A_HR_039",
+          "P2A_HR_052",
+          "P2A_HR_056",
+          "P2A_HR_065",
+          "P2A_HR_070"
+        ]
+      },
+      "agreements": {
+        "count": 54,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_010",
+          "P2A_HR_011",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_024",
+          "P2A_HR_026",
+          "P2A_HR_027",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_031",
+          "P2A_HR_032",
+          "P2A_HR_033",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_040",
+          "P2A_HR_041",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_045",
+          "P2A_HR_047",
+          "P2A_HR_048",
+          "P2A_HR_049",
+          "P2A_HR_051",
+          "P2A_HR_053",
+          "P2A_HR_054",
+          "P2A_HR_057",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_060",
+          "P2A_HR_061",
+          "P2A_HR_062",
+          "P2A_HR_063",
+          "P2A_HR_064",
+          "P2A_HR_066",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_071",
+          "P2A_HR_072",
+          "P2A_HR_077"
+        ]
+      },
+      "available_auto_but_human_UNCLEAR": {
+        "count": 0,
+        "review_ids": []
+      },
+      "comparable_cases": {
+        "count": 74,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_005",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_009",
+          "P2A_HR_010",
+          "P2A_HR_011",
+          "P2A_HR_012",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_020",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_023",
+          "P2A_HR_024",
+          "P2A_HR_025",
+          "P2A_HR_026",
+          "P2A_HR_027",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_031",
+          "P2A_HR_032",
+          "P2A_HR_033",
+          "P2A_HR_034",
+          "P2A_HR_035",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_039",
+          "P2A_HR_040",
+          "P2A_HR_041",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_045",
+          "P2A_HR_046",
+          "P2A_HR_047",
+          "P2A_HR_048",
+          "P2A_HR_049",
+          "P2A_HR_050",
+          "P2A_HR_051",
+          "P2A_HR_052",
+          "P2A_HR_053",
+          "P2A_HR_054",
+          "P2A_HR_055",
+          "P2A_HR_056",
+          "P2A_HR_057",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_060",
+          "P2A_HR_061",
+          "P2A_HR_062",
+          "P2A_HR_063",
+          "P2A_HR_064",
+          "P2A_HR_065",
+          "P2A_HR_066",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_069",
+          "P2A_HR_070",
+          "P2A_HR_071",
+          "P2A_HR_072",
+          "P2A_HR_073",
+          "P2A_HR_077"
+        ]
+      },
+      "disagreements": {
+        "count": 20,
+        "review_ids": [
+          "P2A_HR_005",
+          "P2A_HR_009",
+          "P2A_HR_012",
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_020",
+          "P2A_HR_023",
+          "P2A_HR_025",
+          "P2A_HR_034",
+          "P2A_HR_035",
+          "P2A_HR_039",
+          "P2A_HR_046",
+          "P2A_HR_050",
+          "P2A_HR_052",
+          "P2A_HR_055",
+          "P2A_HR_056",
+          "P2A_HR_065",
+          "P2A_HR_069",
+          "P2A_HR_070",
+          "P2A_HR_073"
+        ]
+      },
+      "unavailable": {
+        "count": 3,
+        "review_ids": [
+          "P2A_HR_074",
+          "P2A_HR_075",
+          "P2A_HR_076"
+        ]
+      },
+      "unavailable_final_human_labels": [
+        {
+          "human_correct": "NO",
+          "review_id": "P2A_HR_074"
+        },
+        {
+          "human_correct": "YES",
+          "review_id": "P2A_HR_075"
+        },
+        {
+          "human_correct": "YES",
+          "review_id": "P2A_HR_076"
+        }
+      ]
+    }
+  },
+  "confidence": {
+    "HIGH": {
+      "count": 60,
+      "review_ids": [
+        "P2A_HR_001",
+        "P2A_HR_002",
+        "P2A_HR_003",
+        "P2A_HR_005",
+        "P2A_HR_006",
+        "P2A_HR_007",
+        "P2A_HR_008",
+        "P2A_HR_010",
+        "P2A_HR_011",
+        "P2A_HR_012",
+        "P2A_HR_013",
+        "P2A_HR_014",
+        "P2A_HR_015",
+        "P2A_HR_016",
+        "P2A_HR_017",
+        "P2A_HR_018",
+        "P2A_HR_019",
+        "P2A_HR_021",
+        "P2A_HR_023",
+        "P2A_HR_024",
+        "P2A_HR_025",
+        "P2A_HR_026",
+        "P2A_HR_027",
+        "P2A_HR_028",
+        "P2A_HR_029",
+        "P2A_HR_030",
+        "P2A_HR_032",
+        "P2A_HR_033",
+        "P2A_HR_036",
+        "P2A_HR_037",
+        "P2A_HR_038",
+        "P2A_HR_040",
+        "P2A_HR_041",
+        "P2A_HR_042",
+        "P2A_HR_043",
+        "P2A_HR_044",
+        "P2A_HR_045",
+        "P2A_HR_046",
+        "P2A_HR_047",
+        "P2A_HR_048",
+        "P2A_HR_049",
+        "P2A_HR_050",
+        "P2A_HR_053",
+        "P2A_HR_055",
+        "P2A_HR_057",
+        "P2A_HR_058",
+        "P2A_HR_059",
+        "P2A_HR_061",
+        "P2A_HR_062",
+        "P2A_HR_063",
+        "P2A_HR_065",
+        "P2A_HR_068",
+        "P2A_HR_069",
+        "P2A_HR_070",
+        "P2A_HR_071",
+        "P2A_HR_072",
+        "P2A_HR_073",
+        "P2A_HR_075",
+        "P2A_HR_076",
+        "P2A_HR_077"
+      ]
+    },
+    "LOW": {
+      "count": 0,
+      "review_ids": []
+    },
+    "MEDIUM": {
+      "count": 17,
+      "review_ids": [
+        "P2A_HR_004",
+        "P2A_HR_009",
+        "P2A_HR_020",
+        "P2A_HR_022",
+        "P2A_HR_031",
+        "P2A_HR_034",
+        "P2A_HR_035",
+        "P2A_HR_039",
+        "P2A_HR_051",
+        "P2A_HR_052",
+        "P2A_HR_054",
+        "P2A_HR_056",
+        "P2A_HR_060",
+        "P2A_HR_064",
+        "P2A_HR_066",
+        "P2A_HR_067",
+        "P2A_HR_074"
+      ]
+    }
+  },
+  "human_correctness_inventories": {
+    "E3": {
+      "NO": {
+        "count": 56,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_005",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_009",
+          "P2A_HR_010",
+          "P2A_HR_011",
+          "P2A_HR_012",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_023",
+          "P2A_HR_024",
+          "P2A_HR_025",
+          "P2A_HR_026",
+          "P2A_HR_027",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_031",
+          "P2A_HR_033",
+          "P2A_HR_034",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_039",
+          "P2A_HR_040",
+          "P2A_HR_041",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_045",
+          "P2A_HR_046",
+          "P2A_HR_049",
+          "P2A_HR_052",
+          "P2A_HR_054",
+          "P2A_HR_056",
+          "P2A_HR_060",
+          "P2A_HR_061",
+          "P2A_HR_063",
+          "P2A_HR_065",
+          "P2A_HR_066",
+          "P2A_HR_070",
+          "P2A_HR_071",
+          "P2A_HR_072",
+          "P2A_HR_074",
+          "P2A_HR_075",
+          "P2A_HR_077"
+        ]
+      },
+      "UNCLEAR": {
+        "count": 0,
+        "review_ids": []
+      },
+      "YES": {
+        "count": 21,
+        "review_ids": [
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_020",
+          "P2A_HR_032",
+          "P2A_HR_035",
+          "P2A_HR_047",
+          "P2A_HR_048",
+          "P2A_HR_050",
+          "P2A_HR_051",
+          "P2A_HR_053",
+          "P2A_HR_055",
+          "P2A_HR_057",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_062",
+          "P2A_HR_064",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_069",
+          "P2A_HR_073",
+          "P2A_HR_076"
+        ]
+      }
+    },
+    "E6": {
+      "NO": {
+        "count": 19,
+        "review_ids": [
+          "P2A_HR_009",
+          "P2A_HR_012",
+          "P2A_HR_031",
+          "P2A_HR_039",
+          "P2A_HR_046",
+          "P2A_HR_047",
+          "P2A_HR_051",
+          "P2A_HR_052",
+          "P2A_HR_053",
+          "P2A_HR_054",
+          "P2A_HR_056",
+          "P2A_HR_057",
+          "P2A_HR_061",
+          "P2A_HR_063",
+          "P2A_HR_065",
+          "P2A_HR_070",
+          "P2A_HR_071",
+          "P2A_HR_072",
+          "P2A_HR_074"
+        ]
+      },
+      "UNCLEAR": {
+        "count": 0,
+        "review_ids": []
+      },
+      "YES": {
+        "count": 58,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_005",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_010",
+          "P2A_HR_011",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_020",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_023",
+          "P2A_HR_024",
+          "P2A_HR_025",
+          "P2A_HR_026",
+          "P2A_HR_027",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_032",
+          "P2A_HR_033",
+          "P2A_HR_034",
+          "P2A_HR_035",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_040",
+          "P2A_HR_041",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_045",
+          "P2A_HR_048",
+          "P2A_HR_049",
+          "P2A_HR_050",
+          "P2A_HR_055",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_060",
+          "P2A_HR_062",
+          "P2A_HR_064",
+          "P2A_HR_066",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_069",
+          "P2A_HR_073",
+          "P2A_HR_075",
+          "P2A_HR_076",
+          "P2A_HR_077"
+        ]
+      }
+    },
+    "E9": {
+      "NO": {
+        "count": 18,
+        "review_ids": [
+          "P2A_HR_005",
+          "P2A_HR_009",
+          "P2A_HR_012",
+          "P2A_HR_031",
+          "P2A_HR_034",
+          "P2A_HR_039",
+          "P2A_HR_041",
+          "P2A_HR_051",
+          "P2A_HR_052",
+          "P2A_HR_053",
+          "P2A_HR_054",
+          "P2A_HR_056",
+          "P2A_HR_057",
+          "P2A_HR_065",
+          "P2A_HR_070",
+          "P2A_HR_071",
+          "P2A_HR_072",
+          "P2A_HR_074"
+        ]
+      },
+      "UNCLEAR": {
+        "count": 0,
+        "review_ids": []
+      },
+      "YES": {
+        "count": 59,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_010",
+          "P2A_HR_011",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_020",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_023",
+          "P2A_HR_024",
+          "P2A_HR_025",
+          "P2A_HR_026",
+          "P2A_HR_027",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_032",
+          "P2A_HR_033",
+          "P2A_HR_035",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_040",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_045",
+          "P2A_HR_046",
+          "P2A_HR_047",
+          "P2A_HR_048",
+          "P2A_HR_049",
+          "P2A_HR_050",
+          "P2A_HR_055",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_060",
+          "P2A_HR_061",
+          "P2A_HR_062",
+          "P2A_HR_063",
+          "P2A_HR_064",
+          "P2A_HR_066",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_069",
+          "P2A_HR_073",
+          "P2A_HR_075",
+          "P2A_HR_076",
+          "P2A_HR_077"
+        ]
+      }
+    }
+  },
+  "human_evidence_inventories": {
+    "E3_evidence_sufficient": {
+      "NO": {
+        "count": 50,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_005",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_009",
+          "P2A_HR_011",
+          "P2A_HR_012",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_023",
+          "P2A_HR_024",
+          "P2A_HR_025",
+          "P2A_HR_026",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_033",
+          "P2A_HR_034",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_039",
+          "P2A_HR_041",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_049",
+          "P2A_HR_052",
+          "P2A_HR_053",
+          "P2A_HR_054",
+          "P2A_HR_056",
+          "P2A_HR_060",
+          "P2A_HR_061",
+          "P2A_HR_063",
+          "P2A_HR_065",
+          "P2A_HR_066",
+          "P2A_HR_070",
+          "P2A_HR_071",
+          "P2A_HR_072",
+          "P2A_HR_074",
+          "P2A_HR_077"
+        ]
+      },
+      "UNCLEAR": {
+        "count": 0,
+        "review_ids": []
+      },
+      "YES": {
+        "count": 27,
+        "review_ids": [
+          "P2A_HR_010",
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_020",
+          "P2A_HR_027",
+          "P2A_HR_031",
+          "P2A_HR_032",
+          "P2A_HR_035",
+          "P2A_HR_040",
+          "P2A_HR_045",
+          "P2A_HR_046",
+          "P2A_HR_047",
+          "P2A_HR_048",
+          "P2A_HR_050",
+          "P2A_HR_051",
+          "P2A_HR_055",
+          "P2A_HR_057",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_062",
+          "P2A_HR_064",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_069",
+          "P2A_HR_073",
+          "P2A_HR_075",
+          "P2A_HR_076"
+        ]
+      }
+    },
+    "E6_added_evidence_useful": {
+      "NO": {
+        "count": 21,
+        "review_ids": [
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_020",
+          "P2A_HR_031",
+          "P2A_HR_032",
+          "P2A_HR_035",
+          "P2A_HR_045",
+          "P2A_HR_047",
+          "P2A_HR_050",
+          "P2A_HR_052",
+          "P2A_HR_054",
+          "P2A_HR_055",
+          "P2A_HR_057",
+          "P2A_HR_062",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_069",
+          "P2A_HR_072",
+          "P2A_HR_073",
+          "P2A_HR_075",
+          "P2A_HR_076"
+        ]
+      },
+      "UNCLEAR": {
+        "count": 0,
+        "review_ids": []
+      },
+      "YES": {
+        "count": 56,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_005",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_009",
+          "P2A_HR_010",
+          "P2A_HR_011",
+          "P2A_HR_012",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_023",
+          "P2A_HR_024",
+          "P2A_HR_025",
+          "P2A_HR_026",
+          "P2A_HR_027",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_033",
+          "P2A_HR_034",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_039",
+          "P2A_HR_040",
+          "P2A_HR_041",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_046",
+          "P2A_HR_048",
+          "P2A_HR_049",
+          "P2A_HR_051",
+          "P2A_HR_053",
+          "P2A_HR_056",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_060",
+          "P2A_HR_061",
+          "P2A_HR_063",
+          "P2A_HR_064",
+          "P2A_HR_065",
+          "P2A_HR_066",
+          "P2A_HR_070",
+          "P2A_HR_071",
+          "P2A_HR_074",
+          "P2A_HR_077"
+        ]
+      }
+    },
+    "E9_added_evidence_useful": {
+      "NO": {
+        "count": 74,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_005",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_009",
+          "P2A_HR_010",
+          "P2A_HR_011",
+          "P2A_HR_012",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_020",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_023",
+          "P2A_HR_024",
+          "P2A_HR_025",
+          "P2A_HR_026",
+          "P2A_HR_027",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_031",
+          "P2A_HR_032",
+          "P2A_HR_033",
+          "P2A_HR_034",
+          "P2A_HR_035",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_039",
+          "P2A_HR_040",
+          "P2A_HR_041",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_045",
+          "P2A_HR_047",
+          "P2A_HR_049",
+          "P2A_HR_050",
+          "P2A_HR_051",
+          "P2A_HR_052",
+          "P2A_HR_053",
+          "P2A_HR_054",
+          "P2A_HR_055",
+          "P2A_HR_057",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_060",
+          "P2A_HR_061",
+          "P2A_HR_062",
+          "P2A_HR_063",
+          "P2A_HR_064",
+          "P2A_HR_065",
+          "P2A_HR_066",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_069",
+          "P2A_HR_070",
+          "P2A_HR_071",
+          "P2A_HR_072",
+          "P2A_HR_073",
+          "P2A_HR_074",
+          "P2A_HR_075",
+          "P2A_HR_076",
+          "P2A_HR_077"
+        ]
+      },
+      "UNCLEAR": {
+        "count": 0,
+        "review_ids": []
+      },
+      "YES": {
+        "count": 3,
+        "review_ids": [
+          "P2A_HR_046",
+          "P2A_HR_048",
+          "P2A_HR_056"
+        ]
+      }
+    }
+  },
+  "human_transitions": {
+    "E3_to_E6": {
+      "DEGRADATION": {
+        "count": 4,
+        "review_ids": [
+          "P2A_HR_047",
+          "P2A_HR_051",
+          "P2A_HR_053",
+          "P2A_HR_057"
+        ]
+      },
+      "RAW_RECOVERY": {
+        "count": 41,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_005",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_010",
+          "P2A_HR_011",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_023",
+          "P2A_HR_024",
+          "P2A_HR_025",
+          "P2A_HR_026",
+          "P2A_HR_027",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_033",
+          "P2A_HR_034",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_040",
+          "P2A_HR_041",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_045",
+          "P2A_HR_049",
+          "P2A_HR_060",
+          "P2A_HR_066",
+          "P2A_HR_075",
+          "P2A_HR_077"
+        ]
+      },
+      "SUSTAINED_CORRECT": {
+        "count": 17,
+        "review_ids": [
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_020",
+          "P2A_HR_032",
+          "P2A_HR_035",
+          "P2A_HR_048",
+          "P2A_HR_050",
+          "P2A_HR_055",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_062",
+          "P2A_HR_064",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_069",
+          "P2A_HR_073",
+          "P2A_HR_076"
+        ]
+      },
+      "SUSTAINED_INCORRECT": {
+        "count": 15,
+        "review_ids": [
+          "P2A_HR_009",
+          "P2A_HR_012",
+          "P2A_HR_031",
+          "P2A_HR_039",
+          "P2A_HR_046",
+          "P2A_HR_052",
+          "P2A_HR_054",
+          "P2A_HR_056",
+          "P2A_HR_061",
+          "P2A_HR_063",
+          "P2A_HR_065",
+          "P2A_HR_070",
+          "P2A_HR_071",
+          "P2A_HR_072",
+          "P2A_HR_074"
+        ]
+      },
+      "UNRESOLVED_HUMAN_LABEL": {
+        "count": 0,
+        "review_ids": []
+      }
+    },
+    "E6_to_E9": {
+      "DEGRADATION": {
+        "count": 3,
+        "review_ids": [
+          "P2A_HR_005",
+          "P2A_HR_034",
+          "P2A_HR_041"
+        ]
+      },
+      "RAW_RECOVERY": {
+        "count": 4,
+        "review_ids": [
+          "P2A_HR_046",
+          "P2A_HR_047",
+          "P2A_HR_061",
+          "P2A_HR_063"
+        ]
+      },
+      "SUSTAINED_CORRECT": {
+        "count": 55,
+        "review_ids": [
+          "P2A_HR_001",
+          "P2A_HR_002",
+          "P2A_HR_003",
+          "P2A_HR_004",
+          "P2A_HR_006",
+          "P2A_HR_007",
+          "P2A_HR_008",
+          "P2A_HR_010",
+          "P2A_HR_011",
+          "P2A_HR_013",
+          "P2A_HR_014",
+          "P2A_HR_015",
+          "P2A_HR_016",
+          "P2A_HR_017",
+          "P2A_HR_018",
+          "P2A_HR_019",
+          "P2A_HR_020",
+          "P2A_HR_021",
+          "P2A_HR_022",
+          "P2A_HR_023",
+          "P2A_HR_024",
+          "P2A_HR_025",
+          "P2A_HR_026",
+          "P2A_HR_027",
+          "P2A_HR_028",
+          "P2A_HR_029",
+          "P2A_HR_030",
+          "P2A_HR_032",
+          "P2A_HR_033",
+          "P2A_HR_035",
+          "P2A_HR_036",
+          "P2A_HR_037",
+          "P2A_HR_038",
+          "P2A_HR_040",
+          "P2A_HR_042",
+          "P2A_HR_043",
+          "P2A_HR_044",
+          "P2A_HR_045",
+          "P2A_HR_048",
+          "P2A_HR_049",
+          "P2A_HR_050",
+          "P2A_HR_055",
+          "P2A_HR_058",
+          "P2A_HR_059",
+          "P2A_HR_060",
+          "P2A_HR_062",
+          "P2A_HR_064",
+          "P2A_HR_066",
+          "P2A_HR_067",
+          "P2A_HR_068",
+          "P2A_HR_069",
+          "P2A_HR_073",
+          "P2A_HR_075",
+          "P2A_HR_076",
+          "P2A_HR_077"
+        ]
+      },
+      "SUSTAINED_INCORRECT": {
+        "count": 15,
+        "review_ids": [
+          "P2A_HR_009",
+          "P2A_HR_012",
+          "P2A_HR_031",
+          "P2A_HR_039",
+          "P2A_HR_051",
+          "P2A_HR_052",
+          "P2A_HR_053",
+          "P2A_HR_054",
+          "P2A_HR_056",
+          "P2A_HR_057",
+          "P2A_HR_065",
+          "P2A_HR_070",
+          "P2A_HR_071",
+          "P2A_HR_072",
+          "P2A_HR_074"
+        ]
+      },
+      "UNRESOLVED_HUMAN_LABEL": {
+        "count": 0,
+        "review_ids": []
+      }
+    }
+  },
+  "input": {
+    "hash_verified": true,
+    "path": "results/oracle_headroom/phase2a_final_freeze/phase2a_human_annotations_frozen.csv",
+    "sha256": "683b0a9cb42a5a487bfff2b0b5b1210fa761ab7857ff0d4f2ae060646e0d7e71"
+  },
+  "logically_interesting_combinations": {
+    "E3_correct_and_E3_sufficient_NO": {
+      "count": 1,
+      "review_ids": [
+        "P2A_HR_053"
+      ]
+    },
+    "E3_correct_to_E6_wrong": {
+      "count": 4,
+      "review_ids": [
+        "P2A_HR_047",
+        "P2A_HR_051",
+        "P2A_HR_053",
+        "P2A_HR_057"
+      ]
+    },
+    "E3_wrong_and_E3_sufficient_YES": {
+      "count": 7,
+      "review_ids": [
+        "P2A_HR_010",
+        "P2A_HR_027",
+        "P2A_HR_031",
+        "P2A_HR_040",
+        "P2A_HR_045",
+        "P2A_HR_046",
+        "P2A_HR_075"
+      ]
+    },
+    "E6_correct_to_E9_wrong": {
+      "count": 3,
+      "review_ids": [
+        "P2A_HR_005",
+        "P2A_HR_034",
+        "P2A_HR_041"
+      ]
+    }
+  },
+  "method": {
+    "NO_UNCLEAR_retention": "Retained in general inventory and separate reference-stratified diagnostics",
+    "UNCLEAR_correctness": "Never coerced to incorrect; reported as unresolved where applicable",
+    "annotation_truth": "Hash-verified frozen CSV only",
+    "hard_coded_result_counts": false,
+    "primary_reference_eligibility": "human_reference_valid == YES",
+    "transitions": "Recomputed from human correctness; stored automatic transition flags are not used"
+  },
+  "primary_reference_valid_denominator": 70,
+  "reference_stratified_diagnostics": {
+    "NO": {
+      "E3_to_E6": {
+        "DEGRADATION": {
+          "count": 0,
+          "review_ids": []
+        },
+        "RAW_RECOVERY": {
+          "count": 3,
+          "review_ids": [
+            "P2A_HR_023",
+            "P2A_HR_060",
+            "P2A_HR_075"
+          ]
+        },
+        "SUSTAINED_CORRECT": {
+          "count": 0,
+          "review_ids": []
+        },
+        "SUSTAINED_INCORRECT": {
+          "count": 1,
+          "review_ids": [
+            "P2A_HR_012"
+          ]
+        },
+        "UNRESOLVED_HUMAN_LABEL": {
+          "count": 0,
+          "review_ids": []
+        }
+      },
+      "E6_to_E9": {
+        "DEGRADATION": {
+          "count": 0,
+          "review_ids": []
+        },
+        "RAW_RECOVERY": {
+          "count": 0,
+          "review_ids": []
+        },
+        "SUSTAINED_CORRECT": {
+          "count": 3,
+          "review_ids": [
+            "P2A_HR_023",
+            "P2A_HR_060",
+            "P2A_HR_075"
+          ]
+        },
+        "SUSTAINED_INCORRECT": {
+          "count": 1,
+          "review_ids": [
+            "P2A_HR_012"
+          ]
+        },
+        "UNRESOLVED_HUMAN_LABEL": {
+          "count": 0,
+          "review_ids": []
+        }
+      },
+      "human_correctness": {
+        "E3": {
+          "NO": {
+            "count": 4,
+            "review_ids": [
+              "P2A_HR_012",
+              "P2A_HR_023",
+              "P2A_HR_060",
+              "P2A_HR_075"
+            ]
+          },
+          "UNCLEAR": {
+            "count": 0,
+            "review_ids": []
+          },
+          "YES": {
+            "count": 0,
+            "review_ids": []
+          }
+        },
+        "E6": {
+          "NO": {
+            "count": 1,
+            "review_ids": [
+              "P2A_HR_012"
+            ]
+          },
+          "UNCLEAR": {
+            "count": 0,
+            "review_ids": []
+          },
+          "YES": {
+            "count": 3,
+            "review_ids": [
+              "P2A_HR_023",
+              "P2A_HR_060",
+              "P2A_HR_075"
+            ]
+          }
+        },
+        "E9": {
+          "NO": {
+            "count": 1,
+            "review_ids": [
+              "P2A_HR_012"
+            ]
+          },
+          "UNCLEAR": {
+            "count": 0,
+            "review_ids": []
+          },
+          "YES": {
+            "count": 3,
+            "review_ids": [
+              "P2A_HR_023",
+              "P2A_HR_060",
+              "P2A_HR_075"
+            ]
+          }
+        }
+      },
+      "rows": 4
+    },
+    "UNCLEAR": {
+      "E3_to_E6": {
+        "DEGRADATION": {
+          "count": 0,
+          "review_ids": []
+        },
+        "RAW_RECOVERY": {
+          "count": 0,
+          "review_ids": []
+        },
+        "SUSTAINED_CORRECT": {
+          "count": 0,
+          "review_ids": []
+        },
+        "SUSTAINED_INCORRECT": {
+          "count": 3,
+          "review_ids": [
+            "P2A_HR_052",
+            "P2A_HR_054",
+            "P2A_HR_056"
+          ]
+        },
+        "UNRESOLVED_HUMAN_LABEL": {
+          "count": 0,
+          "review_ids": []
+        }
+      },
+      "E6_to_E9": {
+        "DEGRADATION": {
+          "count": 0,
+          "review_ids": []
+        },
+        "RAW_RECOVERY": {
+          "count": 0,
+          "review_ids": []
+        },
+        "SUSTAINED_CORRECT": {
+          "count": 0,
+          "review_ids": []
+        },
+        "SUSTAINED_INCORRECT": {
+          "count": 3,
+          "review_ids": [
+            "P2A_HR_052",
+            "P2A_HR_054",
+            "P2A_HR_056"
+          ]
+        },
+        "UNRESOLVED_HUMAN_LABEL": {
+          "count": 0,
+          "review_ids": []
+        }
+      },
+      "human_correctness": {
+        "E3": {
+          "NO": {
+            "count": 3,
+            "review_ids": [
+              "P2A_HR_052",
+              "P2A_HR_054",
+              "P2A_HR_056"
+            ]
+          },
+          "UNCLEAR": {
+            "count": 0,
+            "review_ids": []
+          },
+          "YES": {
+            "count": 0,
+            "review_ids": []
+          }
+        },
+        "E6": {
+          "NO": {
+            "count": 3,
+            "review_ids": [
+              "P2A_HR_052",
+              "P2A_HR_054",
+              "P2A_HR_056"
+            ]
+          },
+          "UNCLEAR": {
+            "count": 0,
+            "review_ids": []
+          },
+          "YES": {
+            "count": 0,
+            "review_ids": []
+          }
+        },
+        "E9": {
+          "NO": {
+            "count": 3,
+            "review_ids": [
+              "P2A_HR_052",
+              "P2A_HR_054",
+              "P2A_HR_056"
+            ]
+          },
+          "UNCLEAR": {
+            "count": 0,
+            "review_ids": []
+          },
+          "YES": {
+            "count": 0,
+            "review_ids": []
+          }
+        }
+      },
+      "rows": 3
+    },
+    "YES": {
+      "E3_to_E6": {
+        "DEGRADATION": {
+          "count": 4,
+          "review_ids": [
+            "P2A_HR_047",
+            "P2A_HR_051",
+            "P2A_HR_053",
+            "P2A_HR_057"
+          ]
+        },
+        "RAW_RECOVERY": {
+          "count": 38,
+          "review_ids": [
+            "P2A_HR_001",
+            "P2A_HR_002",
+            "P2A_HR_003",
+            "P2A_HR_004",
+            "P2A_HR_005",
+            "P2A_HR_006",
+            "P2A_HR_007",
+            "P2A_HR_008",
+            "P2A_HR_010",
+            "P2A_HR_011",
+            "P2A_HR_013",
+            "P2A_HR_014",
+            "P2A_HR_015",
+            "P2A_HR_018",
+            "P2A_HR_019",
+            "P2A_HR_021",
+            "P2A_HR_022",
+            "P2A_HR_024",
+            "P2A_HR_025",
+            "P2A_HR_026",
+            "P2A_HR_027",
+            "P2A_HR_028",
+            "P2A_HR_029",
+            "P2A_HR_030",
+            "P2A_HR_033",
+            "P2A_HR_034",
+            "P2A_HR_036",
+            "P2A_HR_037",
+            "P2A_HR_038",
+            "P2A_HR_040",
+            "P2A_HR_041",
+            "P2A_HR_042",
+            "P2A_HR_043",
+            "P2A_HR_044",
+            "P2A_HR_045",
+            "P2A_HR_049",
+            "P2A_HR_066",
+            "P2A_HR_077"
+          ]
+        },
+        "SUSTAINED_CORRECT": {
+          "count": 17,
+          "review_ids": [
+            "P2A_HR_016",
+            "P2A_HR_017",
+            "P2A_HR_020",
+            "P2A_HR_032",
+            "P2A_HR_035",
+            "P2A_HR_048",
+            "P2A_HR_050",
+            "P2A_HR_055",
+            "P2A_HR_058",
+            "P2A_HR_059",
+            "P2A_HR_062",
+            "P2A_HR_064",
+            "P2A_HR_067",
+            "P2A_HR_068",
+            "P2A_HR_069",
+            "P2A_HR_073",
+            "P2A_HR_076"
+          ]
+        },
+        "SUSTAINED_INCORRECT": {
+          "count": 11,
+          "review_ids": [
+            "P2A_HR_009",
+            "P2A_HR_031",
+            "P2A_HR_039",
+            "P2A_HR_046",
+            "P2A_HR_061",
+            "P2A_HR_063",
+            "P2A_HR_065",
+            "P2A_HR_070",
+            "P2A_HR_071",
+            "P2A_HR_072",
+            "P2A_HR_074"
+          ]
+        },
+        "UNRESOLVED_HUMAN_LABEL": {
+          "count": 0,
+          "review_ids": []
+        }
+      },
+      "E6_to_E9": {
+        "DEGRADATION": {
+          "count": 3,
+          "review_ids": [
+            "P2A_HR_005",
+            "P2A_HR_034",
+            "P2A_HR_041"
+          ]
+        },
+        "RAW_RECOVERY": {
+          "count": 4,
+          "review_ids": [
+            "P2A_HR_046",
+            "P2A_HR_047",
+            "P2A_HR_061",
+            "P2A_HR_063"
+          ]
+        },
+        "SUSTAINED_CORRECT": {
+          "count": 52,
+          "review_ids": [
+            "P2A_HR_001",
+            "P2A_HR_002",
+            "P2A_HR_003",
+            "P2A_HR_004",
+            "P2A_HR_006",
+            "P2A_HR_007",
+            "P2A_HR_008",
+            "P2A_HR_010",
+            "P2A_HR_011",
+            "P2A_HR_013",
+            "P2A_HR_014",
+            "P2A_HR_015",
+            "P2A_HR_016",
+            "P2A_HR_017",
+            "P2A_HR_018",
+            "P2A_HR_019",
+            "P2A_HR_020",
+            "P2A_HR_021",
+            "P2A_HR_022",
+            "P2A_HR_024",
+            "P2A_HR_025",
+            "P2A_HR_026",
+            "P2A_HR_027",
+            "P2A_HR_028",
+            "P2A_HR_029",
+            "P2A_HR_030",
+            "P2A_HR_032",
+            "P2A_HR_033",
+            "P2A_HR_035",
+            "P2A_HR_036",
+            "P2A_HR_037",
+            "P2A_HR_038",
+            "P2A_HR_040",
+            "P2A_HR_042",
+            "P2A_HR_043",
+            "P2A_HR_044",
+            "P2A_HR_045",
+            "P2A_HR_048",
+            "P2A_HR_049",
+            "P2A_HR_050",
+            "P2A_HR_055",
+            "P2A_HR_058",
+            "P2A_HR_059",
+            "P2A_HR_062",
+            "P2A_HR_064",
+            "P2A_HR_066",
+            "P2A_HR_067",
+            "P2A_HR_068",
+            "P2A_HR_069",
+            "P2A_HR_073",
+            "P2A_HR_076",
+            "P2A_HR_077"
+          ]
+        },
+        "SUSTAINED_INCORRECT": {
+          "count": 11,
+          "review_ids": [
+            "P2A_HR_009",
+            "P2A_HR_031",
+            "P2A_HR_039",
+            "P2A_HR_051",
+            "P2A_HR_053",
+            "P2A_HR_057",
+            "P2A_HR_065",
+            "P2A_HR_070",
+            "P2A_HR_071",
+            "P2A_HR_072",
+            "P2A_HR_074"
+          ]
+        },
+        "UNRESOLVED_HUMAN_LABEL": {
+          "count": 0,
+          "review_ids": []
+        }
+      },
+      "human_correctness": {
+        "E3": {
+          "NO": {
+            "count": 49,
+            "review_ids": [
+              "P2A_HR_001",
+              "P2A_HR_002",
+              "P2A_HR_003",
+              "P2A_HR_004",
+              "P2A_HR_005",
+              "P2A_HR_006",
+              "P2A_HR_007",
+              "P2A_HR_008",
+              "P2A_HR_009",
+              "P2A_HR_010",
+              "P2A_HR_011",
+              "P2A_HR_013",
+              "P2A_HR_014",
+              "P2A_HR_015",
+              "P2A_HR_018",
+              "P2A_HR_019",
+              "P2A_HR_021",
+              "P2A_HR_022",
+              "P2A_HR_024",
+              "P2A_HR_025",
+              "P2A_HR_026",
+              "P2A_HR_027",
+              "P2A_HR_028",
+              "P2A_HR_029",
+              "P2A_HR_030",
+              "P2A_HR_031",
+              "P2A_HR_033",
+              "P2A_HR_034",
+              "P2A_HR_036",
+              "P2A_HR_037",
+              "P2A_HR_038",
+              "P2A_HR_039",
+              "P2A_HR_040",
+              "P2A_HR_041",
+              "P2A_HR_042",
+              "P2A_HR_043",
+              "P2A_HR_044",
+              "P2A_HR_045",
+              "P2A_HR_046",
+              "P2A_HR_049",
+              "P2A_HR_061",
+              "P2A_HR_063",
+              "P2A_HR_065",
+              "P2A_HR_066",
+              "P2A_HR_070",
+              "P2A_HR_071",
+              "P2A_HR_072",
+              "P2A_HR_074",
+              "P2A_HR_077"
+            ]
+          },
+          "UNCLEAR": {
+            "count": 0,
+            "review_ids": []
+          },
+          "YES": {
+            "count": 21,
+            "review_ids": [
+              "P2A_HR_016",
+              "P2A_HR_017",
+              "P2A_HR_020",
+              "P2A_HR_032",
+              "P2A_HR_035",
+              "P2A_HR_047",
+              "P2A_HR_048",
+              "P2A_HR_050",
+              "P2A_HR_051",
+              "P2A_HR_053",
+              "P2A_HR_055",
+              "P2A_HR_057",
+              "P2A_HR_058",
+              "P2A_HR_059",
+              "P2A_HR_062",
+              "P2A_HR_064",
+              "P2A_HR_067",
+              "P2A_HR_068",
+              "P2A_HR_069",
+              "P2A_HR_073",
+              "P2A_HR_076"
+            ]
+          }
+        },
+        "E6": {
+          "NO": {
+            "count": 15,
+            "review_ids": [
+              "P2A_HR_009",
+              "P2A_HR_031",
+              "P2A_HR_039",
+              "P2A_HR_046",
+              "P2A_HR_047",
+              "P2A_HR_051",
+              "P2A_HR_053",
+              "P2A_HR_057",
+              "P2A_HR_061",
+              "P2A_HR_063",
+              "P2A_HR_065",
+              "P2A_HR_070",
+              "P2A_HR_071",
+              "P2A_HR_072",
+              "P2A_HR_074"
+            ]
+          },
+          "UNCLEAR": {
+            "count": 0,
+            "review_ids": []
+          },
+          "YES": {
+            "count": 55,
+            "review_ids": [
+              "P2A_HR_001",
+              "P2A_HR_002",
+              "P2A_HR_003",
+              "P2A_HR_004",
+              "P2A_HR_005",
+              "P2A_HR_006",
+              "P2A_HR_007",
+              "P2A_HR_008",
+              "P2A_HR_010",
+              "P2A_HR_011",
+              "P2A_HR_013",
+              "P2A_HR_014",
+              "P2A_HR_015",
+              "P2A_HR_016",
+              "P2A_HR_017",
+              "P2A_HR_018",
+              "P2A_HR_019",
+              "P2A_HR_020",
+              "P2A_HR_021",
+              "P2A_HR_022",
+              "P2A_HR_024",
+              "P2A_HR_025",
+              "P2A_HR_026",
+              "P2A_HR_027",
+              "P2A_HR_028",
+              "P2A_HR_029",
+              "P2A_HR_030",
+              "P2A_HR_032",
+              "P2A_HR_033",
+              "P2A_HR_034",
+              "P2A_HR_035",
+              "P2A_HR_036",
+              "P2A_HR_037",
+              "P2A_HR_038",
+              "P2A_HR_040",
+              "P2A_HR_041",
+              "P2A_HR_042",
+              "P2A_HR_043",
+              "P2A_HR_044",
+              "P2A_HR_045",
+              "P2A_HR_048",
+              "P2A_HR_049",
+              "P2A_HR_050",
+              "P2A_HR_055",
+              "P2A_HR_058",
+              "P2A_HR_059",
+              "P2A_HR_062",
+              "P2A_HR_064",
+              "P2A_HR_066",
+              "P2A_HR_067",
+              "P2A_HR_068",
+              "P2A_HR_069",
+              "P2A_HR_073",
+              "P2A_HR_076",
+              "P2A_HR_077"
+            ]
+          }
+        },
+        "E9": {
+          "NO": {
+            "count": 14,
+            "review_ids": [
+              "P2A_HR_005",
+              "P2A_HR_009",
+              "P2A_HR_031",
+              "P2A_HR_034",
+              "P2A_HR_039",
+              "P2A_HR_041",
+              "P2A_HR_051",
+              "P2A_HR_053",
+              "P2A_HR_057",
+              "P2A_HR_065",
+              "P2A_HR_070",
+              "P2A_HR_071",
+              "P2A_HR_072",
+              "P2A_HR_074"
+            ]
+          },
+          "UNCLEAR": {
+            "count": 0,
+            "review_ids": []
+          },
+          "YES": {
+            "count": 56,
+            "review_ids": [
+              "P2A_HR_001",
+              "P2A_HR_002",
+              "P2A_HR_003",
+              "P2A_HR_004",
+              "P2A_HR_006",
+              "P2A_HR_007",
+              "P2A_HR_008",
+              "P2A_HR_010",
+              "P2A_HR_011",
+              "P2A_HR_013",
+              "P2A_HR_014",
+              "P2A_HR_015",
+              "P2A_HR_016",
+              "P2A_HR_017",
+              "P2A_HR_018",
+              "P2A_HR_019",
+              "P2A_HR_020",
+              "P2A_HR_021",
+              "P2A_HR_022",
+              "P2A_HR_024",
+              "P2A_HR_025",
+              "P2A_HR_026",
+              "P2A_HR_027",
+              "P2A_HR_028",
+              "P2A_HR_029",
+              "P2A_HR_030",
+              "P2A_HR_032",
+              "P2A_HR_033",
+              "P2A_HR_035",
+              "P2A_HR_036",
+              "P2A_HR_037",
+              "P2A_HR_038",
+              "P2A_HR_040",
+              "P2A_HR_042",
+              "P2A_HR_043",
+              "P2A_HR_044",
+              "P2A_HR_045",
+              "P2A_HR_046",
+              "P2A_HR_047",
+              "P2A_HR_048",
+              "P2A_HR_049",
+              "P2A_HR_050",
+              "P2A_HR_055",
+              "P2A_HR_058",
+              "P2A_HR_059",
+              "P2A_HR_061",
+              "P2A_HR_062",
+              "P2A_HR_063",
+              "P2A_HR_064",
+              "P2A_HR_066",
+              "P2A_HR_067",
+              "P2A_HR_068",
+              "P2A_HR_069",
+              "P2A_HR_073",
+              "P2A_HR_076",
+              "P2A_HR_077"
+            ]
+          }
+        }
+      },
+      "rows": 70
+    }
+  },
+  "reference_validity": {
+    "NO": {
+      "count": 4,
+      "review_ids": [
+        "P2A_HR_012",
+        "P2A_HR_023",
+        "P2A_HR_060",
+        "P2A_HR_075"
+      ]
+    },
+    "UNCLEAR": {
+      "count": 3,
+      "review_ids": [
+        "P2A_HR_052",
+        "P2A_HR_054",
+        "P2A_HR_056"
+      ]
+    },
+    "YES": {
+      "count": 70,
+      "review_ids": [
+        "P2A_HR_001",
+        "P2A_HR_002",
+        "P2A_HR_003",
+        "P2A_HR_004",
+        "P2A_HR_005",
+        "P2A_HR_006",
+        "P2A_HR_007",
+        "P2A_HR_008",
+        "P2A_HR_009",
+        "P2A_HR_010",
+        "P2A_HR_011",
+        "P2A_HR_013",
+        "P2A_HR_014",
+        "P2A_HR_015",
+        "P2A_HR_016",
+        "P2A_HR_017",
+        "P2A_HR_018",
+        "P2A_HR_019",
+        "P2A_HR_020",
+        "P2A_HR_021",
+        "P2A_HR_022",
+        "P2A_HR_024",
+        "P2A_HR_025",
+        "P2A_HR_026",
+        "P2A_HR_027",
+        "P2A_HR_028",
+        "P2A_HR_029",
+        "P2A_HR_030",
+        "P2A_HR_031",
+        "P2A_HR_032",
+        "P2A_HR_033",
+        "P2A_HR_034",
+        "P2A_HR_035",
+        "P2A_HR_036",
+        "P2A_HR_037",
+        "P2A_HR_038",
+        "P2A_HR_039",
+        "P2A_HR_040",
+        "P2A_HR_041",
+        "P2A_HR_042",
+        "P2A_HR_043",
+        "P2A_HR_044",
+        "P2A_HR_045",
+        "P2A_HR_046",
+        "P2A_HR_047",
+        "P2A_HR_048",
+        "P2A_HR_049",
+        "P2A_HR_050",
+        "P2A_HR_051",
+        "P2A_HR_053",
+        "P2A_HR_055",
+        "P2A_HR_057",
+        "P2A_HR_058",
+        "P2A_HR_059",
+        "P2A_HR_061",
+        "P2A_HR_062",
+        "P2A_HR_063",
+        "P2A_HR_064",
+        "P2A_HR_065",
+        "P2A_HR_066",
+        "P2A_HR_067",
+        "P2A_HR_068",
+        "P2A_HR_069",
+        "P2A_HR_070",
+        "P2A_HR_071",
+        "P2A_HR_072",
+        "P2A_HR_073",
+        "P2A_HR_074",
+        "P2A_HR_076",
+        "P2A_HR_077"
+      ]
+    }
+  },
+  "rows_analyzed": 77,
+  "schema_version": "phase2a-final-human-statistics-v1",
+  "scope": "Diagnostic statistics within the selected human-review packet only. No population prevalence, overall Top-3/6/9 answer accuracy, or population recovery rate over the 224 Phase 2A queries is estimated.",
+  "validation": {
+    "duplicate_query_ids": 0,
+    "duplicate_review_ids": 0,
+    "human_field_blanks": 0,
+    "invalid_enums": 0
+  }
+}
