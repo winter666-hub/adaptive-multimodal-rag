@@ -1,0 +1,465 @@
+{
+  "scope": "Selected 24-query diagnostic pilot only; no population recovery rate",
+  "planned_calls": {
+    "queries": 24,
+    "unique_PDFs": 24,
+    "candidate_pages": 72,
+    "rank1_repeat_controls": 24,
+    "text_controls": 24,
+    "VLM_calls": 96,
+    "final_generation_calls": 120,
+    "logical_judge_calls": 120,
+    "max_judge_request_attempts": 240
+  },
+  "call_counts": {
+    "VLM": {
+      "attempted": 96,
+      "transport_succeeded": 96,
+      "transport_failed": 0
+    },
+    "FINAL": {
+      "attempted": 120,
+      "transport_succeeded": 120,
+      "transport_failed": 0
+    },
+    "JUDGE": {
+      "attempted": 126,
+      "transport_succeeded": 126,
+      "transport_failed": 0
+    }
+  },
+  "state_status_counts": {
+    "OK": 114,
+    "JUDGE_ERROR_UNAVAILABLE": 6
+  },
+  "VLM_operation_succeeded": 96,
+  "VLM_operation_failed": 0,
+  "fresh_rank1_wrong": 21,
+  "fresh_rank1_correct": 2,
+  "automatic_positive_queries": 14,
+  "automatic_positive_cases": [
+    {
+      "review_id": "P2B_S1_001",
+      "query_id": "unidoc_commerce_manufacturing_0002",
+      "document_id": "6109033",
+      "fresh_rank1_page": 8,
+      "alternative_correct_pages": [
+        7
+      ],
+      "rank1_repeat_correct": false
+    },
+    {
+      "review_id": "P2B_S1_003",
+      "query_id": "unidoc_commerce_manufacturing_0035",
+      "document_id": "6532134",
+      "fresh_rank1_page": 2,
+      "alternative_correct_pages": [
+        6
+      ],
+      "rank1_repeat_correct": false
+    },
+    {
+      "review_id": "P2B_S1_006",
+      "query_id": "unidoc_construction_0189",
+      "document_id": "5254543",
+      "fresh_rank1_page": 4,
+      "alternative_correct_pages": [
+        5
+      ],
+      "rank1_repeat_correct": false
+    },
+    {
+      "review_id": "P2B_S1_009",
+      "query_id": "unidoc_crm_0151",
+      "document_id": "4898395",
+      "fresh_rank1_page": 26,
+      "alternative_correct_pages": [
+        28
+      ],
+      "rank1_repeat_correct": false
+    },
+    {
+      "review_id": "P2B_S1_010",
+      "query_id": "unidoc_education_0043",
+      "document_id": "0931214",
+      "fresh_rank1_page": 1,
+      "alternative_correct_pages": [
+        3
+      ],
+      "rank1_repeat_correct": false
+    },
+    {
+      "review_id": "P2B_S1_012",
+      "query_id": "unidoc_education_0163",
+      "document_id": "7909471",
+      "fresh_rank1_page": 13,
+      "alternative_correct_pages": [
+        11
+      ],
+      "rank1_repeat_correct": false
+    },
+    {
+      "review_id": "P2B_S1_013",
+      "query_id": "unidoc_energy_0111",
+      "document_id": "2497225",
+      "fresh_rank1_page": 1,
+      "alternative_correct_pages": [
+        3
+      ],
+      "rank1_repeat_correct": false
+    },
+    {
+      "review_id": "P2B_S1_014",
+      "query_id": "unidoc_energy_0150",
+      "document_id": "3629103",
+      "fresh_rank1_page": 7,
+      "alternative_correct_pages": [
+        8
+      ],
+      "rank1_repeat_correct": false
+    },
+    {
+      "review_id": "P2B_S1_015",
+      "query_id": "unidoc_energy_0193",
+      "document_id": "1511581",
+      "fresh_rank1_page": 6,
+      "alternative_correct_pages": [
+        4
+      ],
+      "rank1_repeat_correct": false
+    },
+    {
+      "review_id": "P2B_S1_017",
+      "query_id": "unidoc_finance_0108",
+      "document_id": "5703797",
+      "fresh_rank1_page": 16,
+      "alternative_correct_pages": [
+        19
+      ],
+      "rank1_repeat_correct": false
+    },
+    {
+      "review_id": "P2B_S1_021",
+      "query_id": "unidoc_healthcare_0138",
+      "document_id": "2520596",
+      "fresh_rank1_page": 5,
+      "alternative_correct_pages": [
+        4
+      ],
+      "rank1_repeat_correct": false
+    },
+    {
+      "review_id": "P2B_S1_022",
+      "query_id": "unidoc_legal_0061",
+      "document_id": "2502771",
+      "fresh_rank1_page": 4,
+      "alternative_correct_pages": [
+        5
+      ],
+      "rank1_repeat_correct": false
+    },
+    {
+      "review_id": "P2B_S1_023",
+      "query_id": "unidoc_legal_0086",
+      "document_id": "3134069",
+      "fresh_rank1_page": 6,
+      "alternative_correct_pages": [
+        2
+      ],
+      "rank1_repeat_correct": false
+    },
+    {
+      "review_id": "P2B_S1_024",
+      "query_id": "unidoc_legal_0154",
+      "document_id": "3274043",
+      "fresh_rank1_page": 5,
+      "alternative_correct_pages": [
+        6
+      ],
+      "rank1_repeat_correct": false
+    }
+  ],
+  "source_verification_queue_size": 14,
+  "source_verified_recoveries": null,
+  "decision": "DEFERRED_PENDING_HUMAN_SOURCE_VERIFICATION",
+  "control_comparisons": {
+    "historical_FV_vs_fresh_rank1": {
+      "comparable": 23,
+      "label_agreements": 21,
+      "label_changes": 2,
+      "unavailable": 1,
+      "answer_changes": 12,
+      "label_changed_ids": [
+        "P2B_S1_002",
+        "P2B_S1_020"
+      ]
+    },
+    "fresh_rank1_vs_repeat": {
+      "comparable": 23,
+      "label_agreements": 23,
+      "label_changes": 0,
+      "unavailable": 1,
+      "answer_changes": 7,
+      "label_changed_ids": []
+    },
+    "historical_FT_vs_fresh_TEXT_ONLY": {
+      "comparable": 22,
+      "label_agreements": 22,
+      "label_changes": 0,
+      "unavailable": 2,
+      "answer_changes": 8,
+      "label_changed_ids": []
+    }
+  },
+  "selected_queries": [
+    {
+      "review_id": "P2B_S1_001",
+      "query_id": "unidoc_commerce_manufacturing_0002",
+      "document_id": "6109033",
+      "candidate_pages": [
+        8,
+        6,
+        7
+      ]
+    },
+    {
+      "review_id": "P2B_S1_002",
+      "query_id": "unidoc_commerce_manufacturing_0031",
+      "document_id": "2762994",
+      "candidate_pages": [
+        18,
+        17,
+        16
+      ]
+    },
+    {
+      "review_id": "P2B_S1_003",
+      "query_id": "unidoc_commerce_manufacturing_0035",
+      "document_id": "6532134",
+      "candidate_pages": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "review_id": "P2B_S1_004",
+      "query_id": "unidoc_construction_0068",
+      "document_id": "4228468",
+      "candidate_pages": [
+        8,
+        7,
+        6
+      ]
+    },
+    {
+      "review_id": "P2B_S1_005",
+      "query_id": "unidoc_construction_0161",
+      "document_id": "3147496",
+      "candidate_pages": [
+        15,
+        14,
+        17
+      ]
+    },
+    {
+      "review_id": "P2B_S1_006",
+      "query_id": "unidoc_construction_0189",
+      "document_id": "5254543",
+      "candidate_pages": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "review_id": "P2B_S1_007",
+      "query_id": "unidoc_crm_0041",
+      "document_id": "7453427",
+      "candidate_pages": [
+        2,
+        1,
+        4
+      ]
+    },
+    {
+      "review_id": "P2B_S1_008",
+      "query_id": "unidoc_crm_0131",
+      "document_id": "3492507",
+      "candidate_pages": [
+        7,
+        5,
+        1
+      ]
+    },
+    {
+      "review_id": "P2B_S1_009",
+      "query_id": "unidoc_crm_0151",
+      "document_id": "4898395",
+      "candidate_pages": [
+        26,
+        13,
+        28
+      ]
+    },
+    {
+      "review_id": "P2B_S1_010",
+      "query_id": "unidoc_education_0043",
+      "document_id": "0931214",
+      "candidate_pages": [
+        1,
+        4,
+        3
+      ]
+    },
+    {
+      "review_id": "P2B_S1_011",
+      "query_id": "unidoc_education_0119",
+      "document_id": "2352105",
+      "candidate_pages": [
+        14,
+        12,
+        2
+      ]
+    },
+    {
+      "review_id": "P2B_S1_012",
+      "query_id": "unidoc_education_0163",
+      "document_id": "7909471",
+      "candidate_pages": [
+        13,
+        14,
+        11
+      ]
+    },
+    {
+      "review_id": "P2B_S1_013",
+      "query_id": "unidoc_energy_0111",
+      "document_id": "2497225",
+      "candidate_pages": [
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "review_id": "P2B_S1_014",
+      "query_id": "unidoc_energy_0150",
+      "document_id": "3629103",
+      "candidate_pages": [
+        7,
+        8,
+        2
+      ]
+    },
+    {
+      "review_id": "P2B_S1_015",
+      "query_id": "unidoc_energy_0193",
+      "document_id": "1511581",
+      "candidate_pages": [
+        6,
+        5,
+        4
+      ]
+    },
+    {
+      "review_id": "P2B_S1_016",
+      "query_id": "unidoc_finance_0049",
+      "document_id": "6941304",
+      "candidate_pages": [
+        21,
+        19,
+        18
+      ]
+    },
+    {
+      "review_id": "P2B_S1_017",
+      "query_id": "unidoc_finance_0108",
+      "document_id": "5703797",
+      "candidate_pages": [
+        16,
+        19,
+        14
+      ]
+    },
+    {
+      "review_id": "P2B_S1_018",
+      "query_id": "unidoc_finance_0129",
+      "document_id": "0070518",
+      "candidate_pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "review_id": "P2B_S1_019",
+      "query_id": "unidoc_healthcare_0101",
+      "document_id": "5825109",
+      "candidate_pages": [
+        5,
+        6,
+        3
+      ]
+    },
+    {
+      "review_id": "P2B_S1_020",
+      "query_id": "unidoc_healthcare_0108",
+      "document_id": "0779019",
+      "candidate_pages": [
+        1,
+        5,
+        4
+      ]
+    },
+    {
+      "review_id": "P2B_S1_021",
+      "query_id": "unidoc_healthcare_0138",
+      "document_id": "2520596",
+      "candidate_pages": [
+        5,
+        4,
+        3
+      ]
+    },
+    {
+      "review_id": "P2B_S1_022",
+      "query_id": "unidoc_legal_0061",
+      "document_id": "2502771",
+      "candidate_pages": [
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "review_id": "P2B_S1_023",
+      "query_id": "unidoc_legal_0086",
+      "document_id": "3134069",
+      "candidate_pages": [
+        6,
+        2,
+        1
+      ]
+    },
+    {
+      "review_id": "P2B_S1_024",
+      "query_id": "unidoc_legal_0154",
+      "document_id": "3274043",
+      "candidate_pages": [
+        5,
+        6,
+        11
+      ]
+    }
+  ],
+  "decision_rules": {
+    "GO_signal": "At least 2 source-verified recoveries from different PDFs",
+    "BORDERLINE": "Exactly one verified recovery or unstable repeat/control",
+    "STOP_signal": "Zero verified recoveries after source verification"
+  },
+  "stage2_started": false,
+  "router_built": false,
+  "protected_files_integrity": "PASS",
+  "protected_file_count": 14342
+}

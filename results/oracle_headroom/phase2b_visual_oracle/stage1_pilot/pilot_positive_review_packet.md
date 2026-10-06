@@ -1,0 +1,2711 @@
+# Phase 2B Stage 1 automatic-positive source verification packet
+
+All correctness labels below are AUTOMATIC. Source verification is pending. No recovery is confirmed; annotation fields in pilot_positive_review_queue.csv remain blank.
+
+Original Top-3 order is preserved. Page numbers are physical/source PDF pages. No GT-page override or extra page inference was used. Rank1 repeats are separate controls. Alternative-page confirmation inference has not been run.
+
+## P2B_S1_001 / unidoc_commerce_manufacturing_0002
+
+PDF: [6109033.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/commerce_manufacturing/commerce_manufacturing/6109033.pdf)
+
+Candidate physical pages in original rank order: [8, 6, 7]
+
+### Question
+
+What products are advertised by A. Borsig in the Nichi-Doku-Kōgyō-Kōkoku from 1897?
+
+### Reference claim to verify
+
+Various industrial machinery such as locomotives and steam engines.
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-8-chunk-1 / physical page 8
+
+```text
+44 Mitsuhiro MAEDA / UrbanScope V ol.12 (2021) 37-46 and binding, Nößler entrusted the work to the Japanese publishing company Kokubunsha 国文社 based in Tokyo34. With the help of those collaborators in Japan, Nichi-Doku-Kōgyō-Kōkoku was published in 1897 (Figure 5). It took the form of a quarterly catalogue and the development of German industry was generally emphasized in its contents. For example, figure 5 shows an advertisement for the German machine works A. Borsig, which was founded in Berlin at the beginning of the 19th century. The year of foundation, the location of its headquarters, and the industrial products and their qualities and performance were shown in the advertisement. In addition to advertisements and articles with a view to defeating British companies in the Japanese industrial market, Nößler carried a summary of imports to Japan, and an article by the Professor of Engineering in Staatliches Technikum in Bremen, Hermann Wilda, “The Rise of Germany as an Industrial Nation 35”「工業國 ト シテ独逸ノ勃 興」in Nichi-Doku-Kōgyō-Kōkoku. Samples of this catalogue were set out at the German consulate in Japan, and for those who wanted to subscribe to the publishing house: 1 When you would like to subscribe to a list of products and prices for German works and companies, […] apply to Kitsuma Yamazaki. 1 We [Nößler] asked the works and companies that published advertisements in this catalogue to send their printing samples to Yamazaki, and to distribute them free to those who want to view them. If there were no samples in Japan, those works and companies should be ordered from Germany immediately36. 3.3. Advertising for Krupp in Nichi-Doku-Kōgyō-Kōkoku Krupp had already paid attention to Nichi-Doku-Kōgyō-Kōkoku in 1897. The directorium of Krupp planned to reform the company’s public relations in China and Japan. They wanted to capitalize on the success of Schinzinger with the international shooting test (cf. chapter 2). For example, the directorium sent an item of correspondence to Georg Bauer, owner of H. Mandl & Co. and both the business and technical representative of Krupp in China37: “We concluded that the pamphlet in its original version was in no way suitable for distribution, and therefore we would like to order a revised reprint38.” Krupp also applied revision of information media to its activities in Japan, and originally intended to adapt a German economic paper published in China, Der Ostasiatische Lloyd, East Asian Lloyd39. However, it was deemed an unsuitable publication in which to publish its advertisements and promote its own business information in Japan, for, according to the estimate of Rauck, some articles in that paper were seen as against Japan 40. For this reason, Krupp chose Nichi-Doku-Kōgyō-Kōkoku. The process of choosing is unfortunately not evident from the historical documents of the directorium or correspondence by Krupp. The advertisements were printed out in Berlin and pub- lished in Japan as a special number of Nichi-Doku-Kōgyō-Kōkoku (Table 141). Compared with the number of pages of advertisements for other German companies―for example, the German electronics and machine company Sie - 34. Ibid. 35. ハー、ヴヰルダ「工業國トシテ独逸ノ勃興」『日独工業広告』第五號, 1897, 41-56頁, in: Die Akte 2-Dd. 11. c. 2. J. 1., Staatsarchiv Bremen. 36. 「日独工業広告第五號目次」『日独工業広告』第五號, 1897, 4頁, in: Die Akte 2-Dd. 11. c. 2. J. 1., Staatsarchiv Bremen. 37. About activities of Georg Bauer in China, see: Bauer, Georg, China um 1900: Aufzeichnungen eines Krupp-Direktors, herausgegeben und kommentiert von Kaske, Elisabeth, Köln, Weimar, Wien, 2005. 38. “Nr. 536: Bericht von das Direktorium Krupps an Regierungsbaumeister Bauer am 10. 06. 1898,” in: Krupp’sche Propaganda in China und Japan, 1898, HAK, WA4/ 1078. 39. Krupp’sche Propaganda in China und Japan, 1898, HAK, WA4/ 1078. About Ostasiatische Lloyd, see: 牛海坤, 『《德文新报》研究 (l886 ～l9l7)』The Research on Der Ostasiatische Lloyd: 1886-1917, 上海交通大学出版社, 2012. 40. Rauck, Die Beziehungen zwischen Japan und Deutschland, 1859-1914, S. 151. 41. It is not permissible to copy historical sources in the Krupp Historical Archive, so figure 6 is reproduced by the author from the special number.
+```
+
+#### Rank 2 / page-6-chunk-1 / physical page 6
+
+```text
+42 Mitsuhiro MAEDA / UrbanScope V ol.12 (2021) 37-46 Nichi-Doku-Kōgyō-Kōkoku). This was published by Max Nößler (Maximillian Nößler) from 1898 (Figure 3). 3.1. Max Nößler and his report Max Nößler, born in Bremen in 1860, took over his father’s business and established a new printing and publishing company there in 1898. Two years before, he had travelled around East Asia for three months 26. In Japan, Nößler visited Yokohama, Tokyo, Kobe, and Osaka in order to survey some foreign- language periodicals, hotels, housing, and “nationalities” in those cities 27. Re- garding periodicals, Nößler reported on whether newspapers and periodicals were monthly, weekly or daily, the publishers of each of them, and the price of their subscriptions. Although Nößler did not provide a detailed description of the contents in his report, he definitely emphasized the importance of public rela - tions with East Asia in the preface, titled “Parole: Made in Germany!,” in the 4th volume of Nichi-Doku-Kōgyō-Kōkoku published in 1897: In the face of the great effort which British industry had made in the Japanese market, it is urgently necessary to de - velop a lasting advertising campaign from the German side, for many of Japanese people would like to buy those items which are advertised with so much publicity28. In addition, Nößler cited a statement made by Kaiserliche General-Konsulats für Japan in Yokohama Schmidt Leda in the same article as follows: To achieve successful results from advertisements with the Japanese public, it is of great importance to develop as much advertising as possible. […] Regarding the pronounced preference of the Japanese for statistics, it is not without value to include numerical proofs of the sales of the goods advertised within the contents of advertisements29. In this article, Nößler emphasized the importance of advertising in East Asia to compete against the British and pointed out the need for a continuation of advertising from the German side. In addition, there was a recommenda- tion that statistical information in advertisements would be more effective and lead to more profit, as some Japanese would tend to then purchase the goods advertised. He decided to apply a catalogue-style advertisement based on his own research results in Japan. Furthermore, Nößler presented Mitteilungen betr. Japan (a report about Japan) in December 1896, stating that he established Ausgabestelle von deutschen Warenkatalogen, Prospekten und Preislisten (an issuing office for German product catalogues, brochures, and price lists) in Yokohama in order that the Japanese would be able to obtain more information from his catalogue more quickly than from British information 30. Nößler willingly under- took these activities and felt strongly about the necessity of promoting German products ahead of British ones. He believed that it was important for German industrial businesses to “penetrate” the Japanese industrial market, previ- ously dominated by companies from Britain and France, and to obtain clients more quickly. These intentions are evident in the following quotation: 26. Nößler, Max, Mitteilungen über einen dreimonatlichen Aufenthalt in Ostasien, Max Nößlers Druckerei, Bremen, 1897. 27. Ibid., S. 5-7. 28. Nößler, Max, “Parole: Made in Germany!,”『日独工業広告』第四號, 1897, in: Die Akte 2-Dd. 11. c. 2. J. 1., Staatsarchiv Bremen. 29. Ibid. 30. Nößler, Max, Mitteilungen betr. Japan am Dezember 1896, in: Krupp’sche Propaganda in China und Japan, 1898, HAK, WA4/ 1078. Figure 3: Max Nößler (1860-1923) (Schwarzwälder, Herbert, Das Große Bremen-Lexikon: Ergänzungsband von A bis Z, Edition Temmen, Bremen, 2008, S. 129.)
+```
+
+#### Rank 3 / page-7-chunk-1 / physical page 7
+
+```text
+43 Mitsuhiro MAEDA / UrbanScope V ol.12 (2021) 37-46 In interest of the company, it seems desirable to publish the advertisements in the shortest possible period, since, if the English competing catalogues are delivered for a longer period, the Japanese customers are going to gradually turn their attention to those catalogues and prefer them to the German advertisements, which, if published about a year later again, will have fallen into oblivion.31. Max Nößler decided to develop advertisements in Japan, thereby providing Japanese clients with a lot of de - tailed information on German industrial products and industrial companies as quickly as possible, so as to obtain greater German profits. 3.2. The organization of printing in Japan and the contents of Nichi-Doku-Kōgyō- Kōkoku However, the process of publishing the catalogue in Japan was never smooth. It was difficult for some of the German companies to handle the Japanese and Chinese scripts in printing. Betrieb-Inspektor Taeschner at the Impe- rial Printing Works in Berlin, Reichsdruckerei Berlin, complained about “how easy the work of a German typesetter seems to be compared to that of his colleagues in Japan and China! 32” Furthermore, it was more difficult to under - take typesetting in Japanese and Chinese characters than in German. Typesetting of the Chinese characters known as Kanji took a lot of time to set up in Germany because of the complexity involved in the process: First, dividing Kanji into figures, second, counting the number of vertical and horizontal lines, and then third, creating a Kanji’s type and typesetting it. In view of the complaints about the difficulty of working with Japanese and Chinese characters in German printing works, Nößler intended to establish a publishing house for Nichi-Doku-Kōgyō-Kōkoku in Japan. Further - more, he entrusted Kitsuma Yamazaki 山崎喜都眞 with the position of representative of the house. His duties were to maintain contact with companies that requested advertisements in Nichi-Doku-Kōgyō-Kōkoku, and to publish this in Japan33. In addition, Yamazaki learned paper technology in Germany, and he was a former employee of a Japanese prefectural company in Kyoto, Papier Fabrik パピー ル・ ファブリク, founded in 1872. Papier Fabrik was sold off to the private sector in 1880, and was divided into the Isono Paper Mill Works 磯野製紙場 and the Umedu Paper Mill Company 梅津製紙会社, which then became the Kyoto Mill Works of the Fuji Paper Company富士製紙. Although the historical sources unfortunately cannot provide evidence that Nößler entrusted the Fuji Paper Company with printing the advertisements, the name of the company can be seen in the colophon of Nichi-Doku-Kōgyō-Kōkoku (Figure 4). Therefore, the Fuji Paper Company may also have been involved in the printing. For the cover printing 31. Nößler, Max, “Parole: Made in Germany!,”『日独工業広告』第四號. 32. “Die Setzerei des Japanisch-Deutschen und Chinesisch-Deutschen Industrie Anzeigers in der Reichsdruckerei,” Krupp’sche Propaganda in China und Japan, 1898, HAK, WA4/ 1078. 33. Nößler, “Parole: Made in Germany!,” 『日独工業広告』第四號. Figure 4: Colophon of Nichi-Doku-Kōgyō-Kōkoku (『日独工業広告』 第四號, 1897, in: Die Akte 2-Dd. 11. c. 2. J. 1., Staatsarchiv Bremen.) Figure 5 『日独工業広告』第五號 , 16-17 頁 (Die Akte 2-Dd. 11. c. 2. J. 1., Staatsarchiv Bremen)
+```
+
+### Fresh rank1 candidate / physical page 8
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The retrieved document evidence indicates that A. Borsig, a German machine works, advertised in the 1897 Nichi-Doku-Kōgyō-Kōkoku. The advertisement included the year of foundation, the location of its headquarters, and the industrial products along with their qualities and performance. However, the specific products advertised by A. Borsig are not identified in the provided text.
+```
+
+Raw VLM evidence:
+
+```text
+- The text mentions that figure 5 shows an advertisement for the German machine works A. Borsig in the 1897 Nichi-Doku-Kōgyō-Kōkoku.
+- The advertisement included the year of foundation, location of headquarters, and industrial products along with their qualities and performance.
+- However, the actual figure 5 (the advertisement) is not present on this page, so the specific products advertised by A. Borsig cannot be visually identified from this page.
+- The page only references the advertisement and its content categories, not the specific products.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 1,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 1,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 1,\n  \"reason\": \"The candidate answer correctly states that the specific products are not identified in the provided text, but it fails to answer the question by not mentioning the reference answer's content (locomotives and steam engines). It is incomplete and does not satisfy the task.\"\n}\n```",
+  "reason": "The candidate answer correctly states that the specific products are not identified in the provided text, but it fails to answer the question by not mentioning the reference answer's content (locomotives and steam engines). It is incomplete and does not satisfy the task.",
+  "task_satisfaction": 0,
+  "total": 1
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 1,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 1,
+  "reason": "The candidate answer correctly states that the specific products are not identified in the provided text, but it fails to answer the question by not mentioning the reference answer's content (locomotives and steam engines). It is incomplete and does not satisfy the task."
+}
+```
+```
+
+### Separate rank1 repeat control / physical page 8
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The retrieved text states that A. Borsig's advertisement in the 1897 Nichi-Doku-Kōgyō-Kōkoku included the year of foundation, the location of its headquarters, and the industrial products along with their qualities and performance. However, the specific products advertised by A. Borsig are not identified in the provided text.
+```
+
+Raw VLM evidence:
+
+```text
+- The text mentions that figure 5 shows an advertisement for the German machine works A. Borsig in the 1897 Nichi-Doku-Kōgyō-Kōkoku.
+- The advertisement included the year of foundation, location of headquarters, and industrial products along with their qualities and performance.
+- However, the actual figure 5 (the advertisement) is not present on this page, so the specific products advertised by A. Borsig cannot be visually identified from this page.
+- The page only references the advertisement and its content categories, not the specific products.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 1,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 1,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 1,\n  \"reason\": \"The candidate answer is mostly incorrect as it claims the specific products are not identified, while the reference clearly states they are. It fails to answer the question and contradicts the reference.\"\n}\n```",
+  "reason": "The candidate answer is mostly incorrect as it claims the specific products are not identified, while the reference clearly states they are. It fails to answer the question and contradicts the reference.",
+  "task_satisfaction": 0,
+  "total": 1
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 1,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 1,
+  "reason": "The candidate answer is mostly incorrect as it claims the specific products are not identified, while the reference clearly states they are. It fails to answer the question and contradicts the reference."
+}
+```
+```
+
+### Alternative retrieved physical page 7
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/6109033/page_00007.png)
+
+Answer:
+
+```text
+A. Borsig advertised industrial products in the Nichi-Doku-Kōgyō-Kōkoku from 1897. The advertisement included descriptions of the year of foundation, the location of its headquarters, and the industrial products along with their qualities and performance. The visual context shows illustrations of various machines, including large horizontal and vertical machines, possibly steam engines or boilers, and a long horizontal machine that could be a locomotive or industrial engine. These visual elements suggest that A. Borsig's products included steam engines, boilers, and related industrial equipment.
+```
+
+Raw VLM evidence:
+
+```text
+- Figure 5 on the page shows two pages from the "日独工業広告" (Nichi-Doku-Kōgyō-Kōkoku), specifically pages 16–17 of the fifth issue, dated 1897.
+- The advertisements are for "A. BORSIG" from Berlin and Borsigwerk in Germany.
+- The left page (page 16) displays three illustrations: a large horizontal machine (possibly a steam engine or boiler), a smaller vertical machine with a flywheel, and a third machine with a gear system.
+- The right page (page 17) shows two illustrations: a large vertical machine with a tall chimney or stack (likely a steam engine or boiler), and a long, horizontal machine with multiple components (possibly a locomotive or industrial engine).
+- The text surrounding the images is in Japanese, indicating product descriptions or specifications, but the visual content clearly advertises industrial machinery, likely steam engines, boilers, and related equipment.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 1,
+  "correctness": 3,
+  "grounding": 2,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 3,\n  \"completeness\": 1,\n  \"grounding\": 2,\n  \"task_satisfaction\": 1,\n  \"total\": 7,\n  \"reason\": \"The candidate answer correctly identifies that A. Borsig advertised industrial products such as steam engines and locomotives, which aligns with the reference. However, it adds speculative details (e.g., 'possibly steam engines or boilers', 'could be a locomotive') that are not confirmed by the reference. It also includes descriptive elements (e.g., descriptions of foundation year, headquarters, and product qualities) that are not part of the reference answer. The main idea is correct, but the answer is not fully complete in a concise way and includes some imprecise or speculative content.\"\n}\n```",
+  "reason": "The candidate answer correctly identifies that A. Borsig advertised industrial products such as steam engines and locomotives, which aligns with the reference. However, it adds speculative details (e.g., 'possibly steam engines or boilers', 'could be a locomotive') that are not confirmed by the reference. It also includes descriptive elements (e.g., descriptions of foundation year, headquarters, and product qualities) that are not part of the reference answer. The main idea is correct, but the answer is not fully complete in a concise way and includes some imprecise or speculative content.",
+  "task_satisfaction": 1,
+  "total": 7
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 3,
+  "completeness": 1,
+  "grounding": 2,
+  "task_satisfaction": 1,
+  "total": 7,
+  "reason": "The candidate answer correctly identifies that A. Borsig advertised industrial products such as steam engines and locomotives, which aligns with the reference. However, it adds speculative details (e.g., 'possibly steam engines or boilers', 'could be a locomotive') that are not confirmed by the reference. It also includes descriptive elements (e.g., descriptions of foundation year, headquarters, and product qualities) that are not part of the reference answer. The main idea is correct, but the answer is not fully complete in a concise way and includes some imprecise or speculative content."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.
+
+## P2B_S1_003 / unidoc_commerce_manufacturing_0035
+
+PDF: [6532134.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/commerce_manufacturing/commerce_manufacturing/6532134.pdf)
+
+Candidate physical pages in original rank order: [2, 3, 6]
+
+### Question
+
+What are the different shipping options and their costs for an online purchase process?
+
+### Reference claim to verify
+
+The shipping options are DHL parcel - uninsured (€3.90), Hermes parcel (€4.00), DHL parcel - insured (€6.00), and DHL parcel to parcel station (€3.50).
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-2-chunk-1 / physical page 2
+
+```text
+PrimeLife Checkout - a privacy-enabling e-shopping user interface Ulrich K¨onig Unabh¨angiges Landeszentrum f¨ur Datenschutz Schleswig-Holstein (ULD), Germany ULD61@datenschutzzentrum.de Abstract. The PrimeLife Checkout user interface aims at supporting the user in enforcing her privacy preferences in an online purchase pro- cess. The user can choose how much privacy protection she wants, and the system visualises what shipping and payment methods are match- ing with her needs or why the selected methods are not suitable for the protection level of her choice. The interface displays which personal data will be transferred to whom for what purposes in a user friendly way. In most webshops, this information can only be retrieved by reading the shop’s full privacy policy. In contrast, the proposed approach informs the user what happens with her data for which purpose while she is entering her data. Thereby it speciﬁcally addresses the challenge of a user friendly and more transparent policy display. 1 Introduction The PrimeLife1 Checkout user interface (PLC) is designed to give users control of their data in a checkout process. Usually the web-based checkout process works with many small steps. In each step today’s checkout systems ask the user for speciﬁc data, like name, e-mail address, payment information etc. After each step, the data are transferred to the server of the webshop where the user has no control what the shop operator does with the data. Some shops employ scoring systems that use the data collected so far to decide which payment methods they oﬀer to the user in a later step, as described in [LEP +01]. The PLC oﬀers a diﬀerent approach. The user-entered data will be checked on the local machine of the user to see whether they are valid. The rules for validating the data have to be provided by the shop at the beginning of the transaction. In this particular demonstrator, this is done with JavaScript entirely on the user’s side. No data will be transferred to the service until the user ﬁnally conﬁrms that she is willing to perform the purchase and all checks are done. Only when the user ﬁnally conﬁrms, the data will be transferred to the webshop. This text is organised as follows: Section 2 explains the “three steps design” chosen for the PLC. Section 3 outlines the diﬀerent components of the PLC 1 The research leading to these results has received funding from the European Com- munity’s Seventh Framework Programme (FP7/2007-2013) under grant agreement no 216483 for the project PrimeLife.
+```
+
+#### Rank 2 / page-3-chunk-1 / physical page 3
+
+```text
+2 demonstrator and shows their functionality. The technical background is de- scribed in section 4, followed by evaluation results in section 5. Finally, section 6 summarises the ﬁndings. 2 Three steps design In the online shopping process, users typically have to go through a number of steps to complete the checkout process. In every step, they have to enter and transfer personal data, like shipping address payment information etc. For example, seven steps are needed to buy something at amazon.com as visualised in Figure 1. However, usability tests of the multiple steps “Send Personal Data” dialogue performed in the PrimeLife project showed that users regarded six steps only for the data collection as too many [WP410]. The user has no knowledge if the data that she has entered will be accepted by the system, which is a problem. STEP 1: Shopping Cart STEP 2: Shipping Address STEP 3: Shipping Method STEP 4: Payment STEP 5: Billing Address STEP 6: Place Order STEP 7: Confirmation Fig. 1. Seven Steps solution by amazon.com. A typical scenario is that the user has to enter data and click “next” for the next step where again she is asked for data. The whole set of data collected in one of the steps will immediately be sent to the server, where its validity is checked. If all data is correct, the user is taken to the next step. If not, the user will receive an error notice, has to ﬁx the problem and try again. She has no control what the webshop does with these data until the transaction is ﬁnished or cancelled. In addition, the user will not know whether the privacy policy of the shop fulﬁls the user’s requirements. For example at amazon.com, the user is told in step 6 after she has entered and transferred all her data to the amazon.com server: “Please review and submit your order”, “By placing your order, you agree to amazon.com’s privacy notice and conditions of use”. Interested users may follow the link to the privacy policy displayed on all pages of the shop, but users are not actively notiﬁed on the parts of the privacy policy relevant to the transaction.
+```
+
+#### Rank 3 / page-6-chunk-1 / physical page 6
+
+```text
+5 Fig. 3. Step 1: Shopping Cart.
+```
+
+### Fresh rank1 candidate / physical page 2
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information provided does not specify the different shipping options or their costs for an online purchase process. The text discusses the PrimeLife Checkout user interface, focusing on privacy and data control during the checkout process, but does not mention specific shipping methods or associated prices.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided PDF page does not contain any visual information about shipping options or their costs.
+- There are no figures, tables, diagrams, or lists that detail shipping methods or associated prices.
+- The text discusses a privacy-enabling e-shopping user interface (PrimeLife Checkout) and its design principles, but does not mention specific shipping options or costs.
+- The content focuses on data privacy, user control, and data validation during checkout, not on logistics or pricing details.
+- No visual elements (such as arrows, labels, or spatial relationships) indicate shipping options or costs.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "{\"correctness\": 0, \"completeness\": 0, \"grounding\": 0, \"task_satisfaction\": 0, \"total\": 0, \"reason\": \"The candidate answer incorrectly claims that the information is not provided, while the reference clearly lists the shipping options and their costs. The candidate answer fails to address the question and contradicts the reference.\"}",
+  "reason": "The candidate answer incorrectly claims that the information is not provided, while the reference clearly lists the shipping options and their costs. The candidate answer fails to address the question and contradicts the reference.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+{"correctness": 0, "completeness": 0, "grounding": 0, "task_satisfaction": 0, "total": 0, "reason": "The candidate answer incorrectly claims that the information is not provided, while the reference clearly lists the shipping options and their costs. The candidate answer fails to address the question and contradicts the reference."}
+```
+
+### Separate rank1 repeat control / physical page 2
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information provided does not specify the different shipping options or their costs for an online purchase process. The text discusses the PrimeLife Checkout user interface, focusing on privacy and data control during the checkout process, but does not mention specific shipping methods or associated prices.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided PDF page does not contain any visual information about shipping options or their costs.
+- There are no figures, tables, diagrams, or lists that detail shipping methods or associated prices.
+- The text discusses a privacy-enabling e-shopping user interface (PrimeLife Checkout) and its design principles, but does not mention specific shipping options or costs.
+- The content focuses on data privacy, user control, and data validation during checkout, not on logistics or pricing details.
+- No visual elements (such as arrows, labels, or spatial relationships) indicate shipping options or costs.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "{\"correctness\": 0, \"completeness\": 0, \"grounding\": 0, \"task_satisfaction\": 0, \"total\": 0, \"reason\": \"The candidate answer incorrectly claims that the information is not provided, while the reference clearly lists the shipping options and their costs. The candidate answer fails to address the question and contradicts the reference.\"}",
+  "reason": "The candidate answer incorrectly claims that the information is not provided, while the reference clearly lists the shipping options and their costs. The candidate answer fails to address the question and contradicts the reference.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+{"correctness": 0, "completeness": 0, "grounding": 0, "task_satisfaction": 0, "total": 0, "reason": "The candidate answer incorrectly claims that the information is not provided, while the reference clearly lists the shipping options and their costs. The candidate answer fails to address the question and contradicts the reference."}
+```
+
+### Alternative retrieved physical page 6
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/6532134/page_00006.png)
+
+Answer:
+
+```text
+The different shipping options and their associated costs for the online purchase process are as follows:
+
+1. DHL parcel - uninsured: +3.90 €
+2. Hermes parcel: +4.00 €
+3. DHL parcel - insured: +6.00 €
+4. DHL parcel to parcel station: +3.50 €
+
+Each option is presented with a radio button for selection, and the costs are displayed in euros (€). The selected shipping option in the provided context is "DHL parcel to parcel station," and the cost is added to the total price in the "Sum" section.
+```
+
+Raw VLM evidence:
+
+```text
+- The shipping options listed are: DHL parcel - uninsured (+3.90 €), Hermes parcel (+4.00 €), DHL parcel - insured (+6.00 €), and DHL parcel to parcel station (+3.50 €).
+- Each option is presented with a radio button for selection and its corresponding cost is displayed to the right.
+- The selected shipping option is "DHL parcel to parcel station" as indicated by the filled radio button.
+- The costs are shown in euros (€) and are added to the total price in the "Sum" section below the payment options.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 2,
+  "correctness": 4,
+  "grounding": 2,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 4,\n  \"completeness\": 2,\n  \"grounding\": 2,\n  \"task_satisfaction\": 2,\n  \"total\": 10,\n  \"reason\": \"The candidate answer correctly lists all four shipping options and their associated costs, matching the reference answer. The additional information about the interface (radio buttons, selected option, and cost being added to the total) is not contradictory and is semantically consistent with the reference. The answer directly addresses the question and is fully grounded.\"\n}\n```",
+  "reason": "The candidate answer correctly lists all four shipping options and their associated costs, matching the reference answer. The additional information about the interface (radio buttons, selected option, and cost being added to the total) is not contradictory and is semantically consistent with the reference. The answer directly addresses the question and is fully grounded.",
+  "task_satisfaction": 2,
+  "total": 10
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 4,
+  "completeness": 2,
+  "grounding": 2,
+  "task_satisfaction": 2,
+  "total": 10,
+  "reason": "The candidate answer correctly lists all four shipping options and their associated costs, matching the reference answer. The additional information about the interface (radio buttons, selected option, and cost being added to the total) is not contradictory and is semantically consistent with the reference. The answer directly addresses the question and is fully grounded."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.
+
+## P2B_S1_006 / unidoc_construction_0189
+
+PDF: [5254543.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/construction/construction/5254543.pdf)
+
+Candidate physical pages in original rank order: [4, 5, 6]
+
+### Question
+
+How does the blending moments difference change in percentage when the pliantness parameter is 1.00, moving from point 4 to point 10?
+
+### Reference claim to verify
+
+The blending moments difference percentage decreases from approximately -3% at point 4 to -9% at point 10 for a pliantness parameter of 1.00, resulting in a change of about -6%.
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-4-chunk-1 / physical page 4
+
+```text
+270 G. Sandovič et al. Simplified Engineering Method of Suspension Two­Span Pedestrian Steel Bridges with Flexible... During the numerical analysis of the corresponding bridge structure all values of evenly distributed asymme - tric load are set in the context of temporary and perma - nent changes in the load ratio range. Table 1 provides the results of the corresponding structure. Analysis of the results presented in Table 1, shows that general vertical cable displacements (at the middle of the left and right spans) and the horizontal displacement of the standing pier ( ), calculated according to the 3 rd degree and engineering formulas delivered by Cosmos/m program are almost coinciding. It shall be noted that dis- placement of the left cable at span quarters (i.e. if and ) and general displacements are as well the same, and the greatest difference is less than 0.33%. Fig. 2. Analytical model of the two-span split-type structure Determined that general displacements values of the particular structure calculated using the simplified engi - neering Eqs (12), (16) and (18), practically coincide with displacement values obtained with the help of Cosmos/m program, inaccuracies do not exceed 2.41%. 5. Engineering method for displacements of structure with bending stiffness Bending stiffness structure is the structure which takes over loads both by stretching and bending. These retain - ing elements, combining tension and bending elements abilities, stabilize the initial geometric form (Juozapaitis et al. 2006). Bending stiffness of the structure parameter is esti - mated by the pliantness kL. The greater pliantness para - meter kL is, the greater flexibility of the structure, and vice versa, the less pliantness parameter value kL, the more ri- gid the structure is. It can be assumed that if the , the structure is very rigid, and when the – the structu- re can be considered absolutely flexible. Pliantness coefficient k is calculated as follows: (19) For the analysis of general displacements of the two- span suspension split-type steel stress-ribbon bridge the engineering formula (estimated) has been developed. The analytical model is presented in Fig. 1. Table 1. General displacement values delivered by Cosmos/M (C) program and after the engineering calculation (A) f0 γ % % % C A C A C A 0.8 0.5 –0.5035 –0.5017 0.36 –0.03128 –0.03116 0.39 –0.07148 –0.0705 1.39 1 –0.6100 –0.6077 0.38 –0.04947 –0.04928 0.39 0.0924 0.0927 –0.32 2 –0.7130 –0.7102 0.39 –0.06758 –0.06732 0.39 0.2931 0.2932 –0.03 3 –0.7604 –0.7576 0.37 –0.07585 –0.07557 0.37 0.4077 0.4076 0.02 4 –0.7869 –0.7840 0.37 –0.08035 –0.08006 0.36 0.4807 0.4807 0.00 5 –0.8036 –0.8007 0.36 –0.08311 –0.08281 0.36 0.5310 0.5310 0.00 1.0 0.5 –0.4539 –0.4515 0.53 –0.03887 –0.03871 0.41 0.02791 0.0286 –2.41 1 –0.5703 –0.5674 0.51 –0.06130 –0.06106 0.39 0.2113 0.2115 –0.09 2 –0.6805 –0.6773 0.47 –0.08334 –0.08303 0.37 0.4363 0.4362 0.02 3 –0.7300 –0.7266 0.47 –0.09320 –0.09286 0.37 0.5645 0.5643 0.04 4 –0.7570 –0.7535 0.46 –0.09847 –0.09811 0.37 0.6460 0.6458 0.03 5 –0.7738 –0.7702 0.47 –0.10170 –0.10128 0.41 0.7021 0.7019 0.03 1.25 0.5 –0.4219 –0.4192 0.64 –0.05130 –0.05109 0.41 0.1311 0.1315 –0.30 1 –0.5530 –0.5498 0.58 –0.08071 –0.08042 0.36 0.3430 0.3428 0.06 2 –0.6746 –0.6711 0.52 –0.1092 –0.10887 0.30 0.6032 0.6026 0.10 3 –0.7275 –0.7240 0.48 –0.1217 –0.12134 0.30 0.7511 0.7505 0.08 4 –0.7557 –0.7521 0.48 –0.1282 –0.12791 0.23 0.8450 0.8444 0.07 5 –0.7728 –0.7692 0.47 –0.1321 –0.13179 0.24 0.9095 0.9090 0.06
+```
+
+#### Rank 2 / page-5-chunk-1 / physical page 5
+
+```text
+The Baltic Journal of Road and Bridge Engineering, 2011, 6(4): 267–273 271 Thrust forces, acting on the left and right spans, are equal to: (20) (21) where I – cross-sectional moment of inertia, m4. Similar to the flexible cable, when substituting expres- sion (9) with (20) and (21) Eqs, the 3rd degree (cubic) equ- ation needed for the calculation of the left and right cable displacements will be obtained: (22) (23) Horizontal displacement of the standing pier, accor - ding to (14) and (15) Eqs will be equal to: (24) In order to simplify the calculation it is proposed to calculate the general displacement of the right cable (in the middle of the second span) through a thrust force equality condition ( ), as follows: (25) (26) Eqs (22)–(26) show that displacement of suspen - sion bridge cables depends not only on their cross-axial stiffness, but also on the bending stiffness. According to the engineering calculation method (using the beam analogy) the bending moments of the left and right cables in the middle of the span are: (27) (28) Inaccuracy of (27) and (28) expressions is high and does not exceed 8.86% (Fig. 3). 6. Numerical analysis of the suspension structure bending stiffness general displacements For the numerical analysis the same type of the suspen - sion bridge, as a two-span flexible cable structure has been selected. Pliantness values of the selected parameter vary from 2 to 10. The analytical model of the retaining element is presented in Fig. 2. During the numerical analysis of the current structu- re the evenly distributed asymmetric load values are adop- ted in the context of temporary and permanent changes in the load ratio range γ. The results of calculation are given in Table 2. Figs 4-6 show stabilisation of dispacements with the help of bending stiffness depending on the initial sag ( f0), when the temporary and permanent in the load ratio of 1. Fig. 4. Stabilization of general displacements, at the middle of the first span, by the bending stiffness Fig. 3. Bending moments at the middle of the first span, differences of results calculated according to the engineering formulas and delivered by the program Cosmos/m
+```
+
+#### Rank 3 / page-6-chunk-1 / physical page 6
+
+```text
+272 G. Sandovič et al. Simplified Engineering Method of Suspension Two­Span Pedestrian Steel Bridges with Flexible... The results in Table 2 show that general displa - cements of the left and right cables and the horizontal displacements of the standing pier ( ) calculated in accordance with the engineering calculation formulas and delivered by the program Cosmos/m practically coin- cide. The greatest inaccuracy of the general vertical dis - placement of the right unloaded by the asymmetric load mid-span in case of the directed downward elastic displa - cement is practically equal to the directed upwards kine - matic displacement. It shall be noted that general displacements at the qu- arter of the left loaded with asymmetric load span (when and ) as well are practically the same. The greatest difference between the results obtained by program Cosmos/M and after the engineering calculation is equal to 1.93%. 7. Conclusions Presented simplified engineering method of suspension two- span pedestrian steel bridge under action of asymmetrical loads allows performing the relatively simple calculation of bearing suspension cable thrust forces, vertical and horizon- tal displacements and bending moments. Numerical analysis shows that proposed simplified engineering method of steel stress-ribbon bridge is sufficiently precise. The greatest inac- curacy of vertical displacement and thrust forces calculation does not exceed 1.37%, and the determination of bending Table 2. Cosmos/M program (C) and the displacement values received after engineering calculation (A) kL % % % C A C A C A 0.8 9.76 –0.5985 –0.5858 2.17 –0.04442 –0.04418 0.54 0.03232 0.0322 0.37 8.03 –0.5899 –0.5759 2.43 –0.04297 –0.04282 0.35 0.02291 0.0233 –1.67 6.67 –0.5779 –0.5629 2.66 –0.04113 –0.04107 0.15 0.01123 0.0124 –9.44 5.59 –0.5623 –0.5469 2.82 –0.03892 –0.03896 –0.10 –0.00229 –0.00272 –15.70 4.71 –0.5425 –0.5271 2.92 –0.03630 –0.03643 –0.36 –0.01753 –0.0147 19.25 3.37 –0.4901 –0.4762 2.92 –0.03003 –0.03033 –0.99 –0.04982 –0.0455 9.49 2.97 –0.4658 –0.4528 2.87 –0.02739 –0.02773 –1.23 –0.06148 –0.0567 8.43 2.70 –0.4465 –0.4344 2.79 –0.02539 –0.02577 –1.47 –0.06937 –0.0645 7.55 1.0 9.28 –0.5511 –0.5382 2.40 –0.05417 –0.05386 0.58 0.1396 0.1373 1.68 7.64 –0.5413 –0.5273 2.66 –0.05219 –0.05199 0.38 0.1260 0.1242 1.45 6.35 –0.5280 –0.5133 2.86 –0.04971 –0.04963 0.16 0.1091 0.1081 0.93 5.33 –0.5111 –0.4963 2.98 –0.04676 –0.04682 –0.13 0.08952 0.0894 0.13 4.50 –0.4902 –0.4757 3.05 –0.04333 –0.0435 –0.39 0.06748 0.0684 –1.35 3.25 –0.4376 –0.4248 3.01 –0.03537 –0.03575 –1.06 0.0205 0.0234 –12.39 2.87 –0.4143 –0.4024 2.96 –0.03211 –0.03254 –1.32 0.003103 0.00359 –13.57 2.62 –0.3961 –0.3849 2.91 –0.02969 –0.03015 –1.53 –0.00889 –0.00809 9.94 1.25 8.68 –0.5223 –0.5086 2.69 –0.06986 –0.06943 0.62 0.2539 0.2485 2.17 7.16 –0.5101 –0.4957 2.90 –0.06692 –0.06666 0.39 0.2345 0.2297 2.09 5.96 –0.4939 –0.4792 3.07 –0.06327 –0.06319 0.13 0.2107 0.2068 1.89 5.01 –0.4741 –0.4595 3.18 –0.05903 –0.05911 –0.14 0.1834 0.1807 1.49 4.24 –0.4503 –0.4364 3.19 –0.05417 –0.05442 –0.46 0.1531 0.1518 0.86 3.08 –0.3938 –0.3819 3.12 –0.04336 –0.04385 –1.12 0.08965 0.0910 –1.48 2.73 –0.3699 –0.3590 3.04 –0.03908 –0.03964 –1.41 0.06633 0.0685 –3.17 2.50 –0.3519 –0.3417 2.99 –0.03596 –0.03655 –1.61 0.05003 0.0527 –5.07 Fig. 6. Stabilization of general displacements, at the middle of the second span, by the bending stiffness Fig. 5. Stabilization of standing pier horizontal displacements, by the bending stiffness
+```
+
+### Fresh rank1 candidate / physical page 4
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information is not supported by the currently retrieved evidence. The provided text does not mention "blending moments" or their percentage difference for the pliantness parameter of 1.00 when moving from point 4 to point 10.
+```
+
+Raw VLM evidence:
+
+```text
+The provided page does not contain any information about "blending moments" or their percentage difference. The document discusses displacements (vertical cable displacements, horizontal displacement of the standing pier) for a two-span suspension bridge structure, with data presented in Table 1 for different values of parameters such as f₀ and γ (not pliantness parameter). There is no mention of "point 4 to point 10" or any "blending moments" in the text, figures, or tables. Therefore, the question cannot be answered based on the visual content of this page.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "{\"correctness\": 0, \"completeness\": 0, \"grounding\": 0, \"task_satisfaction\": 0, \"total\": 0, \"reason\": \"The candidate answer incorrectly claims the information is not supported, while the reference answer clearly provides the requested data. The candidate fails to answer the question and contradicts the reference.\"}",
+  "reason": "The candidate answer incorrectly claims the information is not supported, while the reference answer clearly provides the requested data. The candidate fails to answer the question and contradicts the reference.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+{"correctness": 0, "completeness": 0, "grounding": 0, "task_satisfaction": 0, "total": 0, "reason": "The candidate answer incorrectly claims the information is not supported, while the reference answer clearly provides the requested data. The candidate fails to answer the question and contradicts the reference."}
+```
+
+### Separate rank1 repeat control / physical page 4
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information is not supported by the currently retrieved evidence. The provided text does not mention "blending moments" or their percentage difference for the pliantness parameter of 1.00 when moving from point 4 to point 10.
+```
+
+Raw VLM evidence:
+
+```text
+The provided page does not contain any information about "blending moments" or their percentage difference. The document discusses displacements (vertical cable displacements, horizontal displacement of the standing pier) for a two-span suspension bridge structure, with data presented in Table 1 for different values of parameters such as f₀ and γ (not pliantness parameter). There is no mention of "point 4 to point 10" or any "blending moments" in the text, figures, or tables. Therefore, the question cannot be answered based on the visual content of this page.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "{\"correctness\": 0, \"completeness\": 0, \"grounding\": 0, \"task_satisfaction\": 0, \"total\": 0, \"reason\": \"The candidate answer incorrectly claims the information is not supported, while the reference answer clearly provides the requested data. The candidate fails to answer the question and contradicts the reference.\"}",
+  "reason": "The candidate answer incorrectly claims the information is not supported, while the reference answer clearly provides the requested data. The candidate fails to answer the question and contradicts the reference.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+{"correctness": 0, "completeness": 0, "grounding": 0, "task_satisfaction": 0, "total": 0, "reason": "The candidate answer incorrectly claims the information is not supported, while the reference answer clearly provides the requested data. The candidate fails to answer the question and contradicts the reference."}
+```
+
+### Alternative retrieved physical page 5
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/5254543/page_00005.png)
+
+Answer:
+
+```text
+When the pliantness parameter is 1.00 and moving from point 4 to point 10, the blending moments difference changes from approximately -2% to -8%. This represents a change of approximately -6 percentage points.
+```
+
+Raw VLM evidence:
+
+```text
+- Figure 3 shows the "Blending moments difference, %" on the y-axis versus the "Pliantness parameter kL" on the x-axis.
+- The red line with square markers represents the data for the load ratio of 1.00.
+- At point 4 on the x-axis (kL = 4), the red line is at approximately -2% on the y-axis.
+- At point 10 on the x-axis (kL = 10), the red line is at approximately -8% on the y-axis.
+- Therefore, as the pliantness parameter increases from 4 to 10, the blending moments difference decreases from about -2% to about -8%, a change of approximately -6 percentage points.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 2,
+  "correctness": 3,
+  "grounding": 2,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 3,\n  \"completeness\": 2,\n  \"grounding\": 2,\n  \"task_satisfaction\": 2,\n  \"total\": 9,\n  \"reason\": \"The candidate answer is mostly correct, with a minor imprecision in the initial blending moments difference (-2% vs. reference -3%). It correctly identifies the final value (-8% vs. reference -9%) and the change (-6 percentage points, consistent with the reference). The answer is complete, grounded in the reference, and directly addresses the question.\"\n}\n```",
+  "reason": "The candidate answer is mostly correct, with a minor imprecision in the initial blending moments difference (-2% vs. reference -3%). It correctly identifies the final value (-8% vs. reference -9%) and the change (-6 percentage points, consistent with the reference). The answer is complete, grounded in the reference, and directly addresses the question.",
+  "task_satisfaction": 2,
+  "total": 9
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 3,
+  "completeness": 2,
+  "grounding": 2,
+  "task_satisfaction": 2,
+  "total": 9,
+  "reason": "The candidate answer is mostly correct, with a minor imprecision in the initial blending moments difference (-2% vs. reference -3%). It correctly identifies the final value (-8% vs. reference -9%) and the change (-6 percentage points, consistent with the reference). The answer is complete, grounded in the reference, and directly addresses the question."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.
+
+## P2B_S1_009 / unidoc_crm_0151
+
+PDF: [4898395.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/crm/crm/4898395.pdf)
+
+Candidate physical pages in original rank order: [26, 13, 28]
+
+### Question
+
+What is the personnel-focused certification cited in the framework provided by the LGA and IDeA?
+
+### Reference claim to verify
+
+INVESTOR IN PEOPLE
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-26-chunk-1 / physical page 26
+
+```text
+26 insight: undertanding your citizens, customers and communities 9. looking for more information or support? There are increasing numbers of people and agencies with an interest in supporting the development of customer insight which you may like to contact for more information: • the LGA and IDeA have produced a host of guidance on different aspects of customer insight including the specific tools mentioned above. The IDeA also hosts the Communities of Practice website which has included an online conference and continues to discuss and publish best practice and guidance on customer insight. The front office shared service project also published Developing Customer Insight (2008) which gives a useful introduction to customer insight. More information at www.lga.gov.uk and www.idea.gov.uk • Local Government Customer Insight Forum: the forum promotes work on local service transformation and insight development, and acts as a link to central government. It is a sub-group of the Local Government Delivery Council. The forum is chaired by Donna Hall, chief executive of Chorley Borough Council, and has representatives from all English regions, and from a range of different types and sizes of council. More information can be found at www.idea.gov.uk; • your Regional Improvement and Efficiency Partnerships may have projects or programmes which can provide support and advice; • the has a central unit to develop and promote customer insight in the public sector and also hosts the government-wide Customer Insight Forum. The Cabinet Office has also produced Customer Insight in public services – a primer (Cabinet Office, October 2006) which provides some more detailed information on different aspects of customer insight. More information at www. cabinetoffice.gov.uk • The Information Commissioners Office publishes a range of guidance around data protection and in particular on: - Data sharing between different local government departments: http://www. ico.gov.uk/upload/documents/library/ data_protection/practical_application/ local_authorities_-_data_sharing001. pdf - Framework code of practice for sharing personal information http:// www.ico.gov.uk/upload/documents/ library/data_protection/detailed_ specialist_guides/pinfo-framework.pdf - Privacy impact assessment guidance http://www.ico.gov.uk/upload/ documents/pia_handbook_html/html/1- intro.html - www.ico.gov.uk Cabinet Office
+```
+
+#### Rank 2 / page-13-chunk-1 / physical page 13
+
+```text
+insight: undertanding your citizens, customers and communities 13 people and skills In practice, the development of insight is often driven by an internal team. The central insight team will often act as a recognised pool of capacity and resource for insight with access to data and information, as well as knowledge of tools and techniques, and the ability to bring them together. Some of the skills required for insight are similar to those that already exist in a council or among partners, for example, in policy and performance, consultation, research and customer service teams. You do not necessarily need to procure large amounts of new skills. But you will need people able to: - analyse and manipulate data; - present and use data to inform strategy and policy; - understand and use market research techniques and methods; - communicate the results of insight analysis in a way that makes an impact on the audience; - enthuse and engage effectively with others across the organisation. Professional networks are available through the IDeA and the Local Government Association (LGA) which can help link staff working on insight to share best practice and develop skills. processes An organisation needs established rocesses by which information is ollected, analysed and disseminated, nd through which insight is used o inform other activities of the rganisation. Key business processes hich should be informed by customer nsight include: service planning - ensuring that all ervice plans start with a description of ustomers and their experience of the ervice; business cases - requiring all usiness cases to incorporate an nalysis of the impact on different ustomer groups; engagement and empowerment nderstanding which communities are takeholders for specific policy issues nd bringing together a range of xisting views. p c a t o w i - s c s - b a c - u s a e data and systems Good data is the bedrock of insigh analysis and information collected about citizens’ needs to be able to stored and shared within and bet organisations. Data sets (particularl those purchased externally) need t be accessible from one place and available to the rest of the organis Development of a single customer view of individuals’ interactions wi t be ween y o be ation. th the council is critical to establishing a single, clean data source on individual customers which can then be used to develop reliable analysis of customers. Data Connects has established a business case for developing a single customer view and produced guidance materials which are available through the London Connects website http:// www.londonconnects.gov.uk West Sussex County Council is undertaking a three-year fundamental service review programme that must include consultation as part of the first stage. Services are redesigned to meet customers’ needs, wants and expectations in terms of quality, value and choice. The programme is being driven in part by a dedicated customer insight team. The team is led by a member of the senior management team and has four staff with a combination of data analysis, customer focused appraisals of services and community engagement skills. The London Borough of Hammersmith and Fulham has developed a system that alerts all relevant services to changes made to customer records. This has led to more consistent, up-to-date customer data across the council. The electoral services team has used the system to increase voter registration by targeting people flagged as having moved to new properties.
+```
+
+#### Rank 3 / page-28-chunk-1 / physical page 28
+
+```text
+©IDeA and LGA – November 2008 IDeA IDT 2745 Code F/CA297 ISBN 978-1-84049-653-6 Printed on 50/50 recycled Ninelives Printed by Newman Thomson Ltd, 1 Jubilee Road, Burgess Hill, West Sussex RH15 9TL Designed by Liberata Design Studio IDeA Layden House 76-86 Turnmill Street London EC1M 5LG telephone 020 7296 6600 facsimile 020 7296 6666 email info@idea.gov.uk www.idea.gov.uk LGA Smith Square London SW1P 3HZ telephone 020 7664 3131 facsimile 020 7664 3030 email infor@lga.gov.uk www.lga.gov.uk For a copy in Braille, larger print or audio-tape, contact iHelp on 020 7296 6880. We consider any requests on an individual basis.
+```
+
+### Fresh rank1 candidate / physical page 26
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information provided does not cite a personnel-focused certification from the LGA and IDeA.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided page does not mention any personnel-focused certification.
+- It references guidance and resources from the LGA and IDeA on customer insight, including tools, best practices, and publications such as *Developing Customer Insight (2008)*.
+- The text discusses the IDeA’s Communities of Practice website and online conference, but no certification program is visually cited.
+- There is no visual evidence of a personnel-focused certification framework or program associated with LGA and IDeA on this page.
+- The content is focused on customer insight, data protection, and support organizations, not personnel certification.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 0,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 0,\n  \"reason\": \"The candidate answer is incorrect and fails to identify the personnel-focused certification. It contradicts the reference answer by claiming no certification is cited, when 'INVESTOR IN PEOPLE' is clearly cited.\"\n}\n```",
+  "reason": "The candidate answer is incorrect and fails to identify the personnel-focused certification. It contradicts the reference answer by claiming no certification is cited, when 'INVESTOR IN PEOPLE' is clearly cited.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 0,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 0,
+  "reason": "The candidate answer is incorrect and fails to identify the personnel-focused certification. It contradicts the reference answer by claiming no certification is cited, when 'INVESTOR IN PEOPLE' is clearly cited."
+}
+```
+```
+
+### Separate rank1 repeat control / physical page 26
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information provided does not cite a personnel-focused certification within the framework provided by the LGA and IDeA.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided page does not mention any personnel-focused certification.
+- It references guidance and resources from the LGA and IDeA on customer insight, including tools, best practices, and publications such as *Developing Customer Insight (2008)*.
+- The text discusses the IDeA’s Communities of Practice website and online conference, but no certification program is visually cited.
+- There is no visual evidence of a personnel-focused certification framework or program associated with LGA and IDeA on this page.
+- The content is focused on customer insight, data protection, and support organizations, not personnel certification.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 0,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 0,\n  \"reason\": \"The candidate answer is incorrect and fails to identify the personnel-focused certification, which is 'INVESTOR IN PEOPLE' as stated in the reference answer. It also does not address the question as requested.\"\n}\n```",
+  "reason": "The candidate answer is incorrect and fails to identify the personnel-focused certification, which is 'INVESTOR IN PEOPLE' as stated in the reference answer. It also does not address the question as requested.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 0,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 0,
+  "reason": "The candidate answer is incorrect and fails to identify the personnel-focused certification, which is 'INVESTOR IN PEOPLE' as stated in the reference answer. It also does not address the question as requested."
+}
+```
+```
+
+### Alternative retrieved physical page 28
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/4898395/page_00028.png)
+
+Answer:
+
+```text
+The personnel-focused certification cited in the framework provided by the LGA and IDeA is "Investor in People."
+```
+
+Raw VLM evidence:
+
+```text
+- The document displays a circular emblem with a laurel wreath design labeled "INVESTOR IN PEOPLE" directly below the RSeconsulting logo.
+- This emblem is positioned centrally on the left side of the page, beneath the contact details for IDeA and LGA.
+- The text "INVESTOR IN PEOPLE" is clearly legible and stands alone as a certification mark.
+- No other personnel-focused certification is visually presented or mentioned in proximity to the LGA and IDeA branding.
+- The visual evidence confirms "Investor in People" as the personnel-focused certification cited.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 2,
+  "correctness": 4,
+  "grounding": 2,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 4,\n  \"completeness\": 2,\n  \"grounding\": 2,\n  \"task_satisfaction\": 2,\n  \"total\": 10,\n  \"reason\": \"The candidate answer is fully correct, semantically matches the reference answer, and directly addresses the question without omissions or inaccuracies.\"\n}\n```",
+  "reason": "The candidate answer is fully correct, semantically matches the reference answer, and directly addresses the question without omissions or inaccuracies.",
+  "task_satisfaction": 2,
+  "total": 10
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 4,
+  "completeness": 2,
+  "grounding": 2,
+  "task_satisfaction": 2,
+  "total": 10,
+  "reason": "The candidate answer is fully correct, semantically matches the reference answer, and directly addresses the question without omissions or inaccuracies."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.
+
+## P2B_S1_010 / unidoc_education_0043
+
+PDF: [0931214.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/education/education/0931214.pdf)
+
+Candidate physical pages in original rank order: [1, 4, 3]
+
+### Question
+
+How do the cavalry figures differ between the French and Prussian armies in terms of representation during the Waterloo engagement?
+
+### Reference claim to verify
+
+The Prussian cavalry is represented as having 7,000, while the French cavalry is represented as having 15,500. The French have significantly more cavalry units represented compared to the Prussians during the Waterloo engagement.
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-1-chunk-1 / physical page 1
+
+```text
+14 SCENARIOS AND VARIAN TS ENHANCED NAPOLEON AT WATERLOO A Revised Order of Battle and Play System by J ohn Scarbeck There's always the temptation to take a sim­ ple game that works well and pile on chro me to make it more " realistic ," I don' r think John has done that here, He has added to the complexities of a very clean game, but the payoff in play value should more than ade­ quately com pensate all but the newes't of gamers., .plus the order of battle refinements Sllould please (or start debates amongstl the historian-garners, - RA S Napoleon at Waterloo is an enjoyable game . Its fault lies in its accuracy, or rather, lack of it. Not only do the French normally win (notwithstanding aggressive British play) but also the opposing armies frequently change positions, maneuvering constantly (Waterloo was a static battle); and sometimes the British are almost annihilated! Simple, exciting, but a game - nO{ a simulation . Therefore I undertook to revise NA W, in- . stalling new orders of battle, and making it as realistic as possible . I realize that NA W is an introductory game; my revision at least doubles its com ­ plexity . Similarly, it enhances historicity, while keeping playing time under three hours. [1.0) INTRO DUCTION My game is an operational simulation of the Battle of Waterloo. The rules include those of NA W, with several amendments, The major change is a new order of ba ttle for each side. which follows. Also. units take los ~ e s in terms of strength points, instead of suffering elimination; and a strength ­ differential Combat Results Table is used. Note ; Current strengths of individual units can be main­ tained by using numerical chits (from games such as Wellington's Victory or Terrible Swift Swo rd); however , in order to avnid large .Itac ks, I suggest keeping a record of each unit' S current strength on a sheet of paper. Done this way, a more realist ic flavor is obtained, as each player may keep his own tally, and need not reveal a unit' s strength un­ til it is attacked. When using a combat differential system, even an error of one strength point in estimation could lower the expected attack by one column. [2.0) PLAYING PIECES OENERAL DESCRIP TI ON: There are three armies : French , Anglo-Allied, and Prussian. The latter twO are friendly, and are known as the Allies. The French are represented by blue counter s, the Anglo-Allies by red, and the Pru ssians by green. These counters may be secured through cannibalizing existing blank counters (e.g., those of War in the West) or by purchasing blank counter sheets. in Napoleonic colors, from Simulations Publicati ons. CASES: [2.1] Summary of UnitTypes 1 &6 1 '"I'"", IlIe'/R 1 15 Cavalry ~ [¥J I Artille ry o 5 ~ HOrSeAr(. ~ [2.2] The Armies ' Strengths Each infantry and cavalry Strength Point (SP) equals 500 men; each artillery and hors e artillery SP equals 5 guns. [2.2 1) The Fre nch Army Infant ry (div ./ corps ):I/ 1(S); 2/ 1(10); 3/ 1(8); 4/ 1(4); S/ 1l(8); 6/ 11(11); 91lI(7); 19/ VI(8); lO/ VI(8); I/IG(8); 2110(9); 3/ 10(9) Cava lry(div ./ corps ): 1/ 1(3); 2111(2); LC/ IO(S); HC / IG(3) ; Il/lllc(3) ; I2IIllc(3); 13/ 1Vc(2); 14/ IVc(3); 3/ 111(2); 5/ Ie(2) Artlllery (corps ): 1(9); n(S) ; Ill / Hrs(3); IV(2); VIiS); 10(16); IG/Hrs(6) [2.22) The An glo-Allied Army I nfantry( d iv'/ co rps) : 1/ 1(7); 3/l(12) ; 2DB/ I(2); 3DB / I(13); 21IJ( 10); 41Il(4); S/ R(II); 6/ R(1 0); Bw / R(S); Nas/ R(6); Hou(7) Cava lry(brig./div '/corps) : I / Cv/ R(2); 21Cv/R(2); 3/ Cv/ R(3) ; 4/ Cv/ R(2); 5/ Cv/ R(3); 6/ Cv / R(3); 7/ Cv / R(2); I / D BCv/ R(2); 21DBCv / R(2); 3/ D BCv/ R(2); Cv/ Bw/ R(2) Artillery (corps ): 1(5); IIHrs(4); 11(4); R(S); R/ Hrs(13) [2.23] The Prussian Army Infantry(div / corps ); 1/ 1(16); 5/ 11(15); 6/ 11(14); 13/ IV(14) ; 14/ IV(I3) ; IS/lV (12); 16/ IV(12); Cavalry(br ig.l div./ co rps ); lICv / I(3); I/
+```
+
+#### Rank 2 / page-4-chunk-1 / physical page 4
+
+```text
+during the battle; furthermore, the Dutch­ Belgian cavalry also performed egregiously, even refusing to chargeP [6.3] In play-testing without these rules, Prussian casualties fell far short of the historical amount (7,000); the large size of Prussian infantry divisions caused the discrepancy, because the grossly out­ numbered French attacked with poor dif­ ferentials: hence, the doubled - French strength (which does have historical basis). The Prussians, conservative after several defeats by Napoleon, held ground lightly, retreating at the slightest inclination. At Waterloo, in a few minutes, two battalions of the Imperial Guard expelled 25,000 Prus­ sians from Plancenoit! g [6.4) Since the victory conditions are based on casualties, it obviously would be an ad­ vantage to occasionally lose 150 or 180 rather than 500 men. Also, infantry and cavalry took a much higher percentage of losses than did artillery in terms of men; rather than become casualties, many artillerymen fled.~ \6.5} Why should cavalry benefit when at­ tacking a woods or building hex? Logic dic­ tates otherwise. When defending in such hexes, the cavalrymen should be considered dismounted. [6.6] Except for the Hou. unit, few units ever experience isolation; nevertheless these rules reflect the disadvantage of units being cutoff. [6.7] These rules make the Hou. unit's destruction unlikely. Conceivably, the French may still capture Hougomont, but they must concentrate on that sector, weakening themselves elsewhere. Historical­ ly, 10,000 men fell in or near Hougomont: 7500 of them were French. 10 The tripling ef­ fect recreates the Gibraltar-like characteristic of the semi-fortified, thick-walled (im­ penetrable to artillery fire II) structure. Final­ ly, the Hou. unit may not move because, be­ ing otherwise occupied, it didn't at Waterloo. 12 [6.8] The NA W CRT was changed from an odds to a differential CRT because of the "bloodier" results (i.e., fewer attacking SP's - are needed to inflict losses). In play-testing, each side's casualties constantly fell short of the actual total. The only solution was to alter the CRT. [7.0] The reinforcement schedule is founded on thorough research, and is historically ac­ curate. It is also radically different from the NA W schedule, in that the Prussians arrive on three consecutive turns, and descend in size of each new body of reinforcements. Holmes pictorially (p.95) and Weller verbally (pp .126, 130-131, 139) indicate the disposi­ tion of the Prussians, as well as each corps' time of arrival. But the best source for Prus­ sian deployment is undoubtedly The Battle of Waterloo (" ... and a plan of the position and movements, wi Ih those of the Prussians, traced by a near observer."ll) The frontis­ piece of this classic 1815 edition shows each corps' entry point on the map, its path to the French lines, and the spot where it attacked. It is this diagram which insures the schedule's accuracy. [8.0] Most of my play-test games contained the demoralization scale; each game the French level changed. Whenever the French did become demoralized, the game became an Allied rout, and the Allied casualties re­ mained too low. Of course, the Allies never reached their level. Finally the levels were abolished, thereby facilitating play. How­ ever, the French had been demoralized dur­ ing the battle. (Sometime after 7:30, the Im­ perial Guard infantry, having previously been in reserve, attacked the AnglO-Allies between La Haye Sainte and Hougomont, supported on either flank by elements of the I and II Corps. After absorbing a pounding, the Guard retreated - the first time it had ever been defeated. Unsurprisingly, the re­ mainder of the battered French stopped fighting and hastily retreated. 14) Therefore a limited but accurate demoralization rule was instituted. This rule simulates Napoleon's method of withholding the Guard until the critical, decisive moment, and forces the French player to place the Guard infantry in reserve. Later in the game, he has the option of sending the Guard to fight the Prussians, or to gamble like Napoleon by attacking the Anglo-Allies. [9.0] There is no provision for exiting French units to the north because it is im­ possible. In weeks of play-testing, even in games with a French morale bonus, the Allied line was never broken; no French unit infil trated past the Allies, let alone exi ted off
+```
+
+#### Rank 3 / page-3-chunk-1 / physical page 3
+
+```text
+16 but defend normally. French units attacking Prus­ sians auack at face-value. (8.221 When the French become demoralized, all Enemy units may exit French ZOC by paying an additional Movement Poinl. [9.0] VICTORY CONDITIONS GENERAL RULE : After the tenth game-turn , each player lot als his lo;ses in terms ofslrength point s. He then converts his loss intO manpower (each SP = 500 men) . For viet ory purposes, artillery losses are considered in terms of men, not guns. To convert anillery streng th point; to men, seeCase9.1. After totaling losses, a ratio is obtained by dividing French losses by Allied (including Pru ssian) lm;ses. The result.ing quotien t is compared to [he Victory Scale, and a winner (for game, nO[ battle, purp() ses) is [hen determined . CASES: [9. 1] Artillery Co nversi o n Table Ang lo-All ied army: One artill ery SP = 180 men Pruss ia n arm y: One Artillery SP = 150 men Fre nch a rmy : One artillery SP = 1 SO men [9.2] Victory Scale Stated as a quotient of French loses divided by Allied losses: CLASS OF VICTORY VICTOR 0.90 and le.lS Is [ French player 0.91 - 1.03 2nd French player 1.04 - 1.16 3rd French player 1.17 - 1.29 4[h French player ]'30 - 1.42 DRAW NONE 1.43 - 1.55 4th Allied player 1.56 - 1.68 3rd Allied player 1.69 - 1.81 2nd Allied player 1.82 and up 1st Allied player If, at the end of [he game , [he French player's units were the last to occupy Hougomont , La Haye Sainte, or Plan cenoit (all hexes), the class of vic­ tor y is shifted one row upward for each position occupied. Examp le: AI the end o f a game, [he casualty quot ient is 1.50, indicating an Allied 4th class victory; however, a French unit was the last to occupy La Haye Sainte. Therefore the class of victory is shifted upward one level, and the game results in a draw . Notes [2.2] The order of battle is as accurate as possible . All sources ag reed that Wellington had approximately 68,000 men and Napoleon 72,000; that Wellington had 156 guns and Napoleon 246. But what of the Prussians? References to them were vague (the West Point Atlas said that between 40 and 50,000 Prussians actually fought at Waterloo l ); moreover, Weller's OB listed the Prussian strengths (at the start of the cam ­ paign) by corps, not division. Luckily I possess MOVES #34, which contains John E. Koontz' superb article, "True Victory," as well as his revised Welting ton '5 Victory order of batt le. It was this source that solved most of the Prussian problem. From other sources I verified the Prussian OB: Weller listed the total Prussian strength (before the Battle of Ligny) as 99,715. 2 After the battle, in which the Prussian ranks were reduced by 16,000 casualties and 8,000 desertion s,3 the iotal was 75,715. After the detachment of Thielmann's III Corps (ordered to distract Orouchy's force at. Wavre from the Prussian s supporting Wellington) the total drops to 58,715, an approximation which tallies close­ ly with the actual total (see following). Even better, Bulow's large IV Corps' exact total is known (from Weller) because it did not fight at Ligny. I drew the French total mainly from Koontz, with some corroboration from Weller (who listed the French also by corps only). D'Erion's I Corps had not fough t at either Quatre Bras or Ligny, and consequent- 1y its exact strength is recorded. J enumerated the Anglo-Allied army mainly from Weller (who listed battalion strengths) with help from Koon tz, who recorded each battalion that participated at Waterloo (e.g., many from the II Corps were at Hal- Tubize). Since only five Anglo-Allied divisions fought at Quatre Bras , most of the army's strength was easily obtained. The other five divisions were difficult, but Weller provided the answer. He listed the losses for each Allied nationality (2,275 British; 819 Brunswickers; 369 Hanoverians; 1,058 Dutch-Belgians 4) at Quatre 8ras; because 1 knew the approximate strengths of the five divisions (II I, 3/ 1, 2DB / I, 5/ R, Bw/ R)
+```
+
+### Fresh rank1 candidate / physical page 1
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The cavalry figures for the French and Prussian armies in the Waterloo engagement differ in terms of their unit designations and organizational structure, but not in their visual representation. Both armies use the same visual symbol for cavalry units, as indicated in the document. However, the unit designations differ: the French Army's cavalry units are listed with designations such as "1/1(3)", "2/II(2)", and others, while the Prussian Army's cavalry units are listed with designations like "1/Cv/I(3)", "2/Cv/II(2)", and similar formats. These differences in numbering and structure reflect the distinct organizational schemes of the two armies.
+```
+
+Raw VLM evidence:
+
+```text
+- The document includes a visual representation of unit types in section [2.1], showing a cavalry figure labeled "1/Cv/R 2" with a diagonal line through a square, indicating its symbol.
+- In section [2.2], the French Army’s cavalry units are listed with designations such as "1/(3)", "2/II(2)", "LC/IG(8)", etc., using a format that includes division/corps numbers and unit types.
+- The Prussian Army’s cavalry units are listed in section [2.3] with designations like "1/Cv/I(3)", "2/Cv/II(2)", "1/Cv/IV(3)", etc., using a similar format but with different numerical identifiers.
+- Both armies use the same visual symbol for cavalry units (as shown in [2.1]), but their unit designations differ in numbering and structure, reflecting different organizational schemes.
+- There is no visual distinction in the cavalry figure itself between the French and Prussian armies; differences are purely in the alphanumeric unit designations used in the text.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 0,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 0,\n  \"reason\": \"The candidate answer completely misses the point of the question, which is about the numerical difference in cavalry representation between the French and Prussian armies at Waterloo. Instead, it discusses unit designations and organizational structure, which are not mentioned in the reference answer. The answer is factually incorrect and does not address the requested information.\"\n}\n```",
+  "reason": "The candidate answer completely misses the point of the question, which is about the numerical difference in cavalry representation between the French and Prussian armies at Waterloo. Instead, it discusses unit designations and organizational structure, which are not mentioned in the reference answer. The answer is factually incorrect and does not address the requested information.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 0,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 0,
+  "reason": "The candidate answer completely misses the point of the question, which is about the numerical difference in cavalry representation between the French and Prussian armies at Waterloo. Instead, it discusses unit designations and organizational structure, which are not mentioned in the reference answer. The answer is factually incorrect and does not address the requested information."
+}
+```
+```
+
+### Separate rank1 repeat control / physical page 1
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The cavalry figures for the French and Prussian armies in the Waterloo engagement differ in terms of their unit designations and organizational structure, but not in their visual representation. Both armies use the same visual symbol for cavalry units, as indicated in the document. However, the unit designations differ: the French Army's cavalry units are listed with designations such as "1/1(3)", "2/II(2)", and others, while the Prussian Army's cavalry units are listed with designations like "1/Cv/I(3)", "2/Cv/II(2)", and similar formats. These differences in numbering and structure reflect the distinct organizational schemes of the two armies.
+```
+
+Raw VLM evidence:
+
+```text
+- The document includes a visual representation of unit types in section [2.1], showing a cavalry figure labeled "1/Cv/R 2" with a diagonal line through a square, indicating its symbol.
+- In section [2.2], the French Army’s cavalry units are listed with designations such as "1/(3)", "2/II(2)", "LC/IG(8)", etc., using a format that includes division/corps numbers and unit types.
+- The Prussian Army’s cavalry units are listed in section [2.3] with designations like "1/Cv/I(3)", "2/Cv/II(2)", "1/Cv/IV(3)", etc., using a similar format but with different numerical identifiers.
+- Both armies use the same visual symbol for cavalry units (as shown in [2.1]), but their unit designations differ in numbering and structure, reflecting different organizational schemes.
+- There is no visual distinction in the cavalry figure itself between the French and Prussian armies; differences are purely in the alphanumeric unit designations used in the text.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 0,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 0,\n  \"reason\": \"The candidate answer completely misses the point of the question, which is about the numerical difference in cavalry representation between the French and Prussian armies at Waterloo. Instead, it discusses unit designations and organizational structure, which are not mentioned in the reference answer. The answer is factually incorrect and does not address the requested information.\"\n}\n```",
+  "reason": "The candidate answer completely misses the point of the question, which is about the numerical difference in cavalry representation between the French and Prussian armies at Waterloo. Instead, it discusses unit designations and organizational structure, which are not mentioned in the reference answer. The answer is factually incorrect and does not address the requested information.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 0,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 0,
+  "reason": "The candidate answer completely misses the point of the question, which is about the numerical difference in cavalry representation between the French and Prussian armies at Waterloo. Instead, it discusses unit designations and organizational structure, which are not mentioned in the reference answer. The answer is factually incorrect and does not address the requested information."
+}
+```
+```
+
+### Alternative retrieved physical page 3
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/0931214/page_00003.png)
+
+Answer:
+
+```text
+The French cavalry is represented by 31 strength points (SPs), corresponding to 15,500 men, while the Prussian cavalry is represented by 14 SPs, corresponding to 7,000 men. This indicates that the French cavalry is more than double the size of the Prussian cavalry in the game's representation. The actual historical figures listed are 15,765 men for the French cavalry and 7,081 for the Prussian cavalry, closely aligning with the game's SP system. The visual layout of the table places these figures side-by-side, emphasizing the disparity in cavalry strength between the two armies.
+```
+
+Raw VLM evidence:
+
+```text
+- The "Comparison of the Armies" table shows that the French cavalry (Cav) is represented by 31 SP's, corresponding to 15,500 men, while the Prussian cavalry is represented by 14 SP's, corresponding to 7,000 men.
+- The actual historical figures listed in the same table indicate 15,765 men for French cavalry and 7,081 for Prussian cavalry.
+- Visually, the French cavalry representation (31 SP's) is more than double that of the Prussian cavalry (14 SP's) in the game's SP system.
+- The table also shows that the French cavalry SP's (31) are nearly twice the Prussian cavalry SP's (14), reflecting a larger cavalry force in the game's representation.
+- The spatial layout of the table places the French and Prussian cavalry figures side-by-side under the "Cav" row, allowing direct visual comparison of their SP's and represented men.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 2,
+  "correctness": 4,
+  "grounding": 2,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 4,\n  \"completeness\": 2,\n  \"grounding\": 2,\n  \"task_satisfaction\": 2,\n  \"total\": 10,\n  \"reason\": \"The candidate answer is fully correct in stating the French and Prussian cavalry figures and their relative sizes. It is complete in addressing the question by comparing both the game's representation and historical figures. The answer is grounded in the reference and directly satisfies the task by explaining the difference in representation.\"\n}\n```",
+  "reason": "The candidate answer is fully correct in stating the French and Prussian cavalry figures and their relative sizes. It is complete in addressing the question by comparing both the game's representation and historical figures. The answer is grounded in the reference and directly satisfies the task by explaining the difference in representation.",
+  "task_satisfaction": 2,
+  "total": 10
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 4,
+  "completeness": 2,
+  "grounding": 2,
+  "task_satisfaction": 2,
+  "total": 10,
+  "reason": "The candidate answer is fully correct in stating the French and Prussian cavalry figures and their relative sizes. It is complete in addressing the question by comparing both the game's representation and historical figures. The answer is grounded in the reference and directly satisfies the task by explaining the difference in representation."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.
+
+## P2B_S1_012 / unidoc_education_0163
+
+PDF: [7909471.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/education/education/7909471.pdf)
+
+Candidate physical pages in original rank order: [13, 14, 11]
+
+### Question
+
+What is the comparative binding affinity of genistein to estrogen receptors in newer soy food versions versus traditional ones, based on the provided data?
+
+### Reference claim to verify
+
+The estrogen receptor affinity binding value for genistein in second generation soy foods is similar to traditional soy foods. Both types exhibit values between 7 and almost 14% of the estradiol bioactivity, indicating comparable binding affinities.
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-13-chunk-1 / physical page 13
+
+```text
+Structure and Function of Food Engineering 216 However, it is also accepted that beta-ERs are mainly located in bones, brain, thymus, bladder, cardiovascular system and its activati on by estrogenic comp ounds, or compounds with the ability to mimic estrogenic molecule s, such as phytoestrogens, can improve and prevent conditions like osteoporosis and cardio vascular diseases [17, 47] and this will be used as the benefit parameter. In global terms the total efficacy of the TERE will be determined adding these two values. However the amount linked to the alpha-receptors will be consider as a possible risk limitation, which that needs to be evaluate d when the increased dose will induce an improved TERE but the risk assessment for the toxicity can be a handicap. Ultimately, different extracts could be compared, even when the relative amounts present in the extracts are very different. The example of TERE calculation for samples show in Figure 2 is presented in Table 2, using “Second generation soy foods” data. Second generation soy foods Receptor Type Intake (mg/100g) Alpha-ERs Beta-ERs daidzein 29,2 (29.2 x 0.031/100) 0.009 (29.2 x 0.020/100) 0.006 genistein 22,09 (22.09 x 0.86/100) 0.19 (25 x 43.9/100) 9.7 Total 51.79 0.199 9.706 TE 9.9 (= 0.199 + 9.706) TERE (100 total linkage to ERs/9.9 TE) = 1/10.1 of the theoretical activity of the estradiol RISK ~2 % BENEFIT ~ 98% Daidzein binding affinity for alpha–ER is 0.031 and 0.020 for beta-ER [15]; Genistein binding affinity for alpha–ER is 0.86 and 43.9 for beta-ER [15]. Table 2. Example of TERE calculation with mean values for Second generation soy foods using the “Estrogen Receptor affinity binding values” with daidzein and genistein. From the total values in Figure 3 and 4 is possible evaluate the amount of daidzein and genistein linked to both receptors and have an idea about the Theoretical Efficacy (TE) of these components if related to estradiol (TERE), Figure 5.
+```
+
+#### Rank 2 / page-14-chunk-1 / physical page 14
+
+```text
+Possible Risks in Caucasians by Consumption of Isoflavones Extracts Based 217 Figure 3. “Estrogen Receptor affinity binding values” for daidzein and genistein content in samples of Group I to IV. Figure 4. TE values for samples of Group I to IV.
+```
+
+#### Rank 3 / page-11-chunk-1 / physical page 11
+
+```text
+Structure and Function of Food Engineering 214 Figure 2. Isoflavone means in Traditional soy foods, no-dairy soy products and meat analogues analised as examples of European consume. I n F i g u r e 2 , f r o m o u r p r e v i o u s d a t a [ 3 2 ] , genistein was found to be the most prevalent isoflavone in Traditional soy foods, no-dairy soy products and meat analogues. In second generation soy foods, daidzein was the most prevalent isoflavones. However differences between the various products were considerable. Diverse studies have been conducted in di fferent countries in order to analyze the isoflavone content in soy products. Chan et al determined the concentrations and distribution of isoflavones in 47 soy-based foods [40]. They also studied the conjugation pattern of isoflavones and found that varied wi thin and between food groups as influenced by the types of soybeans and the processing or cooking techniques used. The authors found very high values in certain foods and concluded that might not be safe, supporting the relevance of the risk assessment for the recommendation of safe intake levels. Similar results were obtained by Boniglia et al [41]. Three years ago, Boniglia et al, achieved similar results. These authors presented a study of the isoflavone content of 14 soy-based Ita lian dietary supplements – indicated for the improvement of perimenopausal and menopausal symptoms. The objective was to quantify soy isoflavones fraction after hydrolysis into free aglycones. They noticed that, in the examined products, the amount s of isoflavones were frequently expressed ambiguously. None of the products stated whether the isoflavone content of the product was expressed as aglycones or as conjugates. Even worse, ea ch product revealed a different aglycone concentration profile. They also concluded that this difference was probably related to the different sources of raw materials and methods used in the processing and preparation of extracts. They also observed that in more than half the supplements tested, the actual values contained were below those stated and below those expected to relief perimenopausal and menopausal symptoms [41].
+```
+
+### Fresh rank1 candidate / physical page 13
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The provided evidence specifies the binding affinity of genistein to estrogen receptors in second-generation soy foods as 0.86 for alpha-ER and 43.9 for beta-ER. However, no data is provided for the binding affinity of genistein in traditional soy foods. As a result, a comparative analysis of genistein's binding affinity between newer and traditional soy food versions cannot be made based on the currently retrieved evidence.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided data is specific to "Second generation soy foods" and does not include any comparative values for traditional soy foods.
+- For genistein in second-generation soy foods, the binding affinity is listed as 0.86 for alpha-ER and 43.9 for beta-ER.
+- The table and accompanying text do not present any data or values for genistein binding affinity in traditional soy foods.
+- Therefore, based solely on the visual information, a direct comparative analysis between newer and traditional soy food versions cannot be made.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 1,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 1,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 1,\n  \"reason\": \"The candidate answer is mostly incorrect and fails to address the question. It incorrectly states that no data is provided for traditional soy foods, which contradicts the reference. The reference clearly states that both newer and traditional soy foods have similar binding affinities. The candidate answer also introduces specific numerical values not mentioned in the reference, making it unsupported and inconsistent.\"\n}\n```",
+  "reason": "The candidate answer is mostly incorrect and fails to address the question. It incorrectly states that no data is provided for traditional soy foods, which contradicts the reference. The reference clearly states that both newer and traditional soy foods have similar binding affinities. The candidate answer also introduces specific numerical values not mentioned in the reference, making it unsupported and inconsistent.",
+  "task_satisfaction": 0,
+  "total": 1
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 1,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 1,
+  "reason": "The candidate answer is mostly incorrect and fails to address the question. It incorrectly states that no data is provided for traditional soy foods, which contradicts the reference. The reference clearly states that both newer and traditional soy foods have similar binding affinities. The candidate answer also introduces specific numerical values not mentioned in the reference, making it unsupported and inconsistent."
+}
+```
+```
+
+### Separate rank1 repeat control / physical page 13
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The provided evidence specifies the binding affinity of genistein to estrogen receptors in second-generation soy foods as 0.86 for alpha-ER and 43.9 for beta-ER. However, no data is provided for the binding affinity of genistein in traditional soy foods. As a result, a comparative analysis of genistein's binding affinity between newer and traditional soy food versions cannot be made based on the currently retrieved evidence.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided data is specific to "Second generation soy foods" and does not include any comparative values for traditional soy foods.
+- For genistein in second-generation soy foods, the binding affinity is listed as 0.86 for alpha-ER and 43.9 for beta-ER.
+- The table and accompanying text do not present any data or values for genistein binding affinity in traditional soy foods.
+- Therefore, based solely on the visual information, a direct comparative analysis between newer and traditional soy food versions cannot be made.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 1,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 1,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 1,\n  \"reason\": \"The candidate answer is mostly incorrect and fails to address the comparative binding affinity as stated in the reference. It incorrectly claims no data is available for traditional soy foods, while the reference clearly states that both types have similar binding affinities. The answer also introduces specific values (0.86 and 43.9) not mentioned in the reference, which are unsupported and misleading. It does not fulfill the task of comparing the binding affinities.\"\n}\n```",
+  "reason": "The candidate answer is mostly incorrect and fails to address the comparative binding affinity as stated in the reference. It incorrectly claims no data is available for traditional soy foods, while the reference clearly states that both types have similar binding affinities. The answer also introduces specific values (0.86 and 43.9) not mentioned in the reference, which are unsupported and misleading. It does not fulfill the task of comparing the binding affinities.",
+  "task_satisfaction": 0,
+  "total": 1
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 1,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 1,
+  "reason": "The candidate answer is mostly incorrect and fails to address the comparative binding affinity as stated in the reference. It incorrectly claims no data is available for traditional soy foods, while the reference clearly states that both types have similar binding affinities. The answer also introduces specific values (0.86 and 43.9) not mentioned in the reference, which are unsupported and misleading. It does not fulfill the task of comparing the binding affinities."
+}
+```
+```
+
+### Alternative retrieved physical page 11
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/7909471/page_00011.png)
+
+Answer:
+
+```text
+The provided evidence does not contain information to compare the binding affinity of genistein to estrogen receptors in newer soy food versions versus traditional ones. While the binding affinity values for genistein to alpha- and beta-estrogen receptors are given (0.86 and 43.9, respectively), there is no indication that these values differ between traditional and newer soy food versions. The data only show differences in the amount of genistein present in these food types, not in their binding affinities.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided bar chart (Figure 2) shows isoflavone means (in mg/100g) for different soy food categories, including traditional soy foods and second-generation soy foods.
+- In traditional soy foods, genistein (light gray bar) has a value of 30.18 mg/100g.
+- In second-generation soy foods, genistein (light gray bar) has a value of 22.09 mg/100g.
+- The chart does not provide data on binding affinity to estrogen receptors; it only presents total isoflavone content, including genistein.
+- Therefore, while genistein content is higher in traditional soy foods (30.18 vs. 22.09), the document does not contain information to compare the binding affinity of genistein to estrogen receptors between the two food versions.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 2,
+  "correctness": 4,
+  "grounding": 2,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 4,\n  \"completeness\": 2,\n  \"grounding\": 2,\n  \"task_satisfaction\": 2,\n  \"total\": 10,\n  \"reason\": \"The candidate answer correctly interprets the data, noting that binding affinity values for genistein are not shown to differ between traditional and newer soy foods. It accurately states that the data do not support a comparison of binding affinities between the two types, and instead show differences in genistein content. The answer is fully consistent with the reference and directly addresses the question.\"\n}\n```",
+  "reason": "The candidate answer correctly interprets the data, noting that binding affinity values for genistein are not shown to differ between traditional and newer soy foods. It accurately states that the data do not support a comparison of binding affinities between the two types, and instead show differences in genistein content. The answer is fully consistent with the reference and directly addresses the question.",
+  "task_satisfaction": 2,
+  "total": 10
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 4,
+  "completeness": 2,
+  "grounding": 2,
+  "task_satisfaction": 2,
+  "total": 10,
+  "reason": "The candidate answer correctly interprets the data, noting that binding affinity values for genistein are not shown to differ between traditional and newer soy foods. It accurately states that the data do not support a comparison of binding affinities between the two types, and instead show differences in genistein content. The answer is fully consistent with the reference and directly addresses the question."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.
+
+## P2B_S1_013 / unidoc_energy_0111
+
+PDF: [2497225.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/energy/energy/2497225.pdf)
+
+Candidate physical pages in original rank order: [1, 3, 2]
+
+### Question
+
+In a floating wind turbine system, which structural section is designed to house more than one type of ballast, and how are these ballast types positioned relative to one another within that section?
+
+### Reference claim to verify
+
+The spar platform of the floating wind turbine system is designed to house more than one type of ballast. Within this section, the permanent ballast is positioned at the bottom, with the variable ballast located directly above it.
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-1-chunk-1 / physical page 1
+
+```text
+Control Co-design of Horizontal Floating Oﬀshore Wind Turbines Using A Simpliﬁed Low-Order Model saeid bayatL yong hoon leeL james allison Abstract floatingo;shorewindturbineHfowtIdesigninvolvesmanyphysicsdisciplinesLincluding structural dynamicsL aerodynamicsL mooring system dynamicsL hydrodynamicsL and controlsN in traditional engineering design practicesL control design is generally left for a later stage of the design processL while plant design decisionsL including geometrical shapes and sizesL are made with simple control assumptionsN howeverL when there is a strong design coupling between plant and control designsL this sequential approach may not produce systemMoptimal solutionsN to account for the couplings that exist between plant and control designsL a control coMdesign HccdI approach can be utilizedN using the ccd approachL both design disciplines are optimized in the integrated wayL resulting better design solutions that account for the synergy coming from the design coupling between physics disciplinesN in this studyL we present progresses for the ongoing development of a nested ccd methodology Hherber and allisonL RP1YI with a simpliﬁed lowMorder model of a sparMtype horizontalMaxis fowt system HalMsolihatL RP1X; jonkmanL et alNL RPPYIN the simpliﬁed lowMorder model is developed to serve as a prototype of a fullyMdetailed wind turbine modelforuseinthedevelopmentoftheccdmethodologyN whilemoreadvancedmodels provide enhanced accuracy with respect to real system behaviorL reduced computational expense is desirable for ccd studiesL while maintaining suﬃcient accuracy from a design standpointN the simpliﬁed lowMorder model introduced in this study is useful as a tool for developing fowtMspeciﬁc ccd methodsN this model retains approximations of physical phenomena that are central to design coupling and design decisionsL while exhibiting low computational costN these properties accelerate the overall ccd method development processN after ccd optimization methods are constructed using this simpliﬁed modelL thesemethodswillbelinkedwithhigherMﬁdelitymodelstosupportdirectdesigndecisions for fowt system design processesN here we discuss a nested ccd method for the fowt designL and compare results from sequential and nested design approaches to explore possible existence of nontrivial design couplingsN the simpliﬁed low order model consists of subsystems with full dynamic and control componentsL including spar ﬂoating platform hydrodynamicsL slack mooring linesL tower rigidMbody dynamicsL and rotor dynamicsN plant parameters for these subsystems are optimized in the outerMloop of the nested ccd formulationN these subsystems interact with each otherL and are inﬂuenced by external wind load and control trajectoriesN the blade pitch and generator torque control trajectories are optimized in the innerMloop of the nested ccd formulation using an openMloop optimal control HolocI methodL numerically solved using the pseudospectral method Hpatterson and raoL RP1TIN page 1 of S
+```
+
+#### Rank 2 / page-3-chunk-1 / physical page 3
+
+```text
+3 FIGURE 1.system Components
+```
+
+#### Rank 3 / page-2-chunk-1 / physical page 2
+
+```text
+2 results indicate that accounting for plantMcontrol design coupling via ccd methods has a signiﬁcant impact on system performanceN Keywords: control coMdesign HccdI; horizontalMaxis wind turbine HhawtI; floating o;shore wind turbine HfowtI; pseudospectral method References alMsolihatLmNkNHRP1XIdynamicsmodelingLsimulationandanalysisofaﬂoatingo;shore wind turbineL phd dissertationL mcgill universityL montrealN herberL dNrN and allisonL jNtN HRP1YI Gnested and simultaneous solution strategies for general combined plant and control design problemsGL journal of mechanical designL 1T1H1IL pNP11TPRN doi 1PN111UO1NTPTPWPU jonkmanLjNLetalN HRPPYIdeﬁnitionofaUMmwreferencewindturbineforo;shoresystem developmentN nrelOtpMUPPMSXPVPL national renewable energy laboratoryL goldenN pattersonL mNaN and raoL aNvN HRP1TI GgpopsMii: a matlab software for solving multipleMphase optimal control problems using hpMadaptive gaussian quadrature collocaM tion methods and sparse nonlinear programmingGL acm transactions on mathematical softwareL T1H1IL ppN1:1MSWN doi 1PN11TUORUUXYPT
+```
+
+### Fresh rank1 candidate / physical page 1
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information is not supported by the currently retrieved evidence.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided PDF page contains no figures, diagrams, tables, or visual elements depicting structural sections of a floating wind turbine or ballast arrangements.
+- There is no visual information showing any structural section housing multiple types of ballast.
+- No labels, arrows, or spatial relationships related to ballast positioning are present.
+- The text discusses a simplified low-order model for control co-design but does not visually or explicitly describe ballast types or their placement.
+- Therefore, based solely on the visual content of this page, no information is available to answer the question.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "{\"correctness\": 0, \"completeness\": 0, \"grounding\": 0, \"task_satisfaction\": 0, \"total\": 0, \"reason\": \"The candidate answer fails to provide any correct or relevant information about the structural section or ballast positioning in a floating wind turbine system. It does not address the question and is not grounded in the reference answer.\"}",
+  "reason": "The candidate answer fails to provide any correct or relevant information about the structural section or ballast positioning in a floating wind turbine system. It does not address the question and is not grounded in the reference answer.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+{"correctness": 0, "completeness": 0, "grounding": 0, "task_satisfaction": 0, "total": 0, "reason": "The candidate answer fails to provide any correct or relevant information about the structural section or ballast positioning in a floating wind turbine system. It does not address the question and is not grounded in the reference answer."}
+```
+
+### Separate rank1 repeat control / physical page 1
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information is not supported by the currently retrieved evidence.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided PDF page contains no figures, diagrams, tables, or visual elements depicting structural sections of a floating wind turbine or ballast arrangements.
+- There is no visual information showing any structural section housing multiple types of ballast.
+- No labels, arrows, or spatial relationships related to ballast positioning are present.
+- The text discusses a simplified low-order model for control co-design but does not visually or explicitly describe ballast types or their placement.
+- Therefore, based solely on the visual content of this page, no information is available to answer the question.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "{\"correctness\": 0, \"completeness\": 0, \"grounding\": 0, \"task_satisfaction\": 0, \"total\": 0, \"reason\": \"The candidate answer fails to provide any correct or relevant information about the structural section or ballast positioning in a floating wind turbine system. It does not address the question and is not supported by the reference answer.\"}",
+  "reason": "The candidate answer fails to provide any correct or relevant information about the structural section or ballast positioning in a floating wind turbine system. It does not address the question and is not supported by the reference answer.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+{"correctness": 0, "completeness": 0, "grounding": 0, "task_satisfaction": 0, "total": 0, "reason": "The candidate answer fails to provide any correct or relevant information about the structural section or ballast positioning in a floating wind turbine system. It does not address the question and is not supported by the reference answer."}
+```
+
+### Alternative retrieved physical page 3
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/2497225/page_00003.png)
+
+Answer:
+
+```text
+In a floating wind turbine system, the "Spar Platform" is the structural section designed to house more than one type of ballast. Within this section, two types of ballast are present: "permanent ballast" and "Variable ballast." The "permanent ballast" is positioned at the bottom of the Spar Platform, while the "Variable ballast" is located directly above the permanent ballast. A dashed horizontal line visually separates these two ballast types, indicating their distinct vertical positioning.
+```
+
+Raw VLM evidence:
+
+```text
+- The "Spar Platform" is the structural section designed to house more than one type of ballast.
+- Within the Spar Platform, two distinct ballast types are shown: "Variable ballast" and "permanent ballast".
+- The "permanent ballast" is positioned at the bottom of the Spar Platform, depicted in brown.
+- The "Variable ballast" is located directly above the permanent ballast, shown in blue.
+- A dashed horizontal line separates the two ballast types, indicating their distinct vertical positioning within the platform.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 2,
+  "correctness": 4,
+  "grounding": 2,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 4,\n  \"completeness\": 2,\n  \"grounding\": 2,\n  \"task_satisfaction\": 2,\n  \"total\": 10,\n  \"reason\": \"The candidate answer is fully correct in identifying the spar platform as the section housing multiple ballast types and accurately describes their relative positioning. It is semantically consistent with the reference and directly answers the question. The mention of a dashed horizontal line is a visual detail not in the reference but does not contradict it and is a minor addition.\"\n}\n```",
+  "reason": "The candidate answer is fully correct in identifying the spar platform as the section housing multiple ballast types and accurately describes their relative positioning. It is semantically consistent with the reference and directly answers the question. The mention of a dashed horizontal line is a visual detail not in the reference but does not contradict it and is a minor addition.",
+  "task_satisfaction": 2,
+  "total": 10
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 4,
+  "completeness": 2,
+  "grounding": 2,
+  "task_satisfaction": 2,
+  "total": 10,
+  "reason": "The candidate answer is fully correct in identifying the spar platform as the section housing multiple ballast types and accurately describes their relative positioning. It is semantically consistent with the reference and directly answers the question. The mention of a dashed horizontal line is a visual detail not in the reference but does not contradict it and is a minor addition."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.
+
+## P2B_S1_014 / unidoc_energy_0150
+
+PDF: [3629103.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/energy/energy/3629103.pdf)
+
+Candidate physical pages in original rank order: [7, 8, 2]
+
+### Question
+
+What trends and major year-to-year variations were observed in the proportion of NEM Forward Market activity relative to physical volume between the financial years 1999/00 and 2018/19?
+
+### Reference claim to verify
+
+Between the financial years 1999/00 and 2018/19, the proportion of NEM Forward Market activity relative to physical volume generally increased, starting at around 100% and reaching a peak of over 450% in 2011/12. There were notable year-to-year variations, including a sharp rise around 2006/07 to 2010/11, peaking in 2011/12, followed by a substantial decline, stabilisation, and a partial recovery towards 2018/19. Thus, the major trends were a long-term increase, significant volatility with a pronounced peak and subsequent decline, and some recovery by the end of the period.
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-7-chunk-1 / physical page 7
+
+```text
+7 1.3 Additional complexity We recognise that, in the long-term, market participants and investors will usually adapt to new market conditions if a sufficiently long period of stability is allowed. However, it is not clear to us whether the long-term market will be fundamentally more efficient once contracting and hedging strategies are taken into account, and whether this will outweigh the short-term slowdown. In our opinion, while the risk of congestion or competition from a future new entrant remains a source of uncertainty for generators, it is a well understood one. Participants currently undertake forecasts of the regional price, project loss factor and connection point congestion, with appropriate sensitivity scenarios. While these are not trivial forecasts, the potential variability and ranges are well known and understood (although participants must still allow for “black swan” events). In contrast, under the AEMC’s proposed framework, participants building an investment case will be required to: • With a high degree of detail, model and forecast the local marginal price for the project; • Model and forecast the likely fair-value of FTRs and the price for FTRs at auction; • Model and forecast the likely availability and firmness (and the degree of non- firmness) of those FTRs, requiring an understanding of overall market dynamics; • Consider additional market power compliance risks and/or caps being placed on offers; and • Model and forecast local marginal prices for every node in order to determine a regional load weighted price; • Model and forecast MLFs for every dispatch interval and/or forecast future MLF hedge prices. This increases the total sources of uncertainty for a project and, at least during the transition, will create uncertainty that banks and finance providers must respond to – and will surely price accordingly in the period leading up to reform, and in the immediate post-reform market environment – which as noted early is unlikely to be less than 5 years in total. We further note that after declining since 2010, liquidity in the NEM’s forward markets are finally increasing again (Figure 4). These forward markets (i.e. with tenors of 1 Quarter to 3 Years in the futures market, and nominally 1 day to 15 years in the OTC markets) remain the primary source of hedging for market participants. The additional complexity and disconnection between physical production and access to the regional price significantly risks further reductions in liquidity.
+```
+
+#### Rank 2 / page-8-chunk-1 / physical page 8
+
+```text
+8 Figure 4 OTC & ASX Forward Electricity Market Liquidity 1999-20193 2. SPECIFIC ISSUES Redefining the regional reference price Existing contracts typically make reference to the regional reference price or the price at the reference node. The AEMC’s proposed plan will remove the regional reference price (RRP), and introduce two new quantities: the regional VWAP and the local marginal price. In some instances, this change could be considered a market disruption event and potentially require reopening aspects of existing contracts. This will be expensive and – as noted above – increase refinancing risks. Market power behind congestion Under Optional Firm Access, AEMC was able to demonstrate that (price-taker) participants behind a binding constraint generally had no incentive to bid above SRMC. This was due residues being returned to participants pro-rata with capacity. However, under dynamic regional pricing, if residues instead are placed in a pool, participants without FTRs have a strong incentive to shadow-bid the regional price (thereby driving up the nodal price) or, alternatively, to withdraw capacity to unbind the constraint. While this disorderly bidding does not directly impact on consumer 3 Sources: Simshauser, Tian, Whish-Wilson (2015), “Vertical integration in energy-only electricity markets”, Economic Analysis & Policy, 48(2015): 35-56. Nelson, Pascoe, Calais, Mitchell & McNeill (2019), “Efficient integration of climate and energy policy in Australia’s National Electricity Market”, Economic Analysis & Policy, 64(2019): 178-193.
+```
+
+#### Rank 3 / page-2-chunk-1 / physical page 2
+
+```text
+2 Accordingly, Infigen considers the NEM remains highly investable for the right assets, with the right business models. We consider that there has been disproportionate attention given to the reductions in Marginal Loss Factors (MLFs) observed by a small number of projects that sited in weak areas of the grid and have been subsequently affected by the rapid uptake of new entrants in that area. MLFs accurately reflect the physics of the grid and are a risk that market participants are best positioned to manage, including sharing risks through market contracts. Introducing a complex new scheme is not necessary for continued investment in the market (and will likely make investment for challenging, at least in the short-term). Indeed, since 2016, 12,000 MW of large-scale renewable energy capacity has been developed1, as investment caught up after a period of policy instability during 2012- 2015 (see Figure 1 below). During a cyclical investment boom, it is inevitable that “investment mistakes in retrospect” are made – participants seeking to capture first mover advantage can mean there is insufficient time for updated information on MLFs and congestion to be published before the next investment decisions is made. This is a feature of most commodity markets and does not necessarily point to a failure the underlying market design – particularly as the risk and consequences of investment error are allocated to those best able to manage them, and have (if anything) resulted in additional capacity, not less. We note that recent enhancements to the ISP should provide new generation proponents with richer information allowing them to make better decisions in terms of capacity (if not also location) of optimal projects. The proposed changes represent a very material step-change in the operation of the NEM that is likely to cause a non-trivial pause in investment, and raises risks (and therefore equity and bank debt/re-financing risk premiums) during a design phase and in the immediate post-reform market environment – which collectively is unlikely to be less than 5 years in duration. This is not intended to be an argument against market reform per se, but pending detailed modelling from the AEMC, we do not consider that the benefits outweigh predictable costs at this time once the impact on the whole investment cycle is included. Most critically, while we acknowledge that dynamic regional pricing would sharpen short-term spot market signals, it increases complexity around the contract market (which is of equal importance to the spot market in terms of an efficient NEM operation). Infigen has already observed a slow-down in transactions as investors consider how to manage new and emerging risks associated with government interventions and other market reviews. Infigen suggests more detailed consideration should be given to the impact of the proposed changes on the liquidity of forward markets as well as the lessening of competition in an increased nodal model. 1 Clean Energy Regulator, Large-scale generation certificate market update - October 2019
+```
+
+### Fresh rank1 candidate / physical page 7
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information regarding trends and major year-to-year variations in the proportion of NEM Forward Market activity relative to physical volume between the financial years 1999/00 and 2018/19 is not supported by the currently retrieved evidence. The text mentions a figure (Figure 4) related to liquidity in the NEM’s forward markets but does not provide the actual data or visual depiction necessary to describe the trends or variations over the specified period.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided page does not contain any figures, tables, charts, or visual data related to the proportion of NEM Forward Market activity relative to physical volume.
+- There is no visual evidence (such as graphs, diagrams, or labeled data points) for the financial years 1999/00 to 2018/19.
+- The text mentions "Figure 4" in relation to liquidity in NEM’s forward markets, but the figure itself is not present on this page.
+- No year-to-year variations or trends are visually depicted or described in the text on this page.
+- Therefore, no visual information is available to answer the question.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 0,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 0,\n  \"reason\": \"The candidate answer incorrectly claims that the data is not supported by the retrieved evidence, when the reference answer clearly provides a detailed description of the trends and variations. The candidate answer fails to address the question and contradicts the reference.\"\n}\n```",
+  "reason": "The candidate answer incorrectly claims that the data is not supported by the retrieved evidence, when the reference answer clearly provides a detailed description of the trends and variations. The candidate answer fails to address the question and contradicts the reference.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 0,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 0,
+  "reason": "The candidate answer incorrectly claims that the data is not supported by the retrieved evidence, when the reference answer clearly provides a detailed description of the trends and variations. The candidate answer fails to address the question and contradicts the reference."
+}
+```
+```
+
+### Separate rank1 repeat control / physical page 7
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information regarding trends and major year-to-year variations in the proportion of NEM Forward Market activity relative to physical volume between the financial years 1999/00 and 2018/19 is not supported by the currently retrieved evidence. The text references "Figure 4" in relation to liquidity in the NEM’s forward markets but does not provide the figure or specific data on trends or variations over the requested time period. Additionally, no visual evidence or detailed textual description of such trends or variations is present in the retrieved content.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided page does not contain any figures, tables, charts, or visual data related to the proportion of NEM Forward Market activity relative to physical volume.
+- There is no visual evidence (such as graphs, diagrams, or labeled data points) for the financial years 1999/00 to 2018/19.
+- The text mentions "Figure 4" in relation to liquidity in NEM’s forward markets, but the figure itself is not present on this page.
+- No year-to-year variations or trends are visually depicted or described in the text on this page.
+- Therefore, no visual information is available to answer the question.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "{\"correctness\": 0, \"completeness\": 0, \"grounding\": 0, \"task_satisfaction\": 0, \"total\": 0, \"reason\": \"The candidate answer incorrectly claims that the information is not supported by the evidence, despite the reference answer providing clear details about the trends and variations. The candidate answer fails to address the question and contradicts the reference answer, resulting in a complete failure to satisfy the task.\"}",
+  "reason": "The candidate answer incorrectly claims that the information is not supported by the evidence, despite the reference answer providing clear details about the trends and variations. The candidate answer fails to address the question and contradicts the reference answer, resulting in a complete failure to satisfy the task.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+{"correctness": 0, "completeness": 0, "grounding": 0, "task_satisfaction": 0, "total": 0, "reason": "The candidate answer incorrectly claims that the information is not supported by the evidence, despite the reference answer providing clear details about the trends and variations. The candidate answer fails to address the question and contradicts the reference answer, resulting in a complete failure to satisfy the task."}
+```
+
+### Alternative retrieved physical page 8
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/3629103/page_00008.png)
+
+Answer:
+
+```text
+The proportion of NEM Forward Market activity relative to physical volume between the financial years 1999/00 and 2018/19 showed several trends and year-to-year variations. The proportion started at around 100% in 1999/00 and gradually increased to about 150% by 2003/04. It remained relatively stable until 2006/07, after which a sharp increase occurred, rising to approximately 320% in 2007/08. This was followed by a slight dip to around 270% in 2008/09. The most significant peak was observed in 2010/11, reaching nearly 470%. After this peak, the proportion declined to about 350% by 2012/13. From 2012/13 to 2018/19, the proportion fluctuated between approximately 250% and 350%, with a notable dip to around 250% in 2017/18 before rising again to about 320%.
+```
+
+Raw VLM evidence:
+
+```text
+- The line graph in Figure 4 shows the NEM Forward Market Liquidity (% of Physical) from 1999/00 to 2018/19.
+- The proportion started around 100% in 1999/00, increased gradually to about 150% by 2003/04, then remained relatively stable until 2006/07.
+- A sharp increase occurred from 2006/07 to 2007/08, rising to approximately 320%, followed by a slight dip to around 270% in 2008/09.
+- The most significant peak was in 2010/11, reaching nearly 470%, after which it declined to about 350% by 2012/13.
+- From 2012/13 to 2018/19, the proportion fluctuated between approximately 250% and 350%, with a notable dip to around 250% in 2017/18 before rising again to about 320
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 1,
+  "correctness": 3,
+  "grounding": 2,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 3,\n  \"completeness\": 1,\n  \"grounding\": 2,\n  \"task_satisfaction\": 2,\n  \"total\": 8,\n  \"reason\": \"The candidate answer is mostly correct in describing the general trend of increasing NEM Forward Market activity relative to physical volume, and it captures the peak in 2010/11 (close to 2011/12 in the reference) and the subsequent decline. However, it misplaces the peak year and omits the reference's mention of a partial recovery by 2018/19. The answer is grounded in the reference data and directly addresses the question, but it misses a key detail about the final recovery phase.\"\n}\n```",
+  "reason": "The candidate answer is mostly correct in describing the general trend of increasing NEM Forward Market activity relative to physical volume, and it captures the peak in 2010/11 (close to 2011/12 in the reference) and the subsequent decline. However, it misplaces the peak year and omits the reference's mention of a partial recovery by 2018/19. The answer is grounded in the reference data and directly addresses the question, but it misses a key detail about the final recovery phase.",
+  "task_satisfaction": 2,
+  "total": 8
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 3,
+  "completeness": 1,
+  "grounding": 2,
+  "task_satisfaction": 2,
+  "total": 8,
+  "reason": "The candidate answer is mostly correct in describing the general trend of increasing NEM Forward Market activity relative to physical volume, and it captures the peak in 2010/11 (close to 2011/12 in the reference) and the subsequent decline. However, it misplaces the peak year and omits the reference's mention of a partial recovery by 2018/19. The answer is grounded in the reference data and directly addresses the question, but it misses a key detail about the final recovery phase."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.
+
+## P2B_S1_015 / unidoc_energy_0193
+
+PDF: [1511581.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/energy/energy/1511581.pdf)
+
+Candidate physical pages in original rank order: [6, 5, 4]
+
+### Question
+
+In community-focused initiatives aimed at expanding sustainable power solutions, how is small-batch biofuel fabrication carried out to support local economic activity when implemented by groups skilled in advancing access for underserved populations?
+
+### Reference claim to verify
+
+The process involves an individual manually producing cylindrical biomass fuel briquettes using a mechanical press, with finished briquettes collected in a tray, all set within a small, outdoor workspace surrounded by lush vegetation. This method supports local economic activity by enabling small-scale, community-focused production of biofuels, facilitated by groups skilled in advancing access for underserved populations. Such initiatives often leverage local knowledge, business plan development for micro-enterprises, demonstration of new business viability, community engagement, and market activation to ensure effective and inclusive energy access, as described in the provided context.
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-6-chunk-1 / physical page 6
+
+```text
+Learning, Sharing and Using Knowledge: • Working with global, national and regional partners to facilitate effective renewable energy solutions, including research and technical assistance on a wide range of renewable energy issues • Increasing renewable energy access within humanitarian contexts, including our membership of the previous UK DFID (now FCDO) - sponsored Moving Energy Initiative, and current co-Chair of the global Safe Access to Fuels and Energy (SAFE) working group • Developing models and tools for total community energy planning processes based on research and testing • Supporting behaviour-change communication that addresses barriers to the take-up of renewable energy sources by people living in poverty • Maintaining knowledge portals that provide easy access to independent information Inspiring Others to Adopt Effective Models: • Policy, finance and business-related advocacy on renewable energy access, including as founding partners in the global “Power 4 All” campaign • Thought leadership through our widely-recognised flagship energy publication, the Poor People’s Energy Outlook • Last year alone, our work has enabled people living in off-grid communities in 11 countries to access modern, sustainable energy services, improving their health, education, wellbeing and income- generating opportunities. Our experience covers two key areas of activity to motivate new approaches, based on the fact that ‘big change starts small’:
+```
+
+#### Rank 2 / page-5-chunk-1 / physical page 5
+
+```text
+Our skills in energy access We have expertise in a wide range of energy access issues, including: • Productive uses of energy – value chain analyses and demonstration to ascertain the viability of new business, and business plan development formicro- enterprises. • Catalysing market activation and development of both national scale market spaces and the last-mile delivery sector. Using economies of scale and technology to reduce distribution costs and improve product selection. • Research into aspects of energy access to inform policy decision-making, covering energy needs, strategic planning, finance, and technologies. • Survey development and deployment, especially in remote settings. • Local community selection and mobilisation to support energy access projects, in particular with research institutions and other international organisations needing a strong local partner • Working with mini-grid developers to help build sustainable mini-grid models under local conditions, underpinned by community engagement • Analysis of energy market systems, to identify communities’ barriers to energy access and developing strategies for how these can beovercome. • Designing and developing inclusive business models that aim to scale-up energy access and/or increase productive uses of energy Collaborating to achieve change We work with partners from across the energy access sector to adopt a collaborative approach, pilot new innovations and business models, undertake research, and share knowledge and experience. We work with: • Private businesses operating in the energy space, ranging from multi-national corporations to small & medium-sized enterprises to social enterprises, from distributors to technology developers to service providers. • International, national and local NGOs. • Researchers and academics who can provide much-needed evidence. • Governments and international development donors. • UK and international research organisations, such as universities and colleges. • Local communities and actors on-the-ground. • Emergency relief agencies, medium-term development actors, first-on-the- scene responders, and the wider humanitarian community.
+```
+
+#### Rank 3 / page-4-chunk-1 / physical page 4
+
+```text
+Our approach to energy PAC promotes a Sustainable Energy Access approach with our experience across a range of renewable energy sources (solar, hydro, wind, biomass and biofuels), applications of energy (off-grid electricity; cooking; productive uses of energy; energy for forcibly displaced people; energy for community facilities) and energy business models (for distribution, manufacturing and service provision). We provide independent and professional evidence and knowledge to governments, NGOs, aid agencies and the private sector concerning the effective use of technology under local conditions for poverty reduction. We take lessons from the work of our implementation programmes and technical in-country research projects, and push them to a broader geographic horizon to enhance development outcomes, scale-up impact, inform national and international policy, and provide evidence for international actors. We are able to draw upon the unique expertise of over 800 Practical Action programme staff in offices around the globe, as well as a global network of over 2,000 consultants and academic contacts. We add value from our expertise in national and international advocacy and communications, using evidence generated internally to influence stakeholders and the international energy access agenda.
+```
+
+### Fresh rank1 candidate / physical page 6
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The provided text and visual context do not mention small-batch biofuel fabrication or its implementation by groups skilled in advancing access for underserved populations. Therefore, the information is not supported by the currently retrieved evidence.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided page does not contain any visual information or text mentioning small-batch biofuel fabrication.
+- There is no diagram, figure, table, or label depicting biofuel production processes or related community economic activities.
+- The image shows a person in a shop surrounded by various lighting products, including lanterns and flashlights, suggesting a focus on off-grid energy access, but no biofuel equipment or processes are visible.
+- The text discusses renewable energy access, community energy planning, and advocacy, but does not reference biofuel fabrication or its implementation by skilled groups.
+- No spatial relationships or visual cues indicate biofuel production methods or local economic models related to biofuels.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "{\"correctness\": 0, \"completeness\": 0, \"grounding\": 0, \"task_satisfaction\": 0, \"total\": 0, \"reason\": \"The candidate answer fails to address the question and does not provide any relevant information about small-batch biofuel fabrication or its role in supporting local economic activity. It incorrectly claims the information is not supported, when the reference clearly provides a detailed explanation.\"}",
+  "reason": "The candidate answer fails to address the question and does not provide any relevant information about small-batch biofuel fabrication or its role in supporting local economic activity. It incorrectly claims the information is not supported, when the reference clearly provides a detailed explanation.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+{"correctness": 0, "completeness": 0, "grounding": 0, "task_satisfaction": 0, "total": 0, "reason": "The candidate answer fails to address the question and does not provide any relevant information about small-batch biofuel fabrication or its role in supporting local economic activity. It incorrectly claims the information is not supported, when the reference clearly provides a detailed explanation."}
+```
+
+### Separate rank1 repeat control / physical page 6
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The provided text and visual context do not mention small-batch biofuel fabrication or how it is carried out to support local economic activity by groups skilled in advancing access for underserved populations. Therefore, the information is not supported by the currently retrieved evidence.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided page does not contain any visual information or text mentioning small-batch biofuel fabrication.
+- There is no diagram, figure, table, or label depicting biofuel production processes or related community economic activities.
+- The image shows a person in a shop surrounded by various lighting products, including lanterns and flashlights, suggesting a focus on off-grid energy access, but no biofuel equipment or processes are visible.
+- The text discusses renewable energy access, community energy planning, and advocacy, but does not reference biofuel fabrication or its implementation by skilled groups.
+- No spatial relationships or visual cues indicate biofuel production methods or local economic models related to biofuels.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 0,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 0,\n  \"reason\": \"The candidate answer incorrectly claims that the information is not supported by the evidence, when the reference answer clearly provides a detailed description of small-batch biofuel fabrication and its role in supporting local economic activity. The candidate answer fails to address the question and contradicts the reference.\"\n}\n```",
+  "reason": "The candidate answer incorrectly claims that the information is not supported by the evidence, when the reference answer clearly provides a detailed description of small-batch biofuel fabrication and its role in supporting local economic activity. The candidate answer fails to address the question and contradicts the reference.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 0,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 0,
+  "reason": "The candidate answer incorrectly claims that the information is not supported by the evidence, when the reference answer clearly provides a detailed description of small-batch biofuel fabrication and its role in supporting local economic activity. The candidate answer fails to address the question and contradicts the reference."
+}
+```
+```
+
+### Alternative retrieved physical page 4
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/1511581/page_00004.png)
+
+Answer:
+
+```text
+Small-batch biofuel fabrication is carried out through localized, labor-intensive methods that utilize simple and locally adapted equipment, as shown in the visual context. This approach supports local economic activity by enabling community members to engage in the production process, using resources and techniques suited to their environment. The text context highlights the importance of community-focused initiatives in expanding sustainable power solutions, emphasizing the development of inclusive business models and the promotion of productive uses of energy. These initiatives are implemented by groups skilled in advancing access for underserved populations, focusing on practical, small-scale solutions that align with local conditions and needs.
+```
+
+Raw VLM evidence:
+
+```text
+- The image shows an individual seated outdoors, manually working with a long cylindrical tool over a tray containing dark, molded blocks, likely biofuel briquettes.
+- The setting is lush and green, suggesting a rural or community environment, with natural vegetation surrounding the workspace.
+- The person is engaged in a hands-on, small-scale production process, indicating a localized, labor-intensive method of biofuel fabrication.
+- The equipment appears simple and locally adapted, with a wooden chair and a basic metal frame, consistent with low-cost, community-based technology.
+- This visual aligns with the text’s emphasis on practical, local energy solutions and community-focused energy access, supporting small-batch, manual production for local economic activity.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 1,
+  "correctness": 3,
+  "grounding": 2,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 3,\n  \"completeness\": 1,\n  \"grounding\": 2,\n  \"task_satisfaction\": 2,\n  \"total\": 8,\n  \"reason\": \"The candidate answer is mostly correct and aligns with the reference, but it lacks specific details about the manual production of cylindrical biomass fuel briquettes using a mechanical press and the outdoor workspace setting. It captures the essence of small-batch biofuel fabrication and its support for local economic activity, and it is consistent with the reference without unsupported claims. It directly addresses the task but misses some key specifics.\"\n}\n```",
+  "reason": "The candidate answer is mostly correct and aligns with the reference, but it lacks specific details about the manual production of cylindrical biomass fuel briquettes using a mechanical press and the outdoor workspace setting. It captures the essence of small-batch biofuel fabrication and its support for local economic activity, and it is consistent with the reference without unsupported claims. It directly addresses the task but misses some key specifics.",
+  "task_satisfaction": 2,
+  "total": 8
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 3,
+  "completeness": 1,
+  "grounding": 2,
+  "task_satisfaction": 2,
+  "total": 8,
+  "reason": "The candidate answer is mostly correct and aligns with the reference, but it lacks specific details about the manual production of cylindrical biomass fuel briquettes using a mechanical press and the outdoor workspace setting. It captures the essence of small-batch biofuel fabrication and its support for local economic activity, and it is consistent with the reference without unsupported claims. It directly addresses the task but misses some key specifics."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.
+
+## P2B_S1_017 / unidoc_finance_0108
+
+PDF: [5703797.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/finance/finance/5703797.pdf)
+
+Candidate physical pages in original rank order: [16, 19, 14]
+
+### Question
+
+How did the financial results of Filinvest Development Corporation's aggregated activities in 2010 differ from those in 2009?
+
+### Reference claim to verify
+
+In 2010, Filinvest Development Corporation's combined operations had net revenues of 6,488,059 thousand pesos and a net income of 2,358,093 thousand pesos, compared to net revenues of 4,588,266 thousand pesos and a net income of 1,360,095 thousand pesos in 2009. This represents an increase in net revenues by 1,899,793 thousand pesos and an increase in net income by 997,998 thousand pesos from 2009 to 2010.
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-16-chunk-1 / physical page 16
+
+```text
+16 FILINVEST DEVELOPMENT CORPORATION AND SUBSIDIARIES (ANNEX C) CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME -Unaudited (Amounts in Thousands of Pesos) 2010 2009 NET INCOME 1,891,474 975,955 OTHER COMPREHENSIVE INCOME Changes in fair value of available-for-sale financial assets 194,267 249,202 Translation adjustment 8,053 (8,064) 202,320 241,138 NET COMPREHENSIVE INCOME 2,093,794 1,217,093 Six-Month Periods Ended June 30
+```
+
+#### Rank 2 / page-19-chunk-1 / physical page 19
+
+```text
+19 FILINVEST DEVELOPMENT CORPORATION AND SUBSIDIARIES (ANNEX F) FINANCIAL INFORMATION ON OPERATIONS OF BUSINESS SEGMENTS – Unaudited Six-Month Periods Ended June 30, 2010 and 2009 (Amounts in Thousands of Pesos) Banking and Real Estate Operations Financial Services Sugar Manufacturing Operations Hotel Operations 2010 2009 2010 2009 2010 2009 2010 2009 (Unaudited) (Unaudited) (Unaudited) Net Revenues 2,891,718 2,474,599 3,251,771 1,894,532 338,043 219,135 6,528 - Net income 1,401,675 1,058,429 857,898 265,622 140,861 36,044 (42,341) - Segment assets 136,319,681 129,357,742 81,767,424 68,051,494 4,330,798 3,776,590 88,859 - Less deferred tax asset 405,444 236,816 1,166,332 941,537 26,338 36,825 2,584 - Net segment assets 135,914,236 129,120,926 80,601,092 67,109,957 4,304,460 3,739,765 86,275 - Segment liabilities 51,123,506 44,543,585 71,006,317 59,962,362 2,865,294 2,280,336 109,294 - Less: - Income tax payable 109,636 44,709 - 8,989 108,646 15,690 - - Deferred tax liabilities 6,076,695 6,102,985 - 1,250,000 156,330 178,811 - - Net segment liabilities 44,937,176 38,395,891 71,006,317 58,703,373 2,600,318 2,085,835 109,294 - Cash flows arising from: Operating activities (622,196) 233,264 1,344,899 2,113,399 (29,720) 155,039 (45,249) - Investing activities (1,524,332) (2,652,170) (7,529,809) (7,867,868) (146,198) (486,400) 34,888 - Financing activities (1,563,049) 963,591 - 2,000,000 (52,410) 154,274 - - Combined Eliminating Consolidated 2010 2009 2010 2009 2010 2009 (Unaudited) (Unaudited) (Unaudited) Net Revenues 6,488,059 4,588,266 419,065 334,356 6,068,994 4,253,910 Net income 2,358,093 1,360,095 466,618 384,140 1,891,474 975,955 Segment assets 222,506,762 201,185,826 48,905,108 50,778,321 173,601,654 150,407,505 Less deferred tax asset 1,600,698 1,215,178 396,443 190,307 1,204,255 1,024,871 Net segment assets 220,906,063 199,970,648 48,508,665 50,588,014 172,397,398 149,382,634 Segment liabilities 125,104,411 106,786,283 15,245,770 16,680,257 109,858,641 90,106,026 Less: Income tax payable 218,281 69,388 - - 218,281 69,388 Deferred tax liabilities 6,233,025 7,531,796 396,443 1,437,470 5,836,582 6,094,326 Net segment liabilities 118,653,105 99,185,099 14,849,327 15,242,787 103,803,778 83,942,312 Cash flows arising from: Operating activities 647,704 2,501,702 1,249,416 (1,500,376) 1,897,120 4,002,078 Investing activities (9,165,453) (11,006,438) (340,896) (740,191) (9,506,348) (10,266,247) Financing activities (1,615,459) 3,117,865 1,121,684 320,001 (493,774) 2,797,864
+```
+
+#### Rank 3 / page-14-chunk-1 / physical page 14
+
+```text
+14 FILINVEST DEVELOPMENT CORPORATION AND SUBSIDIARIES (ANNEX A) CONSOLIDATED STATEMENTS OF FINANCIAL POSITION (Amounts in thousands of Pesos) June 30, 2010 December 31, 2009 (Unaudited) (Audited) ASSETS Cash and cash equivalents 14,321,829 22,424,831 Loans and receivables - net Real estate operations 11,131,043 10,723,718 Financial and banking services 34,811,084 32,833,157 Sugar manufacturing operations 214,351 313,076 Subdivision lots, condominiums and residential units for sale 15,597,754 14,939,832 Sugar and molasses inventories 1,188,132 296,765 Investments 24,550,893 17,476,020 Land and land development 22,633,622 19,860,573 Investment property - net 28,995,068 27,600,439 Property and equipment - net 4,587,518 4,438,041 Deferred income tax assets 1,204,256 1,082,290 Goodwill 11,190,661 11,190,661 Other assets 3,175,443 2,413,534 173,601,654 165,592,937 LIABILITIES AND EQUITY LIABILITIES Deposit liabilities 60,384,675 54,766,816 Accounts payable and accrued expenses 18,084,343 18,339,262 Income tax payable 218,281 121,237 Deferred income tax liabilities 5,836,582 5,752,230 Long-term debt 25,334,760 24,246,120 Total liabilities 109,858,641 103,225,665 EQUITY Equity attributable to equity holders of the parent Capital stock - P1 par value Common Authorized - 10,000,000,000 shares Issued - 7,508,123,852 shares 7,508,124 7,508,124 Additional paid-in capital 11,709,874 11,709,874 Revaluation increment in land 46,331 46,331 Revaluation reserve on investment property at deemed cost 9,382,112 9,382,112 Revaluation reserve on available-for-sale investments 500,263 305,996 Retained earnings 19,942,554 18,719,337 Translation adjustment (6,182) (14,235) Treasury stock (24,220) (24,220) Total 49,058,856 47,633,319 Minority interest 14,684,157 14,733,953 Total Equity 63,743,013 62,367,272 TOTAL LIABILITIES AND EQUITY 173,601,654 165,592,937
+```
+
+### Fresh rank1 candidate / physical page 16
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The financial results of Filinvest Development Corporation's aggregated activities in 2010 showed a significant increase in net income compared to 2009. The net income for 2010 was 1,891,474 thousand Pesos, while in 2009 it was 975,955 thousand Pesos. Additionally, the net comprehensive income increased from 1,217,093 thousand Pesos in 2009 to 2,093,794 thousand Pesos in 2010. However, other comprehensive income decreased in 2010 to 202,320 thousand Pesos from 241,138 thousand Pesos in 2009. The changes in fair value of available-for-sale financial assets also decreased from 249,202 thousand Pesos in 2009 to 194,267 thousand Pesos in 2010. The translation adjustment improved from a loss of 8,064 thousand Pesos in 2009 to a gain of 8,053 thousand Pesos in 2010.
+```
+
+Raw VLM evidence:
+
+```text
+- Net Income for 2010 was 1,891,474 thousand Pesos, compared to 975,955 thousand Pesos in 2009, indicating a significant increase.
+- Other Comprehensive Income in 2010 was 202,320 thousand Pesos, while in 2009 it was 241,138 thousand Pesos, showing a decrease.
+- Changes in fair value of available-for-sale financial assets decreased from 249,202 thousand Pesos in 2009 to 194,267 thousand Pesos in 2010.
+- Translation adjustment improved from a loss of 8,064 thousand Pesos in 2009 to a gain of 8,053 thousand Pesos in 2010.
+- Net Comprehensive Income increased from 1,217,093 thousand Pesos in 2009 to 2,093,794 thousand Pesos in 2010.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 1,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 1,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 1,\n  \"reason\": \"The candidate answer provides some financial figures but contradicts the reference answer in key areas, such as the net income for 2010 and 2009. It also introduces unsupported or irrelevant details like net comprehensive income, other comprehensive income, and fair value changes, which are not mentioned in the reference. The answer fails to directly and accurately address the question.\"\n}\n```",
+  "reason": "The candidate answer provides some financial figures but contradicts the reference answer in key areas, such as the net income for 2010 and 2009. It also introduces unsupported or irrelevant details like net comprehensive income, other comprehensive income, and fair value changes, which are not mentioned in the reference. The answer fails to directly and accurately address the question.",
+  "task_satisfaction": 0,
+  "total": 1
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 1,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 1,
+  "reason": "The candidate answer provides some financial figures but contradicts the reference answer in key areas, such as the net income for 2010 and 2009. It also introduces unsupported or irrelevant details like net comprehensive income, other comprehensive income, and fair value changes, which are not mentioned in the reference. The answer fails to directly and accurately address the question."
+}
+```
+```
+
+### Separate rank1 repeat control / physical page 16
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The financial results of Filinvest Development Corporation's aggregated activities in 2010 showed a significant increase in Net Income compared to 2009. The Net Income for 2010 was 1,891,474 thousand Pesos, while in 2009 it was 975,955 thousand Pesos. Additionally, Net Comprehensive Income also increased from 1,217,093 thousand Pesos in 2009 to 2,093,794 thousand Pesos in 2010. However, Other Comprehensive Income decreased in 2010 to 202,320 thousand Pesos from 241,138 thousand Pesos in 2009. The changes in fair value of available-for-sale financial assets also decreased from 249,202 thousand Pesos in 2009 to 194,267 thousand Pesos in 2010. The translation adjustment improved from a loss of 8,064 thousand Pesos in 2009 to a gain of 8,053 thousand Pesos in 2010.
+```
+
+Raw VLM evidence:
+
+```text
+- Net Income for 2010 was 1,891,474 thousand Pesos, compared to 975,955 thousand Pesos in 2009, indicating a significant increase.
+- Other Comprehensive Income in 2010 was 202,320 thousand Pesos, while in 2009 it was 241,138 thousand Pesos, showing a decrease.
+- Changes in fair value of available-for-sale financial assets decreased from 249,202 thousand Pesos in 2009 to 194,267 thousand Pesos in 2010.
+- Translation adjustment improved from a loss of 8,064 thousand Pesos in 2009 to a gain of 8,053 thousand Pesos in 2010.
+- Net Comprehensive Income increased from 1,217,093 thousand Pesos in 2009 to 2,093,794 thousand Pesos in 2010.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 1,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 1,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 1,\n  \"reason\": \"The candidate answer provides some financial figures but does not match the reference answer in key metrics like Net Income and Net Revenues. It introduces additional metrics (e.g., Net Comprehensive Income, Other Comprehensive Income) not mentioned in the reference, which are not relevant to the question. The answer is mostly incorrect and fails to directly address the question as posed.\"\n}\n```",
+  "reason": "The candidate answer provides some financial figures but does not match the reference answer in key metrics like Net Income and Net Revenues. It introduces additional metrics (e.g., Net Comprehensive Income, Other Comprehensive Income) not mentioned in the reference, which are not relevant to the question. The answer is mostly incorrect and fails to directly address the question as posed.",
+  "task_satisfaction": 0,
+  "total": 1
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 1,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 1,
+  "reason": "The candidate answer provides some financial figures but does not match the reference answer in key metrics like Net Income and Net Revenues. It introduces additional metrics (e.g., Net Comprehensive Income, Other Comprehensive Income) not mentioned in the reference, which are not relevant to the question. The answer is mostly incorrect and fails to directly address the question as posed."
+}
+```
+```
+
+### Alternative retrieved physical page 19
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/5703797/page_00019.png)
+
+Answer:
+
+```text
+In 2010, the financial results of Filinvest Development Corporation's aggregated activities showed an increase in net income compared to 2009. The combined net income for 2010 was 2,358,093 thousand Pesos, while in 2009 it was 1,360,095 thousand Pesos. Additionally, the combined net revenues increased from 4,588,266 thousand Pesos in 2009 to 6,488,059 thousand Pesos in 2010. Net segment assets also increased from 199,970,648 thousand Pesos in 2009 to 220,906,063 thousand Pesos in 2010. However, net segment liabilities rose from 99,185,099 thousand Pesos in 2009 to 118,653,105 thousand Pesos in 2010. Cash flows from operating activities improved from 2,501,702 thousand Pesos in 2009 to 647,704 thousand Pesos in 2010, while investing and financing activities showed substantial outflows.
+```
+
+Raw VLM evidence:
+
+```text
+- In 2010, the combined net revenues were 6,488,059 thousand Pesos, compared to 4,588,266 thousand Pesos in 2009, indicating a significant increase.
+- The combined net income in 2010 was 2,358,093 thousand Pesos, up from 1,360,095 thousand Pesos in 2009.
+- Net segment assets increased from 199,970,648 thousand Pesos in 2009 to 220,906,063 thousand Pesos in 2010.
+- Net segment liabilities rose from 99,185,099 thousand Pesos in 2009 to 118,653,105 thousand Pesos in 2010.
+- Cash flows from operating activities improved from 2,501,702 thousand Pesos in 2009 to 647,704 thousand Pesos in 2010, while investing and financing activities showed substantial outflows
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 1,
+  "correctness": 3,
+  "grounding": 1,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 3,\n  \"completeness\": 1,\n  \"grounding\": 1,\n  \"task_satisfaction\": 1,\n  \"total\": 6,\n  \"reason\": \"The candidate answer correctly states the net income and net revenue figures for both 2010 and 2009, and accurately calculates the increases. However, it includes additional information about net segment assets, liabilities, and cash flows that are not mentioned in the reference answer and are not relevant to the question. This introduces a minor unsupported claim. The main idea is covered, but the extra details reduce completeness and grounding.\"\n}\n```",
+  "reason": "The candidate answer correctly states the net income and net revenue figures for both 2010 and 2009, and accurately calculates the increases. However, it includes additional information about net segment assets, liabilities, and cash flows that are not mentioned in the reference answer and are not relevant to the question. This introduces a minor unsupported claim. The main idea is covered, but the extra details reduce completeness and grounding.",
+  "task_satisfaction": 1,
+  "total": 6
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 3,
+  "completeness": 1,
+  "grounding": 1,
+  "task_satisfaction": 1,
+  "total": 6,
+  "reason": "The candidate answer correctly states the net income and net revenue figures for both 2010 and 2009, and accurately calculates the increases. However, it includes additional information about net segment assets, liabilities, and cash flows that are not mentioned in the reference answer and are not relevant to the question. This introduces a minor unsupported claim. The main idea is covered, but the extra details reduce completeness and grounding."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.
+
+## P2B_S1_021 / unidoc_healthcare_0138
+
+PDF: [2520596.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/healthcare/healthcare/2520596.pdf)
+
+Candidate physical pages in original rank order: [5, 4, 3]
+
+### Question
+
+What is the difference between tube filtration values at 70kVp and the advised limit of ±1.5mmAl?
+
+### Reference claim to verify
+
+At 70kVp, the tube filtration values are: G1: 3.3mm, G2: 2.1mm, M1: 2.0mm, M2: 4.0mm, P1: 2.8mm, P2: 2.7mm. The recommended tolerance limit is ±1.5mmAl. Therefore, all values exceed the advised limit except for G2 (2.1mm) and M1 (2.0mm) which are closer to the limit.
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-5-chunk-1 / physical page 5
+
+```text
+Figure 2: Representation of congruence of optical and x-ray field for the studied x-ray machines Table 1 shows the result of the quality control test parameters of the six x -ray machines studied in the radio diagnostic facilities. The data shows that neither the government, mission nor private owned facilities passed all the four-quality control test carried out each one of them failed at least one test. However, on Accuracy of the kV settings ascertains that the kV selection at the control panel results in the same kV applied across the x -ray tube showed high deviation from the tolerance limit of ±5% for M1 and P2 as shown on table 2 and figure1. The variation of tube output with kVp was calculated using equation (1). The reason for the high deviation in kVp values may be as a result of the age of the x-ray machine, variation in x-ray generator not being set correctly upon installation or poor main tenance and also as a result of excessive power line voltage drop (Mallam et al & Ogundare et al., 2004). It is advised that this test be formed upon acceptance and after a major system repair, then annually (IAEA & Rehani, 1995). It is important the kV se tting functions properly as it determines the x -ray beam quality, image contrast and has implications on the patient dose (WHO, 1982). The excess derivation between the set and measured kVp could reduce the image contrast and cause unnecessary and unwanted exposure (Livingstone et al & Godfrey et al., 2006, 2015). The result of congruence of optical and x -ray field only P2 was above the tolerance limit of ±2% as shown on figure 2, this implies that there is need for maintenance check to be carried to align its light field to its collimated area since misalignment reduces diagnostic image quality and leads to exposure of non-targeted areas. It is caused by the shift in the position of the light field, reflecting mirror and anode focal spot (IAEA., 1995). Beam perpendicularity G2, and P2 were both above the tolerance limit of 1.5 owith values 3.0 o, hence there is need for manual adjustment for the x-ray light field for it to become perpendicular to the image receptor. As alignment of the tube beam to the required area of exposure is important for a quality image contrast and improper alignment of optical and radiation field introduces distortion in the radiographic image and is likely to cause deletion of essential informa tion for diagnosis. (Bushong., 2001). Also, in tube filtration for operating at tube potential of 70kVp the inherent filtration HVL should be 1.5mm Al (AAPM, 1989), all the studied x -ray 0 0.5 1 1.5 2 2.5 3 G1 G2 M1 M2 P1 P2 Congruence±2% 24 | Ike-Ogbonna et al., 2020
+```
+
+#### Rank 2 / page-4-chunk-1 / physical page 4
+
+```text
+RESULT AND DISCUSSION Table 1: Results of quality control test parameters for the studied radio diagnostic facilities Table 2: summary of the QC test performance of the studied radio diagnostic facilities Figure 1: Representation of quality control test parameter result for the studied x-ray machines 0 2 4 6 8 10 12 14 16 18 G1 G2 M1 M2 P1 P2 Quality control measured values radio diagnostic facilities kVp Accuracy±5% tube filtration±1.5mmAl perpendicularity 1.5° 23 | Ike-Ogbonna et al., 2020
+```
+
+#### Rank 3 / page-3-chunk-1 / physical page 3
+
+```text
+DETERMINATION OF KVP ACCURACY (i) The kV meter was placed on a radiographic table on top of a grid and positioned at the centre of the beam axis with a focus field distance (FFD) of 100cm. (ii) The light field was collimated and centred to fall on the kV meter which was placed on a grid to reduce scattered radiation. (iii) The measurement was then done at a constant milliampere second (mAs) but gradually increasing tube potential of 50- 90 kV for five readings. (iv) In each case, the dosimeter was reset after the exposure and the reading were recorded. (v) The reading obtained was used to determine the percentage error for the tube potential (kVp accuracy) using the formula kVp accuracy = 𝑘𝑉𝑝𝑚𝑒𝑎𝑠𝑢𝑟𝑒𝑑−𝑘𝑉𝑝𝑠𝑒𝑡 𝑘𝑉𝑝𝑠𝑒𝑡 × 100% ----------------------------------(1) (Papp, 2011) DETERMINATION OF THE BEAM ALIGNMENT, COLLIMATION AND CONGRUENCE (i) The collimator test tool and beam alignment test tool were both placed directly on an intensifying screen cassette with the beam alignment tool aligned onto the centre of the collimator test tool which was a flat brass plate of rectangular shape with markings etching on its surface. (ii) With a fixed kVp and mAs. (iii) An exposure was done on a well collimated light field. (iv) When film was developed the marked etching, surface was seen on the radiographic film and the positions of the two steel balls. (v) The beam alignment, congruence and collimation were then measured for each x-ray machine. DETERMINATION OF HALF VALUE LAYER (HVL) (i) The half value layer was measured for each x-ray machine at a focus field distance (FFD) of 100cm and a fixed kVp and mAs which depends on the particular x-ray machine studied. (ii) The kV meter was place on a grid placed on the radiographic table. (iii) The x-ray beam was centred on the meter and the light field was collimated to fall on the kV meter. (iv) An initial measurement was done and recorded with no aluminium attenuator filter covering the light field. (v) Subsequent readings are then taken by varying the alloy aluminium thickness from 1, 2, 3, 4 and 5mm at the same kVp and mAs by mounting each at different interval to cover the light field. (vi) With the kV meter in place measuring the dose output, a deceasing value of radiation dose was measured. (vii) The values were used to determine the HVL of each specific x-ray machine under investigation. 22 | Ike-Ogbonna et al., 2020
+```
+
+### Fresh rank1 candidate / physical page 5
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The document states that for tube filtration at 70kVp, the advised inherent filtration HVL should be 1.5mm Al (AAPM, 1989). However, the retrieved evidence does not provide the actual measured tube filtration values for any of the six x-ray machines at 70kVp. As a result, the specific difference between the tube filtration values and the advised limit of ±1.5mm Al cannot be determined from the provided information.
+```
+
+Raw VLM evidence:
+
+```text
+- The text mentions that for tube filtration at 70kVp, the inherent filtration HVL should be 1.5mm Al (AAPM, 1989).
+- However, the document does not provide the actual measured tube filtration values for any of the six x-ray machines at 70kVp.
+- Therefore, the visual content does not contain the data needed to calculate the difference between measured values and the advised limit of ±1.5mm Al.
+- The bar chart (Figure 2) and the accompanying text discuss congruence of optical and x-ray fields, not filtration values.
+- No table or figure on the page presents tube filtration data.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 1,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 1,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 1,\n  \"reason\": \"The candidate answer is mostly incorrect and fails to address the question. It incorrectly claims the advised limit is 1.5mm Al (not ±1.5mm Al) and states that the actual values are not provided, which contradicts the reference answer that clearly lists the values. The answer does not compute or even attempt to compute the differences, and it misrepresents the reference information.\"\n}\n```",
+  "reason": "The candidate answer is mostly incorrect and fails to address the question. It incorrectly claims the advised limit is 1.5mm Al (not ±1.5mm Al) and states that the actual values are not provided, which contradicts the reference answer that clearly lists the values. The answer does not compute or even attempt to compute the differences, and it misrepresents the reference information.",
+  "task_satisfaction": 0,
+  "total": 1
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 1,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 1,
+  "reason": "The candidate answer is mostly incorrect and fails to address the question. It incorrectly claims the advised limit is 1.5mm Al (not ±1.5mm Al) and states that the actual values are not provided, which contradicts the reference answer that clearly lists the values. The answer does not compute or even attempt to compute the differences, and it misrepresents the reference information."
+}
+```
+```
+
+### Separate rank1 repeat control / physical page 5
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The document states that for tube filtration at 70kVp, the advised inherent filtration HVL should be 1.5mm Al (AAPM, 1989). However, the retrieved evidence does not provide the actual measured tube filtration values for any of the six x-ray machines at 70kVp. As a result, the specific difference between the tube filtration values and the advised limit of ±1.5mm Al cannot be determined from the provided information.
+```
+
+Raw VLM evidence:
+
+```text
+- The text mentions that for tube filtration at 70kVp, the inherent filtration HVL should be 1.5mm Al (AAPM, 1989).
+- However, the document does not provide the actual measured tube filtration values for any of the six x-ray machines at 70kVp.
+- Therefore, the visual content does not contain the data needed to calculate the difference between measured values and the advised limit of ±1.5mm Al.
+- The bar chart (Figure 2) and the accompanying text discuss congruence of optical and x-ray fields, not filtration values.
+- No table or figure on the page presents tube filtration data.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 1,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 1,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 1,\n  \"reason\": \"The candidate answer is mostly incorrect and fails to address the question. It incorrectly claims the advised limit is 1.5mm Al (not ±1.5mm Al) and states that the actual values are not provided, which contradicts the reference answer that clearly lists the values. The answer does not compute or describe the differences and is not grounded in the reference.\"\n}\n```",
+  "reason": "The candidate answer is mostly incorrect and fails to address the question. It incorrectly claims the advised limit is 1.5mm Al (not ±1.5mm Al) and states that the actual values are not provided, which contradicts the reference answer that clearly lists the values. The answer does not compute or describe the differences and is not grounded in the reference.",
+  "task_satisfaction": 0,
+  "total": 1
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 1,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 1,
+  "reason": "The candidate answer is mostly incorrect and fails to address the question. It incorrectly claims the advised limit is 1.5mm Al (not ±1.5mm Al) and states that the actual values are not provided, which contradicts the reference answer that clearly lists the values. The answer does not compute or describe the differences and is not grounded in the reference."
+}
+```
+```
+
+### Alternative retrieved physical page 4
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/2520596/page_00004.png)
+
+Answer:
+
+```text
+The advised limit for tube filtration at 70kVp is ±1.5mmAl, meaning the acceptable range is from 0 to 3.0mmAl. The measured tube filtration values for the studied facilities at 70kVp are as follows: G1 (3.3mm), G2 (2.1mm), M1 (2.0mm), M2 (4.0mm), P1 (2.8mm), and P2 (2.7mm). 
+
+The difference between the measured values and the upper limit of 3.0mmAl is:
+- G1: 0.3mm above the upper limit.
+- G2: 0.9mm below the upper limit.
+- M1: 1.0mm below the upper limit.
+- M2: 1.0mm above the upper limit.
+- P1: 0.2mm below the upper limit.
+- P2: 0.3mm below the upper limit.
+
+Thus, G1 and M2 exceeded the advised limit of 3.0mmAl, while the other facilities were within the advised range.
+```
+
+Raw VLM evidence:
+
+```text
+- Table 1 lists the measured tube filtration values at 70kVp for each facility: G1 (3.3mm), G2 (2.1mm), M1 (2.0mm), M2 (4.0mm), P1 (2.8mm), P2 (2.7mm).
+- The recommended tolerance limit for tube filtration is ±1.5mmAl, meaning the acceptable range is from 0 to 3.0mmAl (assuming a base value of 1.5mmAl as the center).
+- The difference between each measured value and the upper limit of 3.0mmAl is: G1 (0.3mm), G2 (-0.9mm), M1 (-1.0mm), M2 (1.0mm), P1 (-0.2mm), P2 (-0.3mm).
+- All facilities except G1 and M2 have measured values within the advised limit (≤3.0mmAl), while G1 and M2 exceed it.
+- Figure 1 visually represents these values with orange bars for "tube filtration±1.5mmAl", showing that G1 and M2 have higher values than the others, consistent with Table
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 2,
+  "correctness": 3,
+  "grounding": 2,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 3,\n  \"completeness\": 2,\n  \"grounding\": 2,\n  \"task_satisfaction\": 2,\n  \"total\": 9,\n  \"reason\": \"The candidate answer is mostly correct and covers all essential points. It correctly lists the tube filtration values and calculates the differences from the upper limit of 3.0mmAl. However, it misinterprets the advised limit as a one-sided upper limit (0 to 3.0mmAl), whereas the reference answer indicates a symmetric ±1.5mmAl around a central value (which is not explicitly stated but implied to be 0). This is a minor factual inaccuracy but does not significantly affect the overall correctness.\"\n}\n```",
+  "reason": "The candidate answer is mostly correct and covers all essential points. It correctly lists the tube filtration values and calculates the differences from the upper limit of 3.0mmAl. However, it misinterprets the advised limit as a one-sided upper limit (0 to 3.0mmAl), whereas the reference answer indicates a symmetric ±1.5mmAl around a central value (which is not explicitly stated but implied to be 0). This is a minor factual inaccuracy but does not significantly affect the overall correctness.",
+  "task_satisfaction": 2,
+  "total": 9
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 3,
+  "completeness": 2,
+  "grounding": 2,
+  "task_satisfaction": 2,
+  "total": 9,
+  "reason": "The candidate answer is mostly correct and covers all essential points. It correctly lists the tube filtration values and calculates the differences from the upper limit of 3.0mmAl. However, it misinterprets the advised limit as a one-sided upper limit (0 to 3.0mmAl), whereas the reference answer indicates a symmetric ±1.5mmAl around a central value (which is not explicitly stated but implied to be 0). This is a minor factual inaccuracy but does not significantly affect the overall correctness."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.
+
+## P2B_S1_022 / unidoc_legal_0061
+
+PDF: [2502771.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/legal/legal/2502771.pdf)
+
+Candidate physical pages in original rank order: [4, 5, 3]
+
+### Question
+
+Which accolade did Entain receive in 2020 for its commitment to responsible gambling at the EGR event?
+
+### Reference claim to verify
+
+Entain received the accolade of 'Safer Gambling Operator of the Year' at the EGR Operator Virtual Awards 2020.
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-4-chunk-1 / physical page 4
+
+```text
+Modern Slavery and Human Trafficking Transparency Statement 2021 Business overview Entain plc (LSE: ENT) is one of the world’s largest sports-betting and gaming groups, operating both online and in the retail sector. With licenses in more than 20 countries, the Group employs a workforce of more than 24,000, in 20 offices across five continents. In December 2020 we rebranded to Entain (from GVC Holdings), to reflect our ambition to be the world- leader in sports betting and gaming entertainment. The Group owns a comprehensive portfolio of established brands; Sports Brands include bwin, Coral, Crystalbet, Eurobet, Ladbrokes, Neds and Sportingbet; Games Brands include CasinoClub, Foxy Bingo, Gala, Gioco Digitale, partypoker and PartyCasino. The Group owns proprietary technology across all of its core product verticals and in addition to its B2C operations provides services to third- party customers on a B2B basis. In the US the Group operates BetMGM, a joint-venture with MGM Resorts. Through a combination of organic growth and merge and acquisition activity (M&A), the Group has expanded rapidly in recent years to become one of the world’s largest listed sports betting and gaming companies. In 2018 Entain completed the acquisition of Ladbrokes Coral Group PLC, the Group’s first move into retail operations. This came two years after the acquisition of the international online operator, bwin. party digital entertainment plc, in 2016. 27 Leading brands 33 Languages 24 Offices 27 Licensed markets 24,000 Employees A technology-enabled entertainment business and one of the world’s largest sports- betting and gaming groups, with leading global brands and a strong position in the US. Entain Online presence Entain Omni-channel presence US JV with MGM Resorts Entain offices 2004: 2009: 2012/13: 2016: 2018/19: 2020: 2021: IPO of CasinoClub (£131m) Acquisition of Betboo ($30m) Acquisition of Sportingbet (£485m) Acquisition of bwin.party (£1.1bn) Acquisition of Ladbrokes Coral (£3.2bn) and establishment of BetMGM, 50/50 JV with MGM Rebrand to Entain Acquisition of Enlabs and Bet.pt, increasing number of regulated international markets by 30% Entain plc | Mod ern Slavery and Human Trafficking Transparency Statement 2021 2
+```
+
+#### Rank 2 / page-5-chunk-1 / physical page 5
+
+```text
+Regulation Responsibility Corporate Governance People & Communities Only operate in regulated markets Scientific approach to safer betting and gaming Best in class corporate governance Best place to work 100% regulated markets by end of 2023 Leverage technology for player safety Strengthened Board Reduce environmental impact Pro-active regulator engagement New responsibility algorithms Strengthened Processes £100m to Entain Foundation over five years Remuneration tied to responsibility Long-term sustainability = Long-term success Entain is a member of FTSE4Good and the DJSI, ESG indices which identify companies that meet globally recognised corporate responsibility standards. Vision Purpose Strategy Deliver sustainable value for The world leader in sports betting and gaming entertainment Customers Our people Communities Shareholders Revolutionise gambling to create the most exciting and trusted entertainment for every customer Sustainability • Focus on regulated markets • Lead o n responsibility • Best i n class corporate governance • Best p lace to work Growth • Leadership in the US • Grow co re markets • Ente r new markets • Expa nd to new audiences Technology Enabled The Entain story 3 Entain plc | Mod ern Slavery and Human Trafficking Transparency Statement 2021
+```
+
+#### Rank 3 / page-3-chunk-1 / physical page 3
+
+```text
+The following statement is written in accordance with the requirements under Section 54(1) of the UK Modern Slavery Act 2015 and is applicable to Entain plc and its subsidiaries1 (hereafter “Entain” or “the Group”). The statement sets out the Group’s activities and measures taken between 1st January and 31st December 2020 to prevent modern slavery and human trafficking occurring within our own operations and extended supply chain. 1 Relevant subsidiaries in scope of the UK Modern Slavery Act’s disclosure requirement and making this statement for the financial year 2020 are: Ladbrokes Be tting & Gaming Limited, LC International Limited, ElectraWorks Limited, Headlong 2 Limited, Sporting Odds Limited, Entain Marketing (UK) Limited, Entain Holdings (Gibraltar) Limited, Mars LLC, Entain Corporate Services Limited, Entain Operations Limited, ElectraWorks (Malta) PLC, Martingale Malta 2 Limited, bwin (Deutschland) Limited and Derby N.V. A full list of subsidiaries within the Group can be found on pages 176-183 of the 2020 Annual Report. 1 Entain plc | Mod ern Slavery and Human Trafficking Transparency Statement 2021
+```
+
+### Fresh rank1 candidate / physical page 4
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information regarding which accolade Entain received in 2020 for its commitment to responsible gambling at the EGR event is not supported by the currently retrieved evidence.
+```
+
+Raw VLM evidence:
+
+```text
+The provided PDF page does not contain any information about accolades received by Entain in 2020 for responsible gambling at the EGR event. The page includes a business overview, a timeline of acquisitions and rebranding, a world map showing global presence, and key statistics (e.g., 27 leading brands, 24,000 employees), but no mention of awards or EGR events.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "{\"correctness\": 0, \"completeness\": 0, \"grounding\": 0, \"task_satisfaction\": 0, \"total\": 0, \"reason\": \"The candidate answer does not provide the correct information and instead claims the information is unsupported, which is incorrect given the reference answer.\"}",
+  "reason": "The candidate answer does not provide the correct information and instead claims the information is unsupported, which is incorrect given the reference answer.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+{"correctness": 0, "completeness": 0, "grounding": 0, "task_satisfaction": 0, "total": 0, "reason": "The candidate answer does not provide the correct information and instead claims the information is unsupported, which is incorrect given the reference answer."}
+```
+
+### Separate rank1 repeat control / physical page 4
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information regarding which accolade Entain received in 2020 for its commitment to responsible gambling at the EGR event is not supported by the currently retrieved evidence.
+```
+
+Raw VLM evidence:
+
+```text
+The provided PDF page does not contain any information about accolades received by Entain in 2020 for responsible gambling at the EGR event. The page includes a business overview, a timeline of acquisitions and rebranding, a world map showing global presence, and key statistics (e.g., 27 leading brands, 24,000 employees), but no mention of awards or EGR events.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "{\"correctness\": 0, \"completeness\": 0, \"grounding\": 0, \"task_satisfaction\": 0, \"total\": 0, \"reason\": \"The candidate answer does not provide the correct information and instead claims the information is unsupported, which is incorrect given the reference answer.\"}",
+  "reason": "The candidate answer does not provide the correct information and instead claims the information is unsupported, which is incorrect given the reference answer.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+{"correctness": 0, "completeness": 0, "grounding": 0, "task_satisfaction": 0, "total": 0, "reason": "The candidate answer does not provide the correct information and instead claims the information is unsupported, which is incorrect given the reference answer."}
+```
+
+### Alternative retrieved physical page 5
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/2502771/page_00005.png)
+
+Answer:
+
+```text
+Entain received the "Safer gambling operator of the year" award at the EGR Operator Awards 2020 for its commitment to responsible gambling.
+```
+
+Raw VLM evidence:
+
+```text
+- The image displays a logo at the bottom left labeled "EGR OPERATOR AWARDS 2020".
+- Below this logo, the text "Winner" is visible, followed by "Safer gambling operator of the year".
+- The name "Entain" is printed beneath the award title, indicating the recipient.
+- This visual evidence confirms that Entain won the "Safer gambling operator of the year" award at the EGR Operator Awards 2020.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 2,
+  "correctness": 4,
+  "grounding": 2,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 4,\n  \"completeness\": 2,\n  \"grounding\": 2,\n  \"task_satisfaction\": 2,\n  \"total\": 10,\n  \"reason\": \"The candidate answer is fully correct, covers all essential points, is consistent with the reference, and directly answers the question. The only minor difference is the use of 'Operator Awards' instead of 'Operator Virtual Awards,' but this does not affect the factual accuracy or meaning.\"\n}\n```",
+  "reason": "The candidate answer is fully correct, covers all essential points, is consistent with the reference, and directly answers the question. The only minor difference is the use of 'Operator Awards' instead of 'Operator Virtual Awards,' but this does not affect the factual accuracy or meaning.",
+  "task_satisfaction": 2,
+  "total": 10
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 4,
+  "completeness": 2,
+  "grounding": 2,
+  "task_satisfaction": 2,
+  "total": 10,
+  "reason": "The candidate answer is fully correct, covers all essential points, is consistent with the reference, and directly answers the question. The only minor difference is the use of 'Operator Awards' instead of 'Operator Virtual Awards,' but this does not affect the factual accuracy or meaning."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.
+
+## P2B_S1_023 / unidoc_legal_0086
+
+PDF: [3134069.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/legal/legal/3134069.pdf)
+
+Candidate physical pages in original rank order: [6, 2, 1]
+
+### Question
+
+Among U.S. adolescents, what is the proportion that favors Snapchat over other platforms like YouTube?
+
+### Reference claim to verify
+
+35% of U.S. adolescents favor Snapchat over other platforms like YouTube.
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-6-chunk-1 / physical page 6
+
+```text
+(IJACSA) International Journal of Advanced Computer Science and Applications, Vol. 12, No. 6, 2021 [9] Anderson, M., & Jiang, J. (2018, May 31). Teens, Social Media & Technology 2018. Retrieved from Pew Research Center: Internet, Science & Tech website: https://www.pewresearch.org/internet/2018/05/ 31/teens-social-media-technology-2018/. [10] Rivera-Vargas, P., & Miño -Puigcercós, R. ( 2018). Young people and virtual communities. New ways of learning and of social participation in the digital society. Páginas de Educación, 11(1), 67. https://doi.org/10.22235/pe.v11i1.1554. [11] Anderson, M. (2018, September 27). A Majority of Teens Have Experienced Some Form of Cyberbullying. Retrieved from Pew Research Center: Internet, Science & Tech website: https://www.pewresearch.org/internet/2018/09/27/a-majority-of-teens- have-experienced-some-form-of-cyberbullying/. [12] Whittaker, E., & Kowalski, R. M. (201 4). Cyberbullying Via Social Media. Journal of School Violence, 14(1), 11 –29. https://doi.org/10.1080/15388220.2014.949377. [13] Chan, T. K. H., Cheung, C. M. K., & Lee, Z. W. Y. (2021). Cyberbullying on social networking sites: A literature review and future research directions. Information & Management, 58(2), 103411. https://doi.org/10.1016/j.im.2020.103411. [14] Patchin, J. W. (2015, February). Our latest research on cyberbullying among school students. Retrieved April 8, 2021, from Cyberbullying Research Center website: http://cyberbullying.org/2015-data/. [15] Mahadevaiah, M., & Nayak, R. B. (2018). Blue Whale Challenge: Perceptions of First Responders in Medical Profession. Indian Journal of Psychological Medicine, 40(2), 178 –182. https://doi.org/10.4103/ijpsym .ijpsym_399_177. [16] Narayan, R., Das, B., Das, S., & Bhandari, S. S. (2019). The depressed boy who accepted “Blue Whale Challenge.” Indian Journal of Psychiatry, 61(1), 105– 106. https://doi.org/10.4103/psychiatry.Indian JPsychiatry_234_18. [17] Luxton, D. D., June, J. D., & Fairall, J. M. (2012). Social Media and Suicide: A Public Health Perspective. American Journal of Public Health, 102(S2), S195–S200. https://doi.org/10.2105/ajph.2011.300608. [18] NDTV. (2018, August 26). After Two Deaths, Bengal Grapples with Suicide Ga me “Momo Challenge.” Retrieved April 8, 2021, from NDTV.com website: https://www.ndtv.com/india- news/after-two- deaths-bengal-grapples-with-suicide-game-momo-challenge-1906357. [19] Chiu, A. (2018, September 5). The “Momo Challenge”: A sinister threat to young people or an urban myth?. Washington Post. Retrieved from https://www.washingtonpost.com/news/morning-mix/wp/2018/09/05/the -momo-challenge-a-sinister-threat-to-young-people-or-an-urban-myth/. [20] Ybarra, M. L., & Mitchell, K. J. (2004). Online aggressor/targets, aggressors, and targets: a comparison of associated youth characteristics. Journal of Child Psychology and Psychiatry, 45(7), 1308– 1316. https://doi.org/10.1111/j.1469-7610.2004.00328.x. [21] Elsaesser, C., Russell, B., Ohannessian, C. M., & Patton, D. (2017). Parenting in a digital age: A review of parents’ role in preventing adolescent cyberbullying. Aggression and Violent Behavior, 35, 62 –72. https://doi.org/10.1016/j.avb.2017.06.004. [22] Mehari, K. R., Moore, W., Waasdorp, T. E., Varney, O., B erg, K., & Leff, S. S. (2018). Cyberbullying prevention: Insight and recommendations from youths, parents, and paediatricians. Child: Care, Health and Development, 44(4), 616 –622. https://doi.org/10.1111 /cch.12569. [23] UNICEF. (2020). Cyberbullying: What is it and how to stop it. Retrieved from www.unicef.org website: https://www.unicef.org/end - violence/how-to-stop-cyberbullying. [24] Spyzie. (2020). Spyzie. Retrieved from Spyzie.com website: https://www.spyzie.com/. [25] SAMHSA. (n.d.). KnowBullying Mobile App | Publications and Digital Products. Retrieved from store.samhsa.gov website: https://store.samhsa. gov/product/knowbullying. 315 | Page www.ijacsa.thesai.org
+```
+
+#### Rank 2 / page-2-chunk-1 / physical page 2
+
+```text
+(IJACSA) International Journal of Advanced Computer Science and Applications, Vol. 12, No. 6, 2021 II. CYBERBULLYING In recent years, many studies have been proposed to make the Internet a safer place to work. Security threats are on the rise, most notably cyber bullying and online grooming. Cyberbullying is a way to bully someone online. This can b e done by maliciously posting or posting bad content online. This situation is disastrous for social media users, especially teenagers [11]. There have been many reported cases of cyberbullying as a cause of adolescent suicide. Online platforms like Facebo ok and WhatsApp are most commonly used by teens for all types of relationships as shown in Fig. 2. This social networking portal attracts more cybercriminals and engages in more illegal activities. As you know, billions of people around the world use it for many purposes [9][11]. On the other hand, online grooming presents you as dislike and uses victims to achieve their goals, usually through sexual activity [11]. As an open access platform, cyber-groomers also have access to the same internet platforms th at are used by young people. Cyber bullying can take many forms, including posting harmful or threatening content on the Internet, spreading rumours, taking, and posting disgusting photos of someone without permission, posting pornographic images and infor mation, and much more as shown in Fig. 3. Many teens suffer from cyber bullying and many of them engage in cyber bullying. More than a third of teens fell victim to cyberbullying, and they didn't even tell their parents about cyberbullying [11][12]. Fig. 2. Use of Social Media by Teens [9]. Fig. 3. Some Form of Cyberbullying [11]. The consequences of cyberbullying include anxiety, depression, and even suicide. Cyberbullying is primarily aimed at young people [11][13]. Cyberbullying begins when the victim begins to reac t to the harmful messages [13][14]. Internet use has been found to be a reliable predictor of victims experiencing cyberbullying. For men, Internet use is also an indicator of online cyberbullying [13][14]. III. DEADLY CHALLENGES Now a day’s cyberbullying is of great concern especially for teenagers. Parents need to check their children for such incidents which could reportedly took lives. Increasing social media use and growing apps have led to high level of curiosity among teenag ers [13]. Due to this, teenagers try different games or interactive applications which led them to cyberbully victimization. One of these applications is the famous Blue Whale game. It is also known as Blue Whale Online Challenge, is a life-threatening online game that is believed to have killed hundreds of teenagers [15][16] . This online game is a great challenge for teenagers on various internet portals. Our dependence on technology is increasing. When curiosity leads teenage boys to online games, it can explain the Cyberbullying victimization very well. The boy faces a challenge online. He called the blue whale and agreed [15]. He gets a job, and he must do it. But is this task really important or problematic? These missions forced him to leak personal information used by criminals and began to threaten. The accident had a psychological impact on the victims, and sometimes even led to suicide. The game administrator has strict control over who can play or download. After research and analysis of the victim s, they decide whom to grasp and who can be a very suitable and easy victim [15][16]. Social media cyberbullying can lead to suicides [17]. Another new WhatsApp group, MOMO CHALLENGE, was discovered by the popular YouTuber ReignBot in July 2018, and it has caught the attention of the public. After a few days, someone might accept the Peach Challenge. Momo information has been sent to countries such as Mexico, India, Argentina, the United States, France and Germany. In early August, WhatsApp Momo game reportedly killed two people, Manish Sarki (18) on August 20 and Aditi Goyal (age 26) in Kursong in Darjeeling the next day [18]. Police suspect they may have taken action because they are play ing this suicide game. After messaging a man named Momo on WhatsApp, a 12 - year-old girl was found dead in a backyard near Buenos Aires, Argentina. "After searching for videos and chats on WhatsApp via
+```
+
+#### Rank 3 / page-1-chunk-2 / physical page 1
+
+```text
+cell phones increases, so does the misuse of information. Organized criminal groups may use services such as the WhatsApp mobile messaging application to engage in illegal activity, and the encryption technology used in these applications [7] is helping to cover the traces of this behaviour and make it undetectable to trace [8]. The growth of digital technology is mainly focused on the virtual life of individuals (mainly adolescents (11 -19 years)) [9]. Internet us ers have a great opportunity to exchange ideas, interact and engage with people by developing a virtual community [1][2][10]. Often these interactions lead to passive use rather than active use. Cyberbullying is one of the most dangerous incidents in socia l media applications like WhatsApp and Facebook, and individuals (especially teens) are victims of cyberbullying [11]. Cyber security is a major concern of all security companies around the globe. Fig. 1. Number of People using Social Media Platforms, 2004 to 2018 [5]. 310 | Page www.ijacsa.thesai.org
+```
+
+### Fresh rank1 candidate / physical page 6
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information is not supported by the currently retrieved evidence.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided PDF page contains a list of 17 references related to cyberbullying, social media, and adolescent behavior.
+- There are no figures, tables, charts, or textual data on this page that report statistics or proportions regarding U.S. adolescents' platform preferences.
+- No mention of Snapchat, YouTube, or comparative usage statistics is visible in the reference list.
+- The content is entirely bibliographic and does not include any survey results, percentages, or data points relevant to the user’s question.
+- Therefore, based solely on the visual information on this page, the proportion of U.S. adolescents favoring Snapchat over YouTube cannot be determined.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 0,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 0,\n  \"reason\": \"The candidate answer fails to provide the correct information from the reference and instead claims the information is unsupported.\"\n}\n```",
+  "reason": "The candidate answer fails to provide the correct information from the reference and instead claims the information is unsupported.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 0,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 0,
+  "reason": "The candidate answer fails to provide the correct information from the reference and instead claims the information is unsupported."
+}
+```
+```
+
+### Separate rank1 repeat control / physical page 6
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information is not supported by the currently retrieved evidence.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided PDF page contains a list of 17 references related to cyberbullying, social media, and adolescent behavior.
+- There are no figures, tables, charts, or textual data on this page that report statistics or proportions regarding U.S. adolescents' platform preferences.
+- No mention of Snapchat, YouTube, or comparative usage statistics is visible in the reference list.
+- The content is entirely bibliographic and does not include any survey results, percentages, or data points relevant to the user’s question.
+- Therefore, based solely on the visual information on this page, the proportion of U.S. adolescents favoring Snapchat over YouTube cannot be determined.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 0,\n  \"completeness\": 0,\n  \"grounding\": 0,\n  \"task_satisfaction\": 0,\n  \"total\": 0,\n  \"reason\": \"The candidate answer fails to provide the correct information from the reference and instead claims the information is unsupported.\"\n}\n```",
+  "reason": "The candidate answer fails to provide the correct information from the reference and instead claims the information is unsupported.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 0,
+  "completeness": 0,
+  "grounding": 0,
+  "task_satisfaction": 0,
+  "total": 0,
+  "reason": "The candidate answer fails to provide the correct information from the reference and instead claims the information is unsupported."
+}
+```
+```
+
+### Alternative retrieved physical page 2
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/3134069/page_00002.png)
+
+Answer:
+
+```text
+Among U.S. adolescents, 35% favor Snapchat over other platforms like YouTube, as 35% say they use Snapchat most often compared to 32% for YouTube.
+```
+
+Raw VLM evidence:
+
+```text
+- Figure 2, titled "Use of Social Media by Teens [9]", presents a bar chart comparing the percentage of U.S. teens who say they use various platforms.
+- The chart includes two sets of data: "Say they use..." and "Say they use _ most often".
+- For the "Say they use _ most often" category, Snapchat is shown with 35%, while YouTube is shown with 32%.
+- This indicates that among U.S. teens who use these platforms most often, 35% favor Snapchat and 32% favor YouTube.
+- Therefore, Snapchat is favored over YouTube by a 3 percentage point margin in the "most often" usage category.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 2,
+  "correctness": 4,
+  "grounding": 2,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 4,\n  \"completeness\": 2,\n  \"grounding\": 2,\n  \"task_satisfaction\": 2,\n  \"total\": 10,\n  \"reason\": \"The candidate answer correctly states the 35% proportion of U.S. adolescents who favor Snapchat over other platforms like YouTube, and adds additional context that is consistent with the reference. It directly answers the question and is fully grounded in the reference information.\"\n}\n```",
+  "reason": "The candidate answer correctly states the 35% proportion of U.S. adolescents who favor Snapchat over other platforms like YouTube, and adds additional context that is consistent with the reference. It directly answers the question and is fully grounded in the reference information.",
+  "task_satisfaction": 2,
+  "total": 10
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 4,
+  "completeness": 2,
+  "grounding": 2,
+  "task_satisfaction": 2,
+  "total": 10,
+  "reason": "The candidate answer correctly states the 35% proportion of U.S. adolescents who favor Snapchat over other platforms like YouTube, and adds additional context that is consistent with the reference. It directly answers the question and is fully grounded in the reference information."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.
+
+## P2B_S1_024 / unidoc_legal_0154
+
+PDF: [3274043.pdf](C:/Users/sp/Desktop/adaptive-multimodal-rag/datasets/unidoc/legal/legal/3274043.pdf)
+
+Candidate physical pages in original rank order: [5, 6, 11]
+
+### Question
+
+How did 3M allocate its supplier spending globally from 2016 to 2020?
+
+### Reference claim to verify
+
+The supplier spend percentage in the United States and Canada remained consistently high above 50% from 2016 to 2020. Asia Pacific and Europe, Middle East, Africa had moderate spending throughout this period, while Latin America had the least spending.
+
+### Original ordered Top-3 textual evidence
+
+#### Rank 1 / page-5-chunk-1 / physical page 5
+
+```text
+5 © 2021 3M . All rights reserved. 2021 Modern Slavery Statement Updated June 202 1 3M Corporate Headquarters 3M at a glance Global capabilities Our supply chains 3M works with broad, complex supply chain s , consisting of over 72,300 suppliers in over 324 subcategories in 113 countries around the world. We procure from large multinational companies like our own, and from small and medium - sized businesses. Our material suppliers can have suppliers of their own. 3M is typically three to six tiers away from the original source of the components of our purchased materials, which emphasizes the importance of our suppliers having due diligence programs in place to also monitor supply chain risks.
+```
+
+#### Rank 2 / page-6-chunk-1 / physical page 6
+
+```text
+6 © 2021 3M . All rights reserved. 2021 Modern Slavery Statement Updated June 202 1 3M Corporate Headquarters At 3M, we set a high bar for our company regarding environmental and social governance, and we expect the same from our suppliers. 3M follows the Organization for Economic Co - operation and Development Due Diligence framework for all our responsible sourcing activities. The 3M Supplier Responsibility Code is based on 3M’s corporate values for sustainable and responsible operations and aligns with the 10 Principles of the United Nations Global Compact, of which 3M is a participant . 3M supply chains at a glance Supplier locations Supplier spend by region Percentage of global total
+```
+
+#### Rank 3 / page-11-chunk-1 / physical page 11
+
+```text
+11 © 2021 3M . All rights reserved. 2021 Modern Slavery Statement Updated June 202 1 3M Corporate Headquarters The concern can be reported anonymously if desired. who has a concern involving 3M can use the 3MEthics.com site as an alternative way to report a concern. The Supplier Responsibility Code outlines supplier expectations relating to grievance mechanisms. Anyone determined with a cross-functional business team to elevate and resolve the situation. on the identified gaps or is unable to close the issues within a reasonable timeframe, alternative actions are appropriate resolution and conformance with 3M’s requirements. If a supplier is unwilling to work with 3M from 3M teams in sourcing, area manufacturing, supply chain, and/or business personnel. This assures process will escalate to a corporate Supplier Corrective Action Request that would involve engagement If the assessment identifies gaps or findings, and if a supplier is not able or willing to resolve them, the forced and compulsory labor and coercion to induce a commercial sex act or to procure the same — all of (Federal Acquisitions Regulation 52.222-50) prohibiting human trafficking, including slavery, servitude, flow-down requirements for suppliers. In the United States, the government has adopted a regulation Human trafficking and forced labor-related provisions are also included in 3M’s U.S. government contract counsel. employees must consult 3M’s Government Contract Compliance Department or their assigned legal Before entering into any government contract or any agreement related to a government customer, 3M world. state/provincial and national governments and with their prime contractors and subcontractors around the 3M is committed to being a responsible company with unwavering integrity in all dealings with local, Government contracting in late 2019. oversight by the 3M Board Science, Technology & Sustainability Committee, which our Board established a robust governance framework that guides our sustainability and EHS activities, with primary Board-level Strategic Sourcing, Human Resources, Ethics and Compliance, Legal, EHS and Sustainability. We also have Chain Executive Committee. This committee consists of executive leaders from 3M Supply Chain, Solutions organization, with oversight from the strategic sourcing leadership as well as the 3M Supply 3M’s supplier assessment and auditing program is implemented by 3M’s Strategic Sourcing and Packaging higher-risk countries, such as in Asia Pacific, Latin America, or parts of Europe, Middle East, and Africa. use of timber-based products and other plant materials (pulp and paper), and all new suppliers in the our use of certain minerals with the potential to be sourced from conflict-affected and high-risk areas, our additional and specific formal expectations to drive more sustainable, responsible practices. This includes In addition to the global Supplier Responsibility Code expectations for all suppliers, certain areas warrant expectations. suppliers by proactively conducting Supplier Responsibility Code assessments to conformance with 3M’s corrective action in a timely manner may be subject to termination by 3M. 3M has disqualified new very quickly to address any 3M findings. Those suppliers unwilling or unable to take the necessary qualification assessment after completing the necessary steps to retain 3M business. Most suppliers work identified gaps and prevent reoccurrence of the issue. Suppliers with corrective action must pass a 3M re- expectations. Those requiring improvement are to provide information on what they will do to correct the The self-assessments and on-site audits of suppliers have revealed that most suppliers are meeting 3M’s comprehensive Responsible Business Alliance framework, which covered every region of the world. comprehensive. In 2020, 3M completed more than 468 assessments in 35 countries, which included the prioritized countries. Along the way, our assessment process has become more evolved and more In the past 12 years, we have conducted over 7,400 self-assessments or on-site audits of suppliers in
+```
+
+### Fresh rank1 candidate / physical page 5
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information on how 3M allocated its supplier spending globally from 2016 to 2020 is not supported by the currently retrieved evidence. The provided text and visual context do not include data, charts, or figures detailing the allocation of supplier spending by region or year.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided page does not contain any data, charts, or visual information regarding 3M’s supplier spending allocation globally from 2016 to 2020.
+- The document includes a world map illustrating 3M’s global capabilities, such as sales, manufacturing, and technical operations in various countries, but does not break down spending by region or year.
+- The “Our supply chains” section mentions that 3M works with over 72,300 suppliers in 113 countries, but no financial allocation or regional spending details are provided.
+- There are no tables, graphs, or figures showing supplier spending distribution over the specified time period.
+- Therefore, based solely on the visual content of this page, the question cannot be answered.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "{\"correctness\": 0, \"completeness\": 0, \"grounding\": 0, \"task_satisfaction\": 0, \"total\": 0, \"reason\": \"The candidate answer does not provide any relevant information about 3M's supplier spending allocation and instead claims the data is not supported, which contradicts the reference answer that clearly provides the required information.\"}",
+  "reason": "The candidate answer does not provide any relevant information about 3M's supplier spending allocation and instead claims the data is not supported, which contradicts the reference answer that clearly provides the required information.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+{"correctness": 0, "completeness": 0, "grounding": 0, "task_satisfaction": 0, "total": 0, "reason": "The candidate answer does not provide any relevant information about 3M's supplier spending allocation and instead claims the data is not supported, which contradicts the reference answer that clearly provides the required information."}
+```
+
+### Separate rank1 repeat control / physical page 5
+
+Automatic correctness: False; status: OK
+
+Answer:
+
+```text
+The information on how 3M allocated its supplier spending globally from 2016 to 2020 is not supported by the currently retrieved evidence. The provided text and visual context do not include data, charts, or figures detailing the allocation of supplier spending by region or year.
+```
+
+Raw VLM evidence:
+
+```text
+- The provided page does not contain any data, charts, or visual information regarding 3M’s supplier spending allocation globally from 2016 to 2020.
+- The document includes a world map illustrating 3M’s global capabilities, such as sales, manufacturing, and technical operations in various countries, but does not break down spending by region or year.
+- The “Our supply chains” section mentions that 3M works with over 72,300 suppliers in 113 countries, but no financial allocation or regional spending details are provided.
+- There are no tables, graphs, or figures showing supplier spending distribution over the specified time period.
+- Therefore, based solely on the visual content of this page, the question cannot be answered.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 0,
+  "correctness": 0,
+  "grounding": 0,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "{\"correctness\": 0, \"completeness\": 0, \"grounding\": 0, \"task_satisfaction\": 0, \"total\": 0, \"reason\": \"The candidate answer does not provide any factual information about 3M's supplier spending and instead claims the data is not supported, which contradicts the reference answer that clearly states the allocation details.\"}",
+  "reason": "The candidate answer does not provide any factual information about 3M's supplier spending and instead claims the data is not supported, which contradicts the reference answer that clearly states the allocation details.",
+  "task_satisfaction": 0,
+  "total": 0
+}
+```
+
+Raw judge attempts:
+
+```text
+{"correctness": 0, "completeness": 0, "grounding": 0, "task_satisfaction": 0, "total": 0, "reason": "The candidate answer does not provide any factual information about 3M's supplier spending and instead claims the data is not supported, which contradicts the reference answer that clearly states the allocation details."}
+```
+
+### Alternative retrieved physical page 6
+
+Automatic correctness: True; source confirmation PENDING.
+
+Rendered candidate page: [PNG](renders/3274043/page_00006.png)
+
+Answer:
+
+```text
+From 2016 to 2020, 3M allocated its supplier spending globally as follows:
+
+- The United States and Canada consistently represented the largest share of spending, with the share exceeding 50% in 2019 and 2020.
+- Asia Pacific accounted for a stable share, ranging between approximately 20% and 25%.
+- Europe, Middle East, and Africa accounted for a smaller but consistent portion, ranging between around 15% and 20%.
+- Latin America had the smallest share, remaining below 5% across all years.
+```
+
+Raw VLM evidence:
+
+```text
+- The bar chart titled "Supplier spend by region" shows the percentage of global total supplier spending by region from 2016 to 2020.
+- The United States and Canada (green bars) consistently represent the largest share of spending, exceeding 50% in 2019 and 2020.
+- Asia Pacific (yellow bars) shows a relatively stable share, ranging between approximately 20% and 25%.
+- Europe, Middle East, Africa (pink bars) accounts for a smaller but consistent portion, around 15% to 20%.
+- Latin America (blue bars) has the smallest share, remaining below 5% across all years.
+```
+
+Judge outputs:
+
+```json
+{
+  "attempt_count": 1,
+  "completeness": 2,
+  "correctness": 3,
+  "grounding": 2,
+  "parser_mode": "strict",
+  "parser_policy_version": "judge-json-v2",
+  "raw_response": "```json\n{\n  \"correctness\": 3,\n  \"completeness\": 2,\n  \"grounding\": 2,\n  \"task_satisfaction\": 2,\n  \"total\": 9,\n  \"reason\": \"The candidate answer is mostly correct and aligns with the reference, though it adds specific percentage ranges not present in the reference. It correctly identifies the US and Canada as the largest share, with Asia Pacific and EMEA having moderate spending, and Latin America the least. The minor imprecision is in the specific percentage ranges, which are not contradicted but not provided in the reference.\"\n}\n```",
+  "reason": "The candidate answer is mostly correct and aligns with the reference, though it adds specific percentage ranges not present in the reference. It correctly identifies the US and Canada as the largest share, with Asia Pacific and EMEA having moderate spending, and Latin America the least. The minor imprecision is in the specific percentage ranges, which are not contradicted but not provided in the reference.",
+  "task_satisfaction": 2,
+  "total": 9
+}
+```
+
+Raw judge attempts:
+
+```text
+```json
+{
+  "correctness": 3,
+  "completeness": 2,
+  "grounding": 2,
+  "task_satisfaction": 2,
+  "total": 9,
+  "reason": "The candidate answer is mostly correct and aligns with the reference, though it adds specific percentage ranges not present in the reference. It correctly identifies the US and Canada as the largest share, with Asia Pacific and EMEA having moderate spending, and Latin America the least. The minor imprecision is in the specific percentage ranges, which are not contradicted but not provided in the reference."
+}
+```
+```
+
+### Source-verification fields (blank)
+
+- SOURCE_VERIFIED_PAGE_SELECTION_RECOVERY:
+- human_reference_valid:
+- human_notes:
+- human_confidence:
+
+Verify the actual original PDF, both answer conditions and reference material support. YES/NO/UNCLEAR reflects source verification, not automatic labels.

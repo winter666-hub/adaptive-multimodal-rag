@@ -1,0 +1,114 @@
+{
+  "scope": "Seven selected strong-case repeat confirmations, no population recovery rate",
+  "original_source_verification_sha256": "d1a191c685327b2a6caa3e127f326296b44a7774ebb4157ff07e12dd6b4165b0",
+  "source_verification_validation": "PASS",
+  "repeats_attempted": 7,
+  "VLM_operations_succeeded": 7,
+  "VLM_operations_failed": 0,
+  "call_counts": {
+    "VLM": {
+      "attempted": 7,
+      "succeeded": 7,
+      "failed": 0
+    },
+    "FINAL": {
+      "attempted": 7,
+      "succeeded": 7,
+      "failed": 0
+    },
+    "JUDGE": {
+      "attempted": 7,
+      "succeeded": 7,
+      "failed": 0
+    }
+  },
+  "per_case": [
+    {
+      "review_id": "P2B_S1_001",
+      "query_id": "unidoc_commerce_manufacturing_0002",
+      "document_id": "6109033",
+      "repeated_alternative_page": 7,
+      "automatic_correctness": true,
+      "automatic_status": "OK",
+      "REPEAT_SOURCE_CORRECT": "YES",
+      "stability_classification": "STABLE_STRONG_RECOVERY"
+    },
+    {
+      "review_id": "P2B_S1_003",
+      "query_id": "unidoc_commerce_manufacturing_0035",
+      "document_id": "6532134",
+      "repeated_alternative_page": 6,
+      "automatic_correctness": true,
+      "automatic_status": "OK",
+      "REPEAT_SOURCE_CORRECT": "YES",
+      "stability_classification": "STABLE_STRONG_RECOVERY"
+    },
+    {
+      "review_id": "P2B_S1_009",
+      "query_id": "unidoc_crm_0151",
+      "document_id": "4898395",
+      "repeated_alternative_page": 28,
+      "automatic_correctness": true,
+      "automatic_status": "OK",
+      "REPEAT_SOURCE_CORRECT": "YES",
+      "stability_classification": "STABLE_STRONG_RECOVERY"
+    },
+    {
+      "review_id": "P2B_S1_013",
+      "query_id": "unidoc_energy_0111",
+      "document_id": "2497225",
+      "repeated_alternative_page": 3,
+      "automatic_correctness": true,
+      "automatic_status": "OK",
+      "REPEAT_SOURCE_CORRECT": "YES",
+      "stability_classification": "STABLE_STRONG_RECOVERY"
+    },
+    {
+      "review_id": "P2B_S1_015",
+      "query_id": "unidoc_energy_0193",
+      "document_id": "1511581",
+      "repeated_alternative_page": 4,
+      "automatic_correctness": true,
+      "automatic_status": "OK",
+      "REPEAT_SOURCE_CORRECT": "YES",
+      "stability_classification": "STABLE_STRONG_RECOVERY"
+    },
+    {
+      "review_id": "P2B_S1_022",
+      "query_id": "unidoc_legal_0061",
+      "document_id": "2502771",
+      "repeated_alternative_page": 5,
+      "automatic_correctness": true,
+      "automatic_status": "OK",
+      "REPEAT_SOURCE_CORRECT": "YES",
+      "stability_classification": "STABLE_STRONG_RECOVERY"
+    },
+    {
+      "review_id": "P2B_S1_023",
+      "query_id": "unidoc_legal_0086",
+      "document_id": "3134069",
+      "repeated_alternative_page": 2,
+      "automatic_correctness": true,
+      "automatic_status": "OK",
+      "REPEAT_SOURCE_CORRECT": "YES",
+      "stability_classification": "STABLE_STRONG_RECOVERY"
+    }
+  ],
+  "STABLE_STRONG_RECOVERY": [
+    "P2B_S1_001",
+    "P2B_S1_003",
+    "P2B_S1_009",
+    "P2B_S1_013",
+    "P2B_S1_015",
+    "P2B_S1_022",
+    "P2B_S1_023"
+  ],
+  "UNSTABLE_STRONG_RECOVERY": [],
+  "UNCLEAR_STABILITY": [],
+  "stable_distinct_PDF_count": 7,
+  "pre_specified_GO_criterion_satisfied": true,
+  "original_attribution_changed": false,
+  "Stage2_started": false,
+  "protected_files_unchanged": true,
+  "protected_file_count": 14427
+}

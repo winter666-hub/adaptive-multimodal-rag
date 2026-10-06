@@ -1,0 +1,37 @@
+{
+  "P2B_S1_001": {
+    "REPEAT_SOURCE_CORRECT": "YES",
+    "pdf_pages_checked": "7",
+    "source_check_notes": "Repeat answer is text-identical to the source-adjudicated first alternative answer. The original 6109033.pdf physical page 7 Figure 5 was visually inspected: A. Borsig advertisement and machinery illustrations support industrial equipment, steam engines/boilers and locomotive-related machinery. The requested product identification remains supported; original adjudication is unchanged."
+  },
+  "P2B_S1_003": {
+    "REPEAT_SOURCE_CORRECT": "YES",
+    "pdf_pages_checked": "6",
+    "source_check_notes": "Original 6532134.pdf physical page 6 Figure 3 was visually inspected. Its Shipping panel lists DHL uninsured 3.90 euros, Hermes 4.00 euros, DHL insured 6.00 euros, and DHL parcel station 3.50 euros. All four repeated option/cost pairs are exact; minor paraphrasing relative to the first answer does not change the requested facts. The selected parcel-station radio button is also visible."
+  },
+  "P2B_S1_009": {
+    "REPEAT_SOURCE_CORRECT": "YES",
+    "pdf_pages_checked": "28",
+    "source_check_notes": "Repeat answer is text-identical to the adjudicated first alternative answer. Original 4898395.pdf physical page 28 was visually inspected: the lower-left certification mark explicitly reads INVESTOR IN PEOPLE. The repeated named certification is correct."
+  },
+  "P2B_S1_013": {
+    "REPEAT_SOURCE_CORRECT": "YES",
+    "pdf_pages_checked": "3",
+    "source_check_notes": "Original 2497225.pdf physical page 3 Figure 1 was visually inspected. The Spar Platform contains permanent ballast at the bottom and Variable ballast directly above it; the repeat preserves the established section/type/order facts. Its ancillary dashed-line description was also present in the adjudicated original answer; the visible dashed blue line is above the ballast regions rather than their interface and is not needed for the requested placement relation. Core source correctness is retained, with this minor visual-description limitation explicitly recorded; original adjudication is not altered."
+  },
+  "P2B_S1_015": {
+    "REPEAT_SOURCE_CORRECT": "YES",
+    "pdf_pages_checked": "4",
+    "source_check_notes": "Original 1511581.pdf physical page 4 was visually inspected. The photograph shows an individual manually operating a mechanical press/tool with dark cylindrical briquettes collected in a tray amid outdoor vegetation. The repeated answer describes localized labor-intensive briquette fabrication and community productive-energy activity, consistent with the established source fact, photograph and supplied Top-3 context; paraphrasing does not reverse the process."
+  },
+  "P2B_S1_022": {
+    "REPEAT_SOURCE_CORRECT": "YES",
+    "pdf_pages_checked": "5",
+    "source_check_notes": "Repeat answer is text-identical to the source-adjudicated first alternative answer. Original 2502771.pdf physical page 5 was visually inspected: the footer award badge says EGR Operator Virtual Awards 2020, Winner, Safer gambling operator of the year, Entain. The repeated accolade is correct; omission of Virtual in the event wording does not change its identity."
+  },
+  "P2B_S1_023": {
+    "REPEAT_SOURCE_CORRECT": "YES",
+    "pdf_pages_checked": "2",
+    "source_check_notes": "Repeat answer is text-identical to the adjudicated first alternative answer. Original 3134069.pdf physical page 2 Figure 2 was visually inspected: Snapchat is 35 percent and YouTube 32 percent in the use-most-often column. The repeated 35-percent preference claim and comparison remain source-supported."
+  }
+}

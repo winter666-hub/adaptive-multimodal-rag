@@ -1,0 +1,287 @@
+{
+  "scope": "Execution integrity only; no human adjudication, extra inference or population rates",
+  "manifest_sha256": "1c4f81ac9266cdad5a30d999583e53b511041cc2ff9c0de1f56f82bfd0b598bf",
+  "completed_states": 120,
+  "request_attempts": 342,
+  "started_completed_call_pairs_match": true,
+  "unchanged_original_text_contexts": true,
+  "same_rank1_PNG_and_VLM_request_identity": true,
+  "candidate_GT_leakage": false,
+  "candidate_pages_only_from_original_Top3": true,
+  "raw_receipts_complete": true,
+  "source_verification_fields_all_blank": true,
+  "unavailable_states": [
+    {
+      "state_id": "P2B_S1_008__PAGE_1",
+      "review_id": "P2B_S1_008",
+      "query_id": "unidoc_crm_0131",
+      "role": "VISUAL_CANDIDATE",
+      "page": 1,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S1_008__TEXT_ONLY",
+      "review_id": "P2B_S1_008",
+      "query_id": "unidoc_crm_0131",
+      "role": "TEXT_ONLY",
+      "page": null,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S1_008__PAGE_7",
+      "review_id": "P2B_S1_008",
+      "query_id": "unidoc_crm_0131",
+      "role": "VISUAL_CANDIDATE",
+      "page": 7,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S1_017__PAGE_14",
+      "review_id": "P2B_S1_017",
+      "query_id": "unidoc_finance_0108",
+      "role": "VISUAL_CANDIDATE",
+      "page": 14,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S1_005__TEXT_ONLY",
+      "review_id": "P2B_S1_005",
+      "query_id": "unidoc_construction_0161",
+      "role": "TEXT_ONLY",
+      "page": null,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S1_008__RANK1_REPEAT",
+      "review_id": "P2B_S1_008",
+      "query_id": "unidoc_crm_0131",
+      "role": "RANK1_REPEAT",
+      "page": 7,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    }
+  ],
+  "blocked_by_unavailable_rank1": [
+    {
+      "review_id": "P2B_S1_008",
+      "query_id": "unidoc_crm_0131",
+      "rank1_page": 7,
+      "known_correct_alternative_pages": [
+        5
+      ],
+      "reason": "Rank1 judgment unavailable; does not qualify as automatic-positive event"
+    }
+  ],
+  "same_page_diagnostics": [
+    {
+      "review_id": "P2B_S1_001",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": true,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_002",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_003",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_004",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_005",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_006",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_007",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_008",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": null
+    },
+    {
+      "review_id": "P2B_S1_009",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": true,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_010",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_011",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_012",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_013",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_014",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": true,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_015",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": true,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_016",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": true,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_017",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": true,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_018",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_019",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_020",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": true,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_021",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_022",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_023",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    },
+    {
+      "review_id": "P2B_S1_024",
+      "VLM_raw_output_changed": false,
+      "final_answer_changed": false,
+      "judge_label_changed": false
+    }
+  ],
+  "finish_reason_counts": {
+    "VLM": {
+      "stop": 92,
+      "length": 4
+    },
+    "FINAL": {
+      "stop": 120
+    },
+    "JUDGE": {
+      "stop": 126
+    }
+  },
+  "latency_diagnostics": {
+    "VLM": {
+      "total_ms": 790913.4278006386,
+      "mean_ms": 8238.681539589985
+    },
+    "FINAL": {
+      "total_ms": 180628.63810057752,
+      "mean_ms": 1505.238650838146
+    },
+    "JUDGE": {
+      "total_ms": 220805.48510095105,
+      "mean_ms": 1752.424484928183
+    }
+  },
+  "protected_files": {
+    "verified_by_executor": "PASS",
+    "count": 14342
+  },
+  "Stage2_started": false
+}
