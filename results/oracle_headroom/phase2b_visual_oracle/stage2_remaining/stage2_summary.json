@@ -1,0 +1,2214 @@
+{
+  "scope": "Fixed selected diagnostic-cohort remainder only; not a population recovery rate",
+  "reconciliation": {
+    "fixed_cohort_queries": 133,
+    "stage1_queries": 24,
+    "stage2_queries": 109,
+    "overlap": 0,
+    "union": 133,
+    "cohort_pages": 389,
+    "stage1_pages": 72,
+    "stage2_pages": 317,
+    "stage2_distinct_PDFs": 104
+  },
+  "call_counts": {
+    "VLM": {
+      "attempted": 317,
+      "transport_succeeded": 317,
+      "transport_failed": 0
+    },
+    "FINAL": {
+      "attempted": 317,
+      "transport_succeeded": 317,
+      "transport_failed": 0
+    },
+    "JUDGE": {
+      "attempted": 346,
+      "transport_succeeded": 346,
+      "transport_failed": 0
+    }
+  },
+  "VLM_operations_succeeded": 317,
+  "VLM_operations_failed": 0,
+  "judge_logical_evaluations_attempted": 317,
+  "judge_validation_unavailable_states": [
+    {
+      "state_id": "P2B_S2_050__PAGE_6",
+      "review_id": "P2B_S2_050",
+      "query_id": "unidoc_energy_0001",
+      "page_id": 6,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_016__PAGE_1",
+      "review_id": "P2B_S2_016",
+      "query_id": "unidoc_construction_0083",
+      "page_id": 1,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_036__PAGE_7",
+      "review_id": "P2B_S2_036",
+      "query_id": "unidoc_crm_0150",
+      "page_id": 7,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_106__PAGE_3",
+      "review_id": "P2B_S2_106",
+      "query_id": "unidoc_legal_0165",
+      "page_id": 3,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_021__PAGE_13",
+      "review_id": "P2B_S2_021",
+      "query_id": "unidoc_construction_0116",
+      "page_id": 13,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_106__PAGE_9",
+      "review_id": "P2B_S2_106",
+      "query_id": "unidoc_legal_0165",
+      "page_id": 9,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_076__PAGE_3",
+      "review_id": "P2B_S2_076",
+      "query_id": "unidoc_finance_0190",
+      "page_id": 3,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_075__PAGE_5",
+      "review_id": "P2B_S2_075",
+      "query_id": "unidoc_finance_0172",
+      "page_id": 5,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_016__PAGE_6",
+      "review_id": "P2B_S2_016",
+      "query_id": "unidoc_construction_0083",
+      "page_id": 6,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_101__PAGE_1",
+      "review_id": "P2B_S2_101",
+      "query_id": "unidoc_legal_0101",
+      "page_id": 1,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_043__PAGE_9",
+      "review_id": "P2B_S2_043",
+      "query_id": "unidoc_education_0060",
+      "page_id": 9,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_085__PAGE_11",
+      "review_id": "P2B_S2_085",
+      "query_id": "unidoc_healthcare_0130",
+      "page_id": 11,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_024__PAGE_2",
+      "review_id": "P2B_S2_024",
+      "query_id": "unidoc_construction_0179",
+      "page_id": 2,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_040__PAGE_11",
+      "review_id": "P2B_S2_040",
+      "query_id": "unidoc_education_0042",
+      "page_id": 11,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_035__PAGE_4",
+      "review_id": "P2B_S2_035",
+      "query_id": "unidoc_crm_0148",
+      "page_id": 4,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_016__PAGE_2",
+      "review_id": "P2B_S2_016",
+      "query_id": "unidoc_construction_0083",
+      "page_id": 2,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_013__PAGE_11",
+      "review_id": "P2B_S2_013",
+      "query_id": "unidoc_construction_0055",
+      "page_id": 11,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_096__PAGE_21",
+      "review_id": "P2B_S2_096",
+      "query_id": "unidoc_legal_0035",
+      "page_id": 21,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_071__PAGE_5",
+      "review_id": "P2B_S2_071",
+      "query_id": "unidoc_finance_0089",
+      "page_id": 5,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_035__PAGE_6",
+      "review_id": "P2B_S2_035",
+      "query_id": "unidoc_crm_0148",
+      "page_id": 6,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_100__PAGE_18",
+      "review_id": "P2B_S2_100",
+      "query_id": "unidoc_legal_0064",
+      "page_id": 18,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_009__PAGE_16",
+      "review_id": "P2B_S2_009",
+      "query_id": "unidoc_construction_0009",
+      "page_id": 16,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_069__PAGE_7",
+      "review_id": "P2B_S2_069",
+      "query_id": "unidoc_finance_0066",
+      "page_id": 7,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_019__PAGE_7",
+      "review_id": "P2B_S2_019",
+      "query_id": "unidoc_construction_0108",
+      "page_id": 7,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    }
+  ],
+  "all_unavailable_states": [
+    {
+      "state_id": "P2B_S2_050__PAGE_6",
+      "review_id": "P2B_S2_050",
+      "query_id": "unidoc_energy_0001",
+      "page_id": 6,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_016__PAGE_1",
+      "review_id": "P2B_S2_016",
+      "query_id": "unidoc_construction_0083",
+      "page_id": 1,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_036__PAGE_7",
+      "review_id": "P2B_S2_036",
+      "query_id": "unidoc_crm_0150",
+      "page_id": 7,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_106__PAGE_3",
+      "review_id": "P2B_S2_106",
+      "query_id": "unidoc_legal_0165",
+      "page_id": 3,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_021__PAGE_13",
+      "review_id": "P2B_S2_021",
+      "query_id": "unidoc_construction_0116",
+      "page_id": 13,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_106__PAGE_9",
+      "review_id": "P2B_S2_106",
+      "query_id": "unidoc_legal_0165",
+      "page_id": 9,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_076__PAGE_3",
+      "review_id": "P2B_S2_076",
+      "query_id": "unidoc_finance_0190",
+      "page_id": 3,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_075__PAGE_5",
+      "review_id": "P2B_S2_075",
+      "query_id": "unidoc_finance_0172",
+      "page_id": 5,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_016__PAGE_6",
+      "review_id": "P2B_S2_016",
+      "query_id": "unidoc_construction_0083",
+      "page_id": 6,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_101__PAGE_1",
+      "review_id": "P2B_S2_101",
+      "query_id": "unidoc_legal_0101",
+      "page_id": 1,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_043__PAGE_9",
+      "review_id": "P2B_S2_043",
+      "query_id": "unidoc_education_0060",
+      "page_id": 9,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_085__PAGE_11",
+      "review_id": "P2B_S2_085",
+      "query_id": "unidoc_healthcare_0130",
+      "page_id": 11,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_024__PAGE_2",
+      "review_id": "P2B_S2_024",
+      "query_id": "unidoc_construction_0179",
+      "page_id": 2,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_040__PAGE_11",
+      "review_id": "P2B_S2_040",
+      "query_id": "unidoc_education_0042",
+      "page_id": 11,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_035__PAGE_4",
+      "review_id": "P2B_S2_035",
+      "query_id": "unidoc_crm_0148",
+      "page_id": 4,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_016__PAGE_2",
+      "review_id": "P2B_S2_016",
+      "query_id": "unidoc_construction_0083",
+      "page_id": 2,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_013__PAGE_11",
+      "review_id": "P2B_S2_013",
+      "query_id": "unidoc_construction_0055",
+      "page_id": 11,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_096__PAGE_21",
+      "review_id": "P2B_S2_096",
+      "query_id": "unidoc_legal_0035",
+      "page_id": 21,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_071__PAGE_5",
+      "review_id": "P2B_S2_071",
+      "query_id": "unidoc_finance_0089",
+      "page_id": 5,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_035__PAGE_6",
+      "review_id": "P2B_S2_035",
+      "query_id": "unidoc_crm_0148",
+      "page_id": 6,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_100__PAGE_18",
+      "review_id": "P2B_S2_100",
+      "query_id": "unidoc_legal_0064",
+      "page_id": 18,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_009__PAGE_16",
+      "review_id": "P2B_S2_009",
+      "query_id": "unidoc_construction_0009",
+      "page_id": 16,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_069__PAGE_7",
+      "review_id": "P2B_S2_069",
+      "query_id": "unidoc_finance_0066",
+      "page_id": 7,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    },
+    {
+      "state_id": "P2B_S2_019__PAGE_7",
+      "review_id": "P2B_S2_019",
+      "query_id": "unidoc_construction_0108",
+      "page_id": 7,
+      "status": "JUDGE_ERROR_UNAVAILABLE",
+      "errors": [
+        {
+          "error": "total does not match component scores",
+          "stage": "JUDGE"
+        }
+      ]
+    }
+  ],
+  "state_status_counts": {
+    "OK": 293,
+    "JUDGE_ERROR_UNAVAILABLE": 24
+  },
+  "fresh_rank1_correct": 2,
+  "fresh_rank1_wrong": 98,
+  "fresh_rank1_unavailable": 9,
+  "queries_with_correct_alternative": 50,
+  "queries_with_correct_alternative_cases": [
+    {
+      "review_id": "P2B_S2_001",
+      "query_id": "unidoc_commerce_manufacturing_0009",
+      "document_id": "6816999",
+      "rank1_page": 6,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_003",
+      "query_id": "unidoc_commerce_manufacturing_0016",
+      "document_id": "5663148",
+      "rank1_page": 19,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        20
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_006",
+      "query_id": "unidoc_commerce_manufacturing_0038",
+      "document_id": "2290435",
+      "rank1_page": 2,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        16,
+        1
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_008",
+      "query_id": "unidoc_commerce_manufacturing_0186",
+      "document_id": "4561753",
+      "rank1_page": 4,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        11
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_011",
+      "query_id": "unidoc_construction_0025",
+      "document_id": "4481874",
+      "rank1_page": 20,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        21
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_012",
+      "query_id": "unidoc_construction_0043",
+      "document_id": "1527880",
+      "rank1_page": 3,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        7
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_014",
+      "query_id": "unidoc_construction_0063",
+      "document_id": "4097986",
+      "rank1_page": 3,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        18
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_018",
+      "query_id": "unidoc_construction_0105",
+      "document_id": "5193048",
+      "rank1_page": 10,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        11
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_021",
+      "query_id": "unidoc_construction_0116",
+      "document_id": "6920660",
+      "rank1_page": 3,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": [
+        13
+      ]
+    },
+    {
+      "review_id": "P2B_S2_023",
+      "query_id": "unidoc_construction_0148",
+      "document_id": "4917851",
+      "rank1_page": 1,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        7
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_024",
+      "query_id": "unidoc_construction_0179",
+      "document_id": "7317968",
+      "rank1_page": 2,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [
+        6
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_027",
+      "query_id": "unidoc_crm_0006",
+      "document_id": "6724100",
+      "rank1_page": 2,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        7
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_029",
+      "query_id": "unidoc_crm_0048",
+      "document_id": "4535059",
+      "rank1_page": 4,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        5
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_030",
+      "query_id": "unidoc_crm_0067",
+      "document_id": "5667618",
+      "rank1_page": 23,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_031",
+      "query_id": "unidoc_crm_0103",
+      "document_id": "4898395",
+      "rank1_page": 27,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        28
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_035",
+      "query_id": "unidoc_crm_0148",
+      "document_id": "7410674",
+      "rank1_page": 4,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": [
+        6
+      ]
+    },
+    {
+      "review_id": "P2B_S2_036",
+      "query_id": "unidoc_crm_0150",
+      "document_id": "2390255",
+      "rank1_page": 7,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [
+        8
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_037",
+      "query_id": "unidoc_education_0021",
+      "document_id": "7760727",
+      "rank1_page": 4,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        3
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_039",
+      "query_id": "unidoc_education_0029",
+      "document_id": "6388101",
+      "rank1_page": 8,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        7
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_042",
+      "query_id": "unidoc_education_0049",
+      "document_id": "6734409",
+      "rank1_page": 12,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        13
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_044",
+      "query_id": "unidoc_education_0076",
+      "document_id": "1871769",
+      "rank1_page": 12,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        5
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_045",
+      "query_id": "unidoc_education_0078",
+      "document_id": "6382901",
+      "rank1_page": 10,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        7
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_046",
+      "query_id": "unidoc_education_0125",
+      "document_id": "6752276",
+      "rank1_page": 6,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_047",
+      "query_id": "unidoc_education_0155",
+      "document_id": "5847064",
+      "rank1_page": 2,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        3,
+        1
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_049",
+      "query_id": "unidoc_education_0182",
+      "document_id": "0772076",
+      "rank1_page": 7,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        8
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_051",
+      "query_id": "unidoc_energy_0034",
+      "document_id": "1340602",
+      "rank1_page": 14,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        15
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_054",
+      "query_id": "unidoc_energy_0058",
+      "document_id": "3022576",
+      "rank1_page": 8,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        9
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_057",
+      "query_id": "unidoc_energy_0119",
+      "document_id": "7910609",
+      "rank1_page": 2,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        5
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_058",
+      "query_id": "unidoc_energy_0133",
+      "document_id": "7116675",
+      "rank1_page": 3,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_059",
+      "query_id": "unidoc_energy_0147",
+      "document_id": "6673215",
+      "rank1_page": 1,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_066",
+      "query_id": "unidoc_finance_0053",
+      "document_id": "0863282",
+      "rank1_page": 5,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        3
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_067",
+      "query_id": "unidoc_finance_0059",
+      "document_id": "0184489",
+      "rank1_page": 1,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_068",
+      "query_id": "unidoc_finance_0061",
+      "document_id": "2579258",
+      "rank1_page": 18,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        24
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_070",
+      "query_id": "unidoc_finance_0088",
+      "document_id": "4009370",
+      "rank1_page": 7,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        6
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_073",
+      "query_id": "unidoc_finance_0125",
+      "document_id": "2601755",
+      "rank1_page": 17,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        18
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_074",
+      "query_id": "unidoc_finance_0137",
+      "document_id": "1659677",
+      "rank1_page": 5,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        3
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_078",
+      "query_id": "unidoc_healthcare_0032",
+      "document_id": "4184795",
+      "rank1_page": 4,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        9
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_082",
+      "query_id": "unidoc_healthcare_0071",
+      "document_id": "2008937",
+      "rank1_page": 4,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        5
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_087",
+      "query_id": "unidoc_healthcare_0145",
+      "document_id": "0287833",
+      "rank1_page": 7,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        9
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_088",
+      "query_id": "unidoc_healthcare_0155",
+      "document_id": "7146650",
+      "rank1_page": 5,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        7
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_089",
+      "query_id": "unidoc_healthcare_0158",
+      "document_id": "4833167",
+      "rank1_page": 5,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_090",
+      "query_id": "unidoc_healthcare_0179",
+      "document_id": "5953755",
+      "rank1_page": 5,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        8
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_093",
+      "query_id": "unidoc_healthcare_0194",
+      "document_id": "4725500",
+      "rank1_page": 5,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_094",
+      "query_id": "unidoc_legal_0004",
+      "document_id": "7896540",
+      "rank1_page": 28,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        21
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_095",
+      "query_id": "unidoc_legal_0022",
+      "document_id": "7386841",
+      "rank1_page": 19,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        20
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_098",
+      "query_id": "unidoc_legal_0048",
+      "document_id": "4151009",
+      "rank1_page": 1,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        7
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_099",
+      "query_id": "unidoc_legal_0057",
+      "document_id": "1095340",
+      "rank1_page": 6,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        8
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_101",
+      "query_id": "unidoc_legal_0101",
+      "document_id": "0502795",
+      "rank1_page": 1,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_105",
+      "query_id": "unidoc_legal_0163",
+      "document_id": "0502795",
+      "rank1_page": 1,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_109",
+      "query_id": "unidoc_legal_0187",
+      "document_id": "3401988",
+      "rank1_page": 3,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": []
+    }
+  ],
+  "automatic_positive_count": 44,
+  "automatic_positive_cases": [
+    {
+      "review_id": "P2B_S2_001",
+      "query_id": "unidoc_commerce_manufacturing_0009",
+      "document_id": "6816999",
+      "rank1_page": 6,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_003",
+      "query_id": "unidoc_commerce_manufacturing_0016",
+      "document_id": "5663148",
+      "rank1_page": 19,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        20
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_006",
+      "query_id": "unidoc_commerce_manufacturing_0038",
+      "document_id": "2290435",
+      "rank1_page": 2,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        16,
+        1
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_008",
+      "query_id": "unidoc_commerce_manufacturing_0186",
+      "document_id": "4561753",
+      "rank1_page": 4,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        11
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_011",
+      "query_id": "unidoc_construction_0025",
+      "document_id": "4481874",
+      "rank1_page": 20,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        21
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_012",
+      "query_id": "unidoc_construction_0043",
+      "document_id": "1527880",
+      "rank1_page": 3,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        7
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_014",
+      "query_id": "unidoc_construction_0063",
+      "document_id": "4097986",
+      "rank1_page": 3,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        18
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_018",
+      "query_id": "unidoc_construction_0105",
+      "document_id": "5193048",
+      "rank1_page": 10,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        11
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_021",
+      "query_id": "unidoc_construction_0116",
+      "document_id": "6920660",
+      "rank1_page": 3,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": [
+        13
+      ]
+    },
+    {
+      "review_id": "P2B_S2_023",
+      "query_id": "unidoc_construction_0148",
+      "document_id": "4917851",
+      "rank1_page": 1,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        7
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_027",
+      "query_id": "unidoc_crm_0006",
+      "document_id": "6724100",
+      "rank1_page": 2,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        7
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_029",
+      "query_id": "unidoc_crm_0048",
+      "document_id": "4535059",
+      "rank1_page": 4,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        5
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_030",
+      "query_id": "unidoc_crm_0067",
+      "document_id": "5667618",
+      "rank1_page": 23,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_031",
+      "query_id": "unidoc_crm_0103",
+      "document_id": "4898395",
+      "rank1_page": 27,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        28
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_037",
+      "query_id": "unidoc_education_0021",
+      "document_id": "7760727",
+      "rank1_page": 4,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        3
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_039",
+      "query_id": "unidoc_education_0029",
+      "document_id": "6388101",
+      "rank1_page": 8,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        7
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_042",
+      "query_id": "unidoc_education_0049",
+      "document_id": "6734409",
+      "rank1_page": 12,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        13
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_044",
+      "query_id": "unidoc_education_0076",
+      "document_id": "1871769",
+      "rank1_page": 12,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        5
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_046",
+      "query_id": "unidoc_education_0125",
+      "document_id": "6752276",
+      "rank1_page": 6,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_047",
+      "query_id": "unidoc_education_0155",
+      "document_id": "5847064",
+      "rank1_page": 2,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        3,
+        1
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_049",
+      "query_id": "unidoc_education_0182",
+      "document_id": "0772076",
+      "rank1_page": 7,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        8
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_051",
+      "query_id": "unidoc_energy_0034",
+      "document_id": "1340602",
+      "rank1_page": 14,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        15
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_057",
+      "query_id": "unidoc_energy_0119",
+      "document_id": "7910609",
+      "rank1_page": 2,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        5
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_058",
+      "query_id": "unidoc_energy_0133",
+      "document_id": "7116675",
+      "rank1_page": 3,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_059",
+      "query_id": "unidoc_energy_0147",
+      "document_id": "6673215",
+      "rank1_page": 1,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_066",
+      "query_id": "unidoc_finance_0053",
+      "document_id": "0863282",
+      "rank1_page": 5,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        3
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_067",
+      "query_id": "unidoc_finance_0059",
+      "document_id": "0184489",
+      "rank1_page": 1,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_068",
+      "query_id": "unidoc_finance_0061",
+      "document_id": "2579258",
+      "rank1_page": 18,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        24
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_070",
+      "query_id": "unidoc_finance_0088",
+      "document_id": "4009370",
+      "rank1_page": 7,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        6
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_073",
+      "query_id": "unidoc_finance_0125",
+      "document_id": "2601755",
+      "rank1_page": 17,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        18
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_074",
+      "query_id": "unidoc_finance_0137",
+      "document_id": "1659677",
+      "rank1_page": 5,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        3
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_078",
+      "query_id": "unidoc_healthcare_0032",
+      "document_id": "4184795",
+      "rank1_page": 4,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        9
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_082",
+      "query_id": "unidoc_healthcare_0071",
+      "document_id": "2008937",
+      "rank1_page": 4,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        5
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_087",
+      "query_id": "unidoc_healthcare_0145",
+      "document_id": "0287833",
+      "rank1_page": 7,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        9
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_088",
+      "query_id": "unidoc_healthcare_0155",
+      "document_id": "7146650",
+      "rank1_page": 5,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        7
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_089",
+      "query_id": "unidoc_healthcare_0158",
+      "document_id": "4833167",
+      "rank1_page": 5,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_090",
+      "query_id": "unidoc_healthcare_0179",
+      "document_id": "5953755",
+      "rank1_page": 5,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        8
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_093",
+      "query_id": "unidoc_healthcare_0194",
+      "document_id": "4725500",
+      "rank1_page": 5,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_094",
+      "query_id": "unidoc_legal_0004",
+      "document_id": "7896540",
+      "rank1_page": 28,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        21
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_095",
+      "query_id": "unidoc_legal_0022",
+      "document_id": "7386841",
+      "rank1_page": 19,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        20
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_098",
+      "query_id": "unidoc_legal_0048",
+      "document_id": "4151009",
+      "rank1_page": 1,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        7
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_099",
+      "query_id": "unidoc_legal_0057",
+      "document_id": "1095340",
+      "rank1_page": 6,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        8
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_105",
+      "query_id": "unidoc_legal_0163",
+      "document_id": "0502795",
+      "rank1_page": 1,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_109",
+      "query_id": "unidoc_legal_0187",
+      "document_id": "3401988",
+      "rank1_page": 3,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        4
+      ],
+      "unavailable_alternative_pages": []
+    }
+  ],
+  "multiple_positive_page_cases": [
+    {
+      "review_id": "P2B_S2_006",
+      "query_id": "unidoc_commerce_manufacturing_0038",
+      "document_id": "2290435",
+      "rank1_page": 2,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        16,
+        1
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_047",
+      "query_id": "unidoc_education_0155",
+      "document_id": "5847064",
+      "rank1_page": 2,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        3,
+        1
+      ],
+      "unavailable_alternative_pages": []
+    }
+  ],
+  "multiple_correct_alternative_cases_all_queries": [
+    {
+      "review_id": "P2B_S2_006",
+      "query_id": "unidoc_commerce_manufacturing_0038",
+      "document_id": "2290435",
+      "rank1_page": 2,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        16,
+        1
+      ],
+      "unavailable_alternative_pages": []
+    },
+    {
+      "review_id": "P2B_S2_047",
+      "query_id": "unidoc_education_0155",
+      "document_id": "5847064",
+      "rank1_page": 2,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [
+        3,
+        1
+      ],
+      "unavailable_alternative_pages": []
+    }
+  ],
+  "unresolved_queries": [
+    {
+      "review_id": "P2B_S2_009",
+      "query_id": "unidoc_construction_0009",
+      "document_id": "3147496",
+      "rank1_page": 16,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_013",
+      "query_id": "unidoc_construction_0055",
+      "document_id": "7444500",
+      "rank1_page": 9,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [
+        11
+      ],
+      "reason": "NO_KNOWN_CORRECT_ALTERNATIVE_BUT_INCOMPLETE"
+    },
+    {
+      "review_id": "P2B_S2_016",
+      "query_id": "unidoc_construction_0083",
+      "document_id": "4201027",
+      "rank1_page": 2,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [
+        6,
+        1
+      ],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_019",
+      "query_id": "unidoc_construction_0108",
+      "document_id": "1844363",
+      "rank1_page": 6,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [
+        7
+      ],
+      "reason": "NO_KNOWN_CORRECT_ALTERNATIVE_BUT_INCOMPLETE"
+    },
+    {
+      "review_id": "P2B_S2_024",
+      "query_id": "unidoc_construction_0179",
+      "document_id": "7317968",
+      "rank1_page": 2,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [
+        6
+      ],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_035",
+      "query_id": "unidoc_crm_0148",
+      "document_id": "7410674",
+      "rank1_page": 4,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": [
+        6
+      ],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_036",
+      "query_id": "unidoc_crm_0150",
+      "document_id": "2390255",
+      "rank1_page": 7,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [
+        8
+      ],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_040",
+      "query_id": "unidoc_education_0042",
+      "document_id": "2542787",
+      "rank1_page": 15,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [
+        11
+      ],
+      "reason": "NO_KNOWN_CORRECT_ALTERNATIVE_BUT_INCOMPLETE"
+    },
+    {
+      "review_id": "P2B_S2_043",
+      "query_id": "unidoc_education_0060",
+      "document_id": "7860274",
+      "rank1_page": 6,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [
+        9
+      ],
+      "reason": "NO_KNOWN_CORRECT_ALTERNATIVE_BUT_INCOMPLETE"
+    },
+    {
+      "review_id": "P2B_S2_050",
+      "query_id": "unidoc_energy_0001",
+      "document_id": "6374280",
+      "rank1_page": 6,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_069",
+      "query_id": "unidoc_finance_0066",
+      "document_id": "3331210",
+      "rank1_page": 21,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [
+        7
+      ],
+      "reason": "NO_KNOWN_CORRECT_ALTERNATIVE_BUT_INCOMPLETE"
+    },
+    {
+      "review_id": "P2B_S2_071",
+      "query_id": "unidoc_finance_0089",
+      "document_id": "4274052",
+      "rank1_page": 6,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [
+        5
+      ],
+      "reason": "NO_KNOWN_CORRECT_ALTERNATIVE_BUT_INCOMPLETE"
+    },
+    {
+      "review_id": "P2B_S2_075",
+      "query_id": "unidoc_finance_0172",
+      "document_id": "6038205",
+      "rank1_page": 7,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [
+        5
+      ],
+      "reason": "NO_KNOWN_CORRECT_ALTERNATIVE_BUT_INCOMPLETE"
+    },
+    {
+      "review_id": "P2B_S2_076",
+      "query_id": "unidoc_finance_0190",
+      "document_id": "0184489",
+      "rank1_page": 1,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [
+        3
+      ],
+      "reason": "NO_KNOWN_CORRECT_ALTERNATIVE_BUT_INCOMPLETE"
+    },
+    {
+      "review_id": "P2B_S2_085",
+      "query_id": "unidoc_healthcare_0130",
+      "document_id": "7172094",
+      "rank1_page": 11,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_096",
+      "query_id": "unidoc_legal_0035",
+      "document_id": "1788795",
+      "rank1_page": 21,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_100",
+      "query_id": "unidoc_legal_0064",
+      "document_id": "7386841",
+      "rank1_page": 16,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [
+        18
+      ],
+      "reason": "NO_KNOWN_CORRECT_ALTERNATIVE_BUT_INCOMPLETE"
+    },
+    {
+      "review_id": "P2B_S2_101",
+      "query_id": "unidoc_legal_0101",
+      "document_id": "0502795",
+      "rank1_page": 1,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_106",
+      "query_id": "unidoc_legal_0165",
+      "document_id": "6895936",
+      "rank1_page": 11,
+      "rank1_status": "OK",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [
+        9,
+        3
+      ],
+      "reason": "NO_KNOWN_CORRECT_ALTERNATIVE_BUT_INCOMPLETE"
+    }
+  ],
+  "rank1_unavailable_queries": [
+    {
+      "review_id": "P2B_S2_009",
+      "query_id": "unidoc_construction_0009",
+      "document_id": "3147496",
+      "rank1_page": 16,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_016",
+      "query_id": "unidoc_construction_0083",
+      "document_id": "4201027",
+      "rank1_page": 2,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [
+        6,
+        1
+      ],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_024",
+      "query_id": "unidoc_construction_0179",
+      "document_id": "7317968",
+      "rank1_page": 2,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [
+        6
+      ],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_035",
+      "query_id": "unidoc_crm_0148",
+      "document_id": "7410674",
+      "rank1_page": 4,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": [
+        6
+      ],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_036",
+      "query_id": "unidoc_crm_0150",
+      "document_id": "2390255",
+      "rank1_page": 7,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [
+        8
+      ],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_050",
+      "query_id": "unidoc_energy_0001",
+      "document_id": "6374280",
+      "rank1_page": 6,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_085",
+      "query_id": "unidoc_healthcare_0130",
+      "document_id": "7172094",
+      "rank1_page": 11,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_096",
+      "query_id": "unidoc_legal_0035",
+      "document_id": "1788795",
+      "rank1_page": 21,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    },
+    {
+      "review_id": "P2B_S2_101",
+      "query_id": "unidoc_legal_0101",
+      "document_id": "0502795",
+      "rank1_page": 1,
+      "rank1_status": "JUDGE_ERROR_UNAVAILABLE",
+      "correct_alternative_pages": [
+        2
+      ],
+      "unavailable_alternative_pages": [],
+      "reason": "RANK1_UNAVAILABLE"
+    }
+  ],
+  "review_queue_unique_queries": 44,
+  "token_cap_cases": {
+    "VLM": [
+      {
+        "call_id": "P2B_S2_066__PAGE_4:VLM:9",
+        "state_id": "P2B_S2_066__PAGE_4"
+      },
+      {
+        "call_id": "P2B_S2_099__PAGE_8:VLM:29",
+        "state_id": "P2B_S2_099__PAGE_8"
+      },
+      {
+        "call_id": "P2B_S2_108__PAGE_10:VLM:34",
+        "state_id": "P2B_S2_108__PAGE_10"
+      },
+      {
+        "call_id": "P2B_S2_091__PAGE_4:VLM:40",
+        "state_id": "P2B_S2_091__PAGE_4"
+      },
+      {
+        "call_id": "P2B_S2_088__PAGE_5:VLM:48",
+        "state_id": "P2B_S2_088__PAGE_5"
+      },
+      {
+        "call_id": "P2B_S2_086__PAGE_6:VLM:52",
+        "state_id": "P2B_S2_086__PAGE_6"
+      },
+      {
+        "call_id": "P2B_S2_097__PAGE_5:VLM:61",
+        "state_id": "P2B_S2_097__PAGE_5"
+      },
+      {
+        "call_id": "P2B_S2_069__PAGE_21:VLM:68",
+        "state_id": "P2B_S2_069__PAGE_21"
+      },
+      {
+        "call_id": "P2B_S2_027__PAGE_7:VLM:70",
+        "state_id": "P2B_S2_027__PAGE_7"
+      },
+      {
+        "call_id": "P2B_S2_054__PAGE_8:VLM:74",
+        "state_id": "P2B_S2_054__PAGE_8"
+      },
+      {
+        "call_id": "P2B_S2_016__PAGE_6:VLM:90",
+        "state_id": "P2B_S2_016__PAGE_6"
+      },
+      {
+        "call_id": "P2B_S2_083__PAGE_8:VLM:92",
+        "state_id": "P2B_S2_083__PAGE_8"
+      },
+      {
+        "call_id": "P2B_S2_026__PAGE_5:VLM:95",
+        "state_id": "P2B_S2_026__PAGE_5"
+      },
+      {
+        "call_id": "P2B_S2_043__PAGE_9:VLM:139",
+        "state_id": "P2B_S2_043__PAGE_9"
+      },
+      {
+        "call_id": "P2B_S2_083__PAGE_5:VLM:142",
+        "state_id": "P2B_S2_083__PAGE_5"
+      },
+      {
+        "call_id": "P2B_S2_024__PAGE_6:VLM:188",
+        "state_id": "P2B_S2_024__PAGE_6"
+      },
+      {
+        "call_id": "P2B_S2_040__PAGE_11:VLM:212",
+        "state_id": "P2B_S2_040__PAGE_11"
+      },
+      {
+        "call_id": "P2B_S2_080__PAGE_6:VLM:227",
+        "state_id": "P2B_S2_080__PAGE_6"
+      },
+      {
+        "call_id": "P2B_S2_080__PAGE_11:VLM:233",
+        "state_id": "P2B_S2_080__PAGE_11"
+      },
+      {
+        "call_id": "P2B_S2_018__PAGE_15:VLM:253",
+        "state_id": "P2B_S2_018__PAGE_15"
+      },
+      {
+        "call_id": "P2B_S2_065__PAGE_20:VLM:259",
+        "state_id": "P2B_S2_065__PAGE_20"
+      },
+      {
+        "call_id": "P2B_S2_069__PAGE_7:VLM:310",
+        "state_id": "P2B_S2_069__PAGE_7"
+      },
+      {
+        "call_id": "P2B_S2_019__PAGE_9:VLM:313",
+        "state_id": "P2B_S2_019__PAGE_9"
+      },
+      {
+        "call_id": "P2B_S2_019__PAGE_7:VLM:316",
+        "state_id": "P2B_S2_019__PAGE_7"
+      }
+    ],
+    "FINAL": [],
+    "JUDGE": []
+  },
+  "human_source_verification": "PENDING",
+  "protected_files_unchanged": true,
+  "protected_file_count": 14443,
+  "rank1_repeat_calls": 0,
+  "fresh_text_calls": 0,
+  "positive_repeat_confirmation_calls": 0,
+  "router_controller_work": false,
+  "population_recovery_rate_computed": false,
+  "paper_conclusions_written": false
+}

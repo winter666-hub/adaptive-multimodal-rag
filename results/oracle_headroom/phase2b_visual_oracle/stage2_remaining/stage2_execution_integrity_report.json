@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "reconciliation": {
+    "fixed_cohort_queries": 133,
+    "stage1_queries": 24,
+    "stage2_queries": 109,
+    "overlap": 0,
+    "union": 133,
+    "cohort_pages": 389,
+    "stage1_pages": 72,
+    "stage2_pages": 317,
+    "stage2_distinct_PDFs": 104
+  },
+  "all_expected_states_once": true,
+  "completed_states": 317,
+  "raw_started_completed_call_pairs_match": true,
+  "no_rank1_repeat_or_text_control": true,
+  "candidate_pages_from_original_Top3_only": true,
+  "fixed_original_text_contexts": true,
+  "Stage1_overlap": 0,
+  "judge_unavailable_not_false": true,
+  "human_annotation_fields_blank": true,
+  "protected_files_unchanged": true,
+  "protected_file_count": 14443,
+  "protected_snapshot_sha256": "00b823a1964df2b862d7776b3a9550f7b742fbbf5c03d855bbdfddf30f68d9ba",
+  "stage2_manifest_sha256": "a705cb8d1d4fa1224256d2d0569570966bfba765527d145a467ccf7916796e1d",
+  "source_adjudication_performed": false,
+  "positive_confirmation_repeats": 0,
+  "router_controller_work": false,
+  "population_recovery_rate_computed": false
+}
