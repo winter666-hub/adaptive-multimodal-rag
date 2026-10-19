@@ -2,47 +2,134 @@
 
 > Retrieval-Aware Routing for Document Question Answering
 
-A retrieval-aware multimodal RAG system for Document Question Answering that accepts a PDF
-document, retrieves evidence, selects visual reasoning only when needed, and returns an answer
-with verifiable source pages.
+Adaptive Multimodal RAG evaluates whether retrieved text evidence is sufficient to answer a PDF
+question before invoking a vision-language model (VLM). The completed ACK 2026 study evaluated
+this approach on 1,600 UniDoc-Bench questions, observing lower Vision usage and mean latency with
+a small difference in answer accuracy relative to Forced Vision. This repository also provides a
+PDF question-answering web demo with source-page inspection; its deployment behavior is described
+separately below.
 
 [Live Demo](https://winter666-hub-furiosa-multimodal-rag-frontend.winter666.workers.dev) ·
 [Backend](https://furiosa-multimodal-rag.onrender.com) ·
 [GitHub](https://github.com/winter666-hub/furiosa-multimodal-rag)
 
-## Project Overview
+## Research Overview
 
-PDF documents mix prose with figures, tables, and diagrams. A text-only RAG
-pipeline is efficient for many questions, but it can miss evidence that is primarily visual. At
-the same time, sending every question to a vision model adds avoidable latency and inference cost.
+PDF documents contain prose, tables, figures, graphs, and diagrams. Applying Vision inference to
+every question adds computation and latency, while text-only processing can miss visual evidence.
+The ACK research question is whether the sufficiency of retrieved textual evidence can guide
+selective Vision inference while largely retaining the answer accuracy of an always-on visual
+path.
 
-This project uses Retrieval-Aware Routing before answer generation. The router classifies each
-question as `TEXT_ONLY` or `VISUAL_REQUIRED`, then uses the least expensive suitable path. Text
-questions use retrieval and reranking directly; visual questions can use a vision path in the
-research setup.
+The contribution is evidence-sufficiency-based routing after retrieval and reranking. The system
+uses existing language and vision models and evaluates two actions: `TEXT_ONLY` and
+`VISUAL_REQUIRED`.
 
-The public Cloudflare + Render demo runs in `hosted_only` mode: it reports the router decision, but
-`VISUAL_REQUIRED` requests use text-RAG fallback because Direct NPU Vision is not enabled.
+## ACK 2026 — Research Pipeline
 
-## Problem
+```mermaid
+flowchart TD
+    D["Document / Question"] --> R["Retrieval"]
+    R --> RR["Reranking"]
+    RR --> E["Top-3 Reranked Textual Evidence"]
+    E --> S["Evidence Sufficiency Judgment"]
+    S --> A["Adaptive Routing"]
+    A -->|TEXT_ONLY| T["Text Evidence"]
+    T --> F["Final Answer"]
+    A -->|VISUAL_REQUIRED| P["Top-1 Source Page"]
+    P --> V["VLM"]
+    V --> C["Text + Visual Evidence"]
+    C --> F
+```
 
-Documents contain evidence in prose, tables, figures, and diagrams, but many factual questions
-remain fully answerable through text retrieval. Running multimodal inference for every question
-therefore wastes compute, while never using it misses visual evidence. The research question is
-whether Retrieval-Aware Routing can reduce vision calls and latency while preserving routing and
-answer quality for Document Question Answering.
+Retrieval and reranking run first. The router then receives the question and up to three reranked
+text chunks, which may come from fewer than three distinct pages. It selects `TEXT_ONLY` when
+that evidence is sufficient, or `VISUAL_REQUIRED` when additional visual evidence is needed.
+The visual path inspects the single physical PDF page containing the highest-ranked source chunk.
+The final language model generates an answer from the textual evidence and any available
+VLM-derived evidence.
 
-## Proposed Approach
+The research path is implemented by
+[`RetrievalAwareRagPipeline`](src/furiosa_rag/pipeline.py) and
+[`RetrievalAwareAdaptiveRouter`](src/furiosa_rag/router.py).
 
-```text
-Question
-  -> Retrieval-Aware Router
-  -> TEXT_ONLY / VISUAL_REQUIRED
-  -> Retrieval
-  -> Reranking
-  -> Relevant evidence
-  -> Final answer generation
-  -> Source page verification
+## ACK 2026 — Main Research Evaluation
+
+The main evaluation used **1,600 UniDoc-Bench questions across eight domains**: 400 each of
+`text_only`, `image_only`, `table_required`, and `image_plus_text_as_answer`. All three methods
+were evaluated on the same question set.
+
+| Method | Accuracy | Vision Call Rate | Mean E2E Latency |
+|---|---:|---:|---:|
+| Forced Text | 58.25% | 0.00% | 5.740 s |
+| Forced Vision | 64.00% | 100.00% | 10.299 s |
+| Adaptive / Retrieval-Aware | 63.63% | 46.81% | 8.268 s |
+
+Forced Text answers from retrieved text without Vision. Forced Vision invokes the VLM on the
+Top-1 source page for every question. Adaptive / Retrieval-Aware selects between those paths
+after judging the reranked text evidence.
+
+**Evaluation protocol.** Accuracy is reference-based LLM-judge answer correctness: a correctness
+score of at least 3 on a 0–4 scale, judged with `furiosa-ai/Qwen3-32B-FP8`. The correct-answer
+counts are 932, 1,024, and 1,018 out of 1,600, respectively. This metric is separate from routing
+accuracy in the earlier pilot benchmarks. Vision Call Rate uses all 1,600 questions as its
+denominator: 0, 1,600, and 749 Vision calls. Mean E2E latency is the arithmetic mean of the
+per-question execution times with warm document-index caches. It includes retrieval, reranking,
+routing when applicable, page rendering and Vision when used, and answer generation; PDF indexing
+and the separate answer-quality judging step are outside this measurement.
+
+Relative to Forced Vision, Adaptive / Retrieval-Aware used **53.19% fewer Vision calls** and
+reduced **mean E2E latency by 19.72%**, with an accuracy difference of approximately
+**−0.38 percentage points** (six fewer correct answers).
+
+The paired McNemar test reported **p = 0.679**. The paired question-level bootstrap 95% confidence
+interval for the accuracy difference (Adaptive − Forced Vision) was **−1.88 to +1.06 percentage
+points**. This comparison did not detect a statistically significant difference; it does not
+establish equivalence or non-inferiority. The observed accuracy was close to Forced Vision's,
+with reduced Vision usage and mean latency. These are research-run measurements, not live-demo
+performance guarantees.
+
+### Contributions
+
+- Evidence-sufficiency-based routing after retrieval and reranking.
+- Selective `TEXT_ONLY` / `VISUAL_REQUIRED` inference using existing text and vision models.
+- Quantitative comparison of Forced Text, Forced Vision, and Retrieval-Aware routing on 1,600
+  UniDoc-Bench questions.
+- An observed accuracy–efficiency trade-off: substantially fewer Vision calls and lower mean
+  latency while largely retaining Forced Vision's answer accuracy.
+
+### Research Limitations
+
+- The visual path uses only the Top-1 source page. Useful evidence on another page can be missed.
+- Answer quality depends on retrieval and reranking quality, evidence-sufficiency judgment, and
+  visual evidence selection; these components can make errors.
+- Binary routing does not guarantee the optimal Vision decision for every question.
+- These results do not establish multi-page reasoning, optimal automatic page selection, or the
+  superiority of general agent-based action selection.
+- Accuracy depends on a reference-based LLM judge, and absolute latency depends on the model
+  serving and network conditions of the measured runs.
+
+## Public Demo
+
+The public service uses **Cloudflare Workers + Render** in `hosted_only` mode. It reports
+`TEXT_ONLY` or `VISUAL_REQUIRED`, and a `VISUAL_REQUIRED` request is answered through
+**Text-RAG fallback** with `fallback_used=true`. Direct NPU Vision is not enabled in this
+deployment.
+
+The current web implementation uses `AdaptiveQueryRouter`: explicit visual rules and a
+question-based LLM fallback run before the text RAG pipeline. The ACK evidence-sufficiency path
+above uses retrieved and reranked evidence to route. The public service is therefore a separate
+deployment configuration from the evaluated research pipeline.
+
+```mermaid
+flowchart TD
+    U["User"] --> CF["Cloudflare Workers Frontend"]
+    CF --> API["Render FastAPI Backend"]
+    API --> DM["Document Manager"]
+    DM --> QR["Question-Based Router"]
+    QR --> TR["Text Retrieval + Reranking"]
+    TR --> LLM["Final LLM"]
+    LLM --> OUT["Answer + Source Pages + Route / Fallback Status"]
 ```
 
 Document preparation is isolated per uploaded PDF:
@@ -56,44 +143,11 @@ PDF upload
   -> Question answering
 ```
 
-## Architecture
-
-```mermaid
-flowchart TD
-    U[User] --> CF[Cloudflare Workers Frontend]
-    CF --> API[Render FastAPI Backend]
-    API --> DM[Document Manager]
-    DM --> AR[Adaptive Router]
-    AR -->|TEXT_ONLY| TR[Embedding + Retrieval + Reranking]
-    AR -->|VISUAL_REQUIRED| VR[Visual Route]
-    VR -. Research / local Direct NPU .-> VN[Qwen3-VL]
-    VR -. Public hosted-only mode .-> FB[Text-RAG Fallback]
-    TR --> LLM[Final LLM]
-    VN --> LLM
-    FB --> LLM
-    LLM --> OUT[Answer + Source Pages]
-```
-
-The dashed branches distinguish two environments: Direct NPU Vision is part of the research and
-local evaluation path, while the public demo deliberately uses hosted text fallback.
-
 RAG has four roles here: **retrieval** finds relevant PDF chunks, **augmentation** gives those
 chunks to the final LLM, **generation** produces an evidence-bound answer, and **verification**
-returns user-facing one-based source pages with the retrieved passage kept as internal metadata.
+lets the user inspect one-based source pages and retrieved passages.
 
-## Furiosa Integration
-
-The hosted text pipeline uses Furiosa-compatible model endpoints:
-
-- `furiosa-ai/Qwen3-Embedding-8B` for document and query embeddings
-- `furiosa-ai/Qwen3-Reranker-8B` for passage reranking
-- `furiosa-ai/Qwen3-32B-FP8` for routing fallback and final answer generation
-
-The research/local visual path uses `furiosa-ai/Qwen3-VL-32B-Instruct` through a Direct NPU
-endpoint. “Hosted API” and “Direct NPU” are separate deployment paths; the public demo does not
-claim to run Direct NPU Vision.
-
-## Key Features
+### Demo Features
 
 - Arbitrary PDF upload, SHA-256 IDs, path-safe isolation, and duplicate cache reuse
 - Retrieval, reranking, adaptive routing, and evidence-grounded generation
@@ -101,71 +155,7 @@ claim to run Direct NPU Vision.
 - Process-local rate/concurrency limits and bounded TTL/storage cleanup
 - Trusted Cloudflare-to-Render client-IP forwarding with a shared proxy secret
 
-## Preliminary Benchmark
-
-The checked-in 15-question E2E evaluation compares always-on vision with adaptive routing. The
-dataset contains five text, five explicit-visual, and five implicit-visual questions.
-
-| Metric | Always Vision | Adaptive | Change |
-|---|---:|---:|---:|
-| Vision calls | 15 | 9 | -40.0% |
-| Average E2E latency | 13.053 s | 10.479 s | -19.7% |
-| Text-query latency | 14.076 s | 6.560 s | -53.4% |
-
-Full methodology and checked-in result tables: [Benchmark Report](benchmarks/README.md).
-
-On the same E2E set, adaptive routing produced:
-
-| Routing metric | Result |
-|---|---:|
-| Correct routes | 14 / 15 |
-| Accuracy | 93.3% |
-| Visual recall | 90.0% |
-| Visual precision | 100.0% |
-
-The only false negative was the implicit-visual question `E_A02`. Its answer-quality scores were
-10 for Always Vision and 7 for both pure LLM routing and Adaptive routing. This connects a routing
-miss to a measurable downstream quality loss and identifies implicit visual intent as the main
-remaining research problem.
-
-The answer-quality artifact is preliminary rather than a completed 15/15 evaluation: the CSV has
-45 strategy-question rows, with 44 successful judge results and one recorded judge parsing error.
-See the [Benchmark Report](benchmarks/README.md) for the preliminary strategy aggregates.
-
-### Router-Only Benchmark
-
-The separate 60-question holdout measures routing overhead independently from retrieval and answer
-generation:
-
-| Router | Average routing latency |
-|---|---:|
-| Pure LLM | 281.34 ms |
-| Adaptive | 135.97 ms |
-| Reduction | 51.67% |
-
-The [Benchmark Report](benchmarks/README.md) records the full holdout table. These router-only
-numbers are intentionally kept separate from the E2E latency table.
-
-## ACK 2026 Follow-up Benchmark
-
-The follow-up evaluation uses 30 questions across the Transformer, GPT-2, and BERT papers: 10
-text, 10 explicit-visual, and 10 implicit-visual queries. It compares Always Vision, Pure LLM
-Router, and Adaptive Router using the hosted experiment models Qwen3-Embedding-8B,
-Qwen3-Reranker-8B, Qwen3-32B-FP8, and Qwen3-VL-32B-Instruct.
-
-| Metric | Always Vision | Pure LLM Router | Adaptive Router | Adaptive change vs. baseline |
-|---|---:|---:|---:|---:|
-| Routing accuracy | N/A | 93.3% | 93.3% | No change vs. Pure LLM Router |
-| Average routing latency | N/A | 202.2 ms | 142.1 ms | -29.7% vs. Pure LLM Router |
-| Vision calls | 30 | N/A | 18 | -40.0% vs. Always Vision |
-| Average E2E latency | 13.221 s | N/A | 10.790 s | -18.4% vs. Always Vision |
-
-The Adaptive Router achieved 90.0% visual recall and 55.0% top-1 evidence page accuracy. Two
-implicit-visual queries were false negatives. These results are specific to this 30-query
-follow-up benchmark and are kept separate from the preliminary 15-query E2E and 60-query
-router-only results above.
-
-## Public Demo Usage
+### Usage
 
 1. Open the [live demo](https://winter666-hub-furiosa-multimodal-rag-frontend.winter666.workers.dev).
 2. Upload a PDF and wait for the document-ready state.
@@ -174,7 +164,7 @@ router-only results above.
 5. Click a source `Page` button.
 6. Compare the answer with the rendered original page.
 
-## Source Verification
+### Source Verification
 
 Answers do not expose internal chunk identifiers or application citation markers. The `Sources`
 controls show only page labels; opening one displays the cited PDF page and the actual retrieved
@@ -182,7 +172,7 @@ passage used for grounding. When PyMuPDF can locate a stable text anchor, the ma
 rectangle is overlaid responsively on the rendered page. Source pages are rendered at higher
 resolution for easier inspection.
 
-## Grounded Answering
+### Grounded Answering
 
 The final generator is instructed to distinguish explicit document evidence from inference.
 Questions asking what the authors stated, concluded, identified as limitations, or proposed as
@@ -202,7 +192,77 @@ Example questions:
 - “What do the experimental setup and key results show?”
 - “What limitations does the document identify?”
 
-## Tech Stack
+## Earlier Pilot and Diagnostic Benchmarks
+
+The evaluations below use different question sets, sizes, and purposes from the 1,600-question ACK
+main experiment. Their routing accuracies, Vision counts, and latency measurements are reported
+within each evaluation and are not pooled with the main results. The pilot Adaptive Router used
+question-based routing rather than the main experiment's evidence-sufficiency router.
+
+### 15-Question E2E Pilot
+
+The 15-question E2E pilot uses *Attention Is All You Need* to compare always-on vision with
+adaptive routing. The dataset contains five text, five explicit-visual, and five implicit-visual
+questions.
+
+| Metric | Always Vision | Adaptive | Change |
+|---|---:|---:|---:|
+| Vision calls | 15 | 9 | -40.0% |
+| Average E2E latency | 13.053 s | 10.479 s | -19.7% |
+| Text-query latency | 14.076 s | 6.560 s | -53.4% |
+
+Full methodology and checked-in result tables: [Benchmark Report](benchmarks/README.md).
+
+On the same E2E set, adaptive routing produced:
+
+| Routing metric | Result |
+|---|---:|
+| Correct routes | 14 / 15 |
+| Accuracy | 93.3% |
+| Visual recall | 90.0% |
+| Visual precision | 100.0% |
+
+The only false negative was the implicit-visual question `E_A02`. Its answer-quality scores were
+10 for Always Vision and 7 for both pure LLM routing and Adaptive routing. This shows how an
+implicit-visual routing miss affected downstream answer quality in this pilot.
+
+The answer-quality artifact is preliminary rather than a completed 15/15 evaluation: the CSV has
+45 strategy-question rows, with 44 successful judge results and one recorded judge parsing error.
+See the [Benchmark Report](benchmarks/README.md) for the preliminary strategy aggregates.
+
+### 30-Question Completed Pilot
+
+This completed pilot uses 30 questions across the Transformer, GPT-2, and BERT papers: 10
+text, 10 explicit-visual, and 10 implicit-visual queries. It compares Always Vision, Pure LLM
+Router, and Adaptive Router using the hosted experiment models Qwen3-Embedding-8B,
+Qwen3-Reranker-8B, Qwen3-32B-FP8, and Qwen3-VL-32B-Instruct.
+
+| Metric | Always Vision | Pure LLM Router | Adaptive Router | Adaptive change vs. baseline |
+|---|---:|---:|---:|---:|
+| Routing accuracy | N/A | 93.3% | 93.3% | No change vs. Pure LLM Router |
+| Average routing latency | N/A | 202.2 ms | 142.1 ms | -29.7% vs. Pure LLM Router |
+| Vision calls | 30 | N/A | 18 | -40.0% vs. Always Vision |
+| Average E2E latency | 13.221 s | N/A | 10.790 s | -18.4% vs. Always Vision |
+
+The Adaptive Router achieved 90.0% visual recall and 55.0% top-1 evidence page accuracy. Two
+implicit-visual queries were false negatives. These results are specific to this 30-query
+pilot benchmark and are kept separate from the 15-query E2E and 60-query router-only results.
+
+### 60-Question Router-Only Holdout
+
+The separate [60-question routing holdout](benchmarks/router_holdout_eval.jsonl) measures routing
+overhead independently from retrieval and answer generation:
+
+| Router | Average routing latency |
+|---|---:|
+| Pure LLM | 281.34 ms |
+| Adaptive | 135.97 ms |
+| Reduction | 51.67% |
+
+The [Benchmark Report](benchmarks/README.md) records the full holdout table. These router-only
+numbers are intentionally kept separate from the E2E latency table.
+
+## Implementation and Tech Stack
 
 | Area | Technologies |
 |---|---|
@@ -211,18 +271,32 @@ Example questions:
 | AI | Furiosa Hosted API, Qwen3 Embedding, Reranker, LLM, Qwen3-VL research route |
 | Evaluation | pytest, custom routing benchmark, E2E benchmark, answer-quality judge |
 
+### Model Integration
+
+The hosted text pipeline uses Furiosa-compatible model endpoints:
+
+- `furiosa-ai/Qwen3-Embedding-8B` for document and query embeddings
+- `furiosa-ai/Qwen3-Reranker-8B` for passage reranking
+- `furiosa-ai/Qwen3-32B-FP8` for routing fallback and final answer generation
+
+The research/local visual path uses `furiosa-ai/Qwen3-VL-32B-Instruct` through a Direct NPU
+endpoint. “Hosted API” and “Direct NPU” are separate deployment paths; the public demo does not
+claim to run Direct NPU Vision.
+
 ## Repository Structure
 
 ```text
-furiosa-multimodal-rag/
+adaptive-multimodal-rag/
 ├── frontend/                  # TanStack Start UI and Cloudflare server routes
 ├── src/furiosa_rag/
 │   ├── web/                   # FastAPI app, document store, abuse controls
 │   ├── clients/               # Furiosa-compatible HTTP client
 │   ├── cli/                   # Diagnostics and benchmark commands
 │   ├── pipeline.py            # Text and multimodal RAG orchestration
-│   ├── router.py              # Rule, LLM, and adaptive routers
-│   └── retrieval.py           # Vector retrieval
+│   ├── router.py              # Question-based and evidence-sufficiency routers
+│   ├── retrieval.py           # Vector retrieval
+│   ├── reranker.py            # Passage reranking
+│   └── e2e_benchmark.py        # Research and pilot evaluation strategies
 ├── tests/                     # Deterministic unit and web tests
 ├── benchmarks/                # Evaluation sets and checked-in result CSVs
 ├── DEPLOY_RENDER.md           # Backend deployment and hardening details
@@ -231,44 +305,6 @@ furiosa-multimodal-rag/
 ```
 
 ## Local Development
-
-Existing UniDoc audit results can be analyzed offline with:
-
-```powershell
-python -m furiosa_rag.cli.analyze_route_utility `
-  --alignment results/unidoc_gt_audit_alignment.csv `
-  --retrieval-aware results/unidoc_gt_audit_retrieval_aware.csv `
-  --retrieval-aware-judged results/unidoc_gt_audit_retrieval_aware_judged.csv `
-  --output results/unidoc_gt_audit_route_utility.csv `
-  --cases-output results/unidoc_gt_audit_route_utility_cases.csv
-```
-
-All paths except the optional `--cases-output` have the defaults shown above. This command
-only reads existing CSVs and writes analysis; it does not run inference or judging. It joins
-by `query_id` (or `id`), rejects missing/duplicate/mismatched IDs, and checks alignment against
-the forced Text/Vision correctness booleans already stored in the alignment CSV. RA correctness
-comes from `judge_correct`, never the benchmark's route `correct`/`route_correct` columns.
-
-The console and aggregate CSV report route counts/rates, RA correctness and mean latencies by
-alignment category, plus decisive utility by `answer_type`. `answer_type` is only a grouping key.
-`VISION_NEEDED` vision-selection recall and `TEXT_ONLY_BETTER` text-selection recall divide the
-preferred-route selections by the respective category counts. `decisive_route_accuracy` uses
-only these two categories. Vision precision/recall/F1 and balanced accuracy use that same subset;
-balanced accuracy is the mean of the two recalls. `avoidable_regret_count` is missed needed Vision
-plus wrongly used Vision; its rates divide by all samples in the group (`rate_overall`) or the
-group's decisive samples (`rate_decisive`). These are retrospective forced-run oracle proxies,
-not causal claims about RA's independently generated answers.
-
-`BOTH_CORRECT` uses `optimal_route=EITHER` and `route_utility_correct=True`; its unnecessary Vision
-count/rate expresses an efficiency preference based on answer correctness in hindsight, since
-forced Text also succeeded. It does not imply runtime oracle knowledge. `BOTH_WRONG` uses
-`optimal_route=NEITHER` and null utility correctness, and reports RA correctness and available-row
-retrieval hit@3/visual hit@1 (`page_hit_1` in existing runs) to help investigate failures beyond
-routing. Existing `page_hit_1` coverage is preserved, including stored `False` values without a
-selected page; this metric is not conditional on Vision being called. Neither category enters
-the decisive denominator. Missing page hits are excluded, with
-explicit available counts; undefined metrics are `N/A` in the console and blank in CSV. Rates in
-CSV are fractions, latencies are milliseconds, and empty groups remain in the output.
 
 ```bash
 python -m venv .venv
@@ -312,23 +348,20 @@ headers are ignored.
 These controls are appropriate for the current single-instance demo. They are not a distributed,
 production-grade security layer.
 
-## Limitations
+### Deployment Limitations
 
-- The public demo is hosted-only; Direct NPU Vision is not active.
-- `VISUAL_REQUIRED` requests use text-RAG fallback in the public deployment.
+- The public demo uses hosted text inference and Text-RAG fallback for `VISUAL_REQUIRED`.
 - Render storage is ephemeral, so uploaded PDFs can disappear after restart or redeployment.
 - Rate limits, concurrency state, and active-document tracking are process-local.
 - The UI maintains one active document session at a time.
-- The current benchmark is small and based on one document-oriented evaluation set.
-- The research visual path currently sends a single page to Vision.
-- Implicit visual queries can produce routing false negatives; the follow-up benchmark had two.
-- Top-1 evidence page selection is imperfect; follow-up benchmark accuracy was 55.0%.
 - Grounding is constrained by retrieval quality. A statement not present in the retrieved evidence
   may still exist elsewhere in the document.
 - Conversation-log retention and deletion are not automated yet; a formal retention policy is
   required before long-term research use.
 
 ## Future Work
+
+The following are possible extensions, without completed evaluation claims:
 
 - A defined conversation-log retention/deletion policy and operator access controls
 - Durable document storage and distributed rate limiting
@@ -345,10 +378,10 @@ Public uploads are bounded by file size, page count, extracted-text size, chunk 
 dimensions, and rendered pixel count. Embedding requests are processed in ordered batches, and
 page rendering has a small concurrency cap to avoid oversized public workloads.
 
-## Tests
+## Development Checks
 
-Verified status: **178 backend tests passed**, **Ruff passed**, and the **frontend production build
-succeeded**.
+Backend checks can be run with `python -m pytest` and `python -m ruff check src tests`. Build
+the frontend with `bun run build` from `frontend/`.
 
-The repository has historical frontend-wide CRLF/Prettier lint noise, so this README does not claim
-a clean full-project frontend lint run.
+The repository has historical frontend-wide CRLF/Prettier lint noise; a full-project frontend
+lint pass is not claimed here.
